@@ -1,0 +1,320 @@
+\chapter{Mouvements}\label{chapmouv}
+\section{Introduction}
+\begin{minipage}[b]{1.5cm}
+\includegraphics[width=\linewidth]{Menu_Mouvements.bmp}
+\leg{}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.9\linewidth}
+Les \textit{mouvements}\index{Mouvement} permettent de
+déplacer sur l'écran  une forme géométrique ou un assemblage de formes géométriques sans
+modification  de cette ou de ces formes. Les mouvements ne créent pas de nouvelles formes, ce ne
+sont donc pas des transformations géométriques\index{Transformation!géométrique}, mais des
+manipulations qui relèvent plutôt de la physique. Bien entendu, certaines transformations
+géométriques  sont  des modélisations mathématiques de mouvements.
+Au sens strict, les mouvements sont au nombre de trois:  \texttt{Glisser}\index{Glisser},
+\texttt{Tourner}\index{Tourner} et \texttt{Retourner}\index{Retourner}.
+\end{minipage}
+
+Les formes auxquelles les mouvements sont appliqués
+n'étant pas modifiées,  ces mouvements réalisent physiquement des isométries\index{Isométrie}. Du point de vue  de
+l'orientation, \texttt{Glisser} et \texttt{Tourner} réalisent physiquement des
+\textit{déplacements}\index{Deplacement@Déplacement}, alors que \texttt{Retourner} réalise\ldots\ un
+retournement\index{Retournement}.
+
+À ces trois mouvements, nous adjoignons une opération de
+\textit{redimensionnement}\index{Redimensionnement} dénommée \texttt{Zoomer}\index{Zoomer}, car son
+fonctionnement est très semblable à celui des mouvements. \texttt{Zoomer} transforme toute forme ou
+assemblage de formes en une figure homothétique. Les angles et les rapports de longueurs sont conservés.
+
+Dans ce qui précède, nous avons parlé d'\textit{assemblages de formes géométriques}. Dans ce
+chapitre, cette expression désigne des formes qui sont associées de façon telle qu'elles doivent
+subir le même mouvement en même temps, ou encore que le mouvement de l'une entraîne nécessairement
+un mouvement --- éventuellement différent --- de l'autre.
+Le cas le plus fréquent est celui de
+formes ayant (au moins) un sommet commun, ou de formes ayant été \hyperlink{chapmedit.Lier}{liées}.
+ Mais d'autres situations sont possibles, en particulier si une des
+formes subissant un mouvement est associée à une autre par une \textit{transformation
+géométrique}\index{Transformation!géométrique}.  Nous reviendrons sur ces situations au
+chapitre \ref{chaptsf}.  Par ailleurs, les trois mouvements
+\texttt{Glisser}, \texttt{Tourner} et \texttt{Retourner}, ainsi que l'opération  \texttt{Zoomer} acceptent la
+sélection multiple.
+ 
+
+Pour appliquer un mouvement à une forme, le plus courant  est de  sélectionner le mouvement avant la
+forme à laquelle on veut l'appliquer. Il y a d'autres possibilités, l'utilisateur est invité à ce
+sujet à relire la section \hyperlink{chapmedit.Selectionner}{Sélectionner} du chapitre
+\ref{chapmedit}.
+
+Lorsque un mouvement a été activé,  comme la plupart des fonctionnalités, il
+reste actif tant qu'on  n'effectue pas un autre choix ou un clic droit.
+
+\section{Glisser}\index{Glisser}
+
+L'opération \hyperdef{chapmouv}{Glisser}{\texttt{Glisser}}\index{Glisser} permet de \og traîner\fg\ une forme particulière ---
+ou plusieurs, en cas de sélection multiple --- \og à la souris\fg\ d'une place
+quelconque de l'écran à une autre, sans que son orientation change. À tout instant,
+tous les côtés de la forme sont parallèles à leurs positions de départ.
+
+\fbox{\begin{minipage}{0.99\linewidth}
+\textsc{Pratiquement}
+\vspace{0.2cm}
+
+Après avoir activé \texttt{Glisser}, cliquer
+sur la forme souhaitée afin de la sélectionner et déplacer la souris en maintenant le
+bouton de gauche enfoncé: la forme suit le mouvement de la souris. Lorsque la forme se
+trouve à la place souhaitée, relâcher le bouton de la souris. \vspace{0.2cm}
+\end{minipage}}
+
+
+
+Durant le mouvement, la fonction de  magnétisme\index{Magnetisme@Magnétisme} vérifie si un sommet d'une
+des formes glissées est suffisamment près d'un sommet ou d'un côté d'une forme fixe. \og Suffisamment
+près\fg\ signifie \og à une distance inférieure à la distance de magnétisme\fg\index{Distance!de
+magnétisme}. Celle-ci est un paramètre que l'utilisateur peut modifier via le menu
+\texttt{Préférences/Distance de magnétisme}.
+
+Si c'est le cas, si le sommet $p_1$ de la forme mobile est attiré par   le sommet $q_1$ de la forme
+fixe, les deux points $p_1$ et $q_1$ sont repeints en magenta (Figure \ref{chapmouv_1}).
+Si à ce moment l'utilisateur relâche le bouton de la souris,  la forme mobile subit un déplacement
+supplémentaire afin que les deux points $p_1$ et $q_1$ soient superposés (Figure \ref{chapmouv_2}).
+(Ils ne sont cependant pas identifiés.)
+
+\strut\hfill
+\begin{minipage}[b]{0.28\linewidth}
+\includegraphics[width=\linewidth]{magnetisme1.eps}
+\leg{\label{chapmouv_1}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.28\linewidth}
+\includegraphics[width=\linewidth]{magnetisme2.eps}
+\leg{\label{chapmouv_2}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.28\linewidth}
+\includegraphics[width=\linewidth]{magnetisme3.eps}
+\leg{\label{chapmouv_3}}
+\end{minipage}\hfill\strut
+
+
+Mais la fonction de magnétisme n'a pas terminé son travail, elle va procéder maintenant à un \hyperdef{chapmouv}{Ajustement}{\textit{ajustement}}\index{Ajustement}
+des deux formes, mobile et fixe. Dans ce but, elle vérifie si un deuxième sommet $p_2$, voisin de $p_1$ est également assez près
+d'un côté de la forme fixe issu de $q_1$. Si oui, deux possibilités apparaissent:
+\begin{itemize}
+\item Ou bien le point $p_2$ est très proche d'un sommet $q_2$ de la forme fixe, au point qu'il devient difficile de distinguer $p_2$ de $q_2$.
+Dans ce cas le logiciel applique à la forme mobile la similitude qui applique $p_1$ sur $q_1$ et $p_2$ sur $q_2$. De cette façon, un côté de la forme mobile
+est exactement superposé à un côté de la forme fixe. Les deux formes sont ainsi en position correcte en vue d'une éventuelle \hyperlink{chapoper.Fusionner}{fusion}.
+ \item ou bien le point $p_2$ est trop éloigné de tout sommet de la forme fixe. Dans ce cas, la forme mobile pivote autour
+de $p_1$ de façon que le côté $[p_1, p_2]$  soit partiellement superposé au côté de la forme fixe qui a  été détecté (Figure
+\ref{chapmouv_3}).
+\end{itemize}
+Cette  opération d'ajustement peut éventuellement être
+\hyperlink{chapprefs.Ajuster}{déconnectée}, via le menu
+\textit{Préférences}\index{Ajustement!automatique}.
+
+Il se peut aussi qu'un  sommet de la forme mobile soit attiré par un côté de la forme fixe plutôt que par un sommet de
+celle-ci. C'est alors le bord de la forme fixe qui est repeint en magenta. Les figures suivantes montrent les deux
+possibilités et ce qui en résulte après que l'utilisateur ait relâché le bouton de la souris.
+
+\strut\hfill
+\begin{minipage}[b]{0.08\linewidth}
+\includegraphics[width=\linewidth]{Deuxcarres3.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.08\linewidth}
+\includegraphics[width=\linewidth]{Deuxcarres4.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.096\linewidth}
+\includegraphics[width=\linewidth]{Deuxcarres1.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.096\linewidth}
+\includegraphics[width=\linewidth]{Deuxcarres2.eps}
+\leg{}
+\end{minipage}\hfill\strut
+
+Enfin, il est aussi possible qu'un sommet de la forme mobile soit attiré simultanément par deux côtés de
+formes fixes différentes. Dans ce cas, le déplacement supplémentaire dû au magnétisme amènera le
+sommet à l'intersection de ces deux côtés.
+
+\strut\hfill\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{TroisTri1.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{TroisTri2.eps}
+\leg{}
+\end{minipage}\hfill\strut
+
+\danger\hfill\fbox{\begin{minipage}{0.87\linewidth}  Dans certains cas où des points sont très proches les uns des autres,
+cette fonction magnétisme peut devenir délicate à maîtriser. Il est à conseiller dans ce cas de zoomer\index{Zoomer}
+l'écran complet  (voir ci-dessous) afin de faciliter l'opération. Dans tous les cas, il est bon d'examiner quels sont les
+points et objets en magenta afin de s'assurer que le magnétisme aura la conséquence souhaitée avant de relâcher la souris.
+\end{minipage}}
+
+Avec \AG, on peut aussi faire
+glisser l'intégralité du plan lui-même. Ce glissement global  est obtenu en cliquant en dehors
+de toute forme géométrique et en tirant ensuite le plan à la souris:
+
+\begin{minipage}{\linewidth}
+\strut\hfill
+\includegraphics[width=0.40\linewidth]{Glisser_Plan2.jpg}
+\hfill
+\includegraphics[width=0.40\linewidth]{Glisser_Plan1.jpg}\hfill\strut
+
+\leg{}
+\end{minipage}
+
+On peut ainsi déplacer l'ensemble des figures en cas de besoin.
+
+\section{Tourner}
+
+Le deuxième mouvement de base consiste à faire \hyperdef{chapmouv}{Tourner}{tourner}\index{Tourner} une forme ou
+l'intégralité du plan.
+ 
+\fbox{\begin{minipage}{0.99\linewidth}
+\Prat
+\vspace{0.2cm}
+
+Activer \texttt{Tourner}, puis amener le curseur sur la forme choisie; un clic fait
+apparaître son centre. Le mouvement est obtenu en tirant la forme à la souris. Lorsque
+la forme occupe la  position souhaitée, relâcher le bouton de la
+souris.\vspace{0.3cm}\end{minipage}}
+
+Si on clique à l'intérieur de la forme (sauf en un sommet), le mouvement se
+réalise autour du centre de la forme.  Celui-ci, s'il  s'agit d'un polygone, est le centre de gravité des sommets.
+ 
+Si le curseur de la souris est suffisamment proche d'un sommet, celui-ci vire au
+magenta, signe qu'il peut être choisi comme centre de rotation. Dans ce cas,
+pour maîtriser le mouvement,  il est conseillé, après avoir cliqué pour effectuer
+ce choix, d'écarter le curseur de la souris du
+sommet choisi, sans lâcher le bouton.
+
+Dans  tous les cas, l'angle de rotation n'est déterminé par le logiciel qu'au
+moment où l'utilisateur relâche le bouton de la souris\ldots\ et le logiciel est
+le seul à connaître cet angle.
+
+\begin{minipage}{0.4\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{Tourner_Anglesavue.eps}
+\leg{}
+\end{center}
+\end{minipage}
+\hfill
+\begin{minipage}{0.45\linewidth} La figure
+ci-contre montre, deux positions successives d'un parallélogramme et d'un triangle tournant autour de leur centre.
+\end{minipage}
+
+Mentionnons aussi que si une droite $B$ a été construite comme étant la droite passant par un point
+$p$ et parallèle (ou perpendiculaire) à une droite $A$, et si on fait tourner $A$, la droite $B$
+restera parallèle (ou perpendiculaire) à $A$ et continuera de passer par $p$. Ceci est également
+vrai si $A$ et/ou $B$ sont des segments, ou encore si $A$ est un côté de polygone, de bande ou de
+secteur.\index{Droite!parallèle}\index{Droite!perpendiculaire}\index{Segment!parallèle}\index{Segment!perpendiculaire}
+
+Si on clique en dehors de toute forme, on fait tourner le plan autour du centre
+de l'écran.
+
+\begin{minipage}{\linewidth}
+\strut\hfill
+\includegraphics[width=0.35\linewidth]{Tourner_Plan1.bmp}
+\hfill
+\includegraphics[width=0.35\linewidth]{Tourner_Plan2.bmp}\hfill\strut
+
+\leg{}
+\end{minipage}
+
+
+Les figures ci-dessus montrent un plan avant et après qu'on l'ait
+fait tourner.
+
+
+
+
+\section{Retourner}
+
+Le troisième mouvement de base est
+\hyperdef{chapmouv}{Retourner}{\texttt{Retourner}}\index{Retourner}. Une confusion peut
+exister entre \og tourner\fg\ et \og retourner\fg. Celle-ci provient  du langage
+courant. Faire tourner une forme géométrique ne nécessite pas de faire sortir celle-ci
+de son plan. Par contre un retournement d'une forme géométrique s'effectue en sortant du
+plan, exactement comme on retourne une feuille de papier déposée sur une table, afin de
+prendre connaissance de ce qui est écrit au verso de la feuille.
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.87\linewidth}
+À la différence des autres mouvements, le retournement d'une forme inverse son
+orientation\index{Orientation}.
+\end{minipage}}
+
+\AG\ permet de retourner\index{Retourner}  une forme (ou plusieurs en cas de sélection multiple) par rapport à
+un axe vertical, un axe horizontal, ou un axe oblique (à 45 degrés) passant par
+le centre de la forme  ou par un de ses sommets.
+
+
+\begin{minipage}[b]{\linewidth}
+\strut\hfill
+\includegraphics[height=3cm]{RetournerCentreAxeVert.eps}\hfill
+\includegraphics[height=3cm]{RetournerCentreAxeHori.eps}\hfill
+\includegraphics[height=3cm]{RetournerCentreAxeObli1.eps}\hfill
+\includegraphics[height=3cm]{RetournerCentreAxeObli2.eps}\hfill
+\hfill\strut
+\leg{}
+\end{minipage}
+
+\fbox{\begin{minipage}{0.99\linewidth}
+\Prat
+\vspace{0.2cm}
+
+En survolant la forme avec le curseur de la souris, quatre segments verts ---
+représentant les quatre axes possibles --- apparaissent tour à tour, tantôt au
+centre tantôt aux sommets. Le retournement est déclenché par un clic lorsqu'un
+de ces axes verts est visible.
+
+  On peut visionner directement la trajectoire de ce retournement,   car l'option
+\hyperlink{chapprefs.Trajectoire}{\texttt{Trajectoire}}\index{Trajectoire} est
+activée par défaut (voir au chapitre \ref{chapprefs} pour cette option).
+\end{minipage}}
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.87\linewidth}
+Il importe de noter que \textbf{les directions des axes de symétrie mentionnées ci-dessus
+sont relatives à la position initiale de la feuille de travail}. Si, comme on l'a
+expliqué au point précédent, on  fait tourner l'intégralité du plan autour du centre de
+l'écran, les axes subissent la même rotation. \end{minipage}}
+
+
+\section{Zoomer}
+
+\hyperdef{chapmouv}{Redimensionner}{\texttt{Zoomer}}\index{Zoomer} permet d'agrandir ou rétrécir une
+forme libre ou un assemblage de formes libres. \texttt{Zoomer} ne
+s'applique pas aux formes standard, celles-ci étant indéformables.
+
+
+\fbox{\begin{minipage}{0.98\linewidth}
+\Prat\vspace{2mm}
+
+Pour réaliser l'opération d'\textit{agrandissement}\index{Agrandissement}, on clique à l'intérieur de la forme sélectionnée et on fait
+glisser le curseur de la souris vers le bord de la forme en maintenant le bouton enfoncé.
+
+Pour le \textit{rétrécissement}\index{Retrécissement@Rétrécissement}, le glissement du curseur se fait vers le centre de la forme.
+
+Dans les deux cas, le centre de la forme sélectionnée reste fixe; c'est le centre de l'homothétie
+utilisée pour réaliser l'opération.\index{Homothétie}\end{minipage}}
+
+Voici un exemple d'agrandissement et de rétrécissement d'une forme :
+
+\begin{center}
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{zoom.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+Il est  possible de zoomer l'entièreté de la feuille de travail et d'agrandir ainsi  (ou
+de rétrécir) l'ensemble des formes se trouvant à l'écran.  Pour cela, il convient de
+cliquer à un endroit de la feuille de travail en dehors de toute forme. On obtient un
+\textit{agrandissement}\index{Agrandissement} ou un
+\textit{rétrécissement}\index{Retrécissement@Rétrécissement} selon que  l'on éloigne le
+curseur de la souris du centre de l'écran, ou qu'on l'en rapproche. À noter que, dans ce
+cas, les formes standard subissent la même modification car c'est en fait uniquement
+l'unité de longueur utilisée pour le tracé des formes qui est modifiée.
+
+\texttt{Zoomer} accepte la sélection multiple.
+

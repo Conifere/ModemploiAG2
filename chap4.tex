@@ -1,0 +1,609 @@
+\chapter{Fichier, Fenêtres et Édition}\label{chapmedit}
+
+\section{Introduction}
+
+Les trois premiers menus déroulants sont à peu près indépendants du choix effectué par l'utilisateur
+entre \textit{Menu A, B} ou \textit{C}. De plus, ils présentent des procédures courantes dans les
+programmes informatiques, ce qui nous permettra de ne pas nous y attarder trop.
+
+
+\section{Fichier}
+
+\begin{center}
+\includegraphics[width=0.25\linewidth]{Menu_Fichier.bmp}
+\leg{}
+\end{center}
+
+
+
+\subsection{Fichier/Nouveau}
+
+À l'ouverture du logiciel, une feuille de travail est ouverte  automatiquement.
+L'option \texttt{Nouveau}\index{Fichier!Nouveau} permet de créer des feuilles de
+travail supplémentaires. Plusieurs
+feuilles de travail peuvent ainsi être ouvertes successivement\ldots\
+pour autant que l'ordinateur possède suffisamment de mémoire libre. Grâce au
+menu \hyperdef{chapmedit}{Fenetres}{\texttt{Fenêtres}},  on peut passer de l'une
+à l'autre (nous y reviendrons plus loin). La  barre de titre de chaque fenêtre
+fournit les informations suivantes: le nom de l'utilisateur, le nom du fichier
+de sauvegarde (s'il en existe déjà un), l'identification de l'opération active,
+et enfin le mot \og Figure\fg\ suivi du numéro de la fenêtre. Dans ce contexte,
+le mot \og Figure\fg\ désigne l'ensemble des formes géométriques qui ont été
+dessinées dans la fenêtre.  De plus, si la figure a été modifiée depuis la
+dernière sauvegarde, une étoile apparaît à la fin de cette ligne.
+
+\subsection{Fichier/Ouvrir}
+
+\hyperdef{chapmedit}{Ouvrir}{\texttt{Ouvrir}}\index{Fichier!Ouvrir} ouvre un fichier d'extension
+\texttt{.fag}\index{.fag@\texttt{.fag}} déjà enregistré sur un disque dur ou sur un support amovible (clé
+USB, cédérom, disquette\dots) et l'affiche dans une  nouvelle feuille de travail (sauf si la feuille en
+cours est toujours vierge).
+
+\subsection{Fichier/Fermer}
+
+\hyperdef{chapmedit}{Fermer}{\texttt{Fermer}}\index{Fichier!Fermer}  clôt  la feuille de travail en
+cours. Si celle-ci n'a pas été modifiée depuis la dernière sauvegarde, elle se ferme sans devoir être
+enregistrée. Par contre, si un changement est intervenu, une confirmation est demandée à l'utilisateur
+qui peut encore sauvegarder son travail.\medskip
+
+\centerline{\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{Fermer.bmp}
+\leg{}
+\end{minipage}}
+
+\subsection{Fichier/Standardiser}\index{Standardiser}
+
+L'opération \texttt{Standardiser} permet de créer de nouvelles familles de formes standard. Elle a été décrite à la section \ref{chapfstd.stdiser}.
+
+
+\subsection{Fichier/Sauvegarder}
+
+\hyperdef{chapmedit}{Sauvegarder}{\texttt{Sauvegarder}}\index{Fichier!Sauvegarder} enregistre le contenu
+de la feuille de travail dans  un fichier d'extension \texttt{.fag}\index{.fag@\texttt{.fag}}.
+Lors du premier enregistrement d'un fichier, cliquer sur l'option \texttt{Sauvegarder} revient
+à cliquer sur l'option \texttt{Sauvegarder sous}. Lorsqu'un fichier est enregistré, son nom apparaît
+dans la barre de titre de la fenêtre à la suite du nom de l'utilisateur. Ensuite, tout clic sur \texttt{Sauvegarder}
+enregistre la figure dans le même dossier et sous le même nom.
+
+Les fichiers de sauvegarde, d'extension \texttt{.fag} sont écrits en langage
+\texttt{xml}, comme les fichiers d'extension \texttt{.std} dont il a été question
+au chapitre \ref{chapfstd}. Ils peuvent être lus avec n'importe quel éditeur de
+texte, mais, sous \texttt{Windows},  nous recommandons le logiciel gratuit \texttt{xmlnotepad} qui respecte
+la structure du texte en mettant les balises en évidence.
+
+\textbf{Remarque}
+ 
+ En plus des informations relatives aux différents objets géométriques, le fichier
+de sauvegarde  contient également les informations relatives à la configuration de
+l'application ainsi que la langue de travail, au moment de la sauvegarde.
+L'environnement de travail est ainsi restauré lors de la réouverture du fichier.
+
+
+\subsection{Fichier/Sauvegarder sous}
+
+ \hyperdef{chapmedit}{Sauvegardersous}{\texttt{Sauvegarder
+sous}}\index{Fichier!Sauvegarder sous} enregistre le fichier à un endroit à
+spécifier  à partir d'une fenêtre de dialogue. Le nom du
+fichier apparaît ensuite dans la barre de titre de la fenêtre à côté des mentions
+relatives à l'utilisateur.
+On utilise aussi cette option si on souhaite enregistrer un fichier sous un nom
+différent de son nom actuel ou dans un dossier différent.
+
+Il est déconseillé d'insérer des caractères
+accentués dans un titre de fichier: des problèmes pourraient apparaître par
+exemple si un fichier réalisé sous \texttt{Windows} était relu par un
+\texttt{Macintosh}.
+
+
+
+\subsection{Fichier/Exporter en Postscript}
+ 
+\hyperdef{chapmedit}{ExportPS}{\texttt{Exporter en Postscript}}\index{Fichier!Exporter en
+Postscript} n'est accessible  qu'aux enseignants. Cette option permet d'exporter tout ou
+partie de la figure dessinée dans la feuille de travail dans un fichier de format
+\texttt{.eps}\index{.eps@\texttt{.eps}}. Par défaut, l'intégralité de la figure est
+exportée. On peut n'exporter que certaines des formes géométriques en les sélectionnant
+avant de lancer l'opération d'exportation. Pour la procédure de sélection, voir la
+section \hyperlink{chapmedit.Selectionner}{\sffamily\bfseries Édition/Sélectionner}.
+
+Les fichiers d'extension \texttt{.eps} sont rédigés en langage \texttt{postscript}. Ils peuvent  être
+édités  grâce à un éditeur de texte classique et visualisés grâce au
+logiciel \texttt{GsView} par exemple. Ils peuvent également être modifiés grâce à un logiciel du type
+\texttt{Illustrator}.
+
+
+
+\subsection{Fichier/Exporter en fichier bitmap}
+
+\hyperdef{chapmedit}{ExportBMP}{\texttt{Exporter en fichier bitmap}}\index{Fichier!Exporter en fichier bitmap}
+permet de recopier une partie de l'écran dans un fichier image. La procédure consiste à dessiner à la souris
+un rectangle sur l'écran (cliquer à l'emplacement du coin supérieur gauche, puis tirer le curseur jusqu'à
+l'emplacement souhaité pour le coin inférieur droit). L'image à sauvegarder est évidemment constituée de
+l'intérieur du rectangle qui a été dessiné. Quand on relâche le bouton de la souris, un peu de temps s'écoule,
+puis apparaît une boite de dialogue où l'on peut indiquer le nom du fichier à créer.\medskip
+
+\centerline{\begin{minipage}[b]{0.7\linewidth}
+\includegraphics[width=\linewidth]{ExportBMP.bmp}
+\leg{}
+\end{minipage}}
+
+La petite fenêtre dans la partie inférieure gauche de cette boîte de dialogue cache un menu déroulant
+dans laquelle l'utilisateur peut choisir le type d'image de son choix (\texttt{.jpg},
+\texttt{.bmp}\ldots)\index{.jpg@\texttt{.jpg}}, à condition de travailler sous \texttt{Windows}
+ou sur un \texttt{Macintosh} et que le programme \texttt{QuickTime} soit présent sur son ordinateur.
+Dans le cas contraire, le seul format disponible sous \texttt{Windows} est le format
+\texttt{.bmp}\index{.bmp@\texttt{.bmp}}, tandis que sur un \texttt{Macintosh} c'est le format \texttt{.pict}\index{.pict@\texttt{.pict}}.
+Sous \texttt{Linux}, seul le format
+\texttt{.bmp} est disponible. Ces contraintes résultent du langage de programmation utilisé.
+
+ 
+
+
+\subsection{Fichier/Paramètres d'impression}
+
+\hyperdef{chapmedit}{ParamImp}{\texttt{Paramètres d'impression}}\index{Fichier!Paramètres d'impression}
+affiche une fenêtre de dialogue dans laquelle sont proposés le choix du papier (taille et source), de
+l'orientation de l'impression (portrait ou paysage) et des marges en millimètres (gauche, droite, haut
+et bas).
+
+\subsection{Fichier/Imprimer}
+
+\hyperdef{chapmedit}{Imprimer}{\texttt{Imprimer}}\index{Fichier!Imprimer} imprime la figure présente à
+l'écran. À l'impression, la fenêtre de travail représente environ la moitié d'une page format A4 en
+orientation \textit {portrait}. Par défaut, toutes les formes présentes à l'écran sont imprimées. On
+peut n'imprimer que certaines des formes géométriques en les sélectionnant avant de lancer
+l'impression. Pour la procédure de sélection, voir la section
+\hyperlink{chapmedit.Selectionner}{\sffamily\bfseries Édition/Sélectionner}.
+
+
+
+\subsection{Fichier/Quitter}
+
+
+\hyperdef{chapmedit}{Quit}{\texttt{Quitter}}\index{Fichier!Quitter} ferme l'application. Le logiciel
+propose au préalable d'enregistrer la ou les figures réalisées qui auraient été modifiées depuis la
+dernière sauvegarde.
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth} Comme tout programme informatique, et malgré les
+efforts de ses concepteurs, \AG\ peut contenir des \og bugs\fg\index{Bug}. Lorsqu'un d'entre eux se
+manifeste, le logiciel doit afficher la boîte de dialogue suivante, pour autant que l'ordinateur soit
+connecté sur Internet:\medskip
+
+\centerline{\begin{minipage}[b]{0.7\linewidth}
+\includegraphics[width=\linewidth]{Bug.bmp}
+\leg{}
+\end{minipage}}
+
+Si l'utilisateur accepte de signaler l'erreur, l'ordinateur envoie au serveur du
+\textsc{crem} un message indiquant la nature de l'erreur, ainsi qu'une copie de
+la figure courante, ceci afin d'aider les programmeurs à détecter et corriger le
+problème apparu.  Si l'ordinateur n'est pas connecté sur Internet, seul le
+message d'excuses apparaît. Dans tous les cas, l'ordinateur laisse ouverte  la feuille de
+travail sur laquelle l'erreur s'est produite, généralement dans l'état précédant celle-ci. L'utilisateur
+peut essayer de poursuivre son travail, en évitant de répéter les opérations ayant provoqué l'erreur. Il lui est dès lors conseillé de sauvegarder
+son travail régulièrement. Les éventuelles autres feuilles de
+travail restent accessibles et pleinement fonctionnelles. \end{minipage}}
+
+\section{Fenêtres}
+
+
+\begin{minipage}[b]{0.15\linewidth}
+\includegraphics[width=\linewidth]{Menu_Fenetres.bmp}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.8\linewidth}
+Ce menu,   permet d'accéder facilement aux feuilles de travail existantes.
+Chaque  nouvelle feuille de travail  se superpose aux précédentes et le compteur de fenêtres est incrémenté.
+
+Lorsqu'on déroule le menu, la figure active est cochée. On en affiche une autre  en cochant l'item
+de menu correspondant.
+\end{minipage}
+
+
+\section{Édition}
+
+\begin{minipage}[b]{0.25\linewidth} \includegraphics[width=\linewidth]{Menu_Edition.bmp}
+\leg{} \end{minipage}\hfill
+\begin{minipage}[b]{0.7\linewidth} Certaines des opérations
+présentes dans ce menu se retrouvent dans presque tous les logiciels. Elle ne
+nécessiteront donc guère d'explications. D'autres sont spécifiques à \AG. \vspace{2cm}
+\end{minipage}
+
+
+\subsection{Édition/Annuler et Refaire}
+
+\hyperdef{chapmedit}{Annuler}{\fbox{\texttt{Annuler}}}\index{Annuler}
+
+Cette opération  annule la dernière action effectuée. On peut la répéter plusieurs
+fois en suivant et ainsi annuler éventuellement toutes les actions effectuées depuis la
+création du fichier.
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth}\vspace\baselineskip
+La fonctionnalité \texttt{Annuler}, peut être activée soit  par un clic sur le bouton poussoir \texttt{Annuler} de la
+boîte à outils, soit via \texttt{Édition/Annuler}.\vspace\baselineskip \end{minipage}}
+
+Si le bouton \texttt{Annuler} est actionné alors qu'une opération de construction est en cours,
+c'est cette construction qui est annulée et non la dernière opération à avoir été effectuée
+complètement.
+
+Après avoir actionné \texttt{Annuler}, plus aucune opération n'est active.
+
+% si au  cours de l'opération \texttt{diviser} on annule la dernière
+%man\oe uvre, le logiciel ne tient pas compte de cette \og action \fg\ avortée.
+
+\hyperdef{chapmedit}{Refaire}{\fbox{\texttt{Refaire}}}\index{Refaire}
+
+Cette opération consiste à annuler une annulation. En d'autres termes, elle reproduit l'opération
+que l'on vient d'annuler. Si on a annulé plusieurs opérations,  \texttt{Refaire} permet
+de les refaire en commençant par la dernière à avoir été annulée.
+
+\subsection{Édition/Sélectionner-Désélectionner et Sélectionner tout}
+
+Qu'il s'agisse de \textit{mouvements}\index{Mouvement}, de \textit{modifications}\index{Modifier}, de
+\textit{suppressions} ou de \textit{constructions} de points particuliers, la plupart des opérations
+nécessitent la \textit{sélection}\index{Selectionner@Sélectionner} d'une forme géométrique. Beaucoup
+peuvent s'appliquer à plusieurs formes simultanément. Certaines s'appliquent nécessairement à
+plusieurs formes simultanément. Il en est ainsi des mouvements qui s'appliquent automatiquement à
+toutes les formes ayant des points communs avec la ou les formes sélectionnées.
+
+\hyperdef{chapmedit}{Selectionner}{\texttt{Sélectionner}}\index{Selectionner@Sélectionner} apparaît
+\textit{in fine} comme une tâche qui peut être délicate, nécessitant parfois de l'attention. Nous
+distinguerons dans cette section plusieurs procédures pouvant être utilisées en vue d'opérer des
+sélections de formes géométriques.
+
+\fbox{\texttt{Sélectionner \textit{une seule} forme géométrique}}
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth}\vspace\baselineskip
+\textbf{Pour sélectionner une seule forme géométrique, il est inutile d'actionner l'opération
+\texttt{Sélectionner}. }\vspace\baselineskip\end{minipage}}
+ 
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\Prat
+
+Si l'utilisateur veut n'appliquer une opération qu'à une seule forme géométrique, le plus
+simple est \begin{enumerate}    \item d'activer d'abord l'opération en cliquant sur le
+bouton correspondant de la boîte à outils ou d'un des menus déroulants;    \item de
+placer le curseur de la souris au-dessus de la forme à sélectionner; le bord doit
+devenir plus épais et sa couleur doit passer au magenta;
+si la forme était opaque\index{Opaque}, elle doit devenir
+transparente\index{Transparent}; \item après qu'il ait vérifié que la forme magenta est
+bien celle qu'il désirait, l'utilisateur peut alors opérer la sélection d'un simple
+clic. \end{enumerate} \end{minipage}}
+
+\textbf{Exemple:} Supposons que l'on veuille faire
+\hyperlink{chapmouv.Glisser}{glisser}\index{Glisser} le parallélogramme de la figure
+\ref{chapmedit_sel1}. Après avoir choisi l'opération \texttt{Glisser} dans le pavé des
+\textit{Mouvements}\index{Mouvement},  le curseur de la souris affiche l'invitation
+\texttt{Choisis une forme}. En déplaçant la souris, on amène le curseur au-dessus du
+parallélogramme. Le bord de celui-ci est alors repeint en magenta, et le message affiché
+devint \texttt{Tire pour faire glisser} (figure \ref{chapmedit_sel2}). Il reste à
+enfoncer le bouton de la souris pour faire effectivement glisser le parallélogramme.
+
+\strut\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{selec1.eps}
+\leg{\label{chapmedit_sel1}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.22\linewidth}
+\includegraphics[width=\linewidth]{selec2.eps}
+\leg{\label{chapmedit_sel2}}
+\end{minipage}\hfill\strut
+
+La forme de la figure \ref{chapmedit_sel1} n'était pas opaque de sorte que seul le bord de cette forme  a changé de couleur.
+Au passage, notons qu'un segment ou une droite ne sont jamais opaques et que \og placer la souris au-dessus\fg\ d'une de ces
+formes signifie dans ce cas \og pointer\fg\ la forme en question.
+
+Il n'est pas toujours facile de placer la souris au-dessus d'une forme pour faire virer le bord de
+celle-ci au magenta. Car plusieurs formes peuvent être superposées. Voyons les figures suivantes
+qui montrent la sélection d'une forme en vue de la faire \hyperlink{chapmouv.Glisser}{glisser}.
+
+\strut\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{selec3.eps}
+\leg{\label{chapmedit_sel3}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{selec4.eps}
+\leg{\label{chapmedit_sel4}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{selec5.eps}
+\leg{\label{chapmedit_sel5}}
+\end{minipage}\hfill
+\strut
+
+La figure \ref{chapmedit_sel3} nous montre un trapèze vert
+qui recouvre partiellement un disque bleu.  À la figure
+\ref{chapmedit_sel4}, le curseur de la souris est
+au-dessus du disque mais pas du trapèze. Le disque est
+devenu transparent, son bord a viré au magenta. En
+cliquant dans cette position de la souris, nous
+sélectionnons le disque.  La figure \ref{chapmedit_sel5}
+nous révèle un hexagone jaune qui était invisible  car recouvert complètement par le
+trapèze et le disque. Si nous cliquons avec la souris
+dans la position de cette figure, nous sélectionnons le
+trapèze. Comment sélectionner l'hexagone?
+
+Plaçons le curseur de la souris au-dessus de la zone commune aux trois formes (Fig.
+\ref{chapmedit_sel6}). Elles deviennent transparentes toutes trois. Mais nous voyons aussi que le
+texte \og Tire pour faire glisser\fg\ qui accompagne le curseur de la souris est cette fois
+complété par la mention \og (3,1)\fg. Cela signifie que le curseur est placé au-dessus de trois
+formes différentes et que si on clique à ce moment, c'est la forme située au-dessus des deux
+autres (le trapèze comme le montre la couleur de son bord) qui sera sélectionnée.
+
+\textsc{Sans déplacer la souris}, enfonçons au clavier la barre\label{barreesp}
+d'espacement\index{Barre!d'espacement}: la mention \og (3,1)\fg\ est remplaçée par \og (3,2)\fg\ et
+c'est à présent le bord du disque qui est magenta. Une pression supplémentaire sur la barre
+d'espacement fait apparaître la mention \og (3,3)\fg\ et le bord de l'hexagone vire au magenta.
+
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{selec6.eps}
+\leg{\label{chapmedit_sel6}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{selec7.eps}
+\leg{\label{chapmedit_sel7}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{selec8.eps}
+\leg{\label{chapmedit_sel8}}
+\end{minipage}\hfill\strut
+
+ En cliquant maintenant \textsc{sans déplacer la souris}, nous sélectionnons l'hexagone.
+Si l'opération nous demande de déplacer la souris, il faut le faire en tenant le bouton
+enfoncé, une fois la sélection effectuée.
+
+En conclusion:
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth} Quand la souris survole
+plusieurs formes superposées, toutes deviennent transparentes et le texte
+d'accompagnement mentionne le nombre de formes survolées  et  le numéro de celle
+qui sera sélectionnée en  cas de clic.   De plus, le bord de celle-ci vire au
+magenta. Des pressions répétées sur la \hyperdef{chapmedit}{baresp}{barre
+d'espacement} permettent d'effectuer le choix désiré.
+
+\end{minipage}}
+
+\textbf{Remarques} \begin{enumerate}
+\item L'utilisateur ayant l'habitude d'utiliser d'autres logiciels de géométrie dynamique aura --- dans un premier temps --- tendance à transposer
+      à \AG\ les pratiques utilisées avec ces logiciels. En particulier, il pourrait avoir tendance à sélectionner une forme en pointant vers le bord de celle-ci.
+      Avec \AG, c'est au contraire l'intérieur de la forme qu'il convient de survoler avec la souris. Le seul cas où il se justifie de pointer vers le bord, ou vers un morceau du bord
+      d'une forme géométrique est celui où l'on veut sélectionner un côté d'un polygone, d'une bande ou d'un secteur ou\ldots le but de la sélection étant par exemple de colorier
+      le côté visé. Dans ce cas,     \texttt{Couleur bord} sélectionne tous les côtés du polygone (ou\ldots) ou un seul côté selon que le curseur de la souris pointe vers l'intérieur du
+      polygone ou vers un de ses côtés (voir le chapitre \ref{chapoutils}).
+\item Si nous insistons sur l'importance de ne pas déplacer la souris
+lors de la procédure de sélection, c'est que tout déplacement de cette souris annule l'effet des pressions sur
+la barre d'espacement.  \item Il y a évidemment intérêt à ce que le nombre de formes survolées par la souris
+soit le plus petit possible. Ci-dessus, nous aurions pu sélectionner l'hexagone en plaçant la souris au-dessus
+de celui-ci mais en dehors du disque. La mention affichée aurait alors été \og (2,1)\fg\ et une seule pression
+sur la barre d'espacement aurait suffi. \item On peut se demander pour quelle raison une forme en cache une
+autre, partiellement ou totalement. C'est simplement l'ordre du dessin qui importe: une forme $A$ cache une
+forme $B$ si $A$ est dessinée \textit{après} $B$. Et l'ordre du dessin est au départ l'ordre de construction,
+de sorte que la forme située au-dessus des autres est celle qui a été construite en dernier  lieu. Les
+opérations \hyperlink{chapoutils.Plans}{\texttt{Avant-plan}} et
+\hyperlink{chapoutils.Plans}{\texttt{Arrière-plan}} permettent de modifier l'ordre initial.  \item
+L'utilisateur qui dispose d'une souris munie d'une roulette peut aussi utiliser celle-ci au  lieu de la barre
+d'espacement pour choisir la forme désirée. \end{enumerate}
+
+\fbox{Sélectionner plusieurs formes géométriques}
+
+Pour \hyperdef{chapmedit}{Selectmul}{sélectionner simultanément} plusieurs formes géométriques, nous
+utiliserons cette fois l'opération
+\texttt{Sélectionner/Désélectionner}.\index{Selectionner@Sélectionner}\index{Deselectionner@Désélectionner}
+
+Une fois cette fonctionnalité activée,  tout clic sur un objet sélectionne cet objet s'il ne l'était
+pas, le \hyperdef{chapmedit}{Deselectionner}{désélectionne} s'il l'était. Les objets
+sélectionnés se repèrent par le fait que leur bord est plus épais.
+
+Lorsque des formes sont superposées, le choix de la forme à sélectionner s'effectue de la façon
+exposée plus haut. Les figures suivantes montrent les  étapes de la sélection simultanée du
+trapèze vert et du disque bleu:
+
+\strut\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[height = 5\baselineskip]{selec9.eps}
+\leg{\label{chapmedit_sel9}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[height = 5\baselineskip]{selec10.eps}
+\leg{\label{chapmedit_sel10}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[height = 5\baselineskip]{selec11.eps}
+\leg{\label{chapmedit_sel11}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[height = 5\baselineskip]{selec12.eps}
+\leg{\label{chapmedit_sel12}}
+\end{minipage}\hfill
+\strut
+
+Après avoir sélectionné plusieurs formes, l'utilisateur peut activer une opération
+\hyperdef{chapmedit}{SelectionMultiple}{\textit{acceptant la sélection
+multiple}}\index{Selection@Sélection!multiple}, c'est le cas de la plupart des opérations. S'il choisit
+d'activer une opération ne nécessitant pas de déplacer les formes sélectionnées, l'opération sera appliquée
+immédiatement.
+
+Par contre si l'opération choisie nécessite de déplacer les formes, il doit à nouveau
+cliquer dans une des formes sélectionnées, tenir le bouton enfoncé et déplacer la souris. S'il clique
+en dehors de toute forme sélectionnée, toutes les formes qui avaient été sélectionnées sont
+automatiquement désélectionnées.
+
+À l'issue d'une opération portant sur une ou plusieurs formes sélectionnées, toutes celles-ci sont
+normalement désélectionnées. Il est cependant possible de prévoir une
+\hyperlink{chapmedit.reselectionauto}{resélection automatique}.
+
+\fbox{Sélectionner tout}\index{Selectionner@Sélectionner!tout}
+
+\hyperdef{chapmedit}{selectall}{\texttt{Sélectionner tout}} sélectionne tous les objets
+présents sur la feuille de travail, y compris les objets cachés.
+
+\subsection{Édition/Resélection automatique}
+
+Les menus B\index{Menu!B} et C\index{Menu!C} comportent un  bouton
+\hyperdef{chapmedit}{reselectionauto}{\texttt{Resélection automatique}}\index{Resélection!automatique}  qui ne correspond à aucune
+opération mais à un paramètre pouvant prendre une des valeurs logiques \texttt{Vrai} ou
+\texttt{Faux}. Par défaut, la valeur est \texttt{Faux}. Une pression sur le bouton la fait passer à
+\texttt{Vrai} et une coche apparaît sur le bouton. Une nouvelle pression remet la valeur à
+\texttt{Faux}.
+
+Lorsque la resélection automatique est activée (valeur \texttt{Vrai}), les formes qui avaient été sélectionnées
+avant d'effectuer une opération restent sélectionnées après la fin de l'opération, sauf si celle-ci est une
+suppression ou un changement de couleur. Elles sont ainsi disponibles pour une autre opération. Un simple clic
+en dehors de toute forme annule toute sélection.
+
+Il existe une variante. Si le bouton \texttt{Resélection automatique}  a été activé et
+que l'on applique  une \hyperlink{chaptsf.Transformations}{transformation
+géométrique}\index{Transformation!géométrique} (translation, rotation\ldots) à une
+sélection d'objets, ce sont les objets images par la transformation qui sont
+sélectionnés après la transformation et non les objets sources. Ceci permet de réaliser
+assez simplement par exemple des frises, des rosaces\ldots\medskip
+
+\centerline{\includegraphics[width=0.5\linewidth]{frise.eps}}
+
+\subsection{Édition/Lier et Délier}
+
+\fbox{Lier}
+
+La sélection simultanée de plusieurs formes permet par exemple de  leur appliquer  en une fois le
+même mouvement. Toutefois cette sélection simultanée, même en cas de resélection automatique, n'a
+qu'un caractère temporaire. L'opération \hyperdef{chapmedit}{Lier}{\texttt{Lier}}\index{Lier} permet
+de  créer un lien permanent entre des formes différentes, n'ayant pas  nécessairement de points
+communs.
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth}  Des formes qui ont été liées sont
+toujours sélectionnées simultanément quand on applique à une d'entre elles un mouvement
+(\texttt{Glisser}, \texttt{Tourner}, \texttt{Retourner}) ou un redimensionnement
+(\texttt{Zoomer}). Elles sont également sélectionnées simultanément  quand on duplique
+ou copie une d'entre elles ou encore quand on applique une transformation géométrique à
+une d'entre elles.\index{Glisser}\index{Tourner}\index{Retourner}\index{Zoomer}
+\index{Dupliquer}\index{Copier}\index{Transformation!géométrique}
+
+Aucune autre opération ne tient compte des liaisons éventuelles entre formes.
+\end{minipage}}
+
+
+Des formes liées entre elles constituent une seule entité pour les opérations indiquées dans
+l'encadré ci-dessus. Ceci permet de déplacer à l'écran des figures complexes comportant des \og
+morceaux\fg\ non attachés entre eux en effectuant exactement le même mouvement, donc sans disloquer
+la figure.
+
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{lier.bmp}
+\leg{}
+\end{minipage}\hfill
+\fbox{\begin{minipage}[b]{0.75\linewidth}
+\Prat\bigskip
+
+Pour lier des formes, après avoir choisi la fonctionnalité
+\texttt{Lier}, on clique successivement sur chacune des
+formes que l'on veut lier. On crée ainsi un groupe de
+formes liées, groupe dont le numéro apparaît  sur chaque
+forme. Pour créer un deuxième groupe de formes non liées
+au précédent, il est nécessaire d'actionner à nouveau le
+bouton \texttt{Lier}.\vspace{\baselineskip}
+\end{minipage}}
+
+ Quand on quitte l'opération \texttt{Lier} pour en activer  une autre, ou quand il n'existe plus
+aucune forme qui ne soit déjà liée, les numéros des groupes cessent d'être affichés.
+
+
+
+\texttt{Lier} accepte la sélection multiple, on peut donc aussi créer un groupe de formes liées
+dans l'autre ordre: sélectionner d'abord les formes puis actionner l'opération \texttt{Lier}.
+
+Il est  aussi possible d'adjoindre une forme à un groupe de formes déjà liées ou de
+regrouper deux groupes de formes liées en un seul groupe. On ne peut regrouper
+que deux groupes à la fois, mais rien n'empêche de répéter le procédé. Les formes
+restent liées entre elles tant que l'utilisateur ne les délie pas.
+
+
+\fbox{\texttt{Délier}}
+
+L'opération \hyperdef{chapmedit}{Delier}{\texttt{Délier}} délie\index{Delier@Délier} des formes
+liées au préalable. Lorsque \texttt{Délier} est activé, les numéros de tous les groupes de formes
+liées sont affichés. Il suffit de cliquer sur une des formes pour que toutes les formes du même
+groupe soient déliées, et le groupe n'existe plus.
+
+
+
+
+\subsection{Édition/Copier et Coller}
+
+\fbox{\texttt{Copier}}
+
+L'opération \hyperdef{chapmedit}{Copier}{\texttt{Copier}}\index{Copier}  fait une {copie} d'un élément
+dans le but de le reproduire ailleurs (voir \texttt{Coller}).
+
+Pour copier une forme, après avoir cliqué sur le bouton \texttt{Copier} du menu \texttt{Édition}, on
+sélectionne la forme en question. La forme est alors temporairement placée dans un
+tampon.
+
+\texttt{Copier} accepte la sélection multiple, ce qui permet de copier plusieurs formes en même
+temps. Dans ce cas, on \hyperlink{chapmedit.Selectionner}{sélectionne} les formes à copier avant
+d'actionner \texttt{Copier}. En particulier, si une forme sélectionnée appartient à un groupe de
+formes liées, c'est l'intégralité de ce groupe qui sera copié.
+
+Par contre, si le barycentre d'une forme a été construit, ou un point de division d'un de ses
+côtés, la sélection de la forme en vue d'être copiée n'implique pas automatiquement que le
+barycentre et les points de division soient également copiés. De même pour les points \og sur\fg.
+Ces points doivent être sélectionnés séparément avant l'exécution de \texttt{Copier}.
+
+
+\fbox{\texttt{Coller}}
+
+
+L'opération \texttt{Copier} ne vient  jamais seule. Après avoir copié un ou plusieurs
+objets, nous trouvons dans le menu \texttt{Édition}  la possibilité de les
+\hyperdef{chapmedit}{Coller}{\texttt{Coller}}\index{Coller} sur la feuille de travail
+autant de fois que souhaité.
+
+Pour ce faire, on clique sur la feuille de travail aux différents endroits où l'on veut placer  des
+copies du ou des objets mémorisés dans le tampon. Les objets collés ne conservent aucun lien avec
+leur original, ce qui différencie considérablement cette opération de
+\hyperlink{chapoper.Dupliquer}{\texttt{Dupliquer}}. Notons que si des objets ayant des points
+communs ont été sélectionnés simultanément en vue d'être copiés, après collage, leurs copies
+auront également des points communs. De même si le centre d'une forme est copié en même temps que
+sa forme mère, après collage, la copie du centre de la forme sera le centre de la copie  de la
+forme, idem pour les points de division.
+
+Il y a plus: on peut aussi copier des objets dans une feuille de travail et les coller dans une
+autre, choisie par l'intermédiaire du menu \texttt{Fenêtres}. C'est la seule interaction possible
+entre feuilles de travail différentes.
+
+
+\subsection{Édition/Supprimer}
+\label{chapedit-suppr}
+
+\hyperdef{chapmedit}{Supprimer}{\texttt{Supprimer}}\index{Supprimer}  est une opération classique qui
+consiste évidemment  à supprimer un objet de l'écran. Par raison de sécurité, \texttt{Supprimer}
+\textsc{n'accepte pas} la sélection multiple: les objets doivent en principe être supprimés un à la
+fois.
+
+L'opération est cependant un peu plus subtile.  Elle applique le principe suivant: chaque fois qu'une
+forme est supprimée, toutes les formes construites à partir de celle-là le sont aussi, sans
+intervention de l'utilisateur.
+
+Par exemple, si deux formes $B$ et $C$ ont été construites par \hyperlink{chapoper.Decouper}{découpage} d'une forme libre $A$, la
+suppression de $A$ entraîne celle de $B$ et $C$. Pour que l'utilisateur soit conscient de ce qui
+va être réellement supprimé, lorsque l'opération \texttt{Supprimer} a été activée et qu'on en est
+à la phase de sélection, chaque fois que la souris survole une forme $A$, non seulement le bord de
+celle-ci vire au magenta, mais aussi les bords de toutes les formes qui seraient supprimées en
+même temps que $A$ en cas de clic.
+
+\centerline{\begin{minipage}[b]{0.7\linewidth}
+\includegraphics[width=\linewidth]{Decouper.eps}
+\leg{}
+\end{minipage}}
+\endinput
+
+
+
+
+
+
+

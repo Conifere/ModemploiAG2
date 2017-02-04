@@ -1,0 +1,785 @@
+\chapter{Transformations}\label{chaptsf}\index{Transformation!géométrique}
+
+\section{Introduction}
+
+\begin{minipage}[b]{0.5\linewidth}
+\includegraphics[width=\linewidth]{Transfos2.bmp} \end{minipage}\hfill
+\begin{minipage}[b]{0.46\linewidth} Les
+\hyperdef{chaptsf}{Transformations}{transformations géométriques} les plus simples
+(demi-tour, quart de tour à gauche ou à droite) sont d'usage courant dans les
+activités quotidiennes.\index{Demi-tour}\index{Quart de tour!à gauche}\index{Quart
+de tour!à droite} D'autres transformations apparaissent dans les cours de
+géométrie,  parfois dès l'enseignement primaire, toujours dans les premières
+années de l'enseignement secondaire.  \end{minipage}
+
+Les transformations constituent un puissant support  pour
+le raisonnement et permettent de construire de nouvelles formes géométriques à
+partir de formes construites antérieurement.
+
+\AG\ permet de concrétiser une transformation de manière visuelle, en lui
+attribuant un \og support\fg\index{Support!d'une transformation} facilitant sa reconnaissance, son
+utilisation et sa réutilisation.
+
+
+Les transformations mises à la disposition des utilisateurs varient selon le menu choisi.
+
+ Au menu A, l'élève n'a accès à aucune transformation. Avec le menu B, il rencontre les
+translations\index{Translation}, les demi-tours\index{Demi-tour}, quarts de tour\index{Quart de tour} et les  rotations\index{Rotation} d'angle quelconque ainsi
+que les symétries\index{Symétrie!axiale} axiales. Enfin, au menu C apparaissent les homothéties et les
+similitudes. Depuis la version 2.4.0, le menu C propose également des déplacements\index{Deplacement@Déplacement}, des étirements\index{Etirement@Étirement} et des cisaillements\index{Cisaillement}.
+Bien entendu, les menus AB et AC donnent accès aux mêmes transformations
+que, respectivement, les menus B et C.
+
+Le menu \texttt{Transformations} comporte quatre sous-menus: \texttt{Définir}, \texttt{Appliquer},
+\texttt{Point fixe} et \texttt{Montre-Cacher des transformations}. Le sous-menu \texttt{Point Fixe}
+n'est accessible qu'aux menus C et AC.
+
+
+
+\section{Définir une transformation}
+\index{Définir}
+
+Le principe est d'associer à chacune des
+\hyperdef{chaptsf}{Transformation}{transformations} géométriques une forme géométrique
+qui lui servira de
+\hyperdef{chaptsf}{Support}{support}. Pour signaler qu'une forme supporte une
+transformation, elle est repeinte en vert et munie dans certains cas d'une (ou
+même parfois deux) pointe(s) de flèches.
+
+\subsection{Définir/Translation}
+\index{Translation}\label{sec4_2_1}
+
+Après que l'utilisateur ait choisi
+\hyperdef{chaptsf}{Translation}{\texttt{Définir/Translation}}, le pointeur de la
+souris demande de choisir un \hyperlink{chapflib.Segment}{segment} ou de choisir
+successivement ses deux extrémités.
+
+Un clic sur un segment  (qui peut être un côté de polygone)   définit une
+\hyperdef{chaptsf}{Translation}{translation} qui sera orientée dans le sens où le segment a lui-même
+été construit.
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth} Il est aussi possible de
+sélectionner un segment (déjà construit) pour  servir de support à une translation en
+cliquant successivement sur ses deux extrémités. L'orientation de la translation est
+alors déterminée par cette man\oe uvre et peut  être différente de l'orientation du
+segment lui-même. Un segment peut ainsi être le support de deux translations
+réciproques. \end{minipage}   }
+
+Dès qu'une translation est définie, son support est repeint en vert et muni d'une pointe de
+flèche.
+
+\centerline{\begin{minipage}[b]{0.5\linewidth}
+\includegraphics[width=\linewidth]{transla.eps}
+\leg{}
+\end{minipage}}
+
+Le segment de gauche est le support d'une translation. Le segment de droite est le support de deux translations réciproques
+l'une de l'autre.
+
+
+\subsection{Définir/Rotation} \index{Rotation}
+
+Pour définir une \hyperdef{chaptsf}{Rotation}{rotation},  nous choisissons un
+\hyperlink{chapflib.Cercle}{arc}  qui aura été tracé préalablement. Le centre et l'angle
+de l'arc seront respectivement le centre et l'angle de la rotation.  L'arc étant orienté
+comme on l'a indiqué au chapitre \ref{chapflib}, il n'est pas besoin de spécifier quelle
+en est l'origine et quelle en est l'extrémité.  Une fois que l'arc a été choisi pour
+définir la rotation, il prend une couleur verte et est muni d'une pointe de flèche. Un
+arc ne peut être le support que d'une seule rotation.
+
+\centerline{\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{rota.eps}
+\leg{}
+\end{minipage}}
+
+\subsection{Définir/Demi-tour} \index{Demi-tour}
+Pour définir un \hyperdef{chaptsf}{Demitour}{demi-tour}, il suffit de choisir un
+\hyperlink{chapflib.Point}{point}.  Ce point doit avoir été fixé à l'écran au préalable et peut être
+le sommet d'une des formes dessinées. Le point choisi comme centre du demi-tour, est redessiné en
+vert.
+
+\centerline{\begin{minipage}[b]{3mm}
+\includegraphics[width=3mm]{point.eps}
+\leg{}
+\end{minipage}}
+
+\subsection{Définir/Quart de tour à gauche} \index{Quart de tour!à gauche} Pour définir
+un \hyperdef{chaptsf}{Quartgauche}{quart de tour à gauche}, la démarche est
+similaire à la précédente. Le centre du quart de tour est redessiné en vert.
+
+\subsection{Définir/Quart de tour à droite} \index{Quart de tour!à droite}
+
+Le processus est identique pour un  \hyperdef{chaptsf}{Quartdroite}{quart de tour à
+droite}.
+
+\subsection{Définir/Déplacement}\index{Deplacement@Déplacement}
+\label{chaptsf.depla}
+\textit{A priori} l'ajout au logiciel d'une fonctionnalité \texttt{Définir/Déplacement} n'apporte rien de nouveau puisque tout déplacement
+est une rotation ou une translation et que ces transformations ont toujours été disponibles.
+Cependant le déplacement est un concept général, son usage ne nécessite pas de connaître à l'avance si on définit une rotation ou une translation.
+
+\danger\hfill \fbox{\begin{minipage}{0.87\linewidth}
+L'usage d'un déplacement facilite grandement le report d'une longueur sur une droite.
+\end{minipage}}
+
+En fait, la définition d'un déplacement repose sur un résultat élémentaire de géométrie: \textit{Étant donné deux demi-droites $[AX$ et $[DY$, il existe un et un
+seul déplacement qui applique $[AX$ sur $[DY$.} Ce déplacement applique le point $A$ sur le point $D$ mais n'applique $X$ sur $Y$ que si les distances $|AX|$ et $|DY|$
+sont égales.
+
+Pour définir un déplacement, deux méthodes peuvent être utilisées.
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Soit nous sélectionnons un quadrilatère (appartenant aux formes libres) déjà construit, par exemple, le quadrilatère $AXDY$  ci-dessous. Ce quadrilatère sert de support pour le déplacement $\delta$, lequel appliquera $A$ sur $D$
+et la demi-droite $[AX$ sur la demi-droite $[DY$. Il n'est pas indispensable de dessiner ces demi-droites elles-mêmes.
+
+\centerline{\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{Depla2.eps}
+\leg{}
+\end{minipage}}
+
+La figure précédente illustre ce théorème. Le dessin du quadrilatère-support $AXYB$ ne comporte pas de flèche de $X$ vers $Y$ puisque $\delta(X)$ n'est pas nécessairement égal à $Y$. En fait, le support du déplacement n'est pas complètement
+déterminé puisque les points $X$ et $Y$ ne servent qu'à déterminer les deux demi-droites source et image de $\delta$.
+Dans le cas de cette figure, le déplacement $\delta$ est une rotation. Son centre peut être obtenu en utilisant la fonctionnalité \texttt{Transformations/Point fixe}. Si en modifiant l'un des points $X$ ou $Y$ on rend parallèles les droites $AX$ et $BY$, le déplacement $\delta$ est automatiquement converti en translation.
+\item Soit nous sélectionnons (dans l'ordre) quatre points jouant le rôle de $A$, $X$, $B$, et $Y$, c'est-à-dire d'abord les deux points déterminant la demi-droite source, ensuite les deux points déterminant la demi-droite image.
+Le logiciel construit alors lui-même le quadrilatère $AXYB$.
+\end{list}
+
+\subsection{Définir/Symétrie axiale} \index{Symétrie!axiale}
+
+Pour définir une \hyperdef{chaptsf}{Symetrie}{symétrie axiale}, nous avons  besoin
+d'un axe. Pour cette raison, après le choix de cette option, le pointeur de la
+souris demande de choisir soit un segment (qui peut être un côté de polygone),
+soit une droite (qui peut être un bord de bande ou de secteur), soit une
+demi-droite.  Ces formes doivent avoir été tracées au préalable à l'écran. Lorsque l'axe a été choisi, il est repeint en vert.
+
+\centerline{
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{symetrie.eps}
+\leg{}
+\end{minipage}}
+
+Comme on le voit sur cette figure, si c'est un segment qui sert de
+support pour une symétrie axiale, seul ce segment est peint en vert
+et non l'axe complet. C'est largement suffisant.
+
+\subsection{Définir/Homothétie}
+\index{Homothétie}
+
+Une \hyperdef{chaptsf}{Homothetie}{homothétie}   est définie soit par son centre et par
+l'image d'un point distinct du centre, soit  par deux points distincts (nous les
+appellerons \textit{les points origines}) et leurs images, également distinctes.  Dans ce
+dernier cas,  la droite des images doit être parallèle à la droite des origines.
+
+ À ces deux modes de définition correspondent deux modes de construction d'une
+homothétie, et même trois car le logiciel prévoit deux façons de construire une homothétie à
+l'aide de deux points et de leurs images. Commençons par décrire cette situation.
+
+\begin{list}{\textbullet}{\itemsep=1mm} \item La méthode la plus simple consiste à
+sélectionner  un \hyperlink{chapflib.Trapeze}{trapèze}\index{Trapèze} (appartenant
+aux formes libres) préalablement construit.  Le trapèze sert de support pour
+l'homothétie. Lors de la construction du trapèze, les deux premiers clics ont fixé
+l'une des deux bases.  Les extrémités de cette base sont les points origines de
+l'homothétie. L'image de chacun des points origines est
+l'extrémité de la seconde base à laquelle il est joint par un côté. Les sommets
+d'un trapèze $abcd$ étant, conformément aux usages, énumérés dans l'ordre selon
+lequel on les rencontre en  parcourant le bord, l'homothétie applique $a$ sur $d$
+et $b$ sur $c$. Ceci reste vrai si le trapèze est croisé.
+
+\centerline{\begin{minipage}[b]{0.5\linewidth}
+\includegraphics[width=\linewidth]{homo.eps}
+\leg{}
+\end{minipage}}
+
+Avec ces conventions, les homothéties de rapport positif correspondent aux trapèzes convexes et les
+homothéties de rapport  négatif aux trapèzes croisés.
+
+\item Nous pouvons aussi définir une
+homothétie en  choisissant successivement quatre points distincts, déjà construits, qu'ils soient
+sommets d'une forme géométrique ou qu'ils soient isolés. Le logiciel va alors construire lui-même
+un nouveau trapèze qui servira de support.  L'ordre de choix détermine le rôle de chaque point:
+les points n°1  et 2 seront les deux points origines, extrémités de la première base.  Le point
+n°3 sera l'image du point n°1 et le point n°4 sera l'image du point n°2. Si le quadrilatère ayant
+ces quatre points pour sommets n'est pas un trapèze, le point n°4 sera déplacé de façon à
+rectifier la situation.\medskip
+ 
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth}  Le principe de cette
+construction est que l'on indique d'abord les deux points origines, puis leurs images,
+d'abord celle du premier point origine, ensuite, celle du deuxième. Cette technique est
+logique pour définir une homothétie, mais ne correspond pas à la façon dont on construit
+un trapèze à la souris. C'est pourquoi dans ce cas, c'est l'ordinateur qui construit le
+trapèze et non l'utilisateur.\end{minipage}}\bigskip
+ 
+\centerline{\begin{minipage}[b]{0.50\linewidth}
+\includegraphics[width=\linewidth]{homo2.eps}
+\leg{}
+\end{minipage}}
+
+\item Passons au cas où l'homothétie est définie par son centre et l'image d'un point distinct de son centre. Trois points
+doivent être choisis. Afin que la technique de construction soit aussi proche que possible de la précédente, l'utilisateur
+devra cliquer non pas trois mais quatre fois: une première fois sur le centre, $o$, une deuxième fois sur le point origine
+$a$ distinct du centre, une troisième fois à nouveau sur le centre $o$ (puisqu'il est sa propre image) et une quatrième
+fois sur le point $b$ image de $a$. Les trois points doivent normalement être alignés. S'ils ne le sont pas, le point $b$
+est ramené par projection ortho\-gonale sur la droite $oa$. Le logiciel construit lui-même un support constitué des trois
+points définissant l'homothétie.
+
+\centerline{\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{homo3.eps}
+\leg{}
+\end{minipage}}
+\end{list}
+
+\subsection{Définir/Similitude}
+\index{Similitude!directe}
+
+Il s'agit ici uniquement de définir une \hyperdef{chaptsf}{Similitude}{similitude
+directe}, ce qui ne  nécessite que quatre points placés presque n'importe où (si $a$, $b$,
+$c$ et $d$ sont quatre points du plan, dès que $a\not=b$, il existe une et une seule
+similitude directe qui applique $a$ sur $c$ et $b$ sur $d$). Pour définir une similitude
+directe, on peut donc choisir soit  un quadrilatère quelconque soit quatre points  déjà
+placés sur la feuille de travail. Tout comme pour l'homothétie, plusieurs méthodes de
+construction sont disponibles.
+
+\begin{list}{\textbullet}{\itemsep=1mm}  \item La méthode la plus simple consiste à
+sélectionner  un \hyperlink{chapflib.Quadrilatere}{quadrilatère} (appartenant aux formes
+libres) préalablement construit.  Le quadrilatère  sert de support pour la similitude.
+Les deux premiers sommets du quadrilatère à avoir été construits seront les deux points
+origines.           L'image de chacun des points origines est
+l'extrémité de la seconde base à laquelle il est joint par un côté.
+  Sur la figure qui suit, le quadrilatère a été construit en fixant
+successivement les points $a$, $b$, $c$ et $d$. La similitude applique $a$ sur $d$ et
+$b$ sur $c$.
+
+\centerline{\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{simili.eps}
+\leg{}
+\end{minipage}}
+
+\item Nous pouvons aussi définir une similitude en
+choisissant successivement quatre points, déjà
+construits, qu'ils soient sommets d'une forme
+géométrique ou qu'ils soient isolés. Si nécessaire,
+le logiciel va alors construire lui-même un nouveau
+quadrilatère qui servira de support.  L'ordre de
+choix détermine le rôle de chaque point: les points
+n°1  et 2 seront les deux points origines.  Le point
+n°3 sera l'image du point n°1 et le point n°4 sera
+l'image du point n°2. Cette méthode permet aussi
+d'utiliser le même quadrilatère comme support de
+plusieurs similitudes. \medskip
+ 
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth} Comme pour l'homothétie,  le
+principe de cette construction est que l'on indique d'abord les deux points origines,
+puis leurs images, dans le même ordre alors qu'à la souris, les sommets d'un
+quadrilatère ne sont pas construits dans cet ordre-là.
+
+\end{minipage}}\bigskip
+ 
+ \centerline{\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{simili2.eps}
+\leg{}
+\end{minipage}}
+
+Lors de cette construction, l'utilisateur peut, s'il le désire, faire coïncider les points n°2 et n°3. On construit ainsi
+une similitude à partir de trois points $a$, $b$ et $c$: celle qui applique le point $a$ sur le point $b$ et celui-ci sur
+le point $c$. Dans ce cas, le support n'est pas un quadrilatère mais un triangle.
+
+
+\centerline{\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{simili3.eps}
+\leg{}
+\end{minipage}}
+
+\item Enfin, on peut définir une similitude à partir  de son centre et de l'image d'un point distinct de son centre. Trois
+points doivent être choisis. Comme dans le cas d'une homothétie définie de façon analogue,  l'utilisateur devra cliquer non
+pas trois mais quatre fois: une première fois sur le centre, une deuxième fois sur le point origine distinct du centre, une
+troisième fois à nouveau sur le centre (puisqu'il est sa propre image) et une quatrième fois sur le point image du  point
+n°2. Le logiciel construit lui-même un support constitué des trois points définissant la similitude.
+
+\centerline{\begin{minipage}[b]{0.15\linewidth}
+\includegraphics[width=\linewidth]{simili4.eps}
+\leg{}
+\end{minipage}}
+\end{list}
+
+\subsection{Définir/Étirement}\index{Etirement@Étirement}
+\label{chaptsf.etir}
+À la différence de toutes les transformations rencontrées jusqu'ici, les étirements \textsc{ne sont pas} des  similitudes particulières mais des transformations affines particulières.
+
+Les transformations affines\index{Transformation!affine}, ou affinités\index{Affinité}, sont les transformations du plan qui
+appliquent toute droite sur une droite et qui  conservent le parallélisme  ainsi que les rapports de longueurs de segments parallèles. Elles ne conservent ni
+la perpendicularité, ni les angles. Étant donnés deux triples de points non alignés ($A$, $B$, $C$) ($A'$, $B'$, $C'$) il existe une et une seule transformation affine qui applique $A$ sur $A'$, $B$ sur $B'$ et $C$ sur $C'$.
+(Si nous travaillions dans l'espace de dimension 3, nous devrions remplacer \og triples de points non alignés\fg\ par \og quadruples de points non coplanaires\fg.)
+
+Les étirements sont les transformations affines qui admettent une droite $AB$ de points fixes et pour lesquelles il existe au moins un point $C$, extérieur à $AB$
+dont l'image $C'$ n'appartient pas à  la parallèle à $AB$ passant par $C$.         La droite $AB$ sera appelée l'\textit{axe de l'étirement}\index{Axe!d'un étirement}.
+
+Le support d'un étirement est un quadrilatère. Comme les déplacements ou les similitudes, on peut définir un étirement soit en sélectionnant un quadrilatère
+ soit en sélectionnant quatre points, mais les fonctions de ces quatre points sont différentes. Les deux premiers sommets du quadrilatère, $A$ et $B$ sur la
+ figure suivante, sont  deux points fixes. Tous les points de la droite $AB$ sont donc fixes. Le points $C'$ est l'image du point $C$.
+ 
+ Si on définit l'étirement en sélectionnant quatre points, il convient de les choisir dans l'ordre $A$, $B$, $C$, $C'$.
+
+\centerline{\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{etir1.eps}
+\leg{}
+\end{minipage}}
+
+Construisons l'image d'un point $P$ du plan par l'étirement $\epsilon$ défini dans la figure précédente.
+
+\begin{minipage}[b]{0.6\linewidth}
+On remarque d'abord que la droite parallèle à $CC'$ passant par $P$ est invariante par l'étirement. En effet cette parallèle à $CC'$ coupe la droite $AB$ en un
+point $Q$, fixe pour $\epsilon$. Comme $\epsilon$ respecte le parallélisme, la droite $P'Q'$ est la parallèle à $CC'$ passant par $Q'$, et puisque $Q'=Q$, on a $P'Q'=PQ$.
+Autrement dit l'image $P'$ de $P$ appartient à $PQ$.
+\vspace{\baselineskip}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{etir2.eps}
+\leg{}
+\end{minipage}
+
+Joignons ensuite $P$ au point $C$ dont nous connaissons l'image par $\epsilon$. La droite $CP$ coupe $AB$ en un point $R$ fixe pour $\epsilon$. Le point $P'$ appartient à la droite $RC'$.
+Ainsi le point $P'$ est le point d'intersection de $PQ$ et de $RC'$.
+
+
+
+En utilisant le théorème de Thalès, ou une homothétie, on  vérifiera facilement l'egalité de rapports $$\frac{|DC'|}{|DC|} = \frac{|QP'|}{|QP|}$$
+laquelle figure dans la définition de toute transformation affine (la conservation des rapports de longueurs de segments parallèles).
+
+Pour un étirement, la direction de $CC'$ joue un rôle particulier puisque toutes les droites ayant cette direction sont invariantes.
+On parlera ainsi de la \textit{direction} de l'étirement\index{Direction!d'un étirement}.
+Quand on  restreint l'étirement à une quelconque de ces droites invariantes, on obtient sur cette droite une homothétie ayant pour centre son point d'intersection avec l'axe de l'étirement.
+Et le rapport de cette homothétie est le même pour toutes les droites ayant la direction de l'étirement. On parlera donc du \textit{rapport de l'étirement}\index{Rapport!d'un étirement}.
+Le rapport d'un étirement joue un rôle important dans le calcul des aires: si $P$ est une forme géométrique quelconque et si $P'$ est son image par un étirement, l'aire de $P'$ est égale au produit de l'aire de $P$ par le rapport de l'étirement.
+Par exemple, une ellipse étant l'image d'un cercle par un étirement, on obtient pour l'ellipse une aire égale à $\pi ab$ si $a$ et $b$ sont les demi-longueurs des axes.
+
+Il est à noter que le rapport d'un étirement peut être inférieur à 1. On continue à parler d'étirement, mais il s'agit alors plutôt d'une contraction.
+Le rapport peut même être négatif, tout point extérieur à l'axe et son image sont alors de part et d'autre de l'axe.
+En particulier, une \textit{symétrie oblique}\index{Symétrie!oblique} est un étirement de rapport $-1$.
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth} \begin{minipage}[b]{0.65\linewidth} L'image d'un cercle
+par un étirement est une \textit{ellipse}\index{Ellipse}. Et effectivement, le logiciel dessine une ellipse
+dans une telle situation. Néanmoins le concept d'ellipse n'a --- jusqu'à présent --- jamais été incorporé à
+\AG. L'ellipse dessinée n'est donc pas reconnue comme telle par le logiciel, mais uniquement comme image d'un
+cercle par une transformation. Cette circonstance peut\linebreak \vspace{-1.8\baselineskip}
+\end{minipage}\hfill\begin{minipage}[t]{0.3\linewidth} \includegraphics[width=\linewidth]{etir3.eps} \leg{}
+\end{minipage} empêcher que certaines fonctionnalités puissent être appliquées à une ellipse. Par exemple, il
+n'est  pas possible de lui appliquer une seconde transformation (translation, rotation, etc). Certaines opérations peuvent  être
+réalisées, à condition de repasser par le cercle $\mathcal{C}$ dont l'ellipse $\mathcal{E}$ est l'image.
+Ainsi pour placer un point mobile $P'$ sur le bord de $\mathcal E$, on place un point $P$ sur le cercle
+$\mathcal C$ et on applique  l'étirement au point $P$. Le déplacement de $P$ sur $\mathcal C$ permettra de
+faire circuler $P'$ sur $\mathcal E$. De même, la tangente en $P'$ à l'ellipse est l'image par l'étirement de
+la tangente au cercle en $P$. \end{minipage}}
+
+\subsection{Définir/Cisaillement}\index{Cisaillement}
+
+Comme les étirements, les cisaillements\index{Cisaillement} sont des transformations affines qui admettent une droite $AB$ de points fixes.
+La différence entre cisaillement et étirement réside dans le fait que
+pour un cisaillement, l'image $C'$ de tout point $C$ extérieur à la droite $AB$ se trouve sur la parallèle à $AB$ passant par  $C$. La droite $AB$ sera appelée
+l'\textit{axe du cisaillement}\index{Axe!d'un cisaillement}.
+
+Le support d'un cisaillement est un trapèze (un parallélogramme est un trapèze). On peut définir un cisaillement soit en sélectionnant un trapèze $ABC'C$,
+ soit en sélectionnant quatre points. Sur la
+ figure suivante, les deux premiers sommets du trapèze, $A$ et $B$,  sont  deux points fixes. Tous les points de la droite $AB$ sont donc fixes.
+ Le points $C'$ est l'image du point $C$.
+ 
+ Si on définit le cisaillement en sélectionnant quatre points, il convient de les choisir dans l'ordre $A$, $B$, $C$, $C'$.
+
+\centerline{\begin{minipage}[b]{0.5\linewidth}
+\includegraphics[width=\linewidth]{cisail1.eps}
+\leg{}
+\end{minipage}}
+
+Construisons l'image d'un point $P$ du plan par le cisaillement $\gamma$ défini dans la figure précédente.
+
+\begin{minipage}[b]{0.6\linewidth}
+Comme dans le cas des étirements, la droite $PQ$, parallèle à $CC'$ passant par $P$ est invariante par le cisaillement. Ainsi, tous les points du plan se
+\og déplacent\fg\ sur des parallèles à l'axe du cisaillement.
+\vspace{\baselineskip}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{cisail2.eps}
+\leg{}
+\end{minipage}
+
+À nouveau, le même raisonnement que dans le cas des étirements permet de déterminer l'image $P'$ de $P$: la droite $CP$ coupe $AB$ en un point $R$ fixe pour $\gamma$.
+Le point $P'$ appartient à la droite $RC'$.
+Ainsi le point $P'$ est le point d'intersection de $PQ$ et de $RC'$.
+
+
+
+En utilisant le théorème de Thalès, ou une homothétie, on  vérifiera facilement que le rapport $\frac{|PP'|}{|CC'|}$ est le même pour tous les points $P$ d'une parallèle à $AB$. De plus,
+tous les vecteurs $\longvec{PP'}$ en question sont orientés de la même façon (comme $\longvec{CC'}$ si les points $P$ et $C$ sont du même côté de $AB$, en sens contraires sinon).
+Il en résulte que la restriction d'un cisaillement à une droite parallèle à son axe est une translation.  Il est remarquable que les aires d'une forme géométrique $F$ et de son image $F'$ par un cisaillement sont égales.
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth}
+Les remarques faites à la fin de la section précédente pour l'image d'un cercle par un étirement sont également valables pour l'image d'un cercle par un cisaillement.
+\end{minipage}}
+
+
+\section{Appliquer}\index{Appliquer}
+
+ Lorsqu'on clique sur le bouton
+\hyperdef{chaptsf}{Appliquer}{\texttt{Appliquer}}, le pointeur de la souris
+nous demande de choisir une transformation. Cela donne le choix entre toutes les
+transformations  définies au préalable. Rappelons qu'elles sont visibles grâce au fait
+que leurs supports sont de couleur verte.
+
+\fbox{\begin{minipage}{0.99\linewidth}
+\Prat
+
+Pour appliquer une transformation à une forme géométrique:
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item Cliquer sur le menu \textit{Transformations/Appliquer}.
+
+\item Choisir une transformation, en cliquant sur son support. Ce support est alors
+redessiné en magenta. Simultanément, les supports des autres transformations --- s'il en
+existe --- ne sont plus coloriés en vert. Seule la transformation choisie reste donc
+visible.
+
+\item Choisir la forme dont on désire que l'image soit créée (les transformations s'appliquent aux formes, pas
+aux figures). \end{list} \end{minipage}}
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth} Comme on l'a déjà remarqué, il
+peut se faire qu'une forme géométrique soit le support de plusieurs transformations. À
+la section \ref{sec4_2_1}, nous avons vu l'exemple d'un segment support de deux
+translations. Voici un autre exemple:
+
+\begin{minipage}[b]{0.2\linewidth} \includegraphics[width=\linewidth]{bisimili.eps} \leg{} \end{minipage}\hfill
+\begin{minipage}[b]{0.77\linewidth} Une première similitude ayant le quadrilatère $abcd$ comme support a été définie en
+sélectionnant le quadrilatère lui-même. Elle applique $a$ sur $d$ et $b$ sur $c$. Une seconde similitude a été définie en
+cliquant sur les quatre points séparément, dans l'ordre $a$, $d$, $b$ $c$. Elle applique donc $a$ sur $b$ et $d$ sur $c$.
+\vspace{\baselineskip}
+ \end{minipage}
+
+ Pour sélectionner celle de ces deux transformations que l'on désire appliquer, on
+utilise la méthode de la \hyperlink{chapmedit.baresp}{barre d'espacement}
+décrite à la page \pageref{barreesp}. Après avoir choisi
+\textit{Transformations/Appliquer}, on positionne donc la souris au-dessus du
+quadrilatère $abcd$. Des pressions successives sur la barre d'espacement
+permettent alors de passer de la figure \ref{chaptsf_barreesp1} à la figure
+\ref{chaptsf_barreesp2}, et retour. Un clic du bouton gauche, \textsc{sans
+déplacer la souris}, sélectionne la transformation souhaitée.
+
+\strut\hfill\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{bisimili1.eps}
+\leg{\label{chaptsf_barreesp1}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{bisimili2.eps}
+\leg{\label{chaptsf_barreesp2}}
+\end{minipage}\hfill\strut
+\end{minipage}} \medskip
+
+\textbf{Remarques}
+\begin{enumerate}
+\item Après la construction de l'image d'une forme par une
+transformation, l'ordinateur se souvient de la  transformation qui a été utilisée.
+
+Pour demander l'image
+d'une autre forme par la même transformation, on clique donc directement sur cette autre forme.
+
+Par contre, pour appliquer une autre transformation à une forme, on repasse par le menu
+\textit{Transformations/Appliquer}.
+
+\item L'opération \texttt{Appliquer} accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
+
+ \item Ainsi qu'il a déjà été signalé, il peut être intéressant d'utiliser l'option
+\hyperlink{chapmedit.reselectionauto}{resélection automatique}. Mais  après
+l'application  d'une  transformation, si cette option a été activée, ce sont les formes
+images qui sont sélectionnées et non les formes sources.
+
+\item Lorsqu'on applique une transformation à une forme faisant  partie d'un groupe
+de formes liées (par l'opération \hyperlink{chapmedit.Lier}{\texttt{Lier}}), les
+images de toutes les formes du groupe sont construites. De plus, elles constituent
+un nouveau groupe de formes liées.
+
+ \item Toute modification d'une forme source se répercute automatiquement sur les formes
+images. Celles-ci ont donc le statut de formes construites\index{Forme!construite}, ce
+qui implique qu'il est \hyperdef{chaptsf}{impossible}{impossible} de les modifier
+directement: on ne peut \og tirer\fg\ sur un sommet d'une forme construite. On ne peut
+pas non plus dupliquer une forme image.
+
+\item Si c'est le support d'une transformation qui est modifié, il en va de même: les formes qui ont été
+obtenues par application de cette transformation sont automatiquement adaptées.
+
+\begin{comment}
+Par exemple, la figure \ref{chaptsf_transla11}  montre, une translation, un triangle $abc$ et son image $a'b'c'$ par la
+translation. À la figure \ref{chaptsf_transla12}, la translation a été modifiée, le triangle $abc$ ne l'a pas été, mais son
+image $a'b'c'$ a été adaptée.
+
+\strut\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{transla11.eps}
+\leg{\label{chaptsf_transla11}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{transla12.eps}
+\leg{\label{chaptsf_transla12}}
+\end{minipage}\hfill\strut
+\end{comment}
+
+ Il est bon que l'utilisateur soit conscient de ce que certaines modifications de
+certaines formes sont sans influence sur les transformations supportées par ces formes.
+C'est  notamment le cas des arcs de cercle, lorsqu'on modifie la position de l'origine
+de l'arc. Considérons la figure suivante, présentant un arc de cercle dont les trois
+points de définition sont libres, et qui supporte une rotation $\rho$. \medskip
+
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{rota2.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.78\linewidth} \small \begin{list}{\textbullet}{\itemsep=1mm}  \item Si on modifie le centre $o$
+de l'arc, le point $p$ ne change pas, le point $q$ change mais l'angle de l'arc ne change pas. Quant à  la
+rotation $\rho$, elle  change puisque son centre change.
+
+\item Si on modifie le point $p$, le point $o$ ne change pas, le point $q$ change mais l'angle de l'arc ne
+change pas. Donc la rotation $\rho$ ne change pas.  \item Si on modifie le point $q$, les points $o$ et $p$ ne
+changent pas, mais l'angle change et la rotation $\rho$ aussi.
+\end{list} \end{minipage}
+
+Cette particularité peut être exploitée pour montrer que si une figure $\mathcal F'$ est l'image
+d'une figure $\mathcal F$ par une rotation $\rho$, de centre $c$, tous les arcs de centre $c$
+joignant un point de $\mathcal F$ au point homologue de $\mathcal F'$ ont même angle: on déplace
+l'origine $p$ de l'arc qui définit la rotation successivement en tous les points de $\mathcal F$.
+      (Tous ces arcs ont été tracés sur la figure suivante.)
+
+\begin{center}
+\includegraphics[width=0.3\linewidth]{rota3.eps}
+\leg{}
+\end{center}
+
+
+Des remarques similaires peuvent être faites pour d'autres transformations, notamment pour les homothéties et
+similitudes définies par trois points: leur centre, un point et son image.
+\end{enumerate}
+
+\section{Transformations et mouvements}
+
+Lorsqu'une figure, ou une partie de figure, est l'image d'un ou plusieurs objets par une
+transformation, l'utilisateur peut rencontrer des  difficultés s'il désire appliquer
+un mouvement\index{Mouvement} (\texttt{Glisser}, \texttt{Tourner}, \texttt{Retourner},
+ainsi que \texttt{Zoomer})\index{Glisser}\index{Tourner}\index{Retourner}\index{Zoomer}
+à cette figure.
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.89\linewidth} Le principe général, déjà
+rencontré \hyperlink{chaptsf.impossible}{au point n°5 ci-dessus}, est qu'on ne peut
+ni modifier, ni appliquer un mouvement à un point ou une forme image d'un(e) autre
+par une transformation.\end{minipage}}
+
+Ainsi, dans la figure proposée par le fichier \texttt{tsf1.fag}\footnote{Ce fichier doit
+s'ouvrir en cliquant sur l'icone d'\AG}, il est impossible de faire glisser,
+tourner\ldots\ le  quadrilatère $a'b'c'd'$, image de $abcd$ par la translation $\tau$.
+
+\begin{minipage}[b]{0.1\linewidth}
+\begin{center}
+\BoutonAG{tsf1.fag}
+\end{center}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.85\linewidth} Essayez de faire glisser ou tourner le quadrilatère
+$a'b'c'd'$. Puis, faites glisser ou tourner $abcd$ et enfin le support de la
+translation $\tau$. Que concluez-vous? \end{minipage}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+ \item Quand on fait tourner la forme source $abcd$, son image tourne
+également et du même angle. Même chose si on fait glisser $abcd$. De façon générale, les
+mouvements appliqués à la forme source se transmettent à la forme image.
+
+\item Si c'est au support de la transformation (ici $\tau$) qu'on applique un mouvement,
+les choses sont plus compliquées et il convient de distinguer l'effet de la
+transformation $\tau$ avant le mouvement et après le mouvement de son support.
+
+\begin{minipage}[b]{0.5\linewidth}  Dans la figure ci-contre, vous retrouvez les
+quadrilatères $abcd$, $a'b'c'd'$ et la translation $\tau$, ayant pour support le segment
+$[p,q]$. De plus on y a fait tourner ce segment $[p,q]$ jusqu'à ce qu'il occupe la
+position $[r,s]$. Pour simplifier, nous désignons par $\sigma$ la transformation $\tau$
+\textit{après le mouvement de son support}. Et nous notons $\rho$ la transformation
+géométrique (une rotation) correspondant au mouvement appliqué au support. La
+translation $\tau$ est alors remplacée par la translation $\sigma$ et $a"b"c"d"$ est la
+nouvelle image de $abcd$.\smallskip
+
+Il s'agit d'exprimer $\sigma$ à partir de $\tau$ et
+$\rho$. $\sigma$ applique $r$ sur $s$. Mais $r=\rho(p)$, donc $p=\rho^{-1}(r)$ et
+$q=\tau(p) = \tau(\rho^{-1})(r))$. Enfin $$s = \rho(q)=\rho(\tau(\rho^{-1})(r)))$$
+\end{minipage}\hfill \begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{conjuguee.eps} \leg{} \end{minipage}
+
+Comme $\rho\circ \tau\circ \rho^{-1}$ est une translation et applique $r$ sur $s$, on a
+nécessairement $$\sigma=\rho\circ \tau\circ \rho^{-1}$$ $\sigma$ est la
+\textit{transformation conjuguée}\index{Transformation!conjuguée} de $\tau$ par $\rho$.
+Cette formule est tout à fait générale:\medskip
+
+\fbox{\begin{minipage}[b]{\linewidth}
+Si un des mouvements \texttt{Glisser}, \texttt{Tourner}, ou \texttt{Retourner} est
+appliqué au support $S$ d'une transformation $\tau$, et si le mouvement en question a le
+même effet géométrique qu'une transformation $\rho$, alors dans la nouvelle position du
+support, la transformation $\tau$ a le même effet qu'aurait eu la transformation
+$\rho\circ\tau\circ\rho^{-1}$ avant l'application du mouvement au support.
+\end{minipage}}
+
+
+Ci-dessous, on a fait tourner le support d'une similitude:
+
+\strut\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{simili11.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{simili12.eps}
+\leg{}
+\end{minipage}\hfill\strut
+
+Comme on le voit, l'image ne subit aucune déformation; c'est en effet un mouvement que
+nous avons appliqué au support de la similitude, il entraîne  un
+mouvement de l'image. Du point de vue géométrique, la similitude est remplacée par sa
+conjuguée par le mouvement appliqué au support\footnote{L'effet est le même si on
+utilise \texttt{Zoomer} au lieu d'un mouvement.}.
+
+On note aussi que si $\rho$ commute avec $\tau$, la conjuguée $\sigma$ de $\tau$ par
+$\rho$ est identique à $\tau$. Il en résulte que faire glisser le support d'une
+translation ne provoque aucune modification aux images de celle-ci. Il en est de même si
+on fait tourner le support d'une rotation autour de son centre.
+
+\item  Il peut aussi apparaître des impossibilités.
+
+\begin{minipage}[b]{0.1\linewidth} \begin{center} \BoutonAG{tsf2.fag} \end{center}
+\end{minipage}\hfill \begin{minipage}[b]{0.85\linewidth}  Ouvrez le fichier
+\texttt{tsf2.fag} et essayez de faire tourner le quadrilatère $abcd$, dont l'image par
+la translation $\tau$ est $a'b'c'd'$.\vspace{\baselineskip}
+\end{minipage}
+
+Vous constatez que vous ne pouvez même pas sélectionner le quadrilatère \og source\fg\
+$abcd$ en vue de le faire tourner. Bien sûr, vous ne pouvez pas non plus sélectionner le
+quadrilatère \og image\fg\ $a'b'c'd'$, mais  même le support $[p,q]$ de la translation
+$\tau$ ne peut être tourné.
+
+La seule différence entre les fichiers \texttt{tsf1.fag} et \texttt{tsf2.fag} est la
+présence dans le second du segment $[c,a']$. Ce segment crée un lien entre  deux
+quadrilatères qui dans \texttt{tsf2.fag} appartiennent à la même figure alors que dans
+\texttt{tsf1.fag}, ils constituent deux figures différentes.
+
+Or les mouvements s'appliquent en bloc à une figure: impossible d'appliquer un mouvement
+à un des deux quadrilatères sans l'appliquer en même temps à l'autre. Mais ici, les deux
+quadrilatères ne peuvent pas non plus tourner en bloc, car la translation $\tau$
+cesserait d'appliquer $abcd$ sur $a'b'c'd'$. Pour la même raison il n'est pas non plus
+possible de faire tourner le support de $\tau$: on peut concevoir que l'image $a'b'c'd'$
+soit repositionné en fonction du mouvement du support de $\tau$, mais la forme \og
+source\fg\ n'a aucune raison de changer de place,  ce qu'elle devrait faire puisqu'elle
+fait bloc avec $a'b'c'd'$.
+
+
+Remarquez que dans \texttt{tsf2.fag}, vous pouvez quand même faire glisser soit le bloc
+des deux quadrilatères, soit le support de la translation. En effet, comme nous l'avons
+remarqué plus haut, le glissement du support de la translation n'a pas d'impact sur les
+positions relatives d'une forme et de son image par cette translation.  En fait, la
+translation ne change pas si on fait glisser son support. De même une rotation ne change
+pas si son support tourne autour de son centre.
+
+\item \begin{minipage}[b]{0.1\linewidth} \begin{center} \BoutonAG{tsf3.fag} \end{center}
+\end{minipage}\hfill \begin{minipage}[b]{0.85\linewidth}  Ouvrez à présent le fichier
+\texttt{tsf3.fag} et essayez de faire glisser, ou  tourner, ou retourner, les trois objets
+présents à l'écran: les quadrilatères $abcd$ et $a'b'c'd'$, et le segment
+$[p,q]$.\vspace{\baselineskip} \end{minipage}
+
+Vous constatez que plus rien ne bouge. La raison est la même qu'au point précédent: le
+quadrilatère $a'b'c'd'$ étant attaché au segment $[p,q]$ par le segment $[q,d']$, ce
+quadrilatère et le support de la translation devraient se mouvoir en bloc, ce qui
+détruirait la propriété pour $a'b'c'd'$ d'être l'image par $\tau$ de $abcd$.
+
+À présent, supprimez le segment $[q,d']$ et remplacez-le par le segment $[p,d]$. Vous
+créez ainsi une figure de deux objets, $abcd$ et $[p,q]$, qui devront se mouvoir en bloc.
+Quelques essais vous montreront que ce bloc accepte de se mouvoir et que le quadrilatère
+\og image\fg\ $a'b'c'd'$ est repositionné de façon correcte.
+
+Enfin, redessinez le segment $[q,d']$, sans effacer $[p,d]$. Vous constituez ainsi une
+figure contenant à la fois la source, l'image et le support de la transformation. Le
+tout accepte de se mouvoir en bloc car dans un tel mouvement les positions relatives des
+trois objets ne sont pas modifiées.
+ 
+ 
+\item En conclusion:
+
+\danger\hfill\fbox{\begin{minipage}[c]{0.85\linewidth}  Étant donnés une forme
+géométrique $A$, une transformation $\tau$ et la forme $A'$, image de $A$ par $\tau$,
+alors, sauf deux situations exceptionnelles,  \begin{itemize}    \item si $A$ et $A'$
+sont assemblés dans une même figure, sans que le support de $\tau$  soit dans cette
+figure, \item ou si $A'$ et le support de $\tau$ sont dans une même figure sans que $A$
+s'y trouve, \end{itemize} les figures contenant $A$, $A'$ et le support de $\tau$
+ne peuvent faire l'objet d'aucun mouvement.
+
+Les situations exceptionnelles sont  \begin{itemize} \item celle où $A$ et $A'$ sont dans
+une même figure, $\tau$ est une translation et le mouvement appliqué est un glissement,
+\item celle où $A$ et $A'$ sont dans une même figure, $\tau$ est une rotation et le
+mouvement consiste à tourner autour du centre de $\tau$.
+\end{itemize}
+
+Par contre le fait que la source $A$ et le support de $\tau$ fassent partie d'une même
+figure est sans influence sur la possibilité d'appliquer un mouvement à la figure
+contenant ces deux objets, et cela même si l'image $A'$ appartient également à cette
+figure.
+\end{minipage}}
+\end{list}
+
+\textbf{Remarque} Un problème analogue se pose si la forme $A'$ est une droite ou un
+segment construit comme étant parallèle ou perpendiculaire à un autre objet $A$.  On ne
+peut mouvoir $A'$ (sans mouvoir $A$) en même temps que si le mouvement est un
+glissement. Dans ce cas,  les relations de parallélisme et de  perpendicularité ne sont
+pas perturbées.
+
+\section{Point fixe}
+
+L'usage de cette \hyperdef{chaptsf}{PtFixe}{opération}\index{Point!fixe} est aisé à décrire: il s'agit de
+construire le point fixe d'une transformation\ldots\ dans le cas où il en existe un et un seul.
+\newpage
+
+Or \begin{list}{\textbullet}{\itemsep=1mm} \item Les translations n'ont aucun point fixe.
+\item Les rotations (non identiques), y compris les demi-tours et quarts de tour sont
+construites en connaissant leur centre (qui est leur seul point fixe). \item Les
+symétries axiales ont une infinité de points fixes, et ils sont connus dès leur
+construction. \end{list}
+
+Il ne reste donc que les homothéties\index{Homothétie} et les similitudes\index{Similitude}, et
+pas dans tous les cas puisqu'on peut définir une homothétie et une similitude en incorporant le centre
+à la définition.
+
+La procédure est simple:
+
+\fbox{\begin{minipage}[b]{0.97\linewidth}
+\Prat
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Choisir le menu \textit{Transformations/Point fixe}
+\item Cliquer sur la transformation dont on veut construire le point fixe.
+\end{list}
+\begin{center}
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{ptfixes.eps}
+\leg{}
+\end{minipage}
+\end{center}
+\end{minipage}}
+
+Pour vous convaincre  que le point construit est bien le point fixe de la transformation, vous pouvez  lui
+appliquer cette transformation: aucun point nouveau ne doit apparaître (en réalité deux points sont
+superposés). Vous pouvez aussi marquer arbitrairement un point $p$ et lui appliquer la transformation. Un
+nouveau point $p'$ apparaît. Déplacez alors $p$ en essayant de le superposer à $p'$: vous entrez  dans
+une course-poursuite qui s'achève quand les points $p$ et $p'$ sont --- ensemble --- superposés au point
+construit par le logiciel en tant que point fixe.
+
+Une dernière remarque: toute modification apportée au support de la transformation
+entraîne automatiquement le repositionnement du point fixe, lequel a le statut de \og
+point construit\fg\index{Point!construit}.
+
+\section{Montrer-cacher des transformations}
+
+ Cette opération ressemble comme deux gouttes d'eau à l'opération
+\hyperlink{chapoutils.Montrer}{\texttt{Montrer-Cacher des formes}} décrite
+au chapitre  \ref{chapoutils}.
+
+Il s'agit de sélectionner la ou les transformations à cacher ou montrer, en
+appliquant éventuellement la technique de la \hyperlink{chapmedit.baresp}{barre
+d'espacement}. Une fois la sélection faite, un clic amène la transformation à être
+repeinte en bleu pâle. En quittant l'opération, la transformation disparaît mais
+reste active.

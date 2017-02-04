@@ -1,0 +1,22 @@
+Outre les corrections de bugs et modifications purement cosmétiques, cette nouvelle version comporte des
+innovations notables.
+
+L'innovation la plus importante consiste en l'introduction dans
+le logiciel du concept de macro.  Une macro résulte de l'enregistrement d'une séquence d'instructions, lesquelles peuvent elles-mêmes être des macros.
+ Il en résulte l'adjonction au présent guide d'un chapitre 
+nouveau,  que  l'utilisateur voudra bien consulter attentivement.
+
+ L'utilisateur a désormais la possibilité de convertir des formes libres en formes standard,  créant
+ainsi de nouvelles  familles de formes standard. À cet effet, il utilisera la fonctionnalité
+Standardiser du menu Fichiers. 
+
+\item Des transformations géométriques supplémentaires ont été introduites dans le menu
+Transformations.   Il s'agit d'abord  des déplacements généraux, c'est
+à dire des rotations et translations définies à partir de deux points et de leurs images. Il n'est donc plus
+nécessaire de connaître ni le centre ni l'angle d'une rotation pour la construire. Cette nouvelle possibilité
+donnera à l'utilisateur la possibilité de reporter des longueurs, d'un segment ou d'une droite sur un segment
+ou une droite.                            
+
+Autre introduction:  deux types de transformations affines : les étirements
+et les cisaillements. Ces transformations permettent par exemple de construire une ellipse en tant qu'image
+d'un cercle. 

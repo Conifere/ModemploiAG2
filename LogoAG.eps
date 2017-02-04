@@ -1,0 +1,129 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 140 140 427 427
+%%Title: C:\Documents and Settings\Propriétaire\Bureau\SiteApprGeom\LogoAP.ps
+%%Creator: GSview from C:\Documents and Settings\Propriétaire\Bureau\SiteApprGeom\LogoAP.ps
+%%CreationDate: Tue Sep 30 09:37:09 2003
+%%Pages: 1
+%%EndComments
+%%Page: 1 1
+%%BeginDocument: C:\Documents and Settings\Propriétaire\Bureau\SiteApprGeom\LogoAP.ps
+% Macro Carre
+% 4 arguments a fournir : les 
+% coordonnees de deux sommets
+% consecutifs (sens 
+% trigonometrique).
+% Trace le carre.
+
+
+/CarreBleu
+{
+  /@yC2 exch def
+  /@xC2 exch def
+  /@yC1 exch def
+  /@xC1 exch def
+
+    newpath
+  @xC1 @yC1 moveto
+  @xC2 @yC2 lineto
+  @yC1 @yC2 sub @xC2 @xC1 sub rlineto 
+  @xC1 @xC2 sub @yC1 @yC2 sub rlineto
+  closepath
+   gsave
+  0 0 1 setrgbcolor
+  fill
+  grestore
+  stroke
+   } def
+
+/CarreRouge
+{
+  /@yC4 exch def
+  /@xC4 exch def
+  /@yC3 exch def
+  /@xC3 exch def
+
+    newpath
+  @xC3 @yC3 moveto
+  @xC4 @yC4 lineto
+  @yC3 @yC4 sub @xC4 @xC3 sub rlineto 
+  @xC3 @xC4 sub @yC3 @yC4 sub rlineto
+  closepath
+   gsave
+  1 0 0 setrgbcolor
+  fill
+  grestore
+  stroke
+   } def
+
+/CarreJaune
+{
+  /@yC6 exch def
+  /@xC6 exch def
+  /@yC5 exch def
+  /@xC5 exch def
+
+    newpath
+  @xC5 @yC5 moveto
+  @xC6 @yC6 lineto
+  @yC5 @yC6 sub @xC6 @xC5 sub rlineto 
+  @xC5 @xC6 sub @yC5 @yC6 sub rlineto
+  closepath
+   gsave
+  1 1 0 setrgbcolor
+  fill
+  grestore
+  stroke
+   } def
+
+/CarreVert
+{
+  /@yC8 exch def
+  /@xC8 exch def
+  /@yC7 exch def
+  /@xC7 exch def
+
+    newpath
+  @xC7 @yC7 moveto
+  @xC8 @yC8 lineto
+  @yC7 @yC8 sub @xC8 @xC7 sub rlineto 
+  @xC7 @xC8 sub @yC7 @yC8 sub rlineto
+  closepath
+   gsave
+  0 1 0 setrgbcolor
+  fill
+  grestore
+  stroke
+   } def
+
+
+/s 72 2.54 div def
+
+s dup scale
+
+0.5 s div setlinewidth
+
+10 10 translate
+
+0 -1 -2 -3 CarreBleu
+-2 3 0 1 CarreBleu
+1 0 3 -2 CarreBleu
+-3 -2 -1 0 CarreBleu
+
+-2 -3 0 -3 CarreRouge
+1 0 1 -2  CarreRouge
+0 1 2 1 CarreRouge
+-1 0 -1 2 CarreRouge
+
+0 1 1 0 CarreJaune
+-1 0  0 1 CarreJaune
+0 -1 -1 0 CarreJaune
+1 0 0 -1 CarreJaune
+
+0 0 1 0 CarreVert
+0 0 0 1 CarreVert
+0 0 -1 0 CarreVert
+0 0 0 -1 CarreVert
+
+showpage
+%%EndDocument
+%%Trailer

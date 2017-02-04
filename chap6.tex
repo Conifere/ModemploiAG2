@@ -1,0 +1,559 @@
+\chapter{Modifier}\label{chapmodif}
+
+\section{Introduction}
+
+L'opération \hyperdef{chapmodif}{Modifier}{\texttt{Modifier}}\index{Modifier}  n'est accessible
+qu'aux menus \textit{B, C, AC} et
+\textit{BC}\index{Menu!A}\index{Menu!B}\index{Menu!C}\index{Menu!AB}\index{Menu!AC}.  Les formes
+standard\index{Forme!standard} --- seules  formes disponibles au menu \textit{A} --- sont en effet
+indéformables, donc non modifiables.
+
+Cette opération \texttt{Modifier} est celle qui donne pleinement à \AG\ son caractère de
+logiciel de géométrie \textit{dynamique}\index{Geometrie@Géométrie!dynamique}. C'est
+donc une des fonctionnalités les plus importantes du logiciel. C'est aussi une des plus
+délicates du fait de la diversité de comportement des formes géométriques particulières.
+La modification d'une forme géométrique donnée doit respecter la  nature de celle-ci: un
+triangle rectangle doit rester rectangle et un triangle isocèle doit rester isocèle. Ces
+deux espèces de triangles obéissent donc à des règles de modification différentes.
+Ajoutons qu'une figure pourrait être constituée d'un triangle rectangle ayant deux
+points communs avec un triangle isocèle\ldots\ et ceci est encore une situation simple!
+
+Le fonctionnement interne du logiciel est donc assez complexe et il ne sera pas
+possible d'en donner ici une explication complète. Nous nous contenterons
+d'exposer  les grands principes, dont il est bon que l'utilisateur soit
+conscient.
+
+\section{Tirer sur un point}
+
+Lorsqu'on sélectionne l'opération \texttt{Modifier} dans la boîte à outils située
+sur la gauche de l'écran, le curseur de la souris est remplacé par une petite
+croix dont le centre est le point \og sensible\fg.  Pour modifier une forme
+géométrique, ou plus généralement un assemblage de formes géométriques, on
+sélectionne un des points de cette forme ou de l'une de ces formes, et on
+déplace la souris sans relâcher le bouton. Nous disons qu'on \og tire\fg\ sur un
+point\index{Tirer! sur un point}. Mais sur quels points peut-on tirer?
+
+Nous avons rencontré au chapitre \ref{chapflib} plusieurs espèces de points.
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Des \hyperlink{chapflib.PointLibre}{points libres}\index{Point!libre}.
+
+Un point libre est par exemple un sommet de polygone, un des points qui
+déterminent une droite ou un segment, ou encore  le centre d'un cercle, ou
+l'extrémité d'un arc.  Les points libres sont en fait les points qui sont fixés
+à la souris en  un emplacement vacant de l'écran (donc pas sur un trait déjà
+existant), lors de la construction d'une forme géométrique. En principe, ces
+points peuvent être tirés n'importe où dans le plan. Il y a néanmoins quelques
+restrictions liées aux contraintes à respecter par certaines formes géométriques
+particulières. Nous rencontrerons de telles contraintes dans les sections
+suivantes de ce chapitre.
+\item Des \hyperlink{chapflib.PointLie}{points liés}\index{Point!lié}, ou \og points
+ sur\fg\index{Point!sur}.
+
+Les points liés ne peuvent se déplacer que sur  le bord d'une forme
+géométrique. Ils ne peuvent donc pas être tirés en dehors de cette forme.
+
+\begin{center}
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{PointLibre.eps}
+\leg{\label{chapmodif_ptlib}}
+\end{minipage}\hspace{2cm}
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{PointLie.eps}
+\leg{\label{chapmodif_ptlie}}
+\end{minipage}
+\end{center}
+
+Lorsque le curseur s'approche d'un point libre ou d'un point lié,  ce point
+devient  magenta: on  peut le tirer à la souris (Fig. \ref{chapmodif_ptlib} et
+\ref{chapmodif_ptlie}). Le  logiciel demande \og ce point ?\fg.
+
+
+\item Des \hyperlink{chapflib.PointInter}{points d'intersection}.
+
+Un point d'intersection\index{Point!d'intersection} est entièrement déterminé par  les deux formes sur
+lesquelles il est situé. Il ne peut changer de place qu'en modifiant  au moins  une des deux formes qui le
+déterminent.
+
+Lorsque le curseur s'approche d'un point d'intersection,  ce point \textsc{ne} devient \textsc{pas}
+magenta: on ne peut le tirer à la souris (Fig. \ref{chapmodif_ptinter}). Le logiciel continue
+d'afficher imperturbablement \og Choisis un point\fg.
+
+\end{list}
+
+\textbf{Remarques:}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item Comme on vient de l'indiquer, un point d'intersection ne peut être modifié directement,
+c'est-à-dire en le tirant à la souris. Par contre, il peut être modifié indirectement si en tirant sur un autre
+point, on enclenche des modifications qui se répercutent sur les deux formes déterminant le point
+d'intersection.
+
+ Par exemple si le point $p$ est à l'intersection des segments $[a,b]$ et $[c,d]$,
+en tirant sur un des quatre points $a$, $b$, $c$, $d$, on modifie un des deux
+segments et le point  d'intersection est recalculé et repositionné. Il peut
+arriver dans ces circonstances que les deux segments $[a,b]$ et $[c,d]$ ne se
+coupent plus. Dans ce cas, le point $p$ est
+\textit{invalidé}\index{Invalider}\index{Point!invalidé}: il disparaît de l'écran,
+mais sa définition reste présente dans la mémoire de l'ordinateur. De cette façon,
+si une nouvelle modification rétablit l'intersection, le point $p$ est revalidé\index{Revalider} et réapparaît.
+
+\item Si un point  est invalidé, toute forme dont il est sommet est automatiquement invalidée simultanément
+et disparaît donc de l'écran. Il en est de même de toute autre forme construite à partir de cette forme
+invalidée. Lorsque le point est revalidé, les formes en question sont revalidées également et réapparaissent.
+
+On peut utiliser cette  propriété pour réaliser des
+\textit{interrupteurs}\index{Interrupteur} qui conditionnent l'affichage de
+l'une ou l'autre forme géométrique. (Voir l'opération
+\hyperlink{chapcontext.Conditionner}{\texttt{Conditionner}}\index{Conditionner}).
+
+\item Une forme standard est indéformable. On ne peut donc pas tirer sur un
+sommet de forme standard: l'approche du curseur n'entraîne pas de modification
+de la couleur du point (Fig. \ref{chapmodif_ptstd}) et le logiciel continue
+d'annoncer \og Choisis un point\fg.
+
+
+\item Aux chapitres \ref{chapoper} et   \ref{chaptsf} apparaissent également des
+\hyperlink{chapflib.PointCsted}{points construits}.\index{Point!construit}
+C'est le cas par exemple du centre d'un polygone régulier (Fig.
+\ref{chapmodif_ptcsted}). Eux non plus ne peuvent être tirés.
+
+\strut\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{PointInter.eps}
+\leg{\label{chapmodif_ptinter}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.08\linewidth}
+\includegraphics[width=\linewidth]{Sommetfstd.eps}
+\leg{\label{chapmodif_ptstd}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{PointCsted.eps}
+\leg{\label{chapmodif_ptcsted}}
+\end{minipage}\hfill\strut
+\end{list}
+
+\begin{comment}
+\item Le message \og Choix non valide \fg\ peut aussi apparaître dans certaines
+circonstances. C'est notamment le cas si le curseur pointe sur un point libre ou
+lié qui ne peut être tiré du fait des caractéristiques de l'ensemble de la figure.
+En voici un exemple:
+
+\begin{center}
+\begin{minipage}[b]{0.15\linewidth}
+\includegraphics[width=\linewidth]{invalidchoice.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+Dans cette figure, un carré standard (indéformable) a  deux points communs avec
+un carré libre. Toute déformation du carré libre entraînerait la déformation du
+carré standard. Le logiciel annonce \og Choix non valide\fg\ et le point proche
+du curseur ne change pas de couleur. \end{list}
+\end{comment}
+
+\section{Des figures et des sous-figures}
+
+Les informations  qui suivent ont pour but d'aider l'utilisateur d'\AG\ à
+comprendre l'essentiel du fonctionnement de la routine de modification.  Nous
+commencerons par distinguer \og forme géométrique\fg\ de \og figure
+géométrique\fg.
+
+\subsection{Formes et figures}
+
+Les \hyperdef{chapmodif}{Forme}{\textit{formes
+géométriques}}\index{Forme!géométrique} sont les objets de base du logiciel,
+ceux que l'utilisateur construit grâce aux opérations accessibles dans les pavés
+des formes libres et des formes standard. La plupart d'entre eux sont des
+polygones, mais on y trouve aussi des cercles, des arcs de cercle ainsi que des
+segments, droites, etc.
+
+Les \hyperdef{chapmodif}{Figure}{\textit{figures
+géométriques}}\index{Figure!géométrique} sont des assemblages de formes
+géométriques \textit{d'un seul tenant}. Une figure peut se réduire à une seule
+forme. Mais si une figure comporte plusieurs formes, chacune d'entre elles doit
+avoir au   moins un point commun avec une autre et, de proche en proche,
+toutes les formes de la figure se tiennent entre elles.
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth} \vspace{\baselineskip}
+Lorsque, dans le  cadre de l'opération \texttt{Modifier}, on tire sur un point
+d'une forme, ce sont toutes les formes de la même figure qui sont susceptibles
+d'être modifiées.\vspace{\baselineskip} \end{minipage}} \medskip
+
+C'est aux figures
+plus qu'aux formes que s'appliquent les principes dynamiques d'\AG.
+
+Mais comment ces modifications se réalisent-elles?
+
+\subsection{Des formes et des figures qui sont modifiées par similitude}
+\index{Similitude}\index{Modification!par similitude}
+
+Considérons un carré. Si nous le modifions, il doit rester carré. Mais tous les
+carrés sont semblables entre eux. Si, avant qu'on applique \texttt{Modifier}, un
+carré occupe l'emplacement noté $abcd$ et si après la modification, il occupe
+l'emplacement $a'b'c'd'$, il existe nécessairement une \hyperdef{chapmodif}{PtFix}{similitude} qui applique
+$abcd$ sur $a'b'c'd'$ ou plus précisément $a$ sur $a'$, $b$ sur $b'$, etc. De
+plus, cette similitude ne peut retourner le  carré: le carré devrait sortir du
+plan ce qui  ne peut pas se faire en tirant sur un sommet. La similitude qui
+applique l'emplacement $abcd$ sur l'emplacement $a'b'c'd'$ est donc une
+similitude directe.\index{Similitude!directe}
+
+Or, on sait qu'étant donné deux couples de points distincts du plan, $(p, q)$ et
+$(p',q')$, \textit{il existe exactement une similitude directe qui applique $p$
+sur $q$ et $p'$ sur $q'$}.
+
+L'utilisateur qui tire sur le point situé en $a$ pour l'amener en $a'$,
+ne détermine pas complètement une similitude (directe)\footnote{Dans la
+suite, nous ne répéterons plus \og directe\fg.}. Le logiciel doit connaître la
+destination d'un second point, par exemple savoir où le point situé au départ en
+$c$ va se retrouver ensuite. C'est une information qui ne lui est pas fournie par
+l'utilisateur. C'est donc le
+logiciel qui choisit lui-même un second point, ainsi que sa destination.
+
+ Dans les cas simples, le choix est lui aussi très simple:  \textit{\AG\ détermine les sommets qui appartiennent
+ au plus grand nombre de formes. Parmi eux il choisit le sommet construit en dernier lieu. C'est ce point qui est laissé fixe.
+ } Nous rencontrerons plus loin des cas moins simples.
+
+
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{Deuxcarres.eps}
+\leg{}
+\end{minipage}\hspace{1cm}
+\begin{minipage}[b]{0.7\linewidth}
+Les points $a$, $b$, $c$, $d$ ont été construits dans l'ordre $d$, $a$, $b$, $c$.
+Ils appartiennent tous au seul carré $abcd$. Quand on tire sur $a$, $b$ ou $d$, le logiciel laisse $c$ fixe.
+Si c'est sur $c$ qu'on tire, $b$ est laissé fixe.
+\vspace{1cm}
+\end{minipage}
+
+\textbf{En résumé: }
+\begin{list}{\textbullet}{\itemsep=1mm}  \item Lorsque
+l'utilisateur modifie un carré, il tire sur un sommet, par exemple $a$. \item
+\AG\ choisit un second sommet qui restera fixe. Dans les cas simples, le choix
+effectué est celui du sommet (autre que celui sur lequel on tire) appartenant au plus grand nombre de formes.
+En cas d'\textit{ex aequo}, c'est le point construit en dernier lieu qui est choisi parmi les \textit{ex aequo}.
+ \item Disposant maintenant
+de deux sommets et de leurs destinations, \AG\ calcule la similitude appliquant
+les deux sommets sur leurs destinations et applique cette similitude aux autres
+sommets. \end{list}
+
+Ce processus est répété tant que l'utilisateur continue de tirer sur le  sommet
+$a$.
+
+Nous dirons par conséquent qu'\textit{un carré se modifie par similitude}.
+
+Les carrés ne sont pas les seules formes à se
+\hyperdef{chapmodif}{ParSimilitude}{modifier par similitude}. C'est le cas de
+tous les polygones réguliers\index{Polygone!régulier}. C'est aussi le cas des
+triangles rectangles isocèles\index{Triangle!rectangle isocèle}. Nous pouvons
+également ranger dans cette catégorie les segments, demi-droites et droites.
+Mais pas les segments et droites qui ont été construits comme étant parallèles
+ou perpendiculaires à un autre objet: cette contrainte ne permet plus
+d'appliquer n'importe quelle similitude.
+
+\begin{center} \begin{minipage}[b]{0.3\linewidth}
+ \includegraphics[width=\linewidth]{Septdodeca.eps}
+ \leg{}
+ \end{minipage} \end{center}
+ 
+Considérons à présent une figure ne comportant que des formes se modifiant par
+similitude, chacune d'entre elles ayant deux points communs avec une autre.
+C'est le cas  par exemple de la figure ci-dessus, constituée de sept dodécagones
+réguliers et six triangles équilatéraux. Toute modification apportée à  l'une
+des formes de cette figure se propage aux autres. On peut même modifier
+l'intégralité de cette figure en en déplaçant arbitrairement deux points,
+même s'ils n'appartiennent pas à une même forme.
+
+En pratique, dès  que l'utilisateur tire sur un sommet de cette figure, le
+logiciel choisit un point fixe (dans les cas simples le point de
+la figure, différent du point sur lequel on tire et  appartenant
+au plus grand nombre de formes), une similitude est calculée et
+appliquée à tous les points de  la figure. Le point fixe
+n'appartient pas nécessairement au même polygone que le point
+sur lequel on tire.
+
+En conclusion: \textit{une figure constituée uniquement de formes se modifiant
+par similitude et dont toute forme a deux points communs avec une autre  se
+modifie de la même manière}.
+
+\begin{minipage}[b]{0.65\linewidth}
+Par contre, si deux carrés (par exemple) n'ont qu'un sommet commun, il n'y a
+aucune raison pour qu'une modification de l'un entraîne une modification de
+l'autre. Quand on tire sur un sommet différent du sommet commun, le logiciel
+choisit  le sommet commun comme point fixe. De cette façon, la modification ne se transmet pas
+à l'autre carré. Nous dirons dans ce cas que les deux carrés appartiennent à des
+sous-figures\index{Sous-figure} différentes de la figure donnée.
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{deuxsousfig.eps}
+\leg{: Une figure comportant}
+ deux sous-figures.
+\end{minipage}
+
+On trouve dans le dernier exemple un des principes qui régissent la modification des formes et
+figures: on essaie toujours que les modifications apportées se propagent de façon automatique le
+moins loin possible. Ceci augmente le contrôle de l'utilisateur sur les figures réalisées.
+
+
+\subsection{Des formes et des figures qui se modifient par affinité}
+
+On vient de rappeler que pour déterminer une forme géométrique se modifiant par
+similitude, deux points suffisent, et ces deux points peuvent occuper des
+positions quelconques dans le plan. Certaines formes géométriques sont
+entièrement déterminées non par deux, mais par trois de leurs points qui
+peuvent également être placés n'importe où dans le plan.
+
+C'est le cas des triangles quelconques (c'est-à-dire ni isocèles ni rectangles
+car pour ceux-ci les trois sommets ne peuvent être placés n'importe où dans le
+plan). C'est aussi le cas des parallélogrammes (ceux qui  ne sont ni rectangles, ni
+losanges), des secteurs et des bandes. Dans chacun de ces cas, il faut aussi
+tenir compte de l'ordre des points: le triplet de points  $(p,q,r)$ ne détermine
+pas le même parallélogramme que le triplet $(p,r,q)$.
+
+
+Les transformations du plan que nous utiliserons pour modifier de telles formes
+géométriques sont les transformations qui appliquent toute droite sur une droite
+et conservent le parallélisme. Autrement dit, ce sont les
+affinités\index{Affinité}. Les similitudes sont des affinités particulières. Une
+affinité conservant l'alignement et le parallélisme, nous sommes assurés que tout
+parallélogramme sera appliqué sur un parallélogramme et toute bande sur une
+bande. De plus, les abscisses sont conservées, en particulier les milieux. Par
+contre les angles ne sont pas nécessairement conservés (seules les similitudes
+les conservent).
+
+Étant donnés deux triplets de points non alignés (donc distincts) $(p_1,q_1,r_1)$
+et $(p_2,q_2,r_2)$, nous savons qu'il existe une et une seule affinité
+\footnote{Ici aussi nous ne considérons que des transformations qui conservent
+l'orientation.} appliquant le premier triplet sur le second.\index{Modification!par
+affinité}
+
+Lorsque l'utilisateur tire sur un point d'une forme qui se modifie par affinité,
+\AG\ choisit \textit{deux} points fixes, calcule l'affinité déterminée
+par les trois points et leurs images et l'applique à tous les sommets de la
+forme.
+
+
+\begin{minipage}[b]{0.65\linewidth}
+Si deux formes se modifiant par affinité ont trois sommets communs, toute
+modification apportée à l'une va se transmettre à l'autre. C'est le cas de
+la figure constituée des deux parallélogrammes $abcd$ et $abde$ ci-contre:
+\end{minipage}\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{deuxparal.eps}
+\leg{}
+\end{minipage}
+
+Nous voyons donc que, de même qu'il existe des figures se modifiant par
+similitude, il existe aussi des figures se transformant par
+affinité. Elles peuvent  comporter plusieurs formes se
+transformant elles-mêmes par affinité. Mais cette fois, pour que
+les modifications se propagent d'une forme à l'autre, les formes
+en question doivent avoir trois points communs.
+
+\begin{minipage}[b]{0.65\linewidth} Deux formes se modifiant par affinité qui
+n'ont qu'un ou deux points communs appartiennent à des sous-figures
+différentes\index{Sous-figure}. Les modifications ne se propagent pas de l'une à
+l'autre car le logiciel choisit les points communs  comme points fixes. Ce sera
+le cas pour les deux parallélogrammes suivants: \end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{deuxparal2.eps} \leg{}
+\end{minipage}
+
+\subsection{Figures et sous-figures}
+\index{Figure}\index{Sous-figure}
+
+Nous avons déjà à plusieurs reprises parlé de
+\hyperdef{chapmodif}{Sousfigure}{\textit{sous-figure}}. Nous pouvons définir ce
+concept comme désignant un assemblage d'un seul tenant de formes géométriques
+qui ont le même mode de modification et sont  modifiées par
+application d'une seule procédure.
+
+Les sous-figures se transformant par similitude ou par affinité sont les exemples
+les plus simples. Nous introduirons à la section suivante d'autres types de
+sous-figures. Limitons-nous ici à remarquer que toute
+modification d'une figure $\mathcal F$ qui comporte plusieurs sous-figures,
+passe nécessairement par plusieurs phases,
+une pour chaque sous-figure. Considérons par exemple la figure de Pythagore
+(Fig. \ref{modifpytha}):
+
+\strut\hfill\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{pytha.eps}
+\leg{\label{modifpytha}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{pytha2.eps}
+\leg{\label{modifpytha2}}
+\end{minipage}\hfill\strut
+
+La figure \ref{modifpytha} comporte quatre formes géométriques: le triangle rectangle
+$abc$ et les carrés  $abed$, $bcgf$ et $caih$. Chacune d'entre elles constitue à elle
+seule une sous-figure. Chaque carré est le seul objet d'une sous-figure qui se modifie
+par similitude. Le triangle rectangle constitue une sous-figure particulière, qui ne se
+modifie ni par similitude, ni par affinité.
+
+Le logiciel doit déterminer  dans quel ordre il va modifier les sous-figures. Cet
+ordre dépend initialement de deux paramètres:
+
+\begin{list}{\textbullet}{\itemsep=1mm} \item Le point sur lequel on tire. \item
+Des contraintes de \textit{précédence}\index{Precedence@Précédence} qui obligent
+une sous-figure  à être modifiée avant une autre.  \end{list}
+ 
+Il arrive souvent que les contraintes de précédence ne départagent pas deux
+sous-figures, soit qu'aucune des deux sous-figures ne précède l'autre, soit --- ce
+qui est pire --- que chacune précède l'autre. C'est alors la routine de
+modification qui effectue le choix,  selon d'autres critères, par exemple le
+nombre de degrés de liberté de chaque sous-figure. La routine de modification est
+la routine la plus \og délicate\fg\ du logiciel. Elle a déjà été l'objet de
+nombreux ajustements et en subira probablement encore.
+
+
+  Dans le cas de la figure  \ref{modifpytha}, si l'utilisateur
+tire sur l'un des points $d$, $e$, $f$, $g$, $h$ ou $i$, c'est l'un des carrés qui
+sera modifié en premier lieu. La modification de ce carré induira d'abord celle du
+triangle $abc$ et celle-ci se propagera ensuite aux deux autres carrés. Si
+l'utilisateur tire sur un des sommets $b$ ou $c$, le triangle sera modifié en
+premier lieu, mais la modification effectuée ne sera guère différente de celle
+observée précédemment. Par contre si c'est le point $a$ qui est tiré, un des
+points $b$, $c$ reste fixe mais la forme du triangle $abc$ peut être modifiée,
+tout en restant rectangle.
+
+Dans ce cas, il n'existe aucune  relation de précédence entre les quatre
+sous-figures. Par contre si, comme dans la figure \ref{modifpytha2}, on trace un
+arc de cercle dans l'angle $\widehat{acb}$, deux points supplémentaires mobiles
+sont introduits. L'arc appartient à une cinquième sous-figure dont les
+extrémités sont des \og points sur\fg, mais sur quelle forme?  Nous avons abordé
+cette question à la page \pageref{chapflibptsurdeuxf}. Chacun peut être sur un
+carré ou sur le triangle $abc$. C'est l'ordre dans lequel le triangle rectangle
+et les trois carrés ont été construits qui détermine sur quelles formes se
+trouveront les extrémités de l'arc (sauf si l'utilisateur a modifié ensuite les
+positions relatives des formes par les procédures
+\hyperlink{chapoutils.Plans}{\texttt{Avant-plan}} ou
+\hyperlink{chapoutils.Plans}{\texttt{Arrière-plan}}). Supposons que le triangle
+rectangle ait été dessiné en premier lieu, les trois carrés ensuite. Ces carrés
+sont alors à l'avant-plan par rapport au triangle. Il en résulte que les
+extrémités de l'arc sont positionnées l'une sur le carré $caih$, l'autre sur le
+carré $cbfg$. De ce fait, les  deux carrés doivent être modifiés avant l'arc.
+
+Plus la figure réalisée est complexe et plus la  procédure de modification
+comporte d'étapes dont l'enchaînement peut être délicat. Dans certains cas, il
+devient simplement impossible de modifier  une figure en tirant sur l'un ou
+l'autre point. Dans ce cas, soit  ce point ne s'éclaire pas en magenta, soit un
+message \textit{Choix non valide} s'affiche.
+Il reste à essayer une modification en tirant sur un autre point!
+
+
+
+\subsection {Des formes particulières}
+
+Les formes particulières telles que \textit{triangles isocèles,  triangles
+rectangles, rectangles, losanges, trapèzes, arcs, segments ou droites construits
+parallèlement ou perpendiculairement à un objet
+donné},\index{Triangle!isocèle}\index{Triangle!rectangle}\index{Rectangle}\index{Losange}\index{Trapèze}
+\index{Arc}\index{Segment!parallèle}\index{Segment!perpendiculaire}\index{Droite!parallèle}\index{Droite!perpendiculaire}
+ainsi que les sous-figures qu'elles déterminent, ne se modifient ni par
+similitude, ni par affinité. En fait, la plupart de ces formes se modifient par
+application d'affinités particulières, c'est-à-dire des affinités choisies de
+façon à conserver soit un angle droit bien déterminé, soit une égalité de
+longueurs. Ces contraintes diffèrent d'une forme à l'autre. Il serait trop
+fastidieux d'énumérer ici les procédures qui sont appliquées dans ces cas.
+
+Il peut aussi arriver que l'utilisateur constate que la façon dont une figure se
+modifie dépend de l'ordre dans lequel il a construit les différentes formes
+constituant la figure. Éventuellement cela   pourrait l'amener à reprendre la
+construction autrement.
+
+Voici un exemple:
+
+{\itshape On construit d'abord un segment $[a, b]$ puis un segment $[a, c]$
+perpendiculaire à $[a, b]$ (\textit{Fig. \ref{modif1}}). Dans le cadre du
+logiciel, la relation de perpendicularité n'est pas symétrique: la direction de
+$[a, b]$ détermine celle de $[a, c]$, mais pas le contraire. Nous sommes dans un
+ cas ou existe une relation de précédence: lors d'une modification, le logiciel
+s'occupe d'abord de $[a, b]$ puis de $[a, c]$. Il n'est donc pas possible de
+modifier la direction du segment $[a,c]$ autrement qu'en modifiant celle de
+$[a,b]$. Si l'utilisateur veut précisément modifier d'abord la direction de
+$[a,c]$, par exemple parce que cette figure est une partie d'une autre, imposant
+une telle contrainte, il devra revoir sa construction. }
+
+\strut\hfill\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=0.5\linewidth]{modif1.eps}
+
+\leg{\label{modif1}}
+\end{minipage}\hfill\strut
+
+
+Notons aussi que la gestion d'une figure comportant plusieurs dizaines de
+sous-figures peut  prendre un temps considérable du fait des précédences entre
+sous-figures  à déterminer avant d'entamer une modification. Ce fait peut être
+spécialement gênant pour des figures comportant un grand nombre de formes
+particulières (au sens du présent paragraphe) car chacune d'entre elles
+constitue généralement à elle seule une sous-figure.
+
+Heureusement, il est une catégorie de formes libres dont la modification  pose
+moins de problèmes: les polygones quelconques\index{Polygone!quelconque} car
+leurs sommets peuvent être déplacés arbitrairement sans que ces déplacements se
+répercutent sur les autres sommets d'une figure.
+
+\endinput
+
+ Une autre propriété de cette fonctionnalité, combinée avec l'opération
+\texttt{Dupliquer}, est que  modifier un des points d'une figure dupliquée,
+modifie l'ensemble des duplicata de la même manière. En voici un exemple:
+\vspace{-0.7cm}\begin{center}\includeg{0.5\linewidth}{0.5\linewidth}{modifdupliqu.jpg}\end{center}
+
+
+\textbf{Remarque importante}
+
+La modification de certaines figures pose parfois un problème nécessitant de la
+part de l'utilisateur de modifier la  façon dont ces figures ont été construites.
+En effet, quand une figure est composite, les différentes formes qui la composent
+ne sont pas modifiées dans n'importe quel ordre, et des \og boucles\fg peuvent se
+créer. Quelques exemples:
+
+\item On construit deux segments $[a, b]$ et $[p, q]$. Ce dernier est choisi
+comme support d'une translation (voir plus loin)(\textit{Fig. \ref{modif2})}.
+Et on construit l'image $[a',b']$ de $[a,b]$ par cette translation. Toute
+modification apportée à $[a,b]$ ou $[c,d]$ va alors se répercuter sur
+$[a',b']$, mais ce dernier segment, entièrement dépendant des deux autres, ne
+peut être modifié directement.
+
+\item La figure \ref{modif3} comporte  trois segments qui constituent un ensemble. Lors d'une
+modification de l'un d'entre eux, le logiciel examinera s'il n'en résulte pas de modification pour
+chacun des deux autres.
+
+\item Considérons alors la figure suivante:\medskip
+
+\centerline{\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=0.5\linewidth]{modif4.eps}\\
+\leg{\label{modif4}}
+\end{minipage}}
+
+Le  segment $[a, b]$ a été  construit en premier lieu; ensuite $[c, d]$ a été défini comme
+perpendiculaire à $[a, b]$ et a servi à définir une translation. $[a',b']$ est l'image de $[a,b] $
+par celle-ci.   Le segment transversal joignant un point de $[a,b]$  à un point de $[a',b']$ bloque
+la situation. Supposons par exemple qu'on veuille modifier le point $a$. Puisque $a$ change de
+position, $[a,b]$ est redessiné, donc aussi $[c,d]$ qui lui est perpendiculaire. Ces deux
+modifications de $[a,b]$ et $[c,d]$ entraînent une modification de $[a',b']$ qui se répercute sur
+les deux autres segments auxquels $[a',b']$ est lié, donc en particulier à $[a,b]$\ldots et on est
+reparti pour un tour, le logiciel risque de boucler.
+
+Pour  éviter une telle boucle qui serait perpétuelle,  le logiciel effectue quelques tests avant
+d'entamer la modification, et éventuellement, il envoie un message \og Modification impossible\fg\
+(dans certains cas, il se contente de ne rien faire).\index{modification impossible}
+
+Dans ce  cas particulier, la solution consiste à dessiner d'abord le segment $[c,d]$, puis $[a,b]$
+perpendiculaire à $[c,d]$ et à terminer la figure de la même façon qu'auparavant. $[c,d]$ sera alors
+modifié en premier lieu, puis les trois autres segments ensemble et il ne se produit pas de boucle!
+\end{enumerate}
+
+
+
+\endinput
+
+
+
+
+
+
+

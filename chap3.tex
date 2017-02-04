@@ -1,0 +1,460 @@
+\chapter{Les formes libres}\label{chapflib}
+
+\section{Introduction}
+
+Comme le menu A, les menus B et C proposent des \textbf{\textit{objets}} et des
+\textbf{\textit{fonctionnalités}}.\index{Menu!B}\index{Menu!C}
+
+Les objets des menus B et C sont des formes dites \og libres\fg\index{Forme!libre}.
+Elles sont rassemblées en familles définies par leur nombre de côtés,
+la régularité\ldots\  À la différence des formes standard, (mis à part le point) elles
+n'apparaissent plus d'un simple clic à l'écran.
+L'utilisateur les construit lui-même  en fixant plusieurs sommets, un à la fois.
+
+Les menus B et C sont très proches. En ce qui concerne les formes géométriques accessibles, le menu C se
+distingue du  menu B par le fait qu'il propose des objets \og illimités\fg: droites\index{Droite},
+demi-droites\index{Demi-droite}, secteurs\index{Secteur} et bandes\index{Bande}.
+
+Les formes libres sont construites par le positionnement de leurs sommets à l'aide de clics de la souris. Par un clic de
+souris, nous pouvons construire trois  espèces de points (du point de vue informatique, les points n'existent pas tant
+qu'ils n'ont pas été construits):
+
+\begin{list}{\textbullet}{\itemsep=1mm} \item Les
+\hyperdef{chapflib}{PointLibre}{points libres}\index{Point!libre}: un point de ce
+type possède deux degrés de liberté. Les seules contraintes auxquelles il doit
+obéir sont celles qui résultent de son appartenance éventuelle en tant que sommet à
+une forme géométrique particulière (triangle rectangle par exemple). Un point
+libre est obtenu par un clic en un emplacement libre de l'écran.
+
+\item Les \hyperdef{chapflib}{PointLie}{points
+liés}\index{Point!lié}\index{Point!sur} au bord d'une forme géométrique : un point
+de ce type n'a  qu'un degré de liberté. Il ne peut se déplacer que sur le bord de
+la forme sur laquelle il a été placé. (Voir aussi
+\hyperlink{chapcontext.Limiter}{\texttt{Limiter}}.) C'est pourquoi nous utiliserons
+souvent l'expression \og point sur\fg. Un \og point sur\fg\ est obtenu par un clic
+sur le bord d'une forme préexistante.
+
+\danger\hfill\fbox{\begin{minipage}{0.89\linewidth}
+\begin{minipage}[b]{0.75\linewidth}\label{chapflibptsurdeuxf} Il peut se faire qu'un point soit placé sur  un
+segment commun à deux formes. Dans ce cas le logiciel considère que le point en question est un  point \og
+sur\fg\ celle des deux formes qui est à l'avant-plan par rapport à l'autre. Par défaut, c'est celle qui a été
+construite en dernier lieu. \end{minipage}\hfill \begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{ptsurdeuxformes.eps} \leg{} \end{minipage}  L'utilisateur peut modifier la
+position d'une forme par rapport à l'autre, via les procédures
+\hyperlink{chapoutils.Plans}{\texttt{Avant-plan}}\index{Avant-plan} et
+\hyperlink{chapoutils.Plans}{\texttt{Arrière-plan}}.\index{Arrière-plan}    Sur la figure ci-dessus, le
+triangle $bcd$ a été construit après le triangle $abd$. Le point $p$ a été placé ensuite. Il est donc \og
+sur\fg\ le triangle $bcd$ et mobile sur le bord de ce triangle.\end{minipage}}
+
+
+\item Un \hyperdef{chapflib}{PointInter}{point d'intersection}\index{Point!d'intersection} est
+comme son nom l'indique placé à l'intersection de deux objets. Il n'a aucun degré de liberté: il ne
+pourra changer de place que si l'une des deux formes qui le déterminent est modifiée. \end{list}
+
+Aux chapitres \ref{chapoper} et \ref{chaptsf}, nous rencontrerons une quatrième espèce de
+points: des \hyperdef{chapflib}{PointCsted}{points construits}\index{Point!construit}
+à partir d'une forme géométrique préexistante. Il pourrait s'agir par exemple du centre
+d'un polygone. Un tel point dépend entièrement de la forme qui le détermine, sa
+construction nécessite l'emploi d'une \textit{Opération}\index{Operation@Opération}.
+
+\section{Des formes orientées}
+
+Les points mis à part, toutes les formes libres sont des formes
+\textit{orientées}.\index{Orientation}\index{Forme!orientée} Leur orientation
+est déterminée par l'ordre de construction des sommets. Les segments $[a,b]$ et
+$[b,a]$ ne peuvent être considérés comme identiques, pas plus que  les triangles
+$abc$ et $cba$. Par contre $cab$ et $bca$ ont les mêmes propriétés que $abc$ et
+ne doivent donc pas être distingués.
+
+ On voit apparaître là une différence entre la géométrie euclidienne usuelle et la
+géométrie dynamique. Dans la suite, nous aurons l'occasion de revenir sur cette
+question, notamment lorsqu'au chapitre \ref{chapoutils}, nous parlerons des
+\hyperlink{chapoutils.Mesure}{\textit{mesures}}.
+
+
+
+\section{Formes Libres}
+
+À l'ouverture d'\AG\ avec un des menus B ou  C,  les familles de formes libres apparaissent dans un des pavés de la boîte à
+outils. Ce pavé, constitué des \textit{Formes Libres}, comprend sept icônes activables par un clic de souris. À
+l'activation d'une d'elles, l'icône est encadrée en rouge et une fenêtre composée de 2 à 10 boutons poussoirs apparaît
+alors à l'écran pour choisir la forme à construire (sauf si on a choisi l'icône représentant un point:
+seul le cadre rouge est dessiné).
+
+\fbox{\begin{minipage}{\linewidth}
+
+\Prat
+
+\begin{minipage}[b]{0.15\linewidth}
+\includegraphics[width=\linewidth]{FormesLibres.jpg}\vspace{\baselineskip}
+\leg{}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.8\linewidth}\parskip 2mm
+\begin{list}{\textbullet}{\itemsep=1mm\leftmargin=3mm}
+\item La construction  d'une forme est initialisée par
+un premier clic sur le bouton poussoir portant le nom de la forme souhaitée.
+
+\item Chaque clic de la souris dans la fenêtre de travail fixe alors un sommet de la forme souhaitée,
+le logiciel veillant au respect des contraintes géométriques.
+
+
+\item Il est ainsi possible de fixer à l'écran aussi bien des points  libres, que des points liés à un
+objet ou encore des points à l'intersection de deux objets.
+
+\begin{itemize} \item Pour lier un point à un objet déjà dessiné, approcher le point
+mobile (situé à l'extrémité du curseur de la souris) de l'objet jusqu'à ce que, grâce au
+ magnétisme\index{Magnetisme@Magnétisme}, la couleur de celui-ci  passe au magenta. Le
+clic de la souris place alors  le point sur l'objet.\index{Point!sur} Le point est
+devenu un \og point sur\fg.
+\end{itemize}
+\end{list}
+\vspace{0.5\baselineskip}
+\end{minipage}
+
+\begin{itemize}
+\item Pour placer un  point à l'intersection de deux formes, procéder de même en approchant le point mobile de
+l'intersection visée. Le clic fixe le point à cette intersection\index{Intersection} pour autant que les  bords des formes
+aient tous deux viré au magenta.\index{Point!d'intersection}
+\end{itemize}
+\end{minipage}}
+
+\danger\hfill\fbox{\begin{minipage}[t]{0.89\linewidth} Comme lors de la construction d'une forme standard, il peut
+arriver que l'utilisateur réalise involontairement un \og \hyperlink{chapfstd.doubleclic}{double clic}\fg. Relisez
+le paragraphe consacré à cette question à la page \pageref{doubleclic}.\end{minipage}}
+
+Pour pouvoir placer un point à l'\hyperdef{chaplib}{inter}{intersection} de deux formes, il faut que point d'intersection puisse être identifié de façon univoque.
+Ce n'est pas toujours le cas. En particulier, on peut souhaiter placer un point sur un segment qui apparaisse commun à deux formes, comme dans la situation de
+la figure \ref{chapflib.ptinter}.
+
+\strut\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{Deuxtri.eps}
+\leg{\label{chapflib.ptinter}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{DeuxtriBis.jpg}
+\leg{\label{chapflib.ptinterbis}}
+\end{minipage}
+\hfill\strut
+
+À l'emplacement du côté commun aux deux triangles se trouvent en réalité deux segments superposés. L'intersection de ces deux segments n'étant pas réduite à un point,
+le logiciel ne peut placer un nouveau point que sur l'un d'entre eux. Il choisit le triangle situé à l'avant-plan, le colore en magenta et propose ce choix à
+l'utilisateur (figure \ref{chapflib.ptinterbis}).
+Si c'est l'autre triangle que l'on veut choisir,  il convient de le mettre au préalable à l'avant-plan.
+
+
+\subsection{La famille du point}
+
+Cette famille  ne contient que le \hyperdef{chapflib}{Point}{point.}\index{Point} Un seul clic suffit
+à construire un point, de l'une des trois espèces mentionnées plus haut.
+
+\subsection{La famille des segments}
+\index{Segment}\label{Segment}
+
+Le menu \textit{B}\index{Menu!B} ne permet de dessiner que des segments, éventuellement parallèles ou
+perpendiculaires à  un autre objet.
+\index{Segment!perpendiculaire}\index{Segment!parallèle}
+
+Le menu \textit{C}\index{Menu!C} permet, en plus, de dessiner des droites, éventuellement parallèles
+ou perpendiculaires à un autre objet, des demi-droites, des secteurs et des
+bandes.\index{Droite}\index{Droite!perpendiculaire}\index{Droite!parallèle}\index{Secteur}\index{Bande}
+
+Si un segment ou une droite est parallèle ou
+perpendiculaire à \textit{un autre objet}, celui-ci peut être un segment, une
+droite, une demi-droite, un côté de polygone, un bord de bande ou un bord de
+secteur.\index{Bande}\index{Secteur}\index{Polygone}\index{Demi-droite}
+
+\begin{list}{\textbullet}{\itemsep=0mm}  \item Pour tracer un
+\hyperdef{chapflib}{Segment}{\textit{segment},} fixer les extrémités en deux clics
+de souris. L'ordre dans lequel les extrémités d'un segment ont été fixés
+détermine l'orientation de ce segment\index{Orientation!d'un segment}. \item
+Pour tracer un \textit{segment parallèle} à un autre objet, sélectionner cet objet
+et après avoir relâché le bouton de la souris, déplacer celle-ci jusqu'à
+l'emplacement choisi pour l'origine du nouveau segment, cliquer et tirer à la
+souris jusqu'à l'extrémité souhaitée. \item Pour tracer un \textit{segment
+perpendiculaire} à un autre objet, la procédure est
+identique.\index{Segment!parallèle}\index{Segment!perpendiculaire}
+
+\item Pour tracer une \textit{droite}, fixer deux points en deux clics de souris.
+\item Pour tracer une \textit{droite parallèle} à un autre  objet,  sélectionner cet objet et après avoir relâché le bouton de la
+souris, déplacer celle-ci jusqu'à l'emplacement choisi pour y fixer un point de
+la droite parallèle. \item Pour tracer une \textit{droite perpendiculaire} à une
+autre  objet, la procédure est identique.
+\index{Droite!parallèle}\index{Droite!perpendiculaire}
+
+ \item Pour tracer une \textit{demi-droite}, en deux clics de souris, fixer son
+origine puis un autre point. \item Pour tracer une \textit{bande}, trois clics sont nécessaires: les deux premiers
+déterminent un des deux bords de la bande, le troisième détermine l'autre bord.  \item Pour tracer un \textit{secteur},
+à nouveau trois clics sont nécessaires. Dans l'ordre: le sommet du secteur, un point du premier côté, un point du second.
+\index{Droite}\index{Demi-droite}\index{Bande}\index{Secteur}
+\end{list}
+
+
+
+\subsection{La famille des triangles}
+
+\index{Triangle}
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\begin{minipage}[b][9cm][t]{0.25\linewidth}
+\includegraphics[width=\linewidth]{triangles.bmp}
+\begin{minipage}[b]{1.25cm}
+\leg{}
+\end{minipage}
+\end{minipage}\hfill
+\begin{minipage}[b][9cm][t]{0.70\linewidth}
+\begin{minipage}[b]{0.10\linewidth}
+\includegraphics[width =\linewidth]{triqcq.eps} \leg{} \end{minipage} \hfill
+\begin{minipage}[b]{0.80\linewidth}Pour tracer un \hyperdef{chapflib}{Triangle}{\textit{triangle
+quelconque}}: en trois clics, fixer les sommets. \end{minipage} \medskip \index{Triangle!quelconque}
+
+\begin{minipage}[b]{0.10\linewidth}
+\includegraphics[width =\linewidth]{triiso.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.80\linewidth}Pour tracer un \textit{triangle isocèle}, les deux premiers clics
+fixent \og la\fg\ base du triangle et le
+troisième clic fixe le troisième sommet. \end{minipage} \index{Triangle!isocèle}\medskip
+
+\hskip-0.25\linewidth
+\begin{minipage}[b]{0.10\linewidth}
+\includegraphics[width =\linewidth]{triequi.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{1.05\linewidth}Pour tracer
+un \textit{triangle équilatéral}, deux clics suffisent à fixer deux sommets, le logiciel fixe le
+troisième en orientant le triangle dans le sens trigonométrique positif. \end{minipage}
+\index{Triangle!équilatéral}
+\medskip
+
+\hskip-0.25\linewidth
+\begin{minipage}[b]{0.10\linewidth}
+\includegraphics[width =\linewidth]{trirect.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{1.05\linewidth}Pour tracer
+un \textit{triangle rectangle}, trois clics fixent successivement un sommet d'angle aigu, le
+sommet de l'angle droit, le sommet du deuxième angle aigu. \end{minipage}\index{Triangle!rectangle}
+\medskip
+
+\hskip-0.25\linewidth
+\begin{minipage}[b]{0.10\linewidth}
+\includegraphics[width =\linewidth]{trirectiso.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{1.05\linewidth}Pour tracer
+un \textit{triangle rectangle isocèle}, deux clics de souris suffisent à fixer les sommets
+des angles aigus, le logiciel fixant le troisième sommet, également en respectant le sens
+trigonométrique. \end{minipage}\index{Triangle!rectangle  isocèle}
+\end{minipage}
+\end{minipage}}
+
+
+\subsection{La famille des quadrilatères}
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}\parskip1mm
+\begin{minipage}[t][5.5cm][t]{0.25\linewidth}
+\leavevmode\space\\
+\includegraphics[width=\linewidth]{quadr.bmp}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[t]{0.70\linewidth}
+\leavevmode\space\\
+\begin{minipage}[c]{0.10\linewidth}
+\includegraphics[height = 2\baselineskip]{quadrqcq.eps} \leg{}
+\end{minipage} \hfill
+\begin{minipage}[c]{0.80\linewidth}
+Pour tracer un \hyperdef{chapflib}{Quadrilatere}{\textit{quadrilatère
+quelconque}}: en quatre clics, fixer les sommets.
+\end{minipage}\medskip \index{Quadrilatère!quelconque}
+
+\begin{minipage}[c]{0.10\linewidth} \includegraphics[height =
+2\baselineskip]{trap.eps} \leg{} \end{minipage}\hfill
+\begin{minipage}[c]{0.80\linewidth}Pour tracer un
+\hyperdef{chapflib}{Trapeze}{\textit{trapèze}}, les deux premiers clics fixent une
+des bases, les deux suivants l'autre base. \end{minipage} \index{Trapèze}\medskip
+
+\begin{minipage}[c]{0.10\linewidth} \includegraphics[height = 2\baselineskip]
+{traprect.eps} \leg{} \end{minipage}\hfill
+\begin{minipage}[c]{0.80\linewidth}Pour tracer un \textit{trapèze rectangle},
+trois clics suffisent. Le premier fixe un sommet d'angle droit et les deux
+suivants les sommets des angles non droits. \end{minipage}
+\index{Trapèze!rectangle}
+
+
+\begin{minipage}[c]{0.10\linewidth} \includegraphics[height =
+2\baselineskip]{trapiso.eps} \leg{} \end{minipage}\hfill
+\begin{minipage}[c]{0.80\linewidth}Pour tracer un \textit{trapèze isocèle}, trois
+clics suffisent également. Les deux premiers fixent une base, le troisième un
+sommet de l'autre base. \end{minipage} \index{Trapèze!isocèle}
+
+\hskip-0.35\linewidth
+\begin{minipage}[c]{0.10\linewidth} \includegraphics[height
+= 2\baselineskip]{parall.eps} \leg{} \end{minipage}\hfill
+\begin{minipage}[c]{1.05\linewidth}Pour tracer un \textit{parallélogramme}, trois
+clics déterminent deux côtés adjacents, ce qui permet au logiciel de terminer la
+construction.\end{minipage}\index{Parallélogramme}
+
+\hskip-0.35\linewidth \begin{minipage}[c]{0.10\linewidth} \includegraphics[height =
+2\baselineskip]{rect.eps} \leg{} \end{minipage}\hfill
+\begin{minipage}[c]{1.05\linewidth}Pour tracer un \textit{rectangle}, ou un \textit{losange} la procédure
+est la même que pour un parallélogramme. Le logiciel veille au respect des contraintes d'angle ou de longueur.
+\end{minipage}\index{Rectangle}\index{Losange}
+
+
+%\hskip-0.35\linewidth \begin{minipage}[c]{0.10\linewidth}
+%\includegraphics[height = 2\baselineskip]{losange.eps}
+%\leg{} \end{minipage}\hfill
+%\begin{minipage}[c]{1.05\linewidth}Pour tracer un \textit{losange}, la procédure
+%est encore identique.
+%\end{minipage}\index{Losange}
+
+
+\hskip-0.35\linewidth
+\begin{minipage}[c]{0.10\linewidth}
+\centerline{\includegraphics[height = 2\baselineskip]{carre.eps}} \leg{}
+\end{minipage}\hfill \begin{minipage}[c]{1.05\linewidth}Pour tracer un carré,
+deux clics déterminent un côté, le logiciel termine le travail en respectant le
+sens trigonométrique de parcours.
+\end{minipage}
+
+
+\end{minipage}
+\end{minipage}\index{Carre@Carré}}
+
+
+
+
+\subsection{La famille des polygones réguliers}
+\index{Polygone!régulier}\index{Triangle!équilatéral}\index{Carre@Carré}\index{Pentagone}\index{Hexagone}\index{Heptagone}
+\index{Octogone}\index{Enneagone@Ennéagone}\index{Decagone@Décagone}\index{Hendécagone}\index{Dodécagone}
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{polygreg.bmp}
+\leg{}
+\end{minipage}
+\begin{minipage}[b]{0.73\linewidth} Pour tracer un \hyperdef{chapflib}{Polreg}{\textit{polygone régulier}}
+de trois à douze côtés, deux clics fixent un côté. Le logiciel termine le tracé en respectant le sens
+trigonométrique de parcours.\vspace{1cm} \begin{center}
+\includegraphics[width=0.6\linewidth]{polregs.eps} \leg{} \end{center} \end{minipage}
+\end{minipage}}
+
+\subsection{La famille du cercle}
+\label{Constructioncercle}
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\begin{minipage}[c]{0.25\linewidth}
+\includegraphics[width=\linewidth]{cercles.bmp} \leg{}
+\end{minipage}
+\begin{minipage}[c]{0.73\linewidth}
+\begin{minipage}[c]{0.15\linewidth}
+\includegraphics[width =\linewidth]{cercle.eps} \leg{}
+\end{minipage} \hfill
+\begin{minipage}[c]{0.85\linewidth}Pour tracer un
+\hyperdef{chapflib}{Cercle}{\textit{cercle}}, deux clics suffisent: le premier
+fixe le centre, le second fixe un point du cercle.
+\end{minipage}\index{Cercle}
+\end{minipage}\\
+\begin{minipage}[c]{0.15\linewidth} \includegraphics[width =\linewidth]{arc.eps}
+\leg{} \end{minipage} \hfill \begin{minipage}[c]{0.85\linewidth}Pour tracer un
+\textit{arc de cercle}, trois clics sont nécessaires. Le premier fixe  le centre
+du cercle, le second l'origine de l'arc, le troisième l'extrémité. Ces arcs de
+cercle sont orientés. \end{minipage}\index{Arc}
+\end{minipage}}
+
+Lors de la construction, tout cercle est orienté\index{Orientation!d'un cercle} dans
+le sens trigonométrique. À chaque \textit{retournement}\index{Retournement} qui
+lui est appliqué, l'orientation est inversée.
+
+L'orientation d'un arc de cercle\index{Orientation!d'un arc de cercle} est toujours
+de l'origine de l'arc vers son extrémité.
+ 
+
+\subsection{La famille des polygones quelconques}
+
+\index{Polygone!quelconque}
+\index{Triangle}\index{Quadrilatère}\index{Pentagone}\index{Hexagone}\index{Heptagone}
+\index{Octogone}\index{Enneagone@Ennéagone}\index{Decagone@Décagone}\index{Hendécagone}\index{Dodécagone}
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{polygqcq.bmp}
+\leg{}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.66\linewidth}
+Pour tracer un \hyperdef{chapflib}{Polyqcq}{\textit{polygone
+quelconque}} de trois à douze côtés, on fixe les sommets un à la fois en autant de clics qu'il y a
+de sommets à fixer. Ces polygones peuvent ne pas être convexes.\medskip
+
+\centering
+\includegraphics[width=0.5\linewidth]{polygs.eps}
+\leg{}
+\vspace{1cm}
+\end{minipage}
+ \end{minipage}}
+
+\section{Abandonner une construction}
+
+\hyperdef{chapflib}{Abandonner}{L'utilisateur} peut toujours abandonner la construction d'une forme
+libre avant que celle-ci soit achevée. Il actionnera dans ce but le bouton
+\texttt{Annuler}\index{Annuler}. Pour plus d'informations à propos de cette fonctionnalité, voir la
+section \hyperlink{chapmedit.Annuler}{\texttt{Édition/Annuler}}.
+
+\section{Une remarque}
+
+Un logiciel tel que \AG\ met en \oe uvre des contraintes de deux types: géométriques d'une part,
+informatiques d'autre part.  Lorsqu'on réalise une figure, il n'y a pas intérêt à superposer des
+contraintes alors que certaines seraient automatiquement réalisées. Prenons un exemple en
+réalisant la figure du théorème de Varignon: \textit{Le quadrilatère $mnpq$ obtenu en
+joignant les milieux des côtés d'un quadrilatère $abcd$ est un parallélogramme.}
+
+\begin{center}
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{varignon.eps}\medskip
+
+\leg{}
+\end{minipage}
+\end{center}
+
+Pour réaliser cette figure, l'utilisateur va
+dessiner d'abord le
+quadrilatère $abcd$ en utilisant le bouton \texttt{Quadrilatères/Quadrilatère}
+du pavé des \textit{Formes Libres};
+
+ Ensuite, l'opération
+\hyperlink{chapoper.Diviser}{\texttt{Diviser}} du chapitre \ref{chapoper}
+lui permet de construire les milieux $m$, $n$, $p$, $q$ des côtés de $abcd$.
+
+Il lui reste à joindre les points $m$, $n$, $p$, $q$. S'il ignore que ces points
+sont sommets d'un parallélogramme, l'utilisateur va normalement réutiliser le
+bouton \texttt{Quadrilatères/Quadrilatère}. Il constatera alors que ce
+quadrilatère est un parallélogramme: c'est la géométrie qui l'impose.
+
+ Mais si l'utilisateur sait que $mnpq$ est un parallélogramme, il pourrait être
+tenté d'utiliser le bouton \texttt{Quadrilatères/Parallélogramme}. Bien sûr, il
+obtiendrait la même figure, du moins en apparence. En effet, pour construire ce
+parallélogramme, il suffit d'indiquer au logiciel trois sommets, par exemple $m$,
+$n$, $p$. \AG\ complète alors le parallélogramme en calculant la position du
+quatrième sommet et en le créant, sans tenir compte de l'existence du point $q$.
+Ainsi, d'une part on a créé une contrainte informatique dont on aurait pu se
+passer, mais surtout, en $q$ se trouveront en réalité deux points: l'un est le
+milieu du côté $[d,a]$ du quadrilatère $abcd$, l'autre est le quatrième sommet du
+parallélogramme construit par le  logiciel à partir des trois points $m$, $n$ et
+$p$. Ainsi les quatre sommets du parallélogramme n'ont pas le même statut. Si la
+figure se limite au quadrilatère et au parallélogramme, il n'en résulte aucune
+conséquence fâcheuse. Mais cela pourrait entraîner une confusion et des
+inconvénients difficiles à comprendre si la complexité de la figure augmente
+et qu'on  réutilise le point $q$, sans être conscient de son dédoublement.
+
+Ces inconvénients sont évités en ne superposant pas une contrainte informatique à la contrainte géométrique
+existante.
+
+
+
+
+\endinput
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+

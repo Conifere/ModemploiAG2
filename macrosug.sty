@@ -1,0 +1,205 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\immediate\special{ps\string:psgeo2d.ps}
+
+\def\rep{C\string:/users/utilisateur/Dropbox/Textes_AG/ModemploiAG2}
+
+\setbox0=\hbox{\includegraphics[width=1.5cm]{\rep/danger.eps}}
+\newdimen\dangerht\dangerht=\ht0 \newcount\dangercount\immediate\shipout\box0
+\dangercount=\formcount
+\def\danger{\begin{minipage}[c]{1.6cm} \vrule width 0pt
+height 1mm depth 0pt\\\hbox to 1.5cm{\vrule width 0pt height \dangerht\special{!reuse
+\the\dangercount}} \end{minipage}}
+
+
+  \def\ps@headings{%
+      \let\@oddfoot\@empty\let\@evenfoot\@empty
+      \def\@evenhead{\thepage\hfil\slshape\leftmark}%
+      \def\@oddhead{{\slshape\rightmark}\hfil\thepage}%
+      \let\@mkboth\markboth
+    \def\chaptermark##1{%
+      \markboth {{%
+        \ifnum \c@secnumdepth >\m@ne
+          \if@mainmatter
+            \@chapapp\ \thechapter. \ %
+          \fi
+        \fi
+        ##1}}{}}%
+    \def\sectionmark##1{%
+      \markright {{%
+        \ifnum \c@secnumdepth >\z@
+          \thesection. \ %
+        \fi
+        ##1}}}}
+        \pagestyle{headings}
+
+\renewcommand\tableofcontents{%
+    \if@twocolumn
+      \@restonecoltrue\onecolumn
+    \else
+      \@restonecolfalse
+    \fi
+    \chapter*{\sffamily\contentsname
+        \@mkboth{\sffamily\contentsname}{\sffamily\contentsname}}%
+    \@starttoc{toc}%
+    \if@restonecol\twocolumn\fi
+    }
+
+\long\def\cadre#1{\begin{center}
+\framebox[\linewidth]
+{\begin{minipage}{0.95\linewidth}\smallskip #1
+\smallskip
+\end{minipage}}
+\end{center}}
+
+\long\def\cadreR#1{
+\framebox[0.7465\linewidth]
+{\begin{minipage}{0.7\linewidth}\smallskip #1
+\smallskip
+\end{minipage}}
+}
+
+\def\AG{{\sffamily\slshape  Apprenti Géomètre}\xspace}
+
+\let\incgr=\includegraphics%
+\def\include#1{\newpage\def\repfig{#1}
+  \def\includegraphics[##1]##2{\incgr[##1]{\repfig/##2}}
+  \if@filesw \immediate\write\@mainaux{\string\@input{#1.aux}}\fi
+  \@tempswatrue\if@partsw \@tempswafalse\def\@tempb{#1}\@for
+  \@tempa:=\@partlist\do{\ifx\@tempa\@tempb\@tempswatrue\fi}\fi
+  \if@tempswa \if@filesw \let\@auxout=\@partaux
+  \immediate\openout\@partaux #1.aux
+  \immediate\write\@partaux{\relax}\fi\@input{#1.tex}\newpage
+  \@writeckpt{#1}\if@filesw \immediate\closeout\@partaux \fi
+  \let\@auxout=\@mainaux\else\@nameuse{cp@#1}\fi}
+
+\def\vlap#1{\vbox to 0pt{#1\vss}}
+
+\def\@makefnmark{\hbox{(\@textsuperscript{\normalfont\thefootnote})}}
+\def\@makefntext#1{\rule{\z@}{\footnotesep}\ignorespaces\@makefnmark\  #1}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\newcounter{fig}[chapter]
+\setcounter{fig}{0}
+
+\newcommand{\includeg}[3]{
+\parbox{#1}
+{\begin{center}
+\includegraphics[height=#2]{#3}\\[2mm]
+\refstepcounter{fig}\emph{Fig. \arabic{fig}\label{#3}}
+\end{center}}}
+
+\def\leg#1{\refstepcounter{fig}\centerline{\small\textit{Fig. \thefig} #1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+\renewcommand\maketitle{\begin{titlepage}%
+  \thispagestyle{empty}
+  \let\footnotesize\small
+  \let\footnoterule\relax
+  \let \footnote \thanks
+ \leavevmode \vskip -1cm \vfill
+
+\begin{center}
+    {\@title \par}
+
+\vspace*{3cm}
+
+   \incgr[width=0.3\linewidth]{logoAG.eps}
+    \vfill
+    {\Large
+    \begin{minipage}[b]{0.4\linewidth}
+    \centering
+     \incgr[width=0.5\linewidth]{logocfwb.eps}\\
+    \end{minipage}\hfill
+    \begin{minipage}[b]{0.4\linewidth}
+    \centering
+     \incgr[width=0.4\linewidth]{logocrem.eps}\\
+     {\sffamily\bfseries\def\baselinestretch{0.5} \@author}
+    \end{minipage}
+    }
+
+    {\strut\hfill\large\sffamily\bfseries{\@date}\hfill\strut\par}%
+\end{center}
+\end{titlepage}%
+  \setcounter{footnote}{0}%
+  }
+
+\renewcommand\@chapapp{{\sffamily \chaptername}}
+\def\@makechapterhead#1{%
+  \vspace*{50\p@}%
+  {\parindent \z@ \raggedright \sffamily
+    \ifnum \c@secnumdepth >\m@ne
+      \if@mainmatter
+        \colorbox{black}{\color{white} \huge\bfseries \@chapapp\space \thechapter}
+      \fi
+    \fi
+    \hfill\Huge \bfseries #1\par\nobreak
+    \vskip 40\p@
+  }}
+
+\renewcommand\section{\@startsection {section}{1}{\z@}%
+                                   {-1ex \@plus -1ex \@minus -.2ex}%
+                                   {2.3ex \@plus.2ex}%
+                                   {\sffamily\Large\bfseries}}
+\renewcommand\subsection{\@startsection{subsection}{2}{\z@}%
+                                     {-1ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\sffamily\large\bfseries}}
+\renewcommand\subsubsection{\@startsection{subsubsection}{3}{\z@}%
+                                     {-1ex\@plus -1ex \@minus -.2ex}%
+                                     {1.5ex \@plus .2ex}%
+                                     {\sffamily\normalsize\bfseries}}
+\renewcommand\paragraph{\@startsection{paragraph}{4}{\z@}%
+                                    {1ex \@plus1ex \@minus.2ex}%
+                                    {-1em}%
+                                    {\sffamily\normalsize\bfseries}}
+\renewcommand\subparagraph{\@startsection{subparagraph}{5}{\parindent}%
+                                       {1ex \@plus1ex \@minus .2ex}%
+                                       {-1em}%
+                                      {\sffamily\normalsize\bfseries}}
+
+\renewenvironment{theindex}{
+                \chapter*{\sffamily\indexname}%
+                \begin{multicols}{2}
+                \addcontentsline{toc}{chapter}{\indexname}
+                \markboth{\indexname}{\indexname}%
+                \thispagestyle{plain}\parindent0pt
+                \parskip 0pt plus .3pt\relax
+                \columnseprule 0pt
+                \columnsep 35pt
+                \let\item\@idxitem}
+               {\end{multicols}}
+
+\catcode`£=\active
+\def£#1 {\textit{#1}\index{#1}\space}
+
+\long\def\Prat{\textsc{Pratiquement}}
+
+\renewenvironment{thebibliography}[1]
+     {\chapter*{\bibname}%
+      \@mkboth{\bibname}{\bibname}%
+      \list{\@biblabel{\@arabic\c@enumiv}}%
+           {\settowidth\labelwidth{\@biblabel{#1}}%
+            \leftmargin\labelwidth
+            \advance\leftmargin\labelsep
+            \@openbib@code
+            \usecounter{enumiv}%
+            \let\p@enumiv\@empty
+            \renewcommand\theenumiv{\@arabic\c@enumiv}}%
+      \sloppy
+      \clubpenalty4000
+      \@clubpenalty \clubpenalty
+      \widowpenalty4000%
+      \sfcode`\.\@m}
+     {\def\@noitemerr
+       {\@latex@warning{Empty `thebibliography' environment}}%
+      \endlist}
+
+\def\arc#1{\mathop{\vbox{\ialign{##\crcr\noalign{\kern3pt}
+\arcfill\crcr\noalign{\kern3pt\nointerlineskip}
+$\hfil\displaystyle{#1}\hfil$\crcr}}}\limits}
+\def\arcfill{$\m@th\braceld\leaders\vrule\hfill\bracerd$}
+\def\longvec#1{\stackrel{\longrightarrow}{#1}}
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%

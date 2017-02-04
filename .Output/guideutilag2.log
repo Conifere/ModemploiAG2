@@ -1,0 +1,1888 @@
+This is VTeX/Win32G, v 8.63-- ETeX mode (preloaded format=latex 2014.11.12)  4 FEB 2017 12:49
+**@latex,default C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutila
+g2.tex
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.tex
+Verifying format fonts.......................
+LaTeX2e <2003/12/01>
+(D:/VTeX/Src/hyphen.cfg
+File: hyphen.cfg 2001/11/02 v7.5 VTeX hyphenation interface
+\l@english=\language1
+\l@french=\language2
+
+Hyphenation patterns for USenglish =american english =british french =patois =f
+rancais loaded.) (D:/VTeX/Src/preload.ali
+\aliasfont psyro=psyr slanted 167
+\aliasfont eurmo10=eurm10 slanted 167
+\aliasfont eurbo10=eurb10 slanted 167
+\aliasfont ptmro8r=ptmr8r slanted 167
+\aliasfont ptmbo8r=ptmb8r slanted 167
+\aliasfont pbkdo8r=pbkd8r slanted 167
+\aliasfont pbklo8r=pbkl8r slanted 167
+\aliasfont pncro8r=pncr8r slanted 167
+\aliasfont pncbo8r=pncb8r slanted 167
+\aliasfont pplro8r=pplr8r slanted 167
+\aliasfont pplbo8r=pplb8r slanted 167
+\aliasfont bchro8r=bchr8r slanted 167
+\aliasfont bchbo8r=bchb8r slanted 167
+\aliasfont putro8r=putr8r slanted 167
+\aliasfont putbo8r=putb8r slanted 167
+\aliasfont baro10mv=barm10mv slanted 287
+\aliasfont babo10mv=barb10mv slanted 287
+\aliasfont baui10mv=bari10mv slanted -287
+\aliasfont babu10mv=barb10mv slanted -287
+\aliasfont baro10ot=barm10ot slanted 287
+\aliasfont babo10ot=barb10ot slanted 287
+\aliasfont baui10ot=bari10ot slanted -287
+\aliasfont babu10ot=barb10ot slanted -287
+\aliasfont baro10t1=barm10t1 slanted 287
+\aliasfont babo10t1=barb10t1 slanted 287
+\aliasfont baui10t1=bari10t1 slanted -287
+\aliasfont babu10t1=barb10t1 slanted -287
+\aliasfont tmro10mv=tmrm10mv slanted 167
+\aliasfont tmui10mv=tmri10mv slanted -277
+\aliasfont tmbo10mv=tmrb10mv slanted 167
+\aliasfont tmub10mv=tmbi10mv slanted -277
+\aliasfont tmro10ot=tmrm10ot slanted 167
+\aliasfont tmui10ot=tmri10ot slanted -277
+\aliasfont tmbo10ot=tmrb10ot slanted 167
+\aliasfont tmub10ot=tmbi10ot slanted -277
+\aliasfont tmro10t1=tmrm10t1 slanted 167
+\aliasfont tmui10t1=tmri10t1 slanted -277
+\aliasfont tmbo10t1=tmrb10t1 slanted 167
+\aliasfont tmub10t1=tmbi10t1 slanted -277
+\aliasfont paro10mv=parm10mv slanted 158
+\aliasfont pabo10mv=parb10mv slanted 158
+\aliasfont paui10mv=pari10mv slanted -158
+\aliasfont pabu10mv=parb10mv slanted -158
+\aliasfont paro10ot=parm10ot slanted 158
+\aliasfont pabo10ot=parb10ot slanted 158
+\aliasfont paui10ot=pari10ot slanted -158
+\aliasfont pabu10ot=parb10ot slanted -158
+\aliasfont paro10t1=parm10t1 slanted 158
+\aliasfont pabo10t1=parb10t1 slanted 158
+\aliasfont paui10t1=pari10t1 slanted -158
+\aliasfont pabu10t1=parb10t1 slanted -158
+\aliasfont facro6a=facr6a slanted 167
+\aliasfont facbo6a=facb6a slanted 167
+\aliasfont faqro6a=faqr6a slanted 167
+\aliasfont faqbo6a=faqb6a slanted 167
+\aliasfont farro6a=farr6a slanted 167
+\aliasfont farbo6a=farb6a slanted 167
+\aliasfont fcobo6a=fcob6a slanted 167
+\aliasfont fcoro6a=fcor6a slanted 167
+\aliasfont fharo6a=fhar6a slanted 167
+\aliasfont fhabo6a=fhab6a slanted 167
+\aliasfont flzro6a=flzr6a slanted 167
+\aliasfont fmaro6a=fmar6a slanted 167
+\aliasfont fmabo6a=fmab6a slanted 167
+\aliasfont ftxro6a=ftxr6a slanted 167
+\aliasfont ftxbo6a=ftxb6a slanted 167
+\aliasfont ftmro6a=ftmr6a slanted 167)
+\aliasfont ftmbo6a=ftmb6a slanted 167 (D:/VTeX/L2E/book.cls
+Document Class: book 2004/02/16 v1.4f Standard LaTeX document class
+(D:/VTeX/L2E/bk12.clo
+File: bk12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@chapter=\count80
+\c@section=\count81
+\c@subsection=\count82
+\c@subsubsection=\count83
+\c@paragraph=\count84
+\c@subparagraph=\count85
+\c@figure=\count86
+\c@table=\count87
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:/VTeX/L2E/babel.sty
+Package: babel 2005/05/21 v3.8g The Babel package
+ (D:/VTeX/L2E/babel.def
+File: babel.def 2005/05/21 v3.8g Babel common definitions
+
+(D:/VTeX/L2E/switch.def
+File: switch.def 2005/05/21 v3.8g Babel language switching mechanism
+)
+\babel@savecnt=\count88
+\U@D=\dimen103
+) (D:/VTeX/L2E/frenchb.ldf
+Language: french 2005/02/06 v1.6g French support from the babel system
+Package babel Info: Making : an active character on input line 219.
+Package babel Info: Making ; an active character on input line 220.
+Package babel Info: Making ! an active character on input line 221.
+Package babel Info: Making ? an active character on input line 222.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 299.
+\parindentFFN=\dimen104
+\std@mcc=\count89
+\dec@mcc=\count90
+
+*************************************
+* Local config file frenchb.cfg used
+*
+(D:/VTeX/L2E/frenchb.cfg))) (D:/VTeX/L2E/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+ (D:/VTeX/L2E/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(D:/VTeX/L2E/inputenc.sty
+Package: inputenc 2004/02/05 v1.0d Input encoding file
+ (D:/VTeX/L2E/ansinew.def
+File: ansinew.def 2004/02/05 v1.0d Input encoding file
+)) (D:/VTeX/L2E/multicol.sty
+Package: multicol 2004/02/14 v1.6e multicolumn formatting (FMi)
+\c@tracingmulticols=\count91
+\mult@box=\box26
+\multicol@leftmargin=\dimen105
+\c@unbalance=\count92
+\c@collectmore=\count93
+\doublecol@number=\count94
+\multicoltolerance=\count95
+\multicolpretolerance=\count96
+\full@width=\dimen106
+\page@free=\dimen107
+\premulticols=\dimen108
+\postmulticols=\dimen109
+\multicolsep=\skip43
+\multicolbaselineskip=\skip44
+\partial@page=\box27
+\last@line=\box28
+\mult@rightbox=\box29
+\mult@grightbox=\box30
+\mult@gfirstbox=\box31
+\mult@firstbox=\box32
+\@tempa=\box33
+\@tempa=\box34
+\@tempa=\box35
+\@tempa=\box36
+\@tempa=\box37
+\@tempa=\box38
+\@tempa=\box39
+\@tempa=\box40
+\@tempa=\box41
+\@tempa=\box42
+\@tempa=\box43
+\@tempa=\box44
+\@tempa=\box45
+\@tempa=\box46
+\@tempa=\box47
+\@tempa=\box48
+\@tempa=\box49
+\c@columnbadness=\count97
+\c@finalcolumnbadness=\count98
+\last@try=\dimen110
+\multicolovershoot=\dimen111
+\multicolundershoot=\dimen112
+\mult@nat@firstbox=\box50
+\colbreak@box=\box51
+) (D:/VTeX/L2E/comment.sty
+\CommentStream=\write3
+ Excluding comment 'comment')
+(D:/VTeX/Src/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+ (D:/VTeX/Src/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks16
+) (D:/VTeX/Src/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(D:/VTeX/Src/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (D:/VTeX/Src/graphics.cfg)
+Package graphics Info: Driver file: vtex.def on input line 94.
+ (D:/VTeX/Src/vtex.def
+File: vtex.def 2003/06/16 v8.22 graphics/color for VTeX
+\vtexdef@pdfpagecnt=\count99
+\vtexdef@pdfBBoxl=\dimen113
+\vtexdef@pdfBBoxb=\dimen114
+\vtexdef@pdfBBoxr=\dimen115
+\vtexdef@pdfBBoxt=\dimen116
+\vtexdef@tempbox=\box52
+\vtexdef@ca=\count100
+\vtexdef@da=\dimen117
+\vtexdef@tempc=\count101
+\vtexdef@T=\dimen118
+\PS@Console=\toks17
+))
+\Gin@req@height=\dimen119
+\Gin@req@width=\dimen120
+)
+(D:/VTeX/Src/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+ (D:/VTeX/Src/color.cfg)
+Package color Info: Driver file: vtex.def on input line 125.
+) (D:/VTeX/L2E/rsfs/calrsfs.sty
+\symrsfscript=\mathgroup4
+)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/macrosug.sty
+Initializing GeX...
+Loading vtex.pro profile.
+GeX initialization completed.<<<psgeo2d.ps:001>>>
+File: C:/users/utilisateur/Dropbox/Textes_AG/ModemploiAG2/danger.eps Graphic fi
+le (type veps)
+\dangerht=\dimen121
+\dangercount=\count102
+<<<C:/users/utilisateur/Dropbox/Textes_AG/ModemploiAG2/danger.eps:002>>>
+\c@fig=\count103
+) (D:/VTeX/L2E/hyperref.sty
+Package: hyperref 2002/06/06 v6.72s Hypertext links for LaTeX
+\@linkdim=\dimen122
+\Hy@linkcounter=\count104
+\Hy@pagecounter=\count105
+
+(D:/VTeX/L2E/pd1enc.def
+File: pd1enc.def 2002/06/06 v6.72s Hyperref: PDFDocEncoding definition (HO)
+) (D:/VTeX/L2E/hyperref.cfg
+Package hyperref Info: Option `colorlinks' set `true' on input line 3.
+Package hyperref Info: Option `bookmarks' set `true' on input line 3.
+Package hyperref Info: Option `bookmarksopen' set `false' on input line 3.
+)
+Package hyperref Info: Option `hyperindex' set `true' on input line 1739.
+Package hyperref Info: Option `colorlinks' set `true' on input line 1739.
+Package hyperref Info: Bookmarks ON on input line 1797.
+Package hyperref Info: Hyper figures OFF on input line 1816.
+Package hyperref Info: Link nesting OFF on input line 1821.
+Package hyperref Info: Hyper index ON on input line 1824.
+Package hyperref Info: Plain pages ON on input line 1829.
+Package hyperref Info: Backreferencing OFF on input line 1836.
+
+Implicit mode ON; LaTeX internals redefined
+(D:/VTeX/L2E/misc/url.sty
+\Urlmuskip=\muskip10
+Package: url 1999/03/28  ver 1.5x  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 2048.
+\Fld@menulength=\count106
+\Field@Width=\dimen123
+\Fld@charsize=\dimen124
+\Choice@toks=\toks18
+\Field@toks=\toks19
+Package hyperref Info: Hyper figures OFF on input line 2506.
+Package hyperref Info: Link nesting OFF on input line 2511.
+Package hyperref Info: Hyper index ON on input line 2514.
+Package hyperref Info: backreferencing OFF on input line 2521.
+Package hyperref Info: Link coloring ON on input line 2524.
+\c@Item=\count107
+\c@Hfootnote=\count108
+)
+*hyperref using driver hvtex*
+(D:/VTeX/L2E/hvtex.def
+File: hvtex.def 2002/06/06 v6.72s Hyperref driver for VTeX in PDF/PS mode
+\@outlinefile=\write4
+\@serial@counter=\count109
+)
+\@indexfile=\write5
+
+Writing index file guideutilag2.idx
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.aux
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap0.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/avantpropos.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap1.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.aux
+
+LaTeX Warning: Label `chapoper.fusiontris' multiply defined.
+
+) (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap9.aux
+
+LaTeX Warning: Label `macro6' multiply defined.
+
+) (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12.aux))
+LaTeX Font Info:    Checking defaults for OML/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 73.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 73.
+
+(D:/VTeX/L2E/lm/t1lmr.fd
+File: t1lmr.fd 2003/07/22 v1.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LV1/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMS/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LVM1/cmm/m/it on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LVS1/cmsy/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for LVX1/cmex/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 73.
+LaTeX Font Info:    ... okay on input line 73.
+LaTeX Info: Redefining \dots on input line 73.
+Package hyperref Info: Link coloring ON on input line 73.
+ (D:/VTeX/L2E/nameref.sty
+Package: nameref 2001/01/27 v2.19 Cross-referencing by name of section
+\c@section@level=\count110
+)
+LaTeX Info: Redefining \ref on input line 73.
+LaTeX Info: Redefining \pageref on input line 73.
+
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.out)
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 75.
+
+(D:/VTeX/L2E/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+File: logoAG.eps Graphic file (type veps)
+File: logocfwb.eps Graphic file (type veps)
+File: logocrem.eps Graphic file (type veps)
+ [1
+
+
+
+<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoAG.eps:003>>><<<C:/U
+sers/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logocfwb.eps:004>>><<<C:/Users/
+Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logocrem.eps:005>>>] (C:/Users/Utili
+sateur/Dropbox/Textes_AG/ModemploiAG2/chap0.tex
+[2
+
+]
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 25.
+ (D:/VTeX/L2E/t1cmtt.fd
+File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+Underfull \vbox (badness 1147) has occurred while \output is active []
+
+ [3]
+LaTeX Font Info:    Try loading font information for LVS1+cmr on input line 66.
+
+
+(D:/VTeX/L2E/lvs1cmr.fd
+File: lvs1cmr.fd 2000/07/15 v7.0 LaTeX font definitions for LVS1 encoding
+)
+LaTeX Font Info:    Font shape `LVS1/cmr/m/n' in size <12> not available
+(Font)              Font shape `LVS1/cmsy/m/n' tried instead on input line 66.
+ [4]) [5]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/avantpropos.tex
+LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 61.
+
+
+(D:/VTeX/L2E/rsfs/omsrsfs.fd))
+Overfull \hbox (5.88138pt too wide) in paragraph at lines 61--77
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.tex)
+[][] 
+ []
+
+[6] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.toc
+[7
+
+] [8] [9] [10])
+\tf@toc=\write6
+ [11] [12
+
+]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap1.tex
+{\sffamily Chapitre} 1.
+[1
+
+]
+File: chap1/FenetreAGv2-3-5.jpg Graphic file (type jpg)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 119--120
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap1.tex)
+[][] 
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 123--124
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap1.tex)
+[][] 
+ []
+
+[2] [3] [4] [5] [6] [7] [8] [9]
+Overfull \hbox (3.78876pt too wide) in paragraph at lines 745--754
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap1.tex)
+\T1/cmr/m/n/10.95 FOR DA-MAGES, IN-CLU-DING ANY GE-NE-RAL, SPE-CIAL, IN-CI-DEN-
+TAL OR CONSE-QUEN-
+ []
+
+) [10] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex
+{\sffamily Chapitre} 2.
+File: chap2/MenuA.bmp Graphic file (type bmp)
+
+Underfull \hbox (badness 10000) detected at line 42
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+|[]
+ []
+
+
+Overfull \vbox (1.0086pt too high) has occurred while \output is active []
+
+
+[11
+
+]
+File: chap2/Pavstandard2.bmp Graphic file (type bmp)
+LaTeX Font Info:    Font shape `LVS1/cmr/m/n' in size <10.95> not available
+(Font)              Font shape `LVS1/cmsy/m/n' tried instead on input line 65.
+
+Underfull \hbox (badness 10000) detected at line 68
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+|[]
+ []
+
+File: chap2/cepoint.bmp Graphic file (type bmp)
+File: chap2/Famtriequi.eps Graphic file (type veps)
+File: chap2/Famtriequi_menu.bmp Graphic file (type bmp)
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 115--115
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$  $[]$ 
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 115--116
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] 
+ []
+
+[12<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Famtriequi.eps:
+006>>>]
+File: chap2/TriEqui.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 120--123
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Losange_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 124--128
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Trapiso_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (9.67159pt too wide) in paragraph at lines 130--130
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+ [] 
+ []
+
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 129--133
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Hexagone_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 134--138
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/PtTriso_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 140--144
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Trirect_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 145--149
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Traprect_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 150--154
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Dodecagone_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 155--159
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/GrTriso_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 160--163
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Rosacepetitlos.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 164--167
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Petitcercle_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 168--172
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] $[]$ 
+ []
+
+File: chap2/Grandcercle_TrA.eps Graphic file (type veps)
+
+Overfull \hbox (23.51738pt too wide) in paragraph at lines 174--174
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+ [] 
+ []
+
+File: chap2/Famcar.eps Graphic file (type veps)
+File: chap2/Famcar_menu.bmp Graphic file (type bmp)
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 192--192
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$  $[]$ 
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 192--193
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] 
+ []
+
+[13<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/TriEqui.eps:007
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Losange_TrA.eps
+:008>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Trapiso_TrA
+.eps:009>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Hexagon
+e_TrA.eps:00a>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Pt
+Triso_TrA.eps:00b>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap
+2/Trirect_TrA.eps:00c>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/
+chap2/Traprect_TrA.eps:00d>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/Modemplo
+iAG2/chap2/Dodecagone_TrA.eps:00e>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/M
+odemploiAG2/chap2/GrTriso_TrA.eps:00f>>><<<C:/Users/Utilisateur/Dropbox/Textes_
+AG/ModemploiAG2/chap2/Rosacepetitlos.eps:010>>><<<C:/Users/Utilisateur/Dropbox/
+Textes_AG/ModemploiAG2/chap2/Petitcercle_TrA.eps:011>>><<<C:/Users/Utilisateur/
+Dropbox/Textes_AG/ModemploiAG2/chap2/Grandcercle_TrA.eps:012>>><<<C:/Users/Util
+isateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Famcar.eps:013>>>]
+File: chap2/Carre.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 196--200
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Trireciso_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 202--206
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Para_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 208--212
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Octo_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 214--219
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Triso_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 220--224
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/PtTrireciso_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 226--231
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/PtTrirect_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 233--237
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Petitlosange_CarA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 239--244
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Cercle_CarA.eps Graphic file (type veps)
+File: chap2/Fampentag.eps Graphic file (type veps)
+
+Overfull \hbox (1.64394pt too wide) in paragraph at lines 265--265
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+ [] 
+ []
+
+File: chap2/Fampentag_menu.bmp Graphic file (type bmp)
+
+Overfull \hbox (2.61049pt too wide) in paragraph at lines 265--265
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$  $[]$ 
+ []
+
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 265--266
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[][] 
+ []
+
+[14<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Carre.eps:014>>
+><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Trireciso_CarA.ep
+s:015>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Para_CarA.
+eps:016>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Octo_Car
+A.eps:017>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Triso_
+CarA.eps:018>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/PtT
+rireciso_CarA.eps:019>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/
+chap2/PtTrirect_CarA.eps:01a>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/Modemp
+loiAG2/chap2/Petitlosange_CarA.eps:01b>>><<<C:/Users/Utilisateur/Dropbox/Textes
+_AG/ModemploiAG2/chap2/Cercle_CarA.eps:01c>>><<<C:/Users/Utilisateur/Dropbox/Te
+xtes_AG/ModemploiAG2/chap2/Fampentag.eps:01d>>>]
+File: chap2/Pentagone.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 272--273
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]\T1/cmr/m/n/12 un penta-gone ré-gu-lier[],
+ []
+
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 270--274
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/PtTriso_PentA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 275--279
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Decag.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 281--285
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/GrTriso_PentA.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 287--291
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Trisobtus_PentA.eps Graphic file (type veps)
+
+Overfull \hbox (9.71564pt too wide) in paragraph at lines 292--296
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Petitlospenta.eps Graphic file (type veps)
+
+Overfull \hbox (7.10515pt too wide) in paragraph at lines 297--302
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]$[]$ $[]$ 
+ []
+
+File: chap2/Cercle_PentA.eps Graphic file (type veps)
+File: chap2/polyminos1.eps Graphic file (type veps)
+File: chap2/polyminos2.eps Graphic file (type veps)
+[15<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Pentagone.eps:0
+1e>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/PtTriso_PentA
+.eps:01f>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Decag.e
+ps:020>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/GrTriso_P
+entA.eps:021>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Tri
+sobtus_PentA.eps:022>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/c
+hap2/Petitlospenta.eps:023>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/Modemplo
+iAG2/chap2/Cercle_PentA.eps:024.>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/Mo
+demploiAG2/chap2/polyminos1.eps:025>>>]
+File: chap2/tangram.eps Graphic file (type veps)
+File: chap2/etoiles.eps Graphic file (type veps)
+File: chap2/Cubes.eps Graphic file (type veps)
+File: chap2/reglettes.eps Graphic file (type veps)
+
+Overfull \hbox (55.22438pt too wide) in paragraph at lines 400--402
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+ [][] 
+ []
+
+[16<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/polyminos2.eps:
+026>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/tangram.eps:
+027>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/etoiles.eps:
+028>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Cubes.eps:02
+9>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/reglettes.eps:
+02a>>>]
+File: chap2/Puzzcarre.eps Graphic file (type veps)
+File: chap2/Puzztrirectiso.eps Graphic file (type veps)
+File: chap2/Std.jpg Graphic file (type jpg)
+ [17<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Puzzcarre.eps:
+02b>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/Puzztrirecti
+so.eps:02c>>>]
+File: chap2/Std2.jpg Graphic file (type jpg)
+
+Overfull \hbox (3.22032pt too wide) in paragraph at lines 539--539
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.tex)
+[]\T1/cmtt/m/n/10.95 <Couleur Rouge="255" Vert="255" Bleu="0"/>[] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [18]
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [19]
+
+Package frenchb.ldf Warning: Degrees would look better in TS1-encoding: 
+(frenchb.ldf)                add \usepackage{textcomp} to the preamble. 
+(frenchb.ldf)                Degrees used on input line 593.
+
+File: chap2/rosaceastrica.eps Graphic file (type veps)
+) [20<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2/rosaceastrica
+.eps:02d>>>] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex
+{\sffamily Chapitre} 3.
+
+Underfull \hbox (badness 10000) detected at line 37
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+|[]
+ []
+
+File: chap3/ptsurdeuxformes.eps Graphic file (type veps)
+
+Overfull \hbox (2.34885pt too wide) in paragraph at lines 37--48
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[]$[]$ [] 
+ []
+
+[21
+
+<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/ptsurdeuxformes.ep
+s:02e>>>]
+File: chap3/FormesLibres.jpg Graphic file (type jpg)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 120--121
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 122
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+|[]
+ []
+
+File: chap3/Deuxtri.eps Graphic file (type veps)
+File: chap3/DeuxtriBis.jpg Graphic file (type jpg)
+[22]
+File: chap3/triangles.bmp Graphic file (type bmp)
+File: chap3/triqcq.eps Graphic file (type veps)
+File: chap3/triiso.eps Graphic file (type veps)
+File: chap3/triequi.eps Graphic file (type veps)
+File: chap3/trirect.eps Graphic file (type veps)
+File: chap3/trirectiso.eps Graphic file (type veps)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 252--253
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][] 
+ []
+
+[23<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/Deuxtri.eps:02f
+>>>]
+File: chap3/quadr.bmp Graphic file (type bmp)
+File: chap3/quadrqcq.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 325--325
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][]
+ []
+
+File: chap3/trap.eps Graphic file (type veps)
+
+Overfull \hbox (22.15645pt too wide) in paragraph at lines 325--325
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][]
+ []
+
+File: chap3/traprect.eps Graphic file (type veps)
+
+Overfull \hbox (18.9017pt too wide) in paragraph at lines 325--325
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][]
+ []
+
+File: chap3/trapiso.eps Graphic file (type veps)
+
+Overfull \hbox (20.8517pt too wide) in paragraph at lines 325--325
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][]
+ []
+
+File: chap3/parall.eps Graphic file (type veps)
+
+Overfull \hbox (28.2606pt too wide) in paragraph at lines 325--325
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][]
+ []
+
+File: chap3/rect.eps Graphic file (type veps)
+
+Overfull \hbox (19.86432pt too wide) in paragraph at lines 325--325
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][]
+ []
+
+File: chap3/carre.eps Graphic file (type veps)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 325--326
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][] 
+ []
+
+File: chap3/polygreg.bmp Graphic file (type bmp)
+File: chap3/polregs.eps Graphic file (type veps)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 342--343
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][] 
+ []
+
+
+Underfull \vbox (badness 7133) has occurred while \output is active []
+
+ [24<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/triqcq.eps:030
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/triiso.eps:031>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/triequi.eps:032>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/trirect.eps:033>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/trirectiso.eps:0
+34>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/quadrqcq.eps:
+035>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/trap.eps:036
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/traprect.eps:03
+7>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/trapiso.eps:03
+8>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/parall.eps:039
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/rect.eps:03a>>>
+<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/carre.eps:03b>>>]
+File: chap3/cercles.bmp Graphic file (type bmp)
+File: chap3/cercle.eps Graphic file (type veps)
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 364--364
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[]$[]$  $[]$[] 
+ []
+
+File: chap3/arc.eps Graphic file (type veps)
+
+Overfull \hbox (2.61047pt too wide) in paragraph at lines 364--364
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[]$  $[]$[] 
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 364--365
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][] 
+ []
+
+File: chap3/polygqcq.bmp Graphic file (type bmp)
+File: chap3/polygs.eps Graphic file (type veps)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 396--397
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.tex)
+[][] 
+ []
+
+[25<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/polregs.eps:03c
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/cercle.eps:03d>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/arc.eps:03e>>><<
+<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/polygs.eps:03f>>>]
+File: chap3/varignon.eps Graphic file (type veps)
+)
+[26<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3/varignon.eps:04
+0>>>] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex
+{\sffamily Chapitre} 4.
+File: chap4/Menu_Fichier.bmp Graphic file (type bmp)
+[27
+
+]
+File: chap4/Fermer.bmp Graphic file (type bmp)
+ [28]
+File: chap4/ExportBMP.bmp Graphic file (type bmp)
+ [29]
+Underfull \hbox (badness 10000) detected at line 167
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+|[]
+ []
+
+File: chap4/Bug.bmp Graphic file (type bmp)
+File: chap4/Menu_Fenetres.bmp Graphic file (type bmp)
+File: chap4/Menu_Edition.bmp Graphic file (type bmp)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [30]
+Underfull \hbox (badness 10000) detected at line 221
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+|[]
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 256
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+|[]
+ []
+
+LaTeX Font Info:    Font shape `T1/cmtt/bx/n' in size <12> not available
+(Font)              Font shape `T1/cmtt/m/n' tried instead on input line 258.
+
+Underfull \vbox (badness 6094) has occurred while \output is active []
+
+ [31]
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 271--272
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+[][] 
+ []
+
+File: chap4/selec1.eps Graphic file (type veps)
+File: chap4/selec2.eps Graphic file (type veps)
+File: chap4/selec3.eps Graphic file (type veps)
+File: chap4/selec4.eps Graphic file (type veps)
+File: chap4/selec5.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [32<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec1.eps:041
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec2.eps:042>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec3.eps:043>>
+><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec4.eps:044>>>
+<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec5.eps:045.>>>
+]
+File: chap4/selec6.eps Graphic file (type veps)
+File: chap4/selec7.eps Graphic file (type veps)
+File: chap4/selec8.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) detected at line 361
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+|[]
+ []
+
+[33<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec6.eps:046>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec7.eps:047>>
+><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec8.eps:048>>>
+]
+File: chap4/selec9.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 407--409
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+[][]
+ []
+
+File: chap4/selec10.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 412--414
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+[][]
+ []
+
+File: chap4/selec11.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 416--418
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+[][]
+ []
+
+File: chap4/selec12.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 420--422
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+[][]
+ []
+
+[34<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec9.eps:049>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec10.eps:04a>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec11.eps:04b>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/selec12.eps:04c>
+>>]
+File: chap4/frise.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) detected at line 478
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.tex)
+|[]
+ []
+
+File: chap4/lier.bmp Graphic file (type bmp)
+[35<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/frise.eps:04d>>
+>] [36]
+File: chap4/Decouper.eps Graphic file (type veps)
+) [37<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4/Decouper.eps:
+04e>>>] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex
+[38
+
+]
+{\sffamily Chapitre} 5.
+File: chap5/Menu_Mouvements.bmp Graphic file (type bmp)
+[39]
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 67--68
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex)
+[][] 
+ []
+
+File: chap5/magnetisme1.eps Graphic file (type veps)
+File: chap5/magnetisme2.eps Graphic file (type veps)
+File: chap5/magnetisme3.eps Graphic file (type veps)
+File: chap5/Deuxcarres3.eps Graphic file (type veps)
+File: chap5/Deuxcarres4.eps Graphic file (type veps)
+File: chap5/Deuxcarres1.eps Graphic file (type veps)
+File: chap5/Deuxcarres2.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [40<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/magnetisme1.ep
+s:04f>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/magnetisme
+2.eps:050>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/magnet
+isme3.eps:051>>>]
+File: chap5/TroisTri1.eps Graphic file (type veps)
+File: chap5/TroisTri2.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) detected at line 148
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex)
+|[]
+ []
+
+File: chap5/Glisser_Plan2.jpg Graphic file (type jpg)
+File: chap5/Glisser_Plan1.jpg Graphic file (type jpg)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 181--182
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex)
+[][] 
+ []
+
+
+Underfull \vbox (badness 2894) has occurred while \output is active []
+
+ [41<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/Deuxcarres3.ep
+s:052>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/Deuxcarres
+4.eps:053>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/Deuxca
+rres1.eps:054>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/De
+uxcarres2.eps:055>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap
+5/TroisTri1.eps:056.>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/c
+hap5/TroisTri2.eps:057>>>]
+File: chap5/Tourner_Anglesavue.eps Graphic file (type veps)
+File: chap5/Tourner_Plan1.bmp Graphic file (type bmp)
+File: chap5/Tourner_Plan2.bmp Graphic file (type bmp)
+
+Underfull \hbox (badness 10000) detected at line 242
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex)
+|[]
+ []
+
+File: chap5/RetournerCentreAxeVert.eps Graphic file (type veps)
+File: chap5/RetournerCentreAxeHori.eps Graphic file (type veps)
+File: chap5/RetournerCentreAxeObli1.eps Graphic file (type veps)
+File: chap5/RetournerCentreAxeObli2.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [42<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/Tourner_Angles
+avue.eps:058>>>]
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 274--275
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex)
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 276
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.tex)
+|[]
+ []
+
+File: chap5/zoom.eps Graphic file (type veps)
+) [43<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/RetournerCent
+reAxeVert.eps:059>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap
+5/RetournerCentreAxeHori.eps:05a>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/Mo
+demploiAG2/chap5/RetournerCentreAxeObli1.eps:05b>>><<<C:/Users/Utilisateur/Drop
+box/Textes_AG/ModemploiAG2/chap5/RetournerCentreAxeObli2.eps:05c>>><<<C:/Users/
+Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5/zoom.eps:05d>>>] [44]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6.tex
+{\sffamily Chapitre} 6.
+[45
+
+]
+File: chap6/PointLibre.eps Graphic file (type veps)
+File: chap6/PointLie.eps Graphic file (type veps)
+File: chap6/PointInter.eps Graphic file (type veps)
+File: chap6/Sommetfstd.eps Graphic file (type veps)
+File: chap6/PointCsted.eps Graphic file (type veps)
+
+Underfull \vbox (badness 2393) has occurred while \output is active []
+
+ [46<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/PointLibre.eps
+:05e>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/PointLie.ep
+s:05f>>>]
+Underfull \hbox (badness 10000) detected at line 179
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6.tex)
+|[]
+ []
+
+[47<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/PointInter.eps:
+060>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/Sommetfstd.e
+ps:061>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/PointCste
+d.eps:062>>>]
+File: chap6/Deuxcarres.eps Graphic file (type veps)
+File: chap6/Septdodeca.eps Graphic file (type veps)
+ [48<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/Deuxcarres.eps
+:063>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/Septdodeca.
+eps:064>>>]
+File: chap6/deuxsousfig.eps Graphic file (type veps)
+ [49<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/deuxsousfig.ep
+s:065>>>]
+File: chap6/deuxparal.eps Graphic file (type veps)
+File: chap6/deuxparal2.eps Graphic file (type veps)
+File: chap6/pytha.eps Graphic file (type veps)
+File: chap6/pytha2.eps Graphic file (type veps)
+ [50<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/deuxparal.eps:
+066>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/deuxparal2.e
+ps:067>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/pytha.eps
+:068>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/pytha2.eps:
+069>>>] [51]
+File: chap6/modif1.eps Graphic file (type veps)
+) [52<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6/modif1.eps:06
+a>>>]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex
+{\sffamily Chapitre} 7.
+File: chap7/MenuOper.bmp Graphic file (type bmp)
+File: chap7/Diviser.bmp Graphic file (type bmp)
+[53
+
+]
+File: chap7/Divisercercle.eps Graphic file (type veps)
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 79--81
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+ [][] 
+ []
+
+File: chap7/DiviserArc1.eps Graphic file (type veps)
+File: chap7/DiviserArc2.eps Graphic file (type veps)
+File: chap7/DiviserDeuxcercles.eps Graphic file (type veps)
+File: chap7/Diviserpoints.eps Graphic file (type veps)
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 133--135
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+ [][] 
+ []
+
+[54<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Divisercercle.e
+ps:06b>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/DiviserAr
+c1.eps:06c>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Divis
+erArc2.eps:06d>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/D
+iviserDeuxcercles.eps:06e.>>>]
+File: chap7/DecouperPenta.eps Graphic file (type veps)
+File: chap7/Decoupercercle.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [55<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Diviserpoints.
+eps:06f>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Decouper
+Penta.eps:070>>>]
+Underfull \hbox (badness 10000) detected at line 201
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+|[]
+ []
+
+LaTeX Font Info:    Font shape `LVS1/cmr/bx/n' in size <12> not available
+(Font)              Font shape `LVS1/cmsy/b/n' tried instead on input line 211.
+
+File: chap7/decouperpara.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) detected at line 247
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+|[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [56<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Decoupercercle
+.eps:071>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/decoupe
+rpara.eps:072>>>]
+File: chap7/DecoupeEtOrient.eps Graphic file (type veps)
+File: chap7/Decouper_rem1a.eps Graphic file (type veps)
+File: chap7/Decouper_rem2.eps Graphic file (type veps)
+File: chap7/Decouper_rem3.eps Graphic file (type veps)
+ [57<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/DecoupeEtOrien
+t.eps:073>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Decoup
+er_rem1a.eps:074>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7
+/Decouper_rem2.eps:075>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2
+/chap7/Decouper_rem3.eps:076>>>]
+File: chap7/Fusionner1.eps Graphic file (type veps)
+File: chap7/Fusionner0.eps Graphic file (type veps)
+File: chap7/Fusionner4.eps Graphic file (type veps)
+File: chap7/Fusionner3.eps Graphic file (type veps)
+File: chap7/Fusionner2.eps Graphic file (type veps)
+
+Overfull \hbox (42.96286pt too wide) in paragraph at lines 357--357
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+[][]
+ []
+
+File: chap7/Fusionner5.eps Graphic file (type veps)
+File: chap7/Fusionner6.eps Graphic file (type veps)
+File: chap7/Fusionner7.eps Graphic file (type veps)
+
+Underfull \vbox (badness 5756) has occurred while \output is active []
+
+ [58<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusionner1.eps
+:077>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusionner0.
+eps:078>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusionne
+r4.eps:079>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusio
+nner3.eps:07a>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fu
+sionner2.eps:07b>>>]
+File: chap7/FusionTriangles.eps Graphic file (type veps)
+File: chap7/FusionTrianglesOri.eps Graphic file (type veps)
+ [59<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusionner5.eps
+:07c>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusionner6.
+eps:07d>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusionne
+r7.eps:07e>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Fusio
+nTriangles.eps:07f>>>] [60<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG
+2/chap7/FusionTrianglesOri.eps:080>>>]
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+
+ []
+
+File: chap7/Dupliquer1.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 503--503
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+[][]
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 503--504
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+[][] 
+ []
+
+File: chap7/Dupliquer2.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) in paragraph at lines 572--572
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+
+ []
+
+File: chap7/Dupliquer3.eps Graphic file (type veps)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 572--573
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+[][] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [61<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Dupliquer1.eps
+:081>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Dupliquer2.
+eps:082>>>]
+Underfull \hbox (badness 10000) detected at line 605
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+|[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [62<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Dupliquer3.eps
+:083>>>]
+File: chap7/carresemboites.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [63<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/carresemboites
+.eps:084>>>]
+File: chap7/Prolonger.eps Graphic file (type veps)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 721--722
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.tex)
+[][] 
+ []
+
+[64<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Prolonger.eps:0
+85>>>]
+File: chap7/Identif1.eps Graphic file (type veps)
+File: chap7/Identif2.eps Graphic file (type veps)
+File: chap7/Identif3.eps Graphic file (type veps)
+ [65<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Identif1.eps:0
+86>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Identif2.eps:
+087>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Identif3.eps
+:088>>>]
+File: chap7/Identif4.eps Graphic file (type veps)
+File: chap7/Identif5.eps Graphic file (type veps)
+ [66<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Identif4.eps:0
+89>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/Identif5.eps:
+08a>>>]
+File: chap7/moyennes.eps Graphic file (type veps)
+) [67<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7/moyennes.eps:
+08b>>>]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex [68
+
+]
+{\sffamily Chapitre} 8.
+File: chap8/Transfos2.bmp Graphic file (type bmp)
+[69]
+Underfull \hbox (badness 10000) detected at line 61
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+
+Overfull \hbox (3.03333pt too wide) in paragraph at lines 61--67
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+[]$[]$ [] 
+ []
+
+File: chap8/transla.eps Graphic file (type veps)
+File: chap8/rota.eps Graphic file (type veps)
+File: chap8/point.eps Graphic file (type veps)
+[70<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/transla.eps:08c
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/rota.eps:08d>>>
+<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/point.eps:08e>>>]
+Underfull \hbox (badness 10000) detected at line 121
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+File: chap8/Depla2.eps Graphic file (type veps)
+File: chap8/symetrie.eps Graphic file (type veps)
+[71<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/Depla2.eps:08f>
+>>]
+File: chap8/homo.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) detected at line 205
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+
+Overfull \hbox (2.34885pt too wide) in paragraph at lines 205--211
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+[]$[]$ [] 
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [72<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/symetrie.eps:0
+90>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/homo.eps:091>
+>>]
+File: chap8/homo2.eps Graphic file (type veps)
+File: chap8/homo3.eps Graphic file (type veps)
+File: chap8/simili.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [73<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/homo2.eps:092>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/homo3.eps:093>>>
+]
+Underfull \hbox (badness 10000) detected at line 270
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+
+Overfull \hbox (2.34885pt too wide) in paragraph at lines 270--276
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+[]$[]$ [] 
+ []
+
+File: chap8/simili2.eps Graphic file (type veps)
+File: chap8/simili3.eps Graphic file (type veps)
+File: chap8/simili4.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [74<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili.eps:094
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili2.eps:095
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili3.eps:096
+>>>]
+File: chap8/etir1.eps Graphic file (type veps)
+File: chap8/etir2.eps Graphic file (type veps)
+
+[75<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili4.eps:097
+>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/etir1.eps:098>>
+><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/etir2.eps:099.>>>
+]
+Underfull \hbox (badness 10000) detected at line 359
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+File: chap8/etir3.eps Graphic file (type veps)
+[76<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/etir3.eps:09a>>
+>]
+File: chap8/cisail1.eps Graphic file (type veps)
+File: chap8/cisail2.eps Graphic file (type veps)
+
+Underfull \hbox (badness 10000) detected at line 414
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 442--443
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+[][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 444
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+File: chap8/bisimili.eps Graphic file (type veps)
+File: chap8/bisimili1.eps Graphic file (type veps)
+File: chap8/bisimili2.eps Graphic file (type veps)
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [77<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/cisail1.eps:09
+b>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/cisail2.eps:09
+c>>>]
+[78<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/bisimili.eps:09
+d>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/bisimili1.eps:
+09e>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/bisimili2.ep
+s:09f>>>]
+File: chap8/rota2.eps Graphic file (type veps)
+File: chap8/rota3.eps Graphic file (type veps)
+
+Overfull \hbox (29.3747pt too wide) in paragraph at lines 549--551
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+ [][] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 566
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+File: logoag.eps Graphic file (type veps)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 577--578
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+ [] 
+ []
+
+[79<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/rota2.eps:0a0>>
+><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/rota3.eps:0a1>>><
+<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoag.eps:0a2>>>]
+File: chap8/conjuguee.eps Graphic file (type veps)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 619--620
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+[][] 
+ []
+
+File: chap8/simili11.eps Graphic file (type veps)
+File: chap8/simili12.eps Graphic file (type veps)
+File: logoag.eps Graphic file (type veps)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 647--647
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+ [] 
+ []
+
+[80<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/conjuguee.eps:0
+a3>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili11.eps:
+0a4>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili12.eps
+:0a5>>>]
+File: logoag.eps Graphic file (type veps)
+
+Overfull \hbox (6.79999pt too wide) in paragraph at lines 680--680
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+ [] 
+ []
+
+
+Underfull \hbox (badness 10000) detected at line 704
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+|[]
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [81<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoag.eps:0a2>>><<<
+C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoag.eps:0a2>>>] [82]
+File: chap8/ptfixes.eps Graphic file (type veps)
+
+Overfull \hbox (5.62961pt too wide) in paragraph at lines 777--780
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
+[]\T1/cmr/m/n/12 Cette opé-ra-tion res-semble comme deux gouttes d'eau à l'opé-
+ra-tion [][][]\T1/cmtt/m/n/12 Montrer-Cacher des formes[][]
+ []
+
+) [83<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/ptfixes.eps:0
+a6>>>] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap9.tex [84
+
+]
+{\sffamily Chapitre} 9.
+File: chap9/macro1.jpg Graphic file (type jpg)
+File: chap9/macro2.jpg Graphic file (type jpg)
+[85]
+Overfull \hbox (21.28539pt too wide) in paragraph at lines 68--72
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap9.tex)
+\T1/cmr/m/n/12 forme libre, ainsi que les opé-ra-tions \T1/cmtt/m/n/12 Diviser\
+T1/cmr/m/n/12 , \T1/cmtt/m/n/12 Dupliquer un point "sur"\T1/cmr/m/n/12 , \T1/cm
+tt/m/n/12 Prolonger\T1/cmr/m/n/12 , \T1/cmtt/m/n/12 Construire
+ []
+
+
+Underfull \vbox (badness 10000) has occurred while \output is active []
+
+ [86]
+File: chap9/macro3.jpg Graphic file (type jpg)
+File: chap9/macro5.jpg Graphic file (type jpg)
+File: chap9/macro6.jpg Graphic file (type jpg)
+
+[87]
+File: chap9/macro7.jpg Graphic file (type jpg)
+ [88]) [89] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex [90
+
+]
+{\sffamily Chapitre} 10.
+File: chap10/Menu_Outils.bmp Graphic file (type bmp)
+
+Underfull \hbox (badness 7221) in paragraph at lines 12--17
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+\T1/cmtt/m/n/12 Colorier[]\T1/cmr/m/n/12 , \T1/cmtt/m/n/12 Transparent/Opaque[]
+[]\T1/cmr/m/n/12 , \T1/cmtt/m/n/12 Montrer/Cacher[][]\T1/cmr/m/n/12 , \T1/cmtt/
+m/n/12 Avant-plan[]\T1/cmr/m/n/12 ,
+ []
+
+
+Underfull \hbox (badness 2189) in paragraph at lines 18--25
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+[]\T1/cmr/m/n/12 Les trois autres opé-ra-tions, \T1/cmtt/m/n/12 Nommer[]\T1/cmr
+/m/n/12 , \T1/cmtt/m/n/12 Modifier l'épaisseur[] \T1/cmr/m/n/12 et
+ []
+
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 57--58
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+[][] 
+ []
+
+File: chap10/Nommer.bmp Graphic file (type bmp)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 88--89
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+[][] 
+ []
+
+
+Underfull \vbox (badness 6510) has occurred while \output is active []
+
+ [91]
+Underfull \hbox (badness 10000) detected at line 90
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+|[]
+ []
+
+[92]
+File: chap10/aires.eps Graphic file (type veps)
+File: chap10/aires2.eps Graphic file (type veps)
+File: chap10/arcs.eps Graphic file (type veps)
+File: chap10/etiquettes.eps Graphic file (type veps)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 181--182
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+[][] 
+ []
+
+[93<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/aires.eps:0a7>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/aires2.eps:0a8>
+>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/arcs.eps:0a9>>>
+<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/etiquettes.eps:0a
+a>>>]
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 215--216
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+[][] 
+ []
+
+File: chap10/colorier1.eps Graphic file (type veps)
+File: chap10/colorier2.eps Graphic file (type veps)
+[94<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/colorier1.eps:
+0ab>>>]
+File: chap10/epaisseur.eps Graphic file (type veps)
+
+Underfull \vbox (badness 1127) has occurred while \output is active []
+
+ [95<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/colorier2.eps
+:0ac>>>]
+[96<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10/epaisseur.eps:
+0ad>>>]
+File: chap10/Grille.bmp Graphic file (type bmp)
+ [97]
+File: chap10/ReadHisto.jpg Graphic file (type jpg)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 611--612
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.tex)
+[][] 
+ []
+
+[98]) [99] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.tex
+[100
+
+]
+{\sffamily Chapitre} 11.
+File: chap11/MenuContext.bmp Graphic file (type bmp)
+File: chap11/MenuContext2.bmp Graphic file (type bmp)
+
+Overfull \hbox (1.96567pt too wide) in paragraph at lines 54--55
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.tex)
+[][] 
+ []
+
+File: chap11/Context.jpg Graphic file (type jpg)
+
+Underfull \hbox (badness 10000) in paragraph at lines 58--75
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.tex)
+
+ []
+
+[101]
+Overfull \hbox (4.07552pt too wide) in paragraph at lines 105--107
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.tex)
+[][] 
+ []
+
+File: chap11/Trace1.eps Graphic file (type veps)
+File: chap11/Trace2bis.bmp Graphic file (type bmp)
+[102<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11/Trace1.eps:0a
+e>>>]
+File: chap11/ellipse0.eps Graphic file (type veps)
+File: chap11/ellipse1.bmp Graphic file (type bmp)
+File: chap11/ellipse2.bmp Graphic file (type bmp)
+
+Underfull \hbox (badness 2096) in paragraph at lines 184--186
+(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.tex)
+\T1/cmr/m/n/12 ont été construits en-suite. Les flèches
+ []
+
+File: chap11/fleches.eps Graphic file (type veps)
+
+Underfull \vbox (badness 5260) has occurred while \output is active []
+
+ [103<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11/ellipse0.eps
+:0af.>>>]
+File: chap11/aireori.eps Graphic file (type veps)
+File: chap11/Interrupteurs.eps Graphic file (type veps)
+
+[104<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11/fleches.eps:0
+b0>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11/aireori.eps:
+0b1>>>]) [105<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11/Inte
+rrupteurs.eps:0b2>>>]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12.tex [106
+
+]
+{\sffamily Chapitre} 12.
+File: chap12/Prefs.bmp Graphic file (type bmp)
+[107]
+File: chap12/Retour1.eps Graphic file (type veps)
+File: chap12/pentapointe.eps Graphic file (type veps)
+File: chap12/pentanonpointe.eps Graphic file (type veps)
+ [108<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12/Retour1.eps:
+0b3>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12/pentapointe
+.eps:0b4>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12/pentan
+onpointe.eps:0b5>>>]
+File: chap12/bifaces.eps Graphic file (type veps)
+File: chap12/Notes.bmp Graphic file (type bmp)
+ [109<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12/bifaces.eps:
+0b6>>>] [110]
+File: chap12/Configuration.bmp Graphic file (type bmp)
+ [111]
+File: chap12/Dictionnaire.bmp Graphic file (type bmp)
+) [112]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/GuideUtilAG2.ind [113
+
+
+]
+[114
+
+] [115] [116] [117]) [118]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.aux
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap0.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/avantpropos.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap1.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap2.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap3.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap4.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap5.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap6.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap7.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap9.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap10.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap11.aux)
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap12.aux))
+
+LaTeX Warning: There were multiply-defined labels.
+
+ )
+Here is how much of TeX's memory you used: 
+11355 strings out of 15051 
+146320 string characters out of 155510 
+143293 words of memory out of 524285
+ 7204 multiletter control sequences out of 14096
+ 36915 words of font info for 168 fonts, out of 196592 for 256
+ 22 hyphenation exceptions out of 907
+ 27i,13n,37p,476b,551s stack positions out of 512i,80n,1500p,2047b,2048s
+
+...Processing fonts...
+*** Font 168:Times-BoldItalic (GeX Type1 subset) 
+*** Font 167:Times-BoldItalic (GeX Type1 subset) 
+*** Font 166:Times-BoldItalic (GeX Type1 subset) 
+*** Font 165:Times-BoldItalic (GeX Type1 subset) 
+*** Font 164:Times-BoldItalic (GeX Type1 subset) 
+*** Font 163:Times-BoldItalic (GeX Type1 subset) 
+*** Font 162:Times-BoldItalic (GeX Type1 subset) 
+*** Font 161:Times-BoldItalic (GeX Type1 subset) 
+*** Font 160:Times-BoldItalic (GeX Type1 subset) 
+*** Font 159:Times-BoldItalic (GeX Type1 subset) 
+*** Font 158:Symbol (GeX Type1 subset) 
+*** Font 157:Times-BoldItalic (GeX Type1 subset) 
+*** Font 156:Times-BoldItalic (GeX Type1 subset) 
+*** Font 151:Courier (GeX Type1 subset) 
+*** Font 150:Times-BoldItalic (GeX Type1 subset) 
+*** Font 149:Courier (GeX Type1 subset) 
+*** Font 148:Times-BoldItalic (GeX Type1 subset) 
+*** Font 147:Times-BoldItalic (GeX Type1 subset) 
+*** Font 146:Times-BoldItalic (GeX Type1 subset) 
+*** Font 145:Times-BoldItalic (GeX Type1 subset) 
+*** Font 144:Times-BoldItalic (GeX Type1 subset) 
+*** Font 143:Times-BoldItalic (GeX Type1 subset) 
+*** Font 142:Times-BoldItalic (GeX Type1 subset) 
+*** Font 141:Times-BoldItalic (GeX Type1 subset) 
+*** Font 140:Times-BoldItalic (GeX Type1 subset) 
+*** Font 139:Times-BoldItalic (GeX Type1 subset) 
+*** Font 138:Times-BoldItalic (GeX Type1 subset) 
+*** Font 137:Times-BoldItalic (GeX Type1 subset) 
+*** Font 136:Times-BoldItalic (GeX Type1 subset) 
+*** Font 135:Times-BoldItalic (GeX Type1 subset) 
+*** Font 134:Symbol (GeX Type1 subset) 
+*** Font 132:Times-BoldItalic (GeX Type1 subset) 
+*** Font 131:Times-BoldItalic (GeX Type1 subset) 
+*** Font 130:Times-BoldItalic (GeX Type1 subset) 
+*** Font 129:Courier (GeX Type1 subset) 
+*** Font 128:Times-BoldItalic (GeX Type1 subset) 
+*** Font 127:Courier (GeX Type1 subset) 
+*** Font 126:Times-BoldItalic (GeX Type1 subset) 
+*** Font 125:Times-BoldItalic (GeX Type1 subset) 
+*** Font 124:Times-BoldItalic (GeX Type1 subset) 
+*** Font 120:Courier (GeX Type1 subset) 
+*** Font 119:Courier (GeX Type1 subset) 
+*** Font 118:Times-BoldItalic (GeX Type1 subset) 
+*** Font 117:Courier (GeX Type1 subset) 
+*** Font 116:Courier (GeX Type1 subset) 
+*** Font 115:Courier (GeX Type1 subset) 
+*** Font 114:Courier (GeX Type1 subset) 
+*** Font 113:Times-BoldItalic (GeX Type1 subset) 
+*** Font 111:Times-BoldItalic (GeX Type1 subset) 
+*** Font 110:Times-BoldItalic (GeX Type1 subset) 
+*** Font 109:Times-BoldItalic (GeX Type1 subset) 
+*** Font 108:Times-BoldItalic (GeX Type1 subset) 
+*** Font 107:Times-BoldItalic (GeX Type1 subset) 
+*** Font 106:Times-BoldItalic (GeX Type1 subset) 
+*** Font 105:Times-BoldItalic (GeX Type1 subset) 
+*** Font 104:Times-BoldItalic (GeX Type1 subset) 
+*** Font 103:Courier (GeX Type1 subset) 
+*** Font 102:Courier (GeX Type1 subset) 
+*** Font 101:Courier (GeX Type1 subset) 
+*** Font 100:Courier (GeX Type1 subset) 
+*** Font 99:Courier (GeX Type1 subset) 
+*** Font 98:Courier (GeX Type1 subset) 
+*** Font 97:Courier (GeX Type1 subset) 
+*** Font 96:Courier (GeX Type1 subset) 
+*** Font 95:Times-BoldItalic (GeX Type1 subset) 
+*** Font 94:Times-BoldItalic (GeX Type1 subset) 
+*** Font 93:Courier (GeX Type1 subset) 
+*** Font 92:Times-BoldItalic (GeX Type1 subset) 
+*** Font 91:Courier (GeX Type1 subset) 
+*** Font 90:Courier (GeX Type1 subset) 
+*** Font 89:Courier (GeX Type1 subset) 
+*** Font 88:Courier (GeX Type1 subset) 
+*** Font 87:Courier (GeX Type1 subset) 
+*** Font 86:Courier (GeX Type1 subset) 
+*** Font 85:Courier (GeX Type1 subset) 
+*** Font 84:Courier (GeX Type1 subset) 
+*** Font 83:Courier (GeX Type1 subset) 
+*** Font 82:Courier (GeX Type1 subset) 
+*** Font 81:Courier (GeX Type1 subset) 
+*** Font 79:Times-BoldItalic (GeX Type1 subset) 
+*** Font 78:Times-BoldItalic (GeX Type1 subset) 
+*** Font 27:Helvetica-Bold (GeX Type1 subset) 
+*** Font 30:D:\VTeX\pfb\susx2488.pfb (65131->26719b, 49c)
+*** Font 31:D:\VTeX\pfb\susx1728.pfb (65902->28054b, 63c)
+*** Font 34:D:\VTeX\pfb\susx1200.pfb (71616->30326b, 28c)
+*** Font 37:D:\VTeX\pfb\susx1440.pfb (71627->34021b, 64c)
+*** Font 25:D:\VTeX\pfb\surm1200.pfb (81843->48361b, 105c)
+*** Font 39:D:\VTeX\pfb\subx2488.pfb (82656->40174b, 22c)
+*** Font 40:D:\VTeX\pfb\suso2488.pfb (63291->19626b, 13c)
+*** Font 42:D:\VTeX\pfb\sutt1200.pfb (76396->36519b, 71c)
+*** Font 43:D:\VTeX\pfb\suti1200.pfb (79185->35731b, 75c)
+*** Font 44:D:\VTeX\pfb\mvsy10.pfb (25817->5900b, 8c)
+*** Font 45:D:\VTeX\pfb\subx1728.pfb (82008->39914b, 11c)
+*** Font 46:D:\VTeX\pfb\susi1200.pfb (50478->15162b, 22c)
+*** Font 47:D:\VTeX\pfb\succ1200.pfb (80161->38304b, 42c)
+*** Font 61:D:\VTeX\pfb\subx1200.pfb (81940->43855b, 67c)
+*** Font 62:D:\VTeX\pfb\surm0800.pfb (83365->39353b, 3c)
+*** Font 70:D:\VTeX\pfb\subi1200.pfb (75504->27378b, 37c)
+*** Font 63:D:\VTeX\pfb\surm1000.pfb (82952->43861b, 50c)
+*** Font 69:D:\VTeX\pfb\surm0700.pfb (79833->37951b, 3c)
+*** Font 38:D:\VTeX\pfb\susl1200.pfb (73794->34235b, 65c)
+*** Font 71:D:\VTeX\pfb\surm1095.pfb (82756->47436b, 84c)
+*** Font 72:D:\VTeX\pfb\subx1095.pfb (81925->37768b, 13c)
+*** Font 73:D:\VTeX\pfb\suti1095.pfb (79758->31900b, 15c)
+*** Font 74:D:\VTeX\pfb\succ1000.pfb (81453->36410b, 5c)
+*** Font 75:D:\VTeX\pfb\succ1095.pfb (80987->36233b, 11c)
+*** Font 24:D:\VTeX\pfb\mvr12.pfb (28799->6063b, 9c)
+*** Font 77:D:\VTeX\pfb\sutt1095.pfb (76544->34417b, 43c)
+*** Font 50:D:\VTeX\pfb\mvmi12.pfb (30226->13846b, 42c)
+*** Font 80:D:\VTeX\pfb\suit1200.pfb (69706->21072b, 6c)
+*** Font 48:D:\VTeX\pfb\mvr8.pfb (28342->5662b, 5c)
+*** Font 53:D:\VTeX\pfb\mvsy8.pfb (25974->5499b, 5c)
+*** Font 58:D:\VTeX\pfb\rsfs10.pfb (16057->5783b, 4c)
+*** Font 55:D:\VTeX\pfb\mvex10.pfb (21413->6085b, 4c)
+*** Font 112:D:\VTeX\pfb\mvbsy10.pfb (26371->5223b, 2c)
+*** Font 122:D:\VTeX\pfb\susi1000.pfb (50542->14691b, 13c)
+*** Font 123:D:\VTeX\pfb\sutt1000.pfb (76282->31457b, 10c)
+*** Font 133:D:\VTeX\pfb\s050000l.pfb (32193->8604b, 3c)
+*** Font 51:D:\VTeX\pfb\mvmi8.pfb (29199->5111b, 3c)
+*** Font 54:D:\VTeX\pfb\mvsy6.pfb (26081->5229b, 2c)
+*** Font 153:D:\VTeX\pfb\mvmi10.pfb (29196->5438b, 5c)
+*** Font 41:D:\VTeX\pfb\suss1200.pfb (54448->20396b, 25c)
+Output written on C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/.Output/g
+uideutilag2.ps (130 pages, 14837714 bytes).
+

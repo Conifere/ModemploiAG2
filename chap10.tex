@@ -1,0 +1,644 @@
+\chapter{Outils}\label{chapoutils}
+
+\section{Introduction}
+
+\includegraphics[width=0.25\linewidth]{Menu_Outils.bmp} \hfill
+\begin{minipage}[b]{0.74\linewidth}
+
+Aucune des opérations proposées dans le menu \hyperdef{chapoutils}{Menu}{\textit{Outils}}\index{Outil} ne
+construit de nouvelles formes géométriques ou  ne modifie de formes existantes (au sens donné au verbe
+\texttt{Modifier} dans ce guide).\medskip
+
+Sept d'entre elles sont susceptibles d'être utilisées  dès le menu~A\index{Menu!A}: \texttt{Colorier}\index{Colorier},
+\texttt{Transparent/Opaque}\index{Transparent}\index{Opaque},
+\texttt{Montrer/Cacher}\index{Montrer}\index{Cacher},  \texttt{Avant-plan}\index{Avant-plan},
+\texttt{Arrière-Plan}\index{Arrière-plan}, \texttt{Grille}\index{Grille} et \texttt{Lire un
+historique}\index{Lire!un historique}.\medskip
+
+Les trois autres opérations, \texttt{Nommer}\index{Nommer}, \texttt{Modifier
+l'épaisseur}\index{Modifier!l'épaisseur} et
+\texttt{Punaiser/Dépunaiser}\index{Punaiser}\index{Depunaiser@Dépunaiser} sont surtout
+utiles lorsqu'on manipule des formes libres. Elles apparaissent donc au menu
+B\index{Menu!B} et sont également présentes aux menus C, AC et
+BC.\index{Menu!C}\index{Menu!AB}\index{Menu!AC} D'autres outils sont accessibles via un
+\textit{menu contextuel}\index{Menu!contextuel} que nous
+présenterons au chapitre \ref{chapcontext}.\end{minipage}
+
+\section{Outils/Nommer}
+
+L'opération \hyperdef{chapoutils}{Nommer}{\texttt{Nommer}}\index{Nommer} permet
+d'attribuer des étiquettes\index{Etiquette@Étiquette}  à toute forme géométrique. Elle
+permet aussi de placer des lignes de texte à  l'écran, par exemple des titres. Elle
+permet enfin de faire apparaître des longueurs de segments, des aires de polygones,  des
+mesures d'angles.\index{Longueur!d'un segment}\index{Aire!d'une
+forme géométrique}\index{Mesure!d'un angle}
+
+\subsection{Attribuer une étiquette à une forme}
+\index{Etiquette@Étiquette}
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\Prat
+
+Pour attribuer une étiquette à une forme:
+
+\begin{list}{\textbullet}{\itemsep=1mm}  \item Choisir le menu \textit{Outils/Nommer}.
+\item Sélectionner une forme géométrique: point, segment, côté de polygone ou polygone,
+arc de cercle, etc.
+\item Dès qu'une forme a été sélectionnée par la pression du bouton
+gauche de la souris, le logiciel propose un nom (la première fois, il
+propose la lettre \og A\fg).
+
+\item Tant que l'utilisateur tient le bouton gauche enfoncé, il peut déplacer
+l'étiquette proposée à un endroit de son choix.
+
+\item  Lorsque le bouton gauche est relâché, une fenêtre s'ouvre:
+
+\end{list}
+\end{minipage}}
+
+
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\begin{center}
+\includegraphics[width=\linewidth]{Nommer.bmp} \leg{} \end{center}
+
+Les champs suivants peuvent être modifiés.
+
+\begin{itemize}  \item Le nom peut être remplacé par n'importe quel assemblage de caractères
+\textsc{ascii}, minuscules ou majuscules, y compris des blancs et des lettres accentuées, des
+primes, etc. Mais il ne peut comporter aucun caractère de contrôle et doit tenir sur une ligne.
+
+\item La taille de la police de caractères peut varier de 10 à 30.
+
+\item La couleur.
+
+\item La police de caractères peut être choisie parmi quatre:
+\textsf{Arial, Courier New, Times Roman} et \textsf{Symbol}. Cette dernière police permet
+d'introduire des symboles mathématiques. Mais on ne peut utiliser qu'une seule police dans chaque
+étiquette.
+
+\item La forme des caractères, italique ou non.
+
+\item L'emplacement de l'étiquette peut être affiné à l'aide des \og petites flèches\fg\
+qui permettent un réglage fin, tant horizontal que vertical.
+
+\item Lorsque la case \og Fixe\fg\ est cochée, l'étiquette ne changera pas de place en
+cas de modification ou déplacement de la forme qui lui correspond.
+\end{itemize}
+\end{minipage}}
+
+\danger\hfill \fbox{\begin{minipage}{0.87\linewidth}Lorsque l'utilisateur choisit une simple étoile $*$ comme étiquette, le logiciel
+affiche la mesure de l'objet choisi, soit sa longueur,  soit son aire, selon le type de l'objet sélectionné. (Voir ci-dessous.)
+\end{minipage}}
+
+L'étiquette d'une forme  peut être modifiée ou déplacée en réappliquant la même
+procédure. À cette occasion, la fenêtre comportera un bouton supplémentaire,
+\fbox{Supprimer}\index{Supprimer} qui permet d'enlever une étiquette.
+
+Le logiciel se souvient de l'initiale de l'étiquette qu'il a placée en dernier lieu.
+Quand on lui demandera encore d'en placer une, il proposera la lettre suivante dans
+l'ordre alphabétique (après \og Z\fg, il ne revient pas à \og A\fg). Une contrainte,
+pour ceux qui exportent des figures en \textsf{Postscript}\index{Postscript}: ne jamais
+utiliser la même lettre pour marquer deux points différents (ou deux formes
+différentes). Ne pas utiliser non plus comme étiquette des nombres \og à virgule\fg.
+
+\subsection {Placer un titre}\index{Titre}
+
+Placer un titre se fait exactement de la même manière que placer une étiquette.
+Simplement, l'utilisateur doit --- après avoir choisi \textit{Outils/Nommer} cliquer en
+un point de l'écran qui ne se trouve ni à l'intérieur, ni sur une quelconque forme
+géométrique. Toutes les autres indications mentionnées plus haut restent valables.
+
+\subsection{Afficher une mesure}\index{Mesure}
+
+Il est possible de demander à l'ordinateur
+d'afficher une \hyperdef{chapoutils}{Mesure}{\texttt{mesure}}:
+
+\begin{list}{\textbullet}{\itemsep=1mm} \item La longueur d'un segment, y compris  d'un
+côté de polygone.\index{Longueur!d'un segment} L'unité de longueur est la longueur du
+côté du carré standard. \item L'aire d'un polygone non standard\index{Aire!d'un polygone} ou d'une forme hybride.\index{Forme!hybride} Il s'agit
+d'une aire orientée\index{Aire!orientée}, dont le signe dépend de l'orientation du
+polygone. Pour un polygone convexe ou concave non croisé,  l'aire est positive si le
+bord est parcouru dans le sens trigonométrique, négative dans le cas contraire.
+
+Un polygone et son symétrique par rapport à
+une droite ont toujours des aires opposées. L'unité
+d'aire est celle du carré standard.
+
+
+\strut\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{aires.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{aires2.eps}
+\leg{\label{chapoutils_papillon}}
+\end{minipage}\hfill\strut
+
+Un polygone croisé est constitué de plusieurs composantes d'orientations différentes. Son aire algébrique est
+la somme des aires algébriques des composantes. Elle peut très bien être  nulle. En particulier, un
+quadrilatère dont les diagonales sont parallèles est d'aire nulle car, d'une part les valeurs  absolues des
+aires des deux ailes sont égales, d'autre part ces deux ailes sont d'orientations opposées.
+C'est le \textit{théorème du papillon} (Fig. \ref{chapoutils_papillon}).\index{Théorème!du papillon}
+
+
+\item L'amplitude d'un angle.\index{Amplitude!d'un
+angle}
+ 
+Dans \AG\, les arcs et les angles sont toujours orientés. L'amplitude d'un angle (ou
+d'un arc) peut donc être positive ou négative. Sur la figure suivante, nous avons placé
+des flèches sur les arcs afin de mettre leur orientation en
+évidence.
+
+
+\strut\hfill\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{arcs.eps}
+\leg{}
+\end{minipage}\hfill\strut
+\end{list}
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\Prat
+
+Pour afficher l'aire d'un polygone ou d'un secteur de disque, on sélectionne le polygone
+ou le secteur et on lui attribue une étiquette réduite à une étoile: \og *\fg. Pour
+afficher la longueur d'un segment  ou d'un côté de polygone, c'est au segment ou au côté
+qu'on attribue l'étiquette \og *\fg. Enfin la mesure d'un angle s'obtient en
+matérialisant cet angle par un arc (tenant compte de l'orientation) et en plaçant
+l'étiquette \og *\fg\ sur l'arc.\index{Etiquette@Étiquette}
+\index{Abscisse!d'un point sur}
+
+Si on attribue l'étiquette \og *\fg\ à un point \og sur\fg, par exemple sur un segment,
+c'est l'abscisse de ce point sur le segment qui sera affichée (abscisse par rapport au
+repère constitué des extrémités du segment).  Comme il se doit, deux points qui sont
+dupliqués l'un de l'autre ont la même abscisse, quelles que soient les longueurs des
+segments auxquels ils appartiennent.
+
+\begin{center}
+\includegraphics[width=0.2\linewidth]{etiquettes.eps}
+\end{center}
+\end{minipage}}
+
+Signalons encore que \begin{enumerate}
+\item Les aires des formes standard\index{Aire!d'une forme standard} ne sont pas considérées comme orientées. Elles sont donc toujours positives.
+\item Par défaut, les mesures d'aires et de longueurs sont théoriquement affichées avec deux décimales.
+\item Toute pression sur la touche \fbox{*} augmente de 1 le nombre (théorique) de décimales et toute pression sur \fbox{\$} le diminue de 1 (sans qu'il puisse
+devenir négatif).
+\item Les nombres de décimales sont théoriques en ce sens que les "0" terminaux ne sont pas affichés. Ainsi 2,250 est affiché par défaut sous la forme 2,25
+et conserve cette forme quand on appuie sur la touche \fbox{*}.
+\item Les valeurs affichées sont arrondies à l'ordre de la dernière décimale affichée.
+\item Toutes les mesures affichées sur une figure
+sont mises à jour lorsqu'on modifie la  figure. \item Ces mesures peuvent être
+cachées par une pression sur la touche \og d\fg\ du clavier. Cette touche sert en fait
+de \og bascule\fg: une seconde pression fait réapparaître les mesures qui avaient été
+cachées.
+
+\end{enumerate}
+
+
+\section{Outils/Colorier}
+
+\hyperdef{chapoutils}{Colorier}{\texttt{Colorier}}\index{Colorier} propose le choix entre trois sous-menus,
+à savoir colorier le bord d'une forme, l'intérieur d'une forme ou la couleur d'une famille standard.
+
+\subsection{Couleur bord et Couleur fond}\index{Couleur!bord}\index{Couleur!fond}
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\Prat
+
+\begin{list}{\textbullet}{\itemsep=1mm} \item Choisir \textit{Outils/Colorier/Couleur bord} ou
+\textit{Outils/Colorier/Couleur fond} \item Que l'on travaille sous \texttt{Windows} ou sur
+\texttt{Macintosh}, le logiciel affiche la palette de couleurs classique. \item L'utilisateur en
+sélectionne une et clique sur le bouton \textsc{ok} au bas de la fenêtre. \item Il reste à
+sélectionner la forme dont on veut changer la couleur (du bord ou du fond). \end{list}
+\end{minipage}}
+
+La procédure restant active, on peut continuer à colorier d'autres formes avec la même
+couleur simplement en les sélecdtionnant successivement. Par ailleurs, la procédure
+\texttt{Colorier} accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
+Il est donc également possible pour colorier plusieurs formes de sélectionner d'abord
+celles-ci et ensuite la couleur.
+
+\textbf{Remarques}
+
+\textbf{Coloriage du bord}
+
+\begin{minipage}{0.2\linewidth}
+\includegraphics[width=\linewidth]{colorier1.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}{0.75\linewidth} La couleur des sommets de la forme n'est pas
+modifiée par la sélection du bord\index{Bord}. Pour les colorier, il est nécessaire de
+traiter chaque point séparément. \end{minipage}
+
+\textbf{Coloriage du fond}
+
+Colorier le fond\index{Fond} d'une forme signifie colorier l'intérieur de cette forme. Dans le cas de formes
+concaves croisées, l'intérieur\index{Interieur@Intérieur!d'un polygone} est parfois difficile à déterminer.
+
+\begin{center}
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{colorier2.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+Pour déterminer si un point du plan est à l'intérieur d'un polygone, on le joint par un segment à un point
+clairement situé à l'extérieur, en veillant à ce que ce segment ne passe ni par un sommet ni par un point
+d'intersection de deux côtés. Le point est intérieur au polygone si et seulement si le segment coupe un nombre
+impair de côtés. Dans la figure ci-dessus, la partie centrale de l'étoile ne fait pas partie de l'intérieur. Il
+n'est d'ailleurs pas possible de sélectionner l'étoile en cliquant en un point de cette zone.
+
+\subsection{Couleur Famille Standard}
+
+La fonctionnalité \textit{Outils/Colorier/Couleur Famille Standard}\index{Colorier}\index{Couleur!famille
+standard} modifie la couleur des familles de formes standard. La procédure n'est pas identique à celle des
+deux cas précédents: après avoir choisi cette fonctionnalité, on clique d'abord sur la famille
+dont on désire changer la couleur. La palette de couleurs apparaît et on y fait son choix.
+
+
+
+\section{Outils/Transparent-Opaque}
+
+L'opération \hyperdef{chapoutils}{Transparent}{\texttt{Transparent/Opaque}}\index{Transparent}\index{Opaque} ne
+nécessite pas de grands commentaires. Elle rend transparente une forme qui était opaque (la forme apparaît
+incolore  et ne cache plus les formes situées à  l'arrière-plan, seuls ses bords  restent visibles) et elle
+rend opaque la forme qui était transparente. Note: par défaut, les formes standard sont opaques et les formes
+libres sont transparentes.
+
+Cette fonctionnalité accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection
+multiple}.
+
+\section{Outils/Modifier l'épaisseur}
+
+\index{Modifier!l'épaisseur}
+
+\hyperdef{chapoutils}{Epaisseur}{On modifie} l'épaisseur du bord d'une forme via la procédure
+\textit{Outils/Modifier l'épaisseur}.
+
+Deux choix sont possibles:
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Mince\index{Mince}: c'est l'épaisseur par défaut.
+\item Épais\index{Epais@Épais}: c'est l'épaisseur double.
+\end{list}
+
+
+Pour  modifier l'épaisseur d'une forme on fait son choix entre \texttt{Mince} et \texttt{Épais}, puis on
+sélectionne la forme souhaitée. Le choix effectué entre \texttt{Mince} et \texttt{Épais} est appliqué
+automatiquement lors de toute nouvelle construction de forme, et cela jusqu'à ce que ce choix soit modifié.
+
+Voici une figure dessinée d'abord avec des traits minces, ensuite avec des traits épais :
+
+\begin{center}
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{epaisseur.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+\texttt{Modifier l'épaisseur} accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection
+multiple}.
+
+
+
+
+\section{Outils/Punaiser-Dépunaiser}
+
+La fonctionnalité
+\hyperdef{chapoutils}{Punaiser}{\texttt{Punaiser/Dépunaiser}}\index{Punaiser}\index{Depunaiser@Dépunaiser} a
+été introduite dans le logiciel --- initialement sous le nom de
+\texttt{Rigidifier/Dérigidifier}\index{Rigidifier}\index{Derigidifier@Dérigidifier} --- en vue de permettre à
+l'utilisateur de rendre un forme libre indéformable. Certaines activités proposées dans des classes du
+primaire demandaient en effet aux élèves de comparer les aires et périmètres de diverses formes. De telles
+activités perdraient tout leur sens si l'élève avait la possibilité de modifier les formes qui lui sont
+soumises.  Afin  de pouvoir faire plus tard marche arrière, \texttt{Dépunaiser} est également
+possible. Il s'agit en fait du même outil qui fait basculer une forme donnée d'un état à l'autre.
+
+Il est apparu ultérieurement qu'il pouvait également être utile d'empêcher que l'on puisse tirer sur l'un ou
+l'autre point libre. C'est ce qui a amené les auteurs du logiciel à remplacer \texttt{Rigidifier/Dérigidifier}
+par \texttt{Punaiser/Dépunaiser}.
+
+Cette fonctionnalité peut donc être utilisée en vue de deux objectifs, mais la procédure à appliquer ne
+change pas:
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Sélectionner \textit{Outils/Punaiser-Dépunaiser}
+\item Sélectionner une forme présente à l'écran, qui peut être un point.
+
+Si l'utilisateur a choisi une forme qui n'est pas un point, cette forme devient indéformable. Autrement dit, il
+n'est plus possible de lui appliquer l'opération \texttt{Modifier}\index{Modifier}. Par contre, on peut la
+glisser\index{Glisser}, tourner\index{Tourner}  etc.
+
+Si l'utilisateur a choisi un point libre, l'opération  \texttt{Modifier} ne peut plus
+être exécutée en tirant sur ce point.  L'utilisateur est responsable de la
+mise en place d'un tel blocage, qui peut faciliter la modification de certaines figures
+complexes\ldots\ comme il peut aussi provoquer des blocages  de la figure
+elle-même\ldots\ Heureusement, \texttt{Dépunaiser} permet éventuellement de revenir en
+arrière! Il n'est pas possible de punaiser un  point \og sur\fg, ni un point construit,
+ni un point d'intersection. \end{list}
+
+Pour dépunaiser un objet, on applique la même procédure: l'ordinateur propose de punaiser les objets qui ne le
+sont pas et de dépunaiser ceux qui le sont.
+
+Cette fonctionnalité accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection
+multiple}.
+
+
+\section{Outils/Montrer-Cacher des formes}
+
+ La fonctionnalité \hyperdef{chapoutils}{Montrer}{\texttt{Montrer/Cacher des
+formes}} permet de cacher des formes ou de montrer des formes qui auraient été
+précédemment cachées.
+
+Quand on clique sur \textit{Outils/Montrer-Cacher des
+formes}\index{Montrer}\index{Cacher}, toutes les formes déjà dessinées
+apparaissent à l'écran. Les bords de celles qui ont été cachées auparavant
+apparaissent en bleu pâle (plus précisément en \texttt{cyan}).
+
+Cliquer sur une forme permet alors de la sélectionner en vue soit de la cacher (si elle était visible) et dans
+ce cas ses bords deviennent bleu pâle, soit de la montrer (si elle était cachée) et dans cet autre cas les
+bords de la forme reprennent leur couleur d'origine.
+
+Lorsqu'une forme est cachée, ses sommets le sont aussi, sauf ceux qui appartiennent à
+une autre forme non cachée.  Lorsque la sélection des figures à cacher ou à montrer est
+terminée, un clic  sur un autre élément provoque l'effacement de tous  les objets de
+couleur cyan.  Ces objets cachés continuent néanmoins d'exister et d'accompagner les
+objets non cachés avec lesquels ils sont en interaction lors des déplacements ou des
+modifications de ceux-ci. Il n'est cependant plus possible de sélectionner une forme
+cachée.
+
+Cette fonctionnalité accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection
+multiple}.
+
+
+\begin{comment}
+
+
+\section{Outils/Brancher-Débrancher trace}
+
+L'outil \hyperdef{chapoutils}{Trace}{\texttt{Brancher/Débrancher
+trace}}\index{Brancher!trace}\index{Debrancher@Débrancher!trace} permet de visualiser le lieu géométrique
+\index{Lieu!géométrique} d'un point mobile
+(ou de tout autre objet, auquel cas on parlerait plutôt d'\og enveloppe\fg\index{Enveloppe})
+et cela lors d'une animation réalisée soit à l'aide d'un mouvement, soit de l'opération \texttt{Modifier}.
+
+Voici un exemple élémentaire:
+
+\begin{minipage}[b]{0.6\linewidth}
+\textit{Le sommet $a$ d'un triangle  $abc$ est mobile sur une droite $D$. On demande le lieu géométrique du
+barycentre $g$ du triangle lorsque $a$ parcourt $D$.}\medskip
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\Prat
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Choisir \textit{Outils/Brancher-Débrancher trace}.
+\item Sélectionner le point $g$
+\item Déplacer $a$ sur $D$.
+\end{list}
+\end{minipage}}
+%\vspace{\baselineskip}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{Trace1.eps}
+\leg{}
+\end{minipage}
+
+Et voici le résultat:
+
+\centerline{\begin{minipage}[b]{0.5\linewidth}
+\includegraphics[width=\linewidth]{Trace2bis.bmp}
+\leg{}
+\end{minipage}}
+
+Le tracé du lieu n'a pas pour le logiciel le statut d'un objet; ce n'est qu'un trait sur l'écran et il est
+effacé dès le premier rafraîchissement de celui-ci. Il n'est donc pas possible de le sauvegarder, mais la
+procédure \textit{Fichier/Exporter en fichier bitmap} permet de réaliser une copie d'écran.
+
+\textbf{Remarques}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Puisqu'on peut \texttt{Brancher la trace}, on peut ausi la
+débrancher. La procédure est identique et le logiciel sait pour quels objets  la trace a été branchée.
+Il fait des propositions en conséquence.
+
+\item La trace peut être branchée pour plusieurs objets en même temps.
+
+\item Elle peut aussi être branchée pour d'autres objets que des points.
+\end{list}
+
+\textbf{Exemple}
+
+Étudions la situation suivante:
+
+{\itshape Un cercle $C$, de centre $o$ est donné. Un point $p$ est placé \og sur\fg\ ce
+cercle. Un autre point $a$ est fixé dans le plan, à l'intérieur ou à l'extérieur de $C$,
+mais pas sur ce cercle. On demande de construire le cercle passant par $a$ et tangent à
+$C$ en $p$, puis de faire varier $p$ sur $C$.}
+
+\begin{minipage}[b]{0.6\linewidth}
+Construire le cercle demandé n'est pas très difficile: son centre $b$ est à l'intersection
+de la droite $op$ et de la médiatrice du segment $[a,p]$. \vspace{2cm}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{ellipse0.eps}
+\leg{}
+\end{minipage}\hfill\strut
+
+Déplaçons alors le point mobile $p$ sur le cercle $C$ en demandant la trace du point $b$,
+puis de la médiatrice du segment $[a,p]$. Nous obtenons les figures suivantes (insérées
+dans le présent document en passant par la fonctionnalité
+\texttt{Exporter en bitmap} d'\AG).
+ 
+\strut\hfill
+\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{ellipse1.bmp}
+\leg{}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{ellipse2.bmp}
+\leg{}
+\end{minipage}
+\hfill\strut
+
+Déplacez ensuite  le point $a$ en dehors du cercle $C$ et recommencez ces figures.
+Concluez.
+
+\end{comment}
+
+
+\section{Outils/Avant-plan et Outils/Arrière-plan}
+
+Lors de la construction de formes à l'écran, il arrive que certaines formes en couvrent d'autres,
+partiellement ou complètement. Les outils \hyperdef{chapoutils}{Plans}{\texttt{Avant-plan}}\index{Avant-plan} et
+\texttt{Arrière-plan}\index{Arrière-plan} sont alors utiles pour retrouver les formes cachées en-dessous d'autres.
+
+Ces outils  permettent d'amener les
+formes sélectionnées respectivement à l'avant-plan et à l'arrière-plan.
+
+\textbf{Remarques} \begin{list}{\textbullet}{\itemsep=1mm} \item S'il y a plus de deux plans de superposition,
+l'option \texttt{Arrière-plan} envoie l'objet sélectionné à l'arrière de tous les autres, de même l'option
+\texttt{Avant-plan} ramène l'objet sélectionné devant tous les autres. \item Lorsque l'ordinateur, à
+l'occasion d'une sélection, affiche un message se terminant par un couple d'entiers, par exemple (3,1) nous
+avons vu à la page \pageref{barreesp} que le premier entier indique le  nombre de formes situées sous la
+pointe du curseur et que le second est le numéro de la forme sélectionnée en cas de clic. La forme portant le
+numéro 1 est celle qui se situe le plus à l'avant-plan.
+     \end{list}
+
+Ces fonctionnalités n'acceptent pas la \hyperlink{chapmedit.SelectionMultiple}{sélection
+multiple}.
+
+
+\section{Outils/Grille}
+
+
+L'option \hyperdef{chapoutils}{Grille}{\texttt{Grille}}\index{Grille}
+ permet d'afficher un réseau de points sur le fond de
+l'écran.
+
+Lors du choix du menu \textit{Outils/Grille}, la fenêtre suivante s'ouvre:
+
+\begin{center}
+\begin{minipage}[b]{0.5\linewidth}
+\includegraphics[width=\linewidth]{Grille.bmp}
+\leg{}
+\end{minipage}
+\end{center}
+
+
+Cette fenêtre permet de choisir le \textit{type de grille}, la \textit{taille des points} et
+l'\textit{écart} entre ces points.
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Type de grille: à côté de l'écran vierge (\textit{Pas de grille}) s'ouvrant par défaut,
+une grille quadrillée (\textit{Carrés}\index{Grille!de carrés}) et une grille
+triangulée (\textit{Triangles}\index{Grille!de triangles}) peuvent être affichées.
+
+ Les formes que l'on construit alors s'accrochent aux points
+de la grille comme les élastiques sur un géoplan grâce à la propriété de
+magnétisme\index{Magnetisme@Magnétisme}. Elles sont néanmoins toujours libres et peuvent
+être déplacées.
+
+De plus, si la grille est ouverte dans le cadre du menu A, deux fonctionnalités relevant du menu B
+s'ouvrent automatiquement. Elles donnent à l'utilisateur la possibilité de construire et de modifier des
+polygones quelconques. \index{Polygone!quelconque}\index{Modifier} La représentation du travail sur un
+géoplan est ainsi possible.\index{Geoplan@Géoplan}
+
+\item Taille des points: l'utilisateur
+choisit parmi trois tailles proposées dans la liste déroulante associée.
+
+\item Écart entre les points: cinq possibilités d'écartement sont proposées.
+\end{list}
+
+
+Pour revenir à un écran sans grille, on choisit l'option \textit{Pas de grille}
+dans le premier sous-menu.
+
+
+\section{Outils/Lire un historique}
+
+La réalisation d'une figure de géométrie est constituée d'une suite
+d'opérations\index{Operation@Opération} telles que \textit{Construire une forme
+géométrique}, \textit{Déplacer ou Modifier une forme}, \textit{Appliquer une
+transformation}, etc.
+
+Tout au long d'une session de travail, l'ordinateur enregistre les différentes
+opérations mises en \oe uvre. Elles constituent un
+\hyperdef{chapoutils}{Historique}{fichier
+\textit{historique}}\index{Fichier!historique} conservé dans un sous-répertoire
+\texttt{Apprenti Géomètre} du répertoire \texttt{Mes Documents} de l'utilisateur.
+Les fichiers historiques sont  des fichiers de type \texttt{.xml} mais  d'extension
+ \texttt{.hag}\index{.xml@\texttt{.xml}}\index{.hag@\texttt{.hag}}. Ils peuvent
+être lus à l'aide du logiciel \texttt{XmlNotepad}.
+
+Chaque fichier historique mentionne dans son titre
+le nom de son créateur, le titre du fichier de sauvegarde \texttt{.fag}\index{.fag@\texttt{.fag}} s'il a
+été créé,  ainsi que la date et l'heure de création et le numéro de la figure réalisée.
+
+ Par exemple si un utilisateur a lancé
+\AG\  en tant qu'enseignant et créé le 18 mai 2012 à 11h 32 une figure qui a
+automatiquement reçu le titre \og Figure-1\fg, alors le titre du fichier historique sera
+\texttt{Enseignant\_Figure-1\_18-05-2012\_11-32.hag}
+
+Si, à 11h 45, l'utilisateur sauvegarde son fichier sous le nom
+\texttt{MonDessin.fag}, alors le nom du fichier historique sera remplacé par
+\texttt{Enseignant\_MonDessin\_18-05-2012\_11-45.hag}
+
+La date et l'heure du fichier historique sont adaptés chaque fois que l'utilisateur
+sauvegarde son travail sous un nouveau nom.
+
+
+Le but de la constitution d'un fichier historique est  double: d'une part il permet dans
+le cours de la réalisation d'une figure d'annuler une opération intempestive ou de
+refaire l'opération qui vient d'être annulée si cette annulation était elle-même
+intempestive (voir \hyperlink{chapmedit.Annuler}{annuler} et
+\hyperlink{chapmedit.Refaire}{refaire} une opération). D'autre part, le fichier
+historique permet aussi de revoir tout le travail effectué (par exemple par un élève)
+après que ce travail soit terminé et alors que le fichier de sauvegarde normal (le
+fichier \texttt{.fag}) ne montre plus que le travail achevé.
+
+Certaines opérations ne sont pas enregistrées dans le fichier historique tout simplement
+parce qu'il est  impossible de les annuler. Il en est ainsi de l'impression d'un fichier
+ou de son exportation en fichier BitMap ou en fichier Postscript. La lecture d'un fichier
+historique n'est pas non  plus enregistrée dans un nouvel historique.
+
+
+
+L'utilisateur peut donc relire un fichier historique afin d'analyser le travail réalisé au
+cours de la session. La procédure \texttt{Lire un historique}\index{Lire!un historique} est
+utilisée à cet effet. Les différentes opérations enregistrées seront exécutées une à une.
+
+\fbox{\begin{minipage}[b]{0.99\linewidth}
+\Prat
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Actionner le menu \textit{Outils/Lire un historique}. Une
+fenêtre s'ouvre, affichant la liste des fichiers historiques enregistrés.
+
+L'élève (c'est-à-dire l'utilisateur  qui n'a pas introduit de mot de passe au démarrage) n'a accès
+qu'aux fichiers portant son nom. L'utilisateur enseignant a accès à tous les fichiers historiques.
+
+\item Après que l'utilisateur ait choisi un des fichiers historiques,
+une barre de menus s'ouvre:
+
+\begin{center}\includegraphics[width=\linewidth]{ReadHisto.jpg}\end{center}
+
+\item Ces boutons permettent de commencer la visualisation par la première ou les dernières opérations, puis
+d'avancer et/ou de reculer dans l'ordre des opérations.
+ \end{list} \end{minipage}}
+
+
+\textbf{Remarques}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item À chaque étape du déroulement de l'historique,  il est possible via le  menu
+\textit{Fichiers}, d'\hyperlink{chapmedit.ExportPS}{exporter l'écran en
+Postscript}\index{Exporter! en Postscript} ou en \hyperlink{chapmedit.ExportBMP}{fichier
+bitmap}\index{Exporter! en fichier bitmap} ou de
+l'\hyperlink{chapmedit.Imprimer}{imprimer}\index{Imprimer}.
+
+\item Pour quitter l'option \texttt{Lire un historique},  deux possibilités existent : la
+première est d'actionner le bouton \textit{Menu usuel} qui arrête la lecture de
+l'historique et revient au menu usuel --- l'écran de travail --- en conservant la figure
+qui vient d'être visualisée. Le travail peut alors reprendre à partir de cette figure.
+
+La seconde possibilité est d'actionner le menu
+\hyperlink{chapmedit.Fermer}{\textit{Fermer}}\index{Fermer} (ou la croix au-dessus de la
+fenêtre) par laquelle l'utilisateur  abandonne cette figure et revient à une feuille de
+travail précédente, s'il en existe une, ou quitte l'application dans le cas contraire.
+
+\item Il est aussi possible, sans fermer l'historique de  revenir à une fenêtre
+précédente via le menu \textit{Fenêtres}. \end{list}
+
+
+\endinput
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+
+
+

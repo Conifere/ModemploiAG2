@@ -1,0 +1,116 @@
+
+
+\chapter*{Les modifications apportées à \AG}
+
+\section*{Version 2.4.1}\label{chapnouv4_1}
+
+La  plupart des modifications introduites dans cette version 2.4.1 sont des corrections d'erreurs ou de dysfonctionnements du logiciel apparaissant lors de l'exécution de figures
+relativement compliquées. Toutefois, une modification plus importante devrait être appréciée par les utilisateurs dans des classes de l'enseignement primaire:
+les formes standard ne sont désormais plus mises sur le même pied que les formes libres pour ce qui concerne l'orientation.
+Concrètement cela signifie surtout que l'aire d'une telle forme ne change plus de signe quand on la retourne et que mla fusion de deux formes standard est plus simple que celle de deux formes libres.
+Précisons qu'il reste possible de flécher les côtés d'une forme standard de façon à en montrer le sens de parcours.
+
+\section*{Version 2.4.0}\label{chapnouv4_0}
+
+Outre les corrections de bugs et modifications purement cosmétiques, cette nouvelle version comporte des
+innovations notables.
+
+ \begin{itemize} \item L'innovation la plus importante consiste en l'introduction dans
+le logiciel du concept de macro.  Une macro résulte de l'enregistrement d'une séquence d'instructions, lesquelles peuvent elles-mêmes être des macros.
+ Il en résulte l'adjonction au présent guide d'un chapitre \ref{chapmac},
+nouveau,  que  l'utilisateur voudra bien consulter attentivement.
+
+\item L'utilisateur a désormais la possibilité de convertir des formes libres en formes standard,  créant
+ainsi de nouvelles  familles de formes standard. À cet effet, il utilisera la fonctionnalité
+\texttt{Standardiser} du menu \textit{Fichiers}. Voir page \pageref{chapfstd.stdiser}.
+
+\item Des transformations géométriques supplémentaires ont été introduites dans le menu
+\hyperlink{chaptsf.Transformations}{\textit{Transformations}}.   Il s'agit  \begin{enumerate} \item des déplacements généraux, c'est
+à dire des rotations et translations définies à partir de deux points et de leurs images. Il n'est donc plus
+nécessaire de connaître ni le centre ni l'angle d'une rotation pour la construire. Cette nouvelle possibilité
+donnera à l'utilisateur la possibilité de reporter des longueurs, d'un segment ou d'une droite sur un segment
+ou une droite. Voir page \pageref{chaptsf.depla}.                              \item de deux types de transformations affines : les étirements
+et les cisaillements. Ces transformations permettent par exemple de construire une ellipse en tant qu'image
+d'un cercle. Voir page \pageref{chaptsf.etir}.
+
+ \end{enumerate}
+
+\end{itemize}
+
+\section*{Version 2.3.9}\label{chapnouv3_9}
+
+\begin{itemize}
+\item L'interface a été revu afin de permettre à l'utilisateur de modifier la taille des polices de caractères utilisées.
+
+\item Le dessin et la gestion des cercles, arcs et formes hybrides ont été complètement révisés. On ne peut cependant pas encore fusionner deux formes hybrides.
+
+
+\item La routine de \hyperlink{chapoper.Fusionner}{fusion} des formes libres a été modifiée de sorte que toute modification à une des deux formes fusionnées ou au résultat de la fusion se
+répercute sur les deux autres formes. La fusion de deux polygones tient compte de l'orientation de ceux-ci.
+
+\item La routine de construction d'un point d'intersection de deux formes a été améliorée dans le cas de deux segments superposés.
+
+\item La routine d'\hyperlink{chapmouv.Ajustement}{ajustement} a été modifiée de façon à faciliter la fusion de deux formes géométriques.
+
+\item La \hyperlink{chapmodif.PtFix}{règle de choix} des points fixes lors de la modification d'une figure a été modifiée.
+
+\item Il est désormais possible d'augmenter ou diminuer le nombre de décimales affichées pour les \hyperlink{chapoutils.Mesure}{longueurs et aires}.
+
+\end{itemize}
+
+\section*{Les versions 2.3.7 et 2.3.8}
+
+La version 2.3.7 résulte de la conjonction de deux processus:
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Le premier processus  se réalise en
+permanence; il concerne l'amélioration  des performances du logiciel. De ce point
+de vue, nous pouvons citer pour la version 2.3.7
+
+\begin{itemize}
+\item la suppression d'erreurs de programmation, qui affectaient
+principalement les  fonctionnalités \texttt{Annuler} et \texttt{Refaire}, ainsi
+que la lecture d'un historique (qui utilise les mêmes méthodes que
+\texttt{Refaire}).
+
+\item le remaniement de la routine qui gouverne les  modifications de figures, et à
+ce titre constitue l'élément central du logiciel. La nouvelle routine de
+modification devrait permettre un dynamisme plus souple et provoquer moins de
+blocages de figures que la précédente. À vérifier\ldots
+
+\item la réécriture des routines de gestion des figures hybrides. Le résultat
+atteint est bon. Mais des difficultés subsistent. Elles nécessitent une
+modification de la structure même d'une figure hybride. Ce sera --- peut-être ---
+pour la prochaine version.
+\end{itemize}
+ 
+\item Le deuxième processus est l'introduction de nouvelles fonctionnalités.
+La version 2.3.7 en comporte plusieurs.
+
+\begin{itemize} \item L'opération \texttt{Dupliquer} permet désormais de dupliquer
+un \og point sur\fg\ un segment vers un cercle ou un arc de cercle.
+
+\item Un \og point sur\fg\ un arc de cercle peut être animé, via le menu
+contextuel.
+
+\item Un \og point sur\fg\ un polygone peut être astreint à rester sur un côté. Il
+n'a donc plus accès à l'intégralité du polygone. La commande \texttt{Limiter au
+côté} a été introduite à cet effet dans le menu contextuel.
+\end{itemize}
+
+\item Il est désormais possible de cacher une transformation géométrique, sans
+cacher son support.
+
+\item Enfin, à partir du menu \texttt{Préférences}, il est désormais possible
+de changer les unités de longueur et d'aire utilisées pour
+l'affichage des mesures correspondantes.
+ 
+\end{list}
+
+La version 2.3.8  diffère de la version 2.3.7 essentiellement par la correction d'une erreur de
+programmation qui entraînait dses déformations intempestives de certaines figures lors d'un mouvement.
+Quelques autres améliorations portent sur la gestion des points d'intersection et des formes conditionnées.
+
+
+
+

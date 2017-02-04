@@ -1,0 +1,23 @@
+%!PS-Adobe-3.0 EPSF-3.0
+%%BoundingBox: 61 77 279 285
+%%Creator: Guy NOEL
+%%Title:
+%%Creation Date:
+%%Extensions: CMYK
+(PsGeo2d.ps) run
+debut
+
+[[1 cm 1 cm][11 cm 11 cm]] fixecadre
+[[-5 -5][5 5]] fixedomaine
+
+bleu fixecouleurs 1 fixemoderemplissage
+[/a /d /b /e /c]  [origine [0 2] 5 ] polregsommets  affectervaleurs
+
+/v [0 2] store
+[a dup v addp 5 2] poletoilerempli
+[b dup v addp 5 2] poletoilerempli
+[c dup v addp 5 2] poletoilerempli
+[d dup v addp 5 2] poletoilerempli
+[e dup v addp 5 2] poletoilerempli
+afficherBB
+fin

@@ -1,0 +1,187 @@
+\chapter{Macros}\label{chapmac}
+
+\section{Qu'est-ce qu'une macro?}\index{Macro}
+
+Beaucoup de logiciels offrent à l'utilisateur la possibilité de définir des macros. On entend par là le fait
+qu'une suite d'opérations soit enregistrée et reste à la disposition de l'utilisateur qui peut la réutiliser
+aussi souvent qu'il le désire.
+
+L'utilité des macros est donc de faciliter la tâche de l'utilisateur en le dispensant de réencoder plusieurs
+fois la même séquence d'instructions. Éventuellement l'utilisateur recevra d'une autre personne un fichier
+contenant des macros qu'il pourra exécuter comme des \og boîtes noires\fg. Dans un cadre scolaire, ceci n'est
+pas à conseiller car la réalisation personnelle d'une macro par un élève contribue à la compréhension du
+domaine étudié. C'est donc une activité d'apprentissage à ne pas négliger, pour autant que la macro en
+question soit effectivement susceptible d'être utilisée à plusieurs reprises.
+
+\AG\ étant un logiciel de géométrie, il est normal que les macros qu'il permet de réaliser soient destinées à
+la construction de formes simples, susceptibles d'être réutilisées dans des constructions plus compliquées.
+On pense par exemple à des concepts tels que \textit{médiatrice d'un segment}, \textit{bissectrice d'un
+angle}, \textit{cercle inscrit ou circonscrit à un triangle}, etc. On évitera de créer une macro qui réalise
+elle-même une construction compliquée, le genre de construction qu'on ne réalise qu'une fois.
+
+Une séquence d'instructions réalisant une construction simple doit partir d'un ou plusieurs objets
+\textit{initiaux}\index{Objet ! initial}. Par exemple, pour appliquer une macro \texttt{Médiatrice d'un
+segment}, il faut d'abord disposer du segment dont on veut construire la médiatrice. Ce segment est un objet
+initial. Quant à l'objet construit --- ici, la médiatrice --- c'est un objet
+\textit{final}\index{Objet!final}. Une macro peut utiliser plusieurs objets initiaux et produire plusieurs
+objets finaux.
+
+\section{Créer une macro}\index{Creer@Créer!une macro}
+
+Depuis la version 2.0.4, la barre de menus comporte un menu \texttt{Macros}. À l'ouverture d'une session, il
+ne comprend que deux items:
+                                                    \begin{center}
+\includegraphics[width=0.8\linewidth]{macro1.jpg}
+\leg{}
+\end{center}
+
+L'item \texttt{Charger une macro} suppose que des macros ont déjà été créées et stockées sur l'ordinateur.
+Nous en parlerons plus loin. Cliquez sur l'item \textit{Créer une macro}. Votre écran change radicalement.
+
+                                                             \begin{center}
+\includegraphics[width=0.8\linewidth]{macro2.jpg}
+\leg{}
+\end{center}
+
+\subsection{Les opérations disponibles}
+
+S'il était chargé, le pavé des formes standard est disparu. Par contre, le pavé des formes libres est présent
+et complet. Les boutons de mouvements sont disparus, sauf le bouton \texttt{Zoomer}. Dans la barre des menus,
+\texttt{Édition} et \texttt{Outils} sont disparus. Mais d'autres suppressions n'apparaissent que lorsqu'on
+déroule les menus subsistants. Pourquoi ces suppressions ?
+
+La réponse est simple: une macro n'a pour but que de réaliser des constructions simples, qui seront
+reproduites automatiquement. Impossible de réaliser automatiquement un mouvement réalisé à la souris comme
+\texttt{Glisser}! D'où la suppression des mouvements. Et si \texttt{Zoomer} subsiste, vous constaterez sans
+peine qu'il n'est plus possible  de zoomer une forme particulière. Seul l'écran complet peut être
+redimensionné: cette opération ne modifie nullement les rapports des formes entre elles.
+
+Les opérations \og cosmétiques\fg\ du menu \texttt{Outils} ne sont pas accessibles: pourquoi voudriez-vous
+colorer une forme construite par une macro que vous utiliserez dans des circonstances variées, pouvant
+appeler des couleurs différentes?  Même chose pour les étiquettes que vous auriez envie d'attribuer aux
+points construits.
+
+Dans le menu    \texttt{Opérations} on a supprimé \texttt{Découper} et \texttt{Fusionner}, deux opérations qui
+nécessitent une intervention à la souris. \texttt{Dupliquer} est toujours présent mais ne pourra être utilisé
+que pour dupliquer un point mobile sur une forme et non une forme quelconque.
+
+En résumé: vous pouvez insérer dans une macro toutes les opérations de construction d'une forme libre, ainsi
+que les opérations     \texttt{Diviser}, \texttt{Dupliquer un point "sur"},     \texttt{Prolonger},
+\texttt{Construire le centre} ainsi que toutes les opérations impliquant une
+transformation géométrique.                       Vus pouvez aussi utiliser dans une macro une ou plusieurs macros construites antérieurement.
+
+\subsection{La pratique}
+
+Le plus important est le fait qu'après avoir cliqué sur \texttt{Macros/Créer une macro}, vous vous trouvez devant une feuille de travail vierge: avec \AG, il
+n'est pas possible de mélanger à l'écran des formes géométriques relevant d'une situation qu'on étudie et
+d'autres destinées à créer une macro. Quand il décide de créer une macro, l'utilisateur doit se concentrer
+sur ce travail. Il est souhaitable qu'il l'ait bien préparé car il ne disposera plus du bouton
+\texttt{Annuler}. Plus exactement la seule façon d'annuler une erreur de manipulation, c'est d'actionner
+\texttt{Macros/Abandonner la macro} et de recommencer à zéro.
+
+Mais pratiquement, comment crée-t-on la macro? Cette création passe par plusieurs phases.
+
+\begin{enumerate} \item En utilisant les opérations disponibles, on réalise la construction à la façon
+habituelle. Par exemple: pour créer une macro \texttt{Médiatrice d'un segment}:
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Tracer un segment.
+\item Diviser le segment en 2.
+\item Tracer la perpendiculaire au segment passant par le point milieu.
+\end{list}
+
+La construction est terminée, votre écran (amputé du pavé des formes libres) correspond à la figure
+\ref{macro3}. Mais la macro n'est pas encore créée.
+
+
+\begin{minipage}[b]{0.47\linewidth}
+\includegraphics[width=\linewidth]{macro3.jpg}
+\leg{\label{macro3}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.47\linewidth}
+\includegraphics[width=\linewidth]{macro5.jpg}
+\leg{\label{macro5}}
+\end{minipage}
+
+\item Déroulez à nouveau le menu \texttt{Macros}. Constatez que l'item \texttt{Créer une macro} a été remplacé par    \texttt{Choisir les objets finaux}.
+C'est donc le moment de dire à l'ordinateur quel est l'objectif de la macro. Il vous suffit de sélectionner ces objets à la souris, de la façon usuelle.
+ Au fur et à mesure de vos sélections, l'ordinateur détermine lui-même quels sont les objets initiaux et il redessine l'écran (figure \ref{macro5}):
+  les objets finaux\index{Objet!final} sont colorés en bleu et les objets initiaux\index{Objet!initial} sont colorés en rouge.
+
+\item Quand votre choix d'objets finaux est terminé, revenez à nouveau au menu \texttt{Macros} et choisissez \texttt{Sauvegarder la macro}. Une fenêtre intitulée \og Description de la macro\fg\ s'ouvre.
+Elle affiche la liste des objets initiaux et celle des objets finaux.
+
+\begin{center}
+\begin{minipage}[b]{0.47\linewidth}
+\includegraphics[width=\linewidth]{macro6.jpg}
+\leg{\label{macro6}}
+\end{minipage}
+\end{center}
+
+
+Vous pouvez ajouter d'autres commentaires ou informations si vous le désirez.  Quand vous fermerez cette fenêtre, une boîte de dialogue vous permettra de choisir
+le nom du fichier contenant cette macro (l'extension \texttt{.xmag} est ajoutée automatiquement) et le dossier de votre disque dur où il sera sauvegardé.
+Par défaut, les fichiers de macros sont sauvegardés dans votre dossier \texttt{Mes Documents/Apprenti Geometre/Macros}.
+
+\item Votre macro est à présent terminée. L'écran spécial pour les macros se ferme et vous revenez à l'environnement usuel.
+\end{enumerate}
+
+\section{Exécuter une macro}
+
+Dès qu'une macro a été créée et sauvegardée, elle est disponible via le menu \texttt{Macros}. Déroulez celui-ci.
+
+\begin{center}
+\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{macro7.jpg}
+\leg{\label{macro6}}
+\end{minipage}
+\end{center}
+
+Vous constatez la présence de quatre nouveaux items, chacun suivi d'une petite flèche, ce qui indique la présence de sous-menus. En déroulant un quelconque d'entre eux,
+vous verrez la liste des macros ayant été chargées dans le logiciel.
+Une macro nouvellement créée est chargée automatiquement. Via l'item \texttt{Charger une macro} vous pouvez en charger d'autres à partir de votre disque dur.
+
+Voyons les fonctionnalités associées aux sous-menus.
+
+\begin{enumerate}
+\item \texttt{Afficher la description d'une macro} affiche la fenêtre de description créée en même temps que la macro. L'utilisateur peut ainsi se remémorer la liste des objets initiaux (ils doivent avoir été construits \textsc{avant} l'exécution de la macro), celle des objets finaux et tout renseignement qui aurait été inséré dans la description.
+\item \texttt{Exécuter une macro}\ldots\ exécute la macro sélectionnée. L'ordinateur va demander quels sont les objets initiaux, dans l'ordre du fichier \og Description\fg, lequel aura été réouvert. Dès la sélection du dernier objet initial, la macro est exécutée.
+\item \texttt{Fermer une macro} permet de décharger une macro du logiciel.
+\item \texttt{Supprimer une macro} permet de supprimer une macro sur le disque dur. Attention, cette opération n'est pas réversible!
+\end{enumerate}
+
+\section{La sauvegarde des macros}
+
+La sauvegarde des macros s'opère de deux manières différentes. D'une part, elle est effectuée automatiquement lors de la création d'une nouvelle macro.
+D'autre part, toute macro utilisée lors de la réalisation d'un fichier de formes géométriques ets incorporée à celui-ci lors de la sauvegarde.
+Il n'est donc plus nécessaire de charger les macros en question lorsqu'on recharge le fichier de formes.
+
+ \section{Quelques remarques terminales}
+ 
+ \begin{list}{\textbullet}{\itemsep=1mm}
+ 
+\item  Lorsqu'une macro est exécutée, l'ordinateur demande à l'utilisateur, pour chaque objet initial, de    sélectionner un objet ayant les caractéristiques indiquées dans la description de la macro.
+ 
+ Par exemple, la macro \texttt{Médiatrice} demande qu'un segment soit sélectionné. Cette demande doit être interprétée de manière souple: le logiciel acceptera un côté de polygone, mais pas une droite, ni une demi-droite.
+ 
+ De même si l'ordinateur demande un quadrilatère, il acceptera un rectangle, ou un  carré, etc. Mais si l'ordinateur demande un rectangle, il n'acceptera pas un parallélogramme.
+ 
+ Il importe donc, lors de la réalisation d'une macro, que l'utilisateur détermine, pour chaque objet initial, quelle est la forme la plus générale qui peut être choisie comme objet initial.
+ Et qu'il effectue la construction de la macro en utilisant une forme de ce type.
+ 
+\item Les objets initiaux d'une macro déterminent entièrement les objets finaux. Il en résulte que seule la modification des objets initiaux peut entraîner des modifications pour les objets terminaux.
+
+À titre d'exemple, imaginons une macro qui construit un carré à partir de deux sommets voisins de ce carré. Il sera possible de modifier le carré en tirant sur un de ces sommets mais non en tirant sur un des deux autres sommets.
+Le carré ainsi construit par une macro est bien un carré, mais ce n'est pas une forme libre au même titre que celles construites par les méthodes usuelles, à partir du pavé des formes libres.
+
+On voit donc que les objets construits à l'aide de macros sont moins souples que les autres, ils sont modifiés moins facilement. On ne peut pas non plus leur appliquer un mouvement directement: cela serait contradictoire avec leur construction. Par contre les
+mouvements appliqués aux objets initiaux ont des répercussions sur les objets finaux.
+
+Autre exemple: si un point situé \og sur\fg\ un objet est dupliqué sur un autre, tant le point source que le point image peuvent normalement être utilisés pour déplacer simultanément les deux points, chacun sur son support.
+Ce n'est plus le cas si le point source et le point image sont respectivement un objet initial et un objet final d'une construction par macro: seul le point source peut être modifié directement, et il entraîne le point image.
+
+
+
+\end{list}
+ 

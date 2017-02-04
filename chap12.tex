@@ -1,0 +1,325 @@
+\chapter{Préférences, etc.}\label{chapprefs}
+
+
+\section{Introduction}
+
+Ce chapitre comporte quatre sections consacrées chacune à l'un des  menus qui n'ont pas
+encore été décrits. Le premier, \textit{Préférences}\index{Preferences@Préférences}
+permet de régler divers paramètres. Le second --- très court --- donne accès à un
+mini-traitement de texte permettant par exemple à l'utilisateur de prendre des notes
+durant son travail. Le troisième explicite les aides disponibles. Enfin le quatrième,
+\textit{Configuration}\index{Configuration} n'est accessible qu'aux enseignants ayant
+introduit un mot de passe. Il permet de modifier l'environnement de travail, par exemple
+en supprimant des items de menus.
+
+\section{Préférences}
+
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{Prefs.bmp} \end{minipage}\hfill
+\begin{minipage}[b]{0.67\linewidth}  Le menu
+\hyperdef{chapprefs}{Preferences}{\textit{Préférences}}\index{Preferences@Préférences}
+ comporte neuf fonctionnalités.
+
+La première, \texttt{Formes standard}\index{Forme!standard} ne se retrouve
+que pour les menus A, AB et AC\index{Menu!A}\index{Menu!AB}\index{Menu!AC}.
+
+La deuxième,
+\texttt{Distance de magnétisme}\index{Distance!de magnétisme} permet de régler cette distance.
+
+Les commandes \texttt{Ajustement automatique}, \texttt{Trajectoire}\index{Trajectoire} et
+\texttt{Formes pointées}\index{Formes!pointées}  sont actives par défaut.  Les deux
+fonctionnalités suivantes, \texttt{Formes fléchées} et \texttt{Formes bifaces}, ne le sont pas.
+Chacune peut être activée  d'un  clic. Enfin, les deux dernières fonctionnalités permettent de
+changer l'unité de longueur et l'unité d'aire. \end{minipage}
+ 
+\subsection{Formes standard}
+
+\index{Forme!standard}
+Ce sous-menu permet de changer le jeu de formes standard, ainsi que la taille de ces formes. Nous avons déjà
+décrit ces fonctionnalités  au paragraphe \ref{autresjeux} et nous n'y revenons donc pas ici.
+
+\subsection{Distance de magnétisme}
+
+À l'aide de l'option \texttt{Distance de magnétisme}\index{Distance!de magnétisme},  l'utilisateur peut
+augmenter ou diminuer la distance de magnétisme,  c'est-à-dire la distance maximum entre
+deux formes pour que le magnétisme soit actif. Par défaut, la distance est de 8 (pixels). Elle peut être
+modifiée arbitrairement. Annuler la distance de magnétisme revient à annuler le magnétisme lui-même et modifie
+fortement le comportement du logiciel. Par exemple, avec une distance de magnétisme nulle, il n'est plus
+possible de placer un point \og sur \fg\index{Point!sur} un objet.
+
+Dans certains cas où l'on déplace beaucoup de petites formes géométriques (pour réaliser des pavages, par
+exemple), le magnétisme peut se révéler un peu encombrant, trop de points étant proches les uns des autres.
+Il est alors à conseiller, plutôt que de réduire la distance de magnétisme, de zoomer\index{Zoomer}
+l'écran complet. Les petites formes deviennent plus grandes mais la distance de magnétisme ne change pas.  Une
+fois la figure terminée, on peut contre-zoomer.
+
+\subsection{Ajustement automatique}
+\index{Ajustement}
+
+Comme il a été signalé à la section consacrée au mouvement
+\hyperlink{chapmouv.Glisser}{\texttt{Glisser}}, le glissement d'une figure se
+termine normalement par un \hyperdef{chapprefs}{Ajuster}{ajustement} automatique.
+Cet automatisme peut être déconnecté en décochant le menu
+\textit{Préférences/Ajustement automatique}.
+ 
+\subsection{Trajectoire}
+\index{Trajectoire}
+
+Dans le menu A, lorsque cette \hyperdef{chapprefs}{Trajectoire}{option} est cochée, les
+mouvements de retournement sont visualisés \og dans l'espace\fg. Avec les menus  B et C,
+cela concerne également les transformations géométriques: les rotations, translations,
+symétries, homothéties, similitudes donnent lieu à des dessins animés qui montrent
+clairement la transformation de la forme source en son image et assurent le lien avec
+les mouvements physiques. Rappelons néanmoins que ces \og trajectoires\fg\ ne font pas
+partie des objets géométriques \og transformations\fg, ces objets n'étant définis que
+par un petit nombre de points sources et leurs images.
+
+Les figures ci-dessous montrent le film (avec arrêt sur images) du retournement
+(selon l'axe vertical passant par le sommet inférieur droit) du triangle rectangle de la famille du triangle
+équilatéral :
+
+\strut\hfill
+\begin{minipage}[b]{0.1\linewidth}
+\includegraphics[width=\linewidth]{Retour1.eps}
+\leg{}
+\end{minipage}\hfill\strut
+
+\subsection{Formes pointées}
+\index{Formes!pointées}
+
+Cette option est activée par défaut. Il en résulte que lors de la construction d'une
+forme, les sommets sont dessinés, à l'exception des sommets des cubes et des réglettes.
+À partir du moment où l'option est désactivée,  les sommets ne sont plus dessinés lors
+de la construction d'une  forme.   Ces points sont néanmoins toujours actifs, ils
+peuvent par exemple être saisis, dans les  mêmes conditions que les points visibles,
+lors d'une modification de la figure.
+
+Si l'on coche de nouveau l'option \textit{Formes pointées}, elle redevient active pour
+les nouvelles constructions mais l'aspect des constructions précédentes n'est pas
+modifié. Seul le sous-menu \hyperlink{chapcontext.EnleverPoints}{\textit{Pointer}} du menu contextuel  permet de faire réapparaître les points qui ne sont pas
+dessinés.
+
+
+\strut\hfill
+\begin{minipage}[b]{0.15\linewidth}
+\includegraphics[width=\linewidth]{pentapointe.eps}
+\leg{}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.15\linewidth}
+\includegraphics[width=\linewidth]{pentanonpointe.eps}
+\leg{}
+\end{minipage}\hfill\strut
+
+\subsection{Formes fléchées}
+\index{Formes!fléchées}
+
+Cette option fonctionne un peu comme \textit{Formes pointées}, mais \og à l'envers\fg\
+puisque, par défaut, elle n'est pas active. Dès qu'elle est activée, toute forme
+nouvellement construite est munie de flèches matérialisant l'orientation de la
+forme.\index{Orientation} Après désactivation, ces flèches ne sont plus placées sur les
+nouvelles formes, mais ne disparaissent pas des anciennes. À nouveau, le menu contextuel
+permet de modifier la situation, via son sous-menu consacré aux
+\hyperlink{chapcontext.Flecher}{flèches}.
+
+\subsection{Formes bifaces}\index{Formes!bifaces}
+
+En vue de faciliter le repérage des formes qui auraient été retournées et de  mettre en évidence la différence
+visuelle entre deux formes symétriques par rapport à un axe, il est possible, en activant l'option
+\texttt{Formes bifaces}, de faire en sorte que les formes changent de couleur lorsqu'on les retourne. La face
+arrière a alors la couleur complémentaire de la face avant.
+
+\centerline{\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{bifaces.eps}
+\leg{}
+\end{minipage}}
+Par défaut, l'option n'est pas activée.
+
+ \subsection{Unité de longueur et Unité d'aire}
+ 
+ Par défaut, l'unité de longueur et l'unité d'aire
+utilisées par le logiciel pour mesurer les longueurs et les aires sont respectivement la longueur
+du côté et l'aire du carré standard (le carré rouge).
+
+L'utilisateur peut modifier ces choix, ce qui lui permet de faire afficher par le logiciel
+des rapports de longueurs et des rapports d'aires arbitraires.
+
+Si on  choisit dans le menu \texttt{Préférences} le sous-menu \texttt{Unité de
+longueur}, un menu se déroule qui permet soit de choisir une nouvelle unité
+de longueur, soit de revenir au choix par défaut. N'importe quel segment ou côté
+de polygone peut être choisi comme nouvelle unité de longueur.
+
+Dès qu'une nouvelle unité a été choisie, les mesures de longueur qui seront affichées suite au
+placement d'une étiquette \og *\fg\ (voir l'opération \hyperlink{chapoutils.Nommer}{Nommer})
+seront relatives à cette nouvelle unité. Toutes sauf une: celle du nouveau segment unité lui-même.
+Si on demande la mesure de ce segment, l'affichage mentionnera le mot \og \texttt{Ref}\fg\ (pour
+\og Référence\fg) suivi de la mesure \og absolue\fg\ de ce segment, c'est-à-dire sa mesure par
+rapport au côté du carré standard. Une simple multiplication permet alors de retrouver les mesures
+absolues des autres segments.
+
+La fonctionnalité \texttt{Unité d'aire} fonctionne de la même manière. Mais il faut
+se souvenir que les aires qui sont affichées sont des aires orientées, donc
+qu'elles sont de signe quelconque. Si on choisit un polygone d'aire négative (par
+rapport au carré standard) comme unité de mesure, les polygones d'aire positive
+par rapport au carré standard auront une mesure négative par rapport à cette
+nouvelle unité. Et vice-versa. Et si jamais on choisit un polygone d'aire nulle
+comme unité d'aire\ldots
+
+
+\section{Notes}
+
+Le menu
+\hyperdef{chapprefs}{Notes}{\textit{Notes}}\index{Notes}
+permet à l'utilisateur de rédiger  un texte relatif
+à son travail, tout en continuant d'utiliser \AG.
+Comme il est possible de le voir sur la figure
+ci-dessous, on retrouve les fonctionnalités
+principales d'un traitement de texte de  base.
+
+
+\begin{center}
+\includegraphics[width=0.8\linewidth]{Notes.bmp}
+\leg{}
+\end{center}
+
+Les fichiers créés par ce mini-traitement de texte sont des fichiers de type \textit{Rich Text Format},
+d'extension \texttt{.rtf}\index{.rtf@\texttt{.rtf}}. Ils sont lisibles avec les logiciels classiques:
+\texttt{Wordpad}, \texttt{Word} ou \texttt{OpenOffice}. De plus un fichier créé extérieurement avec un de ces
+logiciels et n'utilisant pas de fonctionnalités élaborées pourrait être importé dans \AG: la fenêtre ouverte
+par le menu \textit{Notes} comporte une commande \texttt{Ouvrir} dans le menu \textit{Fichier}.
+
+Une activité de narration de recherche réalisée avec \AG\ bénéficierait particulièrement de cette possibilité
+d'écrire un texte en coordination avec le tracé et la manipulation d'une figure. Il est également possible à
+l'enseignant de préparer une fiche de consignes de travail et de la faire afficher par l'élève utilisant \AG.
+
+
+
+\section{Aide}
+
+\index{Aide}
+\hyperdef{chapprefs}{Aide}{Ce menu}
+contient quatre options :
+\texttt{Afficher l'aide}, \texttt{Guide utilisateur},
+\texttt{Visiter le site AG} et
+\texttt{À propos}, dont la première est
+cochée par défaut.
+
+ \subsection{Afficher l'aide}
+
+L'option \texttt{Afficher l'aide}\index{Afficher!l'aide} est activée par défaut.  Elle provoque  l'affichage
+d'un message de quelques mots explicitant la man\oe uvre à accomplir. Ce message accompagne le curseur de la
+souris  de sorte que l'utilisateur l'a toujours sous les yeux.
+
+Pour désactiver cette aide, il suffit de décocher le menu correspondant en cliquant dessus.
+Dans ce cas, il est encore possible de savoir quelle est l'option  active car elle s'affiche dans
+la barre de titre du document.
+
+\subsection{Guide Utilisateur}
+
+Cette option donne accès au présent guide, à deux conditions: \begin{enumerate} \item que
+son titre actuel, \texttt{Guide utilisateur AG2.pdf}, n'ait pas été modifié.
+\item qu'il se trouve dans le même dossier que l'exécutable \texttt{AG2.exe}.
+
+\end{enumerate}
+
+\subsection{Visiter le site AG}
+
+\texttt{Visiter le site AG}\index{Visiter!le site AG} permet d'accéder au
+site du CREM\footnote{www.crem.be} sur lequel il est possible d'obtenir une
+brève présentation d'\AG, le présent guide,  des documents à destination des
+enseignants et des activités à réaliser avec les élèves, des formations, de
+nouvelles mises à jour d'\AG\ et encore bien d'autres choses.
+
+\subsection{À propos}
+
+Cette option permet d'afficher les informations relatives à la version du logiciel.
+
+
+\section{Configuration}
+
+Le menu \hyperdef{chapprefs}{Configuration}{\texttt{Configuration}}\index{Configuration} n'est accessible qu'à
+l'enseignant. Il ne comporte qu'un seul item, dénommé
+\textit{Personnaliser}, lequel provoque l'ouverture d'une fenêtre de dialogue:
+
+\begin{center}
+\includegraphics[width=0.7\linewidth]{Configuration.bmp}
+\leg{}
+\end{center}
+
+
+À partir de cette fenêtre, toutes
+les options des différents menus peuvent être  activées ou désactivées
+selon les desiderata de l'enseignant (voire de l'élève, si l'enseignant lui
+donne le mot de passe). Celui-ci  peut:
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item décider de la configuration qu'il va utiliser (\texttt{Charger une
+configuration}\index{Charger!une configuration}). À l'origine, les configurations possibles
+sont les \textit{menus A, B, C, AB et AC} ;
+
+\item construire une configuration de son choix en sélectionnant les formes libres et les fonctionnalités qui
+seront accessibles aux élèves. Cette configuration pourra être enregistrée --- de préférence sous un nouveau
+nom, auquel le logiciel se charge d'adjoindre l'extension \og .men\fg\index{.men@\texttt{.men}} --- en cliquant
+sur le bouton \texttt{Sauver la configuration}\index{Sauvegarder!la configuration}\index{Configuration}. Elle
+apparaîtra dès lors dans le menu déroulant de la page d'ouverture à la suite des \textit{menus} d'origine. L'utilisateur
+retrouvera les fichiers de configuration qu'il aura créés dans le dossier \texttt{MesDocuments/Apprenti Géomètre/Menus}.
+
+\begin{itemize} \item Pour sélectionner les formes libres qui pourront être construites:  cliquer sur une des icônes qui
+reproduisent celles du pavé des formes libres. On accède alors au tableau des formes correspondant à cette icône. En
+cliquant sur les boutons de ce tableau, on sélectionne (ou on désélectionne) une à une les formes qui seront proposées dans
+le menu correspondant de la feuille de travail. Les  noms des formes ainsi sélectionnées seront écrits en caractères droits
+et suivis de la lettre "x".
+
+\item Pour sélectionner des fonctionnalités: en cliquant sur un des items du menu principal de cette fenêtre
+\textit{Configuration}, on provoque le déroulement d'un menu proposant toutes les options possibles pour l'item
+correspondant du menu de la feuille de travail. On cochera  les options  que l'on veut voir apparaître dans le menu
+accessible aux élèves.
+
+\item Il est aussi possible de choisir les boutons qui seront présents dans le pavé des
+mouvements\index{Mouvement}. La fenêtre de configuration comporte en effet cinq boutons dénommés
+\textit{Modifier, Glisser, Tourner, Retourner} et \textit{Zoomer}. Un clic sur un de ces boutons fait
+apparaître ou disparaître le bouton correspondant du pavé des mouvements.  \end{itemize}
+
+\item  changer le mot de passe (\texttt{Changer le mot de
+passe}\index{Changer! le mot de passe}) ;
+
+
+\item choisir la  langue de travail (\texttt{Changer de
+langue}\index{Changer!de langue}). Le choix d'une langue
+correspond au choix d'un dictionnaire\index{Dictionnaire}. À l'origine,  la  langue est le français
+et le dictionnaire correspondant est contenu dans le fichier
+\texttt{Francais.dct} ;
+
+\item créer un nouveau dictionnaire ou modifier un dictionnaire existant (\texttt{Créer ou modifier un
+diction\-naire}\index{Creer@Créer un dictionnaire}\index{Modifier! un dictionnaire}).
+
+Pour créer ou modifier un  dictionnaire:
+
+\begin{enumerate} \item Après avoir cliqué sur \texttt{Créer ou modifier un dictionnaire}, une fenêtre
+s'ouvre. Elle comporte un seul menu déroulant dénommé \textit{Dictionnaires}, lequel au départ ne
+propose que deux options: \texttt{Charger} et \texttt{Fin}. Que l'on veuille créer ou modifier un
+dictionnaire, la première opération consiste à en charger un.
+
+\item Lorsqu'on actionne le bouton \texttt{Charger}, une fenêtre s'ouvre, proposant les dictionnaires existant. Si
+le but est de modifier un dictionnaire, on charge celui-là et on voit apparaître dans la fenêtre deux
+colonnes. Le titre de la première colonne est \textit{Code}. Le contenu de cette colonne ne
+peut être modifié. Le titre de la seconde colonne est le  nom de la langue utilisée. Pour modifier tout ou
+partie de la seconde colonne, on choisit \texttt{Modifier} dans le menu déroulant, puis \texttt{Sauvegarder}.
+
+\item Pour créer un nouveau dictionnaire, il est à conseiller de charger le dictionnaire d'une langue que l'on
+maîtrise. Après ce chargement, cliquer sur \texttt{Créer} dans le menu déroulant en indiquant le nom de la
+nouvelle langue dans la fenêtre de dialogue qui s'ouvre. Une nouvelle colonne, ayant pour titre le nom de
+cette langue, s'affiche alors dans la fenêtre et il reste à traduire tous les mots de l'ancienne langue
+vers la nouvelle. Après quoi, on sauvegarde ce nouveau dictionnaire, en n'oubliant pas de sélectionner la
+première case de la colonne correspondante.
+
+\begin{center}
+\begin{minipage}[b]{0.8\linewidth}
+\includegraphics[width=\linewidth]{Dictionnaire.bmp}
+\leg{Extrait d'un dictionnaire}
+\end{minipage}
+\end{center}
+
+\end{enumerate}
+
+\end{list}

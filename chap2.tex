@@ -1,0 +1,611 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\chapter{Les formes standard}
+
+\label{chapfstd}
+\section{Introduction}
+
+Les formes \textit{standard}\index{Forme!standard} sont des formes géométriques indéformables, ce qui
+les distingue des  formes \textit{libres}\index{Forme!libre} qui seront décrites au chapitre
+\ref{chapflib}. Les fonctionnalités --- largement communes aux formes standard et aux formes libres ---
+qui permettent de  manipuler ces formes seront décrites aux chapitres suivants. Les formes standard
+sont accessibles à partir de l'un des menus A, AB ou AC.
+Après que l'utilisateur ait sélectionné un de ces menus, une fenêtre s'ouvre, comportant en haut une barre de
+\textit{menus} où figurent notamment des \textit{outils} et des \textit{opérations}\medskip
+
+\centerline{\includegraphics[width=0.6\linewidth]{MenuA.bmp}}
+\leg{}
+
+Sur la gauche de l'écran apparaît une \textit{boîte à outils} avec un \textit{pavé de mouvements} et un
+\textit{pavé de formes standard}\footnote{Les illustrations du présent fascicule sont conformes aux écrans
+qui apparaissaient \textsc{avant} la version 2.3.6.}.  Le reste de  l'écran constitue la \textit{fenêtre de
+dessin} où une \textit{figure} sera construite.
+\index{Menu}\index{Outil}\index{Operation@Opération}\index{Mouvement} \index{Forme!standard} Les touches
+\fbox{+}, \fbox{-} et \fbox{=} permettent de modifier la taille des caractères des textes affichés sur les
+différents boutons (mais pas ceux de la barre des menus).
+
+Par défaut, les formes standard sont celles du \textit{jeu de base}\index{Jeu! de base}. D'autres
+jeux de formes standard peuvent être choisis via l'item \textit{Préférences} (voir le paragraphe \ref{autresjeux}).
+
+\section{Construire une forme standard}
+
+Un jeu de formes standard est constitué d'une ou plusieurs \textit{familles}\index{Famille} de formes.
+Chaque famille est accessible via une icône affichée dans le pavé de formes standard de la boîte à
+outils. Un clic sur une de ces icônes fait apparaître une fenêtre comportant autant de boutons-poussoirs
+qu'il y a de formes dans la famille sélectionnée. Ces boutons permettent de choisir la forme qui sera
+dessinée.
+
+Le dessin d'une forme standard est complètement déterminé par la fixation d'un point, appelé le \og
+point de référence\fg\ de la forme. Il s'agit généralement (mais pas toujours) du sommet \og
+inférieur-gauche\fg.
+\index{Point!de référence}\bigskip
+
+\danger\hfill \fbox{\begin{minipage}{0.87\linewidth} \label{doubleclic} Lors de la construction
+d'une forme géométrique, il peut arriver que l'utilisateur réalise involontairement un \og
+\hyperdef{chapfstd}{doubleclic}{double clic}\fg. En d'autres termes, il clique deux fois dans un
+intervalle de temps très court et en deux points très proches l'un de l'autre, ce qui peut fausser
+sa construction.\index{Double clic} L'ordinateur est programmé de manière à considérer comme double
+clic deux clics distants de moins d'un dixième de seconde et en des positions distantes de
+moins  de 5 pixels. Dans ce cas, il affiche un message adéquat et annule le deuxième
+clic.\end{minipage}}
+
+\newpage
+
+%\includegraphics[width=0.6\linewidth]{MenuA.bmp}\\
+\fbox{\begin{minipage}[b]{1.45cm}
+\includegraphics[width=1.45cm]{Pavstandard2.bmp}
+\leg{}\end{minipage}\begin{minipage}[b][12.5\baselineskip][c]{0.9\linewidth}\small \Prat
+\begin{list}{\textbullet}{\itemsep=0mm}  \item Sélectionner une des familles du jeu de formes utilisé en
+cliquant sur l'icône symbole de cette famille.   \item Le clic fait apparaître une fenêtre de boutons
+poussoirs, un pour chaque forme de la famille. Quand le curseur de la souris survole un bouton de cette
+fenêtre, l'icône symbole de la famille est remplacée par l'icône représentant la forme correspondant au
+bouton survolé. \item Sélectionner une des formes de la famille en cliquant sur le bouton-poussoir
+correspondant. Le curseur de la souris prend la forme d'une croix.\item Cliquer dans la fenêtre de
+dessin: la forme sélectionnée est dessinée, son point de référence est placé à l'emplacement du clic.
+\item Tout clic supplémentaire dans la fenêtre de dessin fait apparaître un exemplaire supplémentaire
+de la forme sélectionnée. \end{list}\vspace{\baselineskip} \end{minipage}}
+
+
+\danger  \hfill
+\fbox{\begin{minipage}{0.87\linewidth}\small   Si l'utilisateur entreprend de construire une forme standard alors que
+d'autres formes (standard ou non) sont déjà dessinées à l'écran, chaque fois que le curseur de la souris s'approche d'un
+point existant à une distance inférieure à la distance de magnétisme\index{Distance!de magnétisme}, la couleur de  celui-ci
+vire au magenta et le message affiché devient \og ce point ?\fg. \medskip
+\begin{minipage}[b]{2cm}
+\includegraphics[width=2cm]{cepoint.bmp}
+\leg{}
+\end{minipage}\begin{minipage}[b]{0.86\linewidth}
+Si le clic est effectué à ce moment, le point
+de référence de la nouvelle forme est identifié au point déjà existant et les deux formes ont  un
+sommet commun.%\vspace{0.5\baselineskip}
+\end{minipage}
+\end{minipage}}
+ 
+
+
+
+\section{Le jeu de base}
+\index{Jeu!de base}
+ 
+Le jeu de base comprend trois familles de formes, chacune désignée par le  nom d'un polygone régulier et
+symbolisée par l'icône correspondante.  Deux principes ont gouverné la construction de ces familles:
+
+\begin{itemize}
+\item chaque famille comporte un nombre limité de formes simples et indéformables ;
+\item les formes d'une même famille ont entre elles des rapports simples de
+longueurs, d'angles et d'aires, de sorte qu'en les découpant, assemblant et
+fusionnant, il est possible de réaliser de nombreuses autres formes ou combinaisons
+géométriques intéressantes.
+\end{itemize}
+
+
+\subsection{La famille du triangle équilatéral}
+
+\fbox{\begin{minipage}{0.99\linewidth}
+La famille du triangle équilatéral comporte douze éléments:
+
+\begin{minipage}{0.6\linewidth}
+\centerline{\includegraphics[width=0.7\linewidth]{Famtriequi.eps}}
+\leg{\label{Famtriequi.eps}}
+\end{minipage}
+\hfill
+\begin{minipage}{0.4\linewidth}
+\centerline{\includegraphics[width=0.75\linewidth]{Famtriequi_menu.bmp}}
+\leg{\label{Famtriequi_menu.jpg}}
+\end{minipage}
+\end{minipage}}
+
+
+
+\multicolsep 0pt \begin{multicols}{2}
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.4\linewidth}
+{0.75\linewidth}{TriEqui.eps}\end{center} \end{minipage}\hfill \begin{minipage}{0.68\linewidth}un
+triangle équilatéral\index{Triangle!équilatéral}, symbole de la famille; \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.4\linewidth}
+{0.75\linewidth}{Losange_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth}un losange\index{Losange} formé de deux de ces triangles;
+\end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.4\linewidth}
+{0.75\linewidth}{Trapiso_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth}un trapèze isocèle\index{Trapèze!isocèle} formé à partir de
+trois de ces triangles;         \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.4\linewidth}
+{0.75\linewidth}{Hexagone_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth}un hexagone régulier\index{Hexagone!régulier} formé à partir de six
+de ces triangles;         \end{minipage}
+
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{PtTriso_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth}un
+triangle isocèle\index{Triangle!isocèle} tiers du triangle équilatéral;         \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{Trirect_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth}un
+triangle rectangle\index{Triangle!rectangle} moitié du triangle équilatéral;           \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{Traprect_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth} un trapèze rectangle\index{Trapèze!rectangle} assemblage de trois
+de ces triangles rectangles;  \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{Dodecagone_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth}un dodécagone\index{Dodécagone} régulier ayant même côté que le
+triangle équilatéral; \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{GrTriso_TrA.eps}\end{center} \end{minipage}\hfill \begin{minipage}{0.68\linewidth} un
+grand triangle isocèle\index{Triangle!isocèle} qui permet de paver le dodécagone; \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{Rosacepetitlos.eps}\end{center} \end{minipage}\hfill \begin{minipage}{0.68\linewidth} un petit
+losange\index{Losange} déterminé par trois sommets consécutifs du dodécagone;\end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{Petitcercle_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.68\linewidth} un petit disque\index{Disque} dans lequel on peut inscrire
+un triangle équilatéral ; \end{minipage}
+
+\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
+{0.75\linewidth}{Grandcercle_TrA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.6\linewidth} et un grand disque\index{Disque} dans lequel on peut
+inscrire  l'hexagone et le grand triangle isocèle.\end{minipage}
+\end{multicols}
+
+\subsection{La famille du carré}
+
+\fbox{\begin{minipage}{0.99\linewidth}
+La famille du carré comporte neuf éléments:
+
+\begin{minipage}{0.6\linewidth}
+\centerline{\includegraphics[width=0.45\linewidth]{Famcar.eps}}
+\leg{\label{Famcar.eps}}
+\end{minipage} \hfill
+\begin{minipage}{0.4\linewidth}
+\centerline{\includegraphics[width=0.75\linewidth]{Famcar_menu.bmp}}
+\leg{\label{Famcar_menu.jpg}}
+\end{minipage}
+\end{minipage}}
+
+
+\begin{multicols}{2}
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Carre.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un carré\index{Carre@Carré}, symbole de la famille;
+\end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Trireciso_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un triangle rectangle isocèle\index{Triangle!rectangle isocèle} moitié du carré;
+\end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.85\linewidth}
+{0.25\linewidth}{Para_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un parallélogramme\index{Parallélogramme} double du triangle ci-dessus;
+\end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Octo_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un octogone régulier\index{Octogone} ayant même côté que le
+carré de référence;
+\end{minipage}
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Triso_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un triangle isocèle\index{Triangle!isocèle} huitième de
+l'octogone; \end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{PtTrireciso_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un petit triangle rectangle isocèle\index{Triangle!rectangle isocèle}
+quart du carré;
+\end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{PtTrirect_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un petit triangle rectangle\index{Triangle!rectangle} également quart du carré;
+\end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Petitlosange_CarA.eps}\end{center}
+\end{minipage}\hfill \begin{minipage}{0.58\linewidth}un
+losange\index{Losange} déterminé par trois sommets
+consécutifs  de l'octogone; \end{minipage}
+\end{multicols}
+
+\centerline{\begin{minipage}[b]{0.5\linewidth}
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Cercle_CarA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.54\linewidth}et, enfin, un disque\index{Disque} dans lequel
+on peut inscrire le carré de référence. \end{minipage}\end{minipage}}
+
+
+
+\subsection{La famille du pentagone}
+
+\fbox{\begin{minipage}{\linewidth}
+La famille du pentagone comporte sept éléments:
+
+\begin{minipage}{0.5\linewidth}\begin{center}\includeg{0.9\linewidth}
+{0.7\linewidth}{Fampentag.eps}\end{center}\end{minipage} \hfill
+\begin{minipage}{0.5\linewidth}
+\centerline{\includeg{0.8\linewidth}{0.7\linewidth}{Fampentag_menu.bmp}}
+\vspace{0.3cm}
+\end{minipage}
+\end{minipage}}
+\newpage
+
+
+\begin{multicols}{2}
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Pentagone.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth} un  pentagone régulier\index{Pentagone}, symbole de la famille;
+\end{minipage}
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{PtTriso_PentA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un  triangle isocèle\index{Triangle!isocèle}, cinquième du pentagone;
+\end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Decag.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un décagone\index{Decagone@Décagone} régulier ayant même côté que le
+pentagone régulier;         \end{minipage}
+
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{GrTriso_PentA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.58\linewidth}un grand triangle isocèle\index{Triangle!isocèle}, dixième du décagone;
+\end{minipage}
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.5\linewidth}
+{0.5\linewidth}{Trisobtus_PentA.eps}\end{center}\end{minipage}
+\begin{minipage}{0.58\linewidth} un triangle obtusangle\index{Triangle!obtusangle}
+apparaissant dans le pavage du pentagone; \end{minipage}
+
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Petitlospenta.eps}\end{center}
+\end{minipage}\hfill \begin{minipage}{0.58\linewidth}un
+petit losange\index{Losange} déterminé par trois sommets
+consécutifs du décagone; \end{minipage}
+\end{multicols}
+
+\centerline{\begin{minipage}[b]{0.5\linewidth}
+\begin{minipage}{0.45\linewidth}\begin{center}\includeg{0.35\linewidth}
+{0.75\linewidth}{Cercle_PentA.eps}\end{center} \end{minipage}\hfill
+\begin{minipage}{0.54\linewidth}et, enfin, un disque\index{Disque} dans lequel on peut inscrire un
+pentagone. \end{minipage}\end{minipage}}
+
+
+\section{Les formes standard: quelques options}\label{autresjeux}
+
+Via le menu \texttt{Préférences/Formes standard}\index{Forme!standard}, il est
+possible de modifier certaines caractéristiques des formes standard.
+
+\begin{description} \item[Remplacer le jeu de base par un autre jeu de formes standard]\index{Jeu!de
+formes standard}\strut
+
+ En plus du jeu de base, le programme d'installation d'\AG\ 2 enregistre sur le disque dur plusieurs
+fichiers  (d'extension \texttt{.std}\index{.std@\texttt{.std}}) comportant des formes
+manipulables de la même manière que celles du jeu de base.
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item \texttt{Jeu réduit} ne contient qu'un sous-ensemble des pièces du jeu de
+base: neuf formes de la famille du triangle équilatéral, six formes de la famille du carré et six
+formes de la famille du pentagone régulier. Ce jeu peut être utilisé pour des activités
+élémentaires.\index{Jeu!réduit}
+
+\item \texttt{Polyminos} propose quatre familles de formes. La première est limitée à un
+carré et un rectangle $1\times 2$ (un \og domino\fg). La deuxième contient les deux
+triminos, la troisième contient  les cinq quadriminos et enfin, la quatrième contient
+les douze pentaminos, donnant ainsi accès à une série de puzzles bien
+connus.\index{Domino}\index{Trimino}\index{Quadrimino}\index{Pentamino}\index{Polymino}
+
+\begin{center}
+\includegraphics[width=0.45\linewidth]{polyminos1.eps}
+
+\leg{\label{polyminos1}}
+
+\includegraphics[width=0.9\linewidth]{polyminos2.eps}
+
+\leg{\label{polyminos2}}
+\end{center}
+
+\item \texttt{Tangram}\index{Tangram} est un autre jeu tout aussi célèbre.\medskip
+
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{tangram.eps}
+
+\leg{\label{Tangram}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.7\linewidth}
+
+La famille du Tangram ne contient que cinq pièces:
+\begin{itemize}
+\item un petit triangle,
+\item un triangle moyen,
+\item un grand triangle,
+\item un carré,
+\item un parallélogramme;
+
+\end{itemize}
+
+Le jeu du Tangram utilise sept pièces: le petit triangle et le grand triangle doivent  être reproduits en deux
+exemplaires. \end{minipage}\medskip
+
+\item \texttt{Etoiles}\index{Etoiles@Étoiles} contient quatre étoiles pouvant être utiles lors
+d'activités libres, par exemple dans un but de décoration. Ces pièces n'étant pas convexes, leur
+découpage, ainsi que d'autres opérations, peuvent donner lieu à des surprises!
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{etoiles.eps}
+
+\leg{\label{etoiles}}
+\end{center}
+
+\item \texttt{Cubes}\index{Cubes} contient deux représentations d'un cube
+en perspective, ainsi que celle d'un cube \og transparent\fg. Les deux premières  sont baptisées \textit{Modèle 1} et \textit{Modèle 2}.\index{Modele@Modèle!1}
+\index{Modele@Modèle!2}
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{Cubes.eps}\\
+
+\leg{\label{CubesA}}
+\end{center}
+
+Des figures spatiales peuvent ainsi être esquissées. Notons
+cependant qu'il n'est possible ni de
+\texttt{découper}\index{Decouper@Découper}, ni de
+\texttt{retourner}\index{Retourner}, ni de \texttt{fusionner}\index{Fusionner},
+ces cubes. (Voir ces fonctionnalités dans
+la suite.)
+
+\item \texttt{Réglettes}\index{Reglettes@Réglettes} est destiné aux classes qui
+utilisent un matériel de ce type pour l'apprentissage du calcul.
+
+\begin{center}
+\includegraphics[width=0.6\linewidth]{reglettes.eps}
+\leg{\label{ReglettesA}}
+\end{center}
+
+
+\end{list}
+
+D'autres jeux de formes pourraient  être créés en vue de répondre à des besoins
+particuliers\ldots\ nous vous laissons le soin de les découvrir.
+
+\item [Modifier la taille des formes]\strut
+
+ Trois tailles, allant de la taille par défaut à son
+triple, peuvent être sélectionnées via le menu \texttt{Préférences/Formes standard}.
+\end{description}
+
+\section{Créer de nouvelles familles de formes standard}
+
+La création de  nouvelles familles de formes standard est possible de deux manières: soit via la
+fonctionnalité \texttt{Standardiser} du menu \textit{Fichiers}, soit via l'écriture  d'un fichier
+d'instructions adéquat. Explicitons ces deux méthodes.
+
+\subsection{Standardiser}\label{chapfstd.stdiser}
+
+Imaginons la situation suivante.                  À partir d'un des menus B, C, AB ou AC, un enseignant a
+construit un carré: c'est  une forme libre (voir le chapitre \ref{chapflib}) qu'il peut agrandir à volonté.
+Il veut, en joignant des milieux de côtés, découper deux \og coins\fg\ de ce carré pour réaliser une activité
+de puzzle.
+
+\strut\hfill
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{Puzzcarre.eps}
+\leg{\label{puzzcarre}}
+\end{minipage}\hfill
+\strut\hfill
+\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{Puzztrirectiso.eps}
+\leg{\label{puzztrirectiso}}
+\end{minipage}\hfill
+\hfill\strut
+
+En effet, ces deux coins et le pentagone \og résiduel\fg\ peuvent être assemblés soit en un carré (le carré
+initial), soit en un grand triangle rectangle isocèle (figures \ref{puzzcarre} et \ref{puzztrirectiso}). Il y
+a intérêt à ce que les pièces d'un tel puzzle soient indéformables --- donc des pièces standard --- afin que
+l'élève ne risque pas de les déformer, fût-ce involontairement.
+
+Pour réaliser la découpe, notre enseignant va bien entendu  utiliser l'opération
+\hyperlink{chapoper.Decouper}{\texttt{Découper}} décrite au chapitre \ref{chapoper}. Mais comme cette
+opération ne supprime pas les formes qu'elle découpe, il  se retrouve devant  trop de formes géométriques:
+les trois pièces qui l'intéressent, le carré d'origine et une ou plusieurs pièces intermédiaires (selon la
+façon dont il a procédé). Comme on ne peut supprimer une forme libre  qui a été découpée sans supprimer en
+même temps les \og morceaux\fg\ découpés\footnote{Voir le paragraphe \ref{chapoperdecoup} à ce sujet.}, il ne
+peut supprimer les formes qui ne l'intéressent pas ou plus. Mais il peut les
+\hyperlink{chapoutils.Montrer}{cacher} ce qui désencombre l'écran.
+
+Il lui reste donc le pentagone et les deux triangles rectangles isocèles. C'est ici que la fonctionnalité
+\texttt{Standardiser} va intervenir: on commence par \hyperlink{chapmedit.Selectmul}{sélectionner}
+simultanément les trois formes. On actionne ensuite l'item de menu \textit{Fichiers.Standardiser}, ce qui
+fait apparaître une fenêtre:
+\begin{center}
+\includegraphics[width=0.4\linewidth]{Std.jpg}
+\leg{\label{Stdjpg}}
+\end{center}
+
+Cette figure montre clairement que les formes sélectionnées vont constituer une famille\index{Famille!de
+formes standard}. L'utilisateur indique le nom et la couleur\index{Couleur} qu'il donne à cette famille. En
+fait les formes qui sont déjà colorées conserveront leur couleur, celles qui ne le sont pas encore reçoivent
+la couleur de la famille.
+
+Il est bon d'insister sur l'utilité d'attribuer un rôle fonctionnel au choix des couleurs. Si un fichier de
+formes standard  comporte plusieurs familles, on attribuera généralement  une couleur différente à chaque famille
+et cette couleur à toutes les formes de la famille. C'est par exemple le cas des formes du jeu de
+base. Il peut arriver aussi que la couleur serve à distinguer les formes d'une famille donnée. C'est le cas
+de la famille des réglettes.\index{Reglette@Réglette} Dans tous les cas, le choix des couleurs doit
+constituer un élément de structuration.
+
+Après la fermeture de la fenêtre précédente, le logiciel en ouvre une autre:
+\begin{center}
+\includegraphics[width=0.7\linewidth]{Std2.jpg}
+\leg{\label{Std2jpg}}
+\end{center}
+
+Il s'agit cette fois de sauvegarder la famille de formes standard qui vient d'être constituée, soit dans un
+nouveau fichier (d'extension \texttt{.std})\index{.std@\texttt{.std}} soit dans un fichier déjà existant où il reste encore de la
+place, un fichier pouvant contenir jusqu'à quatre familles. Dans les deux cas, une troisième fenêtre
+s'ouvrira ensuite afin de choisir le nom du fichier de sauvegarde. Après quoi la nouvelle famille de formes
+standard sera disponible selon la procédure indiquée à la section \ref{autresjeux}.
+
+\subsection{Écriture d'un fichier d'instructions}
+
+La fonctionnalité \texttt{Standardiser} qui vient d'être décrite est sans aucun doute beauoup plus performante
+que l'écriture d'un fichier d'instructions. Toutefois les règles qui régissent une telle écriture permettent
+de mieux comprendre la façon dont le logiciel dessine les formes standard. C'est pourquoi nous maintenons
+cette section dans le guide utilisateur.
+
+Un fichier d'instructions de définition d'une famille de formes standard  doit avoir
+l'extension \texttt{.std}\index{.std@\texttt{.std}}. Nous allons en décrire la structure et la syntaxe.  Tout
+fichier conforme aux règles qui suivent est reconnu par \AG\ et manipulé de la même manière que les autres. En
+particulier, les icônes à insérer dans la boîte à outils seront créées automatiquement.
+
+Le fichier ci-dessous est fictif, mais parfaitement correct. Il va nous servir
+d'illustration. \medskip
+
+\vrule
+\begin{minipage}[b]{0.99\linewidth}
+\hrule\columnseprule 0.4pt
+\begin{multicols}{2}\small
+\begin{verbatim}
+<FormesStandard>
+<Famille Nom="Triangle">
+<Couleur Rouge="255" Vert="255" Bleu="0"/>
+  <Forme  Nom="Triangle équilatéral">
+   <Arete Angle="0" Longueur="1"/>
+   <Arete Angle="120" Longueur="1"/>
+  </Forme>
+  <Forme  Nom="Losange">
+   <Arete  Angle="0"  Longueur="1"/>
+   <Arete  Angle="120" Longueur="1"/>
+   <Arete  Angle="60" Longueur="1"/>
+  </Forme>
+ </Famille>
+<Famille Nom="Carré">
+<Couleur Rouge="255" Vert="0" Bleu="0"/>
+  <Forme  Nom="Carré">
+   <Arete  Angle="0" Longueur="1"/>
+   <Arete  Angle="90" Longueur="1"/>
+   <Arete  Angle="90" Longueur="1"/>
+  </Forme>
+  <Forme Nom="Octogone régulier">
+   <Arete  Angle="0" Longueur="1"/>
+   <Arete  Angle="45" Longueur="1"/>
+   <Arete  Angle="45" Longueur="1"/>
+   <Arete  Angle="45" Longueur="1"/>
+   <Arete  Angle="45" Longueur="1"/>
+   <Arete  Angle="45" Longueur="1"/>
+   <Arete  Angle="45" Longueur="1"/>
+  </Forme>
+</Famille>
+</FormesStandard>
+\end{verbatim}
+\end{multicols}
+\hrule
+\end{minipage}
+\vrule
+
+Un fichier de ce type peut être écrit avec n'importe quel
+traitement de texte, le plus rudimentaire étant le meilleur car il ne risque pas d'introduire des
+caractères de contrôle intempestifs dans le texte.
+
+Le fichier est écrit en langage \texttt{xml}\index{.xml@\texttt{.xml}}, un langage de la famille des
+langages \og à balises\fg. Toute information doit être comprise entre une balise d'ouverture et une
+balise de fermeture.
+
+Pour les fichiers de formes standard, la balise d'ouverture du fichier est \texttt{<FormesStandard>} et la balise de fermeture
+est \texttt{</FormesStandard>}. Le texte du fichier est placé entre les deux balises.
+
+Dans le cas de notre exemple, le fichier définit deux familles de formes.
+La description de chacune d'entre elles commence par la balise d'ouverture \texttt{<Famille>} et se termine par la balise de fermeture \texttt{</Famille>}.
+La balise d'ouverture comporte aussi le nom de la famille: "Triangle" pour la première, "Carré" pour la seconde. Ces noms apparaîtront en tête des fenêtres de boutons-poussoirs.
+
+La balise d'ouverture de la famille est suivie immédiatement de l'information de couleur
+de la famille: \texttt{<Couleur Rouge="255" Vert="255" Bleu="0"/>}. Ici les deux balises
+d'ouverture et de fermeture sont sur la même ligne: \texttt{<Couleur} et \texttt{/>}. La
+couleur est définie dans le système \texttt{RGB},  par un mélange de rouge, de vert et
+de bleu. Quand le mélange est constitué de rouge et de vert en proportions égales, le
+résultat est du jaune.  Les nombres à indiquer peuvent varier entre 0 et 255.
+ 
+Après l'information de couleur viennent les informations de tracé des formes,
+toujours des polygones: les formes telles que \og disque\fg\ ou \og cube\fg\ ne
+peuvent être définies de cette manière. Chaque description de forme débute par
+la balise d'ouverture \texttt{<Forme>}, laquelle
+contient aussi le nom de la forme tel qu'il apparaîtra sur le bouton-poussoir
+correspondant, et se termine par la balise de fermeture \texttt{</Forme>}. Entre
+les deux balises, on trouve autant de lignes que le polygone a de côtés
+\textsc{moins 1}. Chacune de ces lignes commence par une balise d'ouverture
+\texttt{<Arete} et se termine par une balise de fermeture \texttt{/>}.
+
+\AG\ procède de la façon suivante: \begin{itemize} \item Le premier sommet (point
+de référence)\index{Point!de référence} est positionné à l'emplacement du clic.
+\item Pour positionner les sommets suivants, \AG\ utilise le principe de la
+géométrie-tortue\index{Tortue}, tel qu'il figure dans le langage de
+programmation \texttt{Logo}\index{Logo@\texttt{Logo}}. Au départ la tortue est
+positionnée au premier sommet, donc à l'emplacement du clic, et elle est
+orientée à l'horizontale vers la droite, autrement dit son cap vaut 0. \item
+Ensuite  \AG\ extrait successivement de chaque ligne un angle et une longueur.
+L'angle est interprété comme un changement de cap de la tortue,  la longueur
+comme celle d'un déplacement. La tortue pivote sur elle-même (de l'angle donné)
+avant d'effectuer le déplacement. Ces informations permettent de dessiner autant
+de côtés du polygone que la description comporte de lignes et donc d'atteindre le
+dernier sommet.
+
+Par exemple, pour dessiner les deux premiers côtés du triangle équilatéral\index{Triangle!équilatéral}  de la première
+famille ci-dessus, \AG\ va d'abord considérer l'angle 0 (le cap de la tortue ne change pas)  et la longueur 1: la petite
+bête avance de 1 vers la droite. Ensuite les indications deviennent 120 pour l'angle (la tortue  tourne de 120° dans le
+sens positif) et 1 pour le déplacement:  le deuxième côté aura même longueur que le premier.
+
+À l'issue de ces deux opérations, la tortue est au troisième sommet du triangle.  Plus aucune information n'est nécessaire pour rejoindre le point de départ et le dessin du triangle se termine.
+\end{itemize}
+
+\vfill
+
+\begin{center}
+\includegraphics[width=0.8\linewidth]{rosaceastrica.eps}
+\end{center}
+\vfill
+
+\strut
+
+
+
+\endinput
+ 

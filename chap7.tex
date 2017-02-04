@@ -1,0 +1,901 @@
+\chapter{Opérations}\label{chapoper}
+
+\section{Introduction}
+
+\begin{minipage}[b]{0.15\linewidth} \includegraphics[width=\linewidth]{MenuOper.bmp}
+\leg{} \end{minipage}\hfill \begin{minipage}[b]{0.82\linewidth} Ce chapitre est consacré
+au menu \textit{Opérations}. Pour la plupart, ces opérations sont des spécificités d'\AG.
+Il s'agit essentiellement de procédures permettant de
+construire de nouvelles formes géométriques à partir d'anciennes. C'est le cas de
+\texttt{Diviser}\index{Diviser}, \texttt{Découper}\index{Decouper@Découper},
+\texttt{Fusionner}\index{Fusionner}, \texttt{Dupliquer}\index{Dupliquer},
+\texttt{Construire le centre}\index{Construire!le centre} et
+\texttt{Prolonger}\index{Prolonger}.
+
+Une dernière procédure, dénommée \texttt{Identifier}\index{Identifier} est de
+nature différente: elle permet soit d'identifier deux points différents, soit de
+placer un point \og sur\fg\ un trait.\hfill Ce faisant, elle modifie\hfill
+essentiellement \hfill l'assemblage \hfill des différentes \end{minipage}\\ formes en figures.
+Nous verrons qu'elle est soumise à certaines restrictions: on ne peut identifier
+n'importe quel point à n'importe quel autre point.
+
+Les cinq premières opérations, \texttt{Diviser}, \texttt{Découper},
+\texttt{Fusionner}, \texttt{Dupliquer} et \texttt{Construire le centre} sont
+accessibles dès le menu $A$.  \texttt{Prolonger} apparaît  dans les menus $B$, $C$
+et $AB$, $AC$ : dans le cadre des menus $B$ et $AB$, c'est la seule façon de
+construire une droite.
+
+Enfin l'opération \texttt{Identifier} est introduite aux menus $C$ et $AC$.
+
+\section{Opérations/Diviser}
+
+\hyperdef{chapoper}{Diviser}{\texttt{Diviser}}\index{Diviser} permet de
+diviser en parts égales un segment, un côté de polygone, un cercle ou un arc de
+cercle.
+
+\fbox{\begin{minipage}{0.98\linewidth}
+\Prat
+
+\begin{minipage}[b]{0.2\linewidth}
+\includegraphics[width=\linewidth]{Diviser.bmp}
+\leg{\label{OperDiviser}}
+\end{minipage}
+\hfill
+\begin{minipage}[b]{0.75\linewidth}
+En cliquant sur \texttt{Diviser}, on déroule un sous-menu qui propose les
+nombres 2, 3, 4, 5 et 10 comme le montre la figure \ref{OperDiviser}.
+
+On choisit alors le nombre de parts, puis on sélectionne un
+segment\index{Segment}, un côté de polygone\index{Polygone}  (soit globalement,
+soit par ses extrémités), un cercle ou un arc de cercle\index{Arc}. Les points
+de subdivision appartiennent à  l'objet qui a été divisé, ils se déplacent
+avec cet objet, ils sont repositionnés si on modifie l'objet et ils sont
+supprimés si on le supprime. Ces points ont le statut de \textit{point
+construit}\index{Point!construit}.\vspace{\baselineskip} \end{minipage}
+
+On peut ensuite se servir des points
+de subdivision pour diviser à nouveau les portions de segments ou arcs de cercle obtenus. En
+combinant  les  nombres 2, 3, 4, 5 et 10 on peut aussi diviser par 6, 8, 9\ldots
+\end{minipage}}
+
+\textbf{Quelques précisions}
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item Un segment ayant deux extrémités, la subdivision d'un segment ne pose aucun
+problème.  Elle peut être obtenue aussi bien en sélectionnant le segment qu'en
+cliquant successivement sur ses deux extrémités.
+
+\item Par contre, la subdivision d'un
+cercle peut éventuellement susciter des interrogations. Et celles-ci sont
+différentes selon qu'il s'agit d'un cercle standard ou d'un cercle libre.
+
+Le rayon d'un cercle standard\index{Cercle!standard} étant fixé par le bouton de
+la boîte à outils qui a été actionné, la position d'un
+cercle standard  n'est déterminée que par son centre.  Le logiciel subdivise un
+cercle standard en prenant comme origine des arcs le point situé à l'horizontale
+du centre et à droite de celui-ci.
+
+\begin{center}
+\includegraphics[width=0.4\linewidth]{Divisercercle.eps}
+\leg{}
+\end{center}
+
+Pour sa part, un cercle libre est déterminé par son centre et un point, tous deux
+choisis par l'utilisateur. C'est ce dernier point qui est alors utilisé comme
+origine des arcs et c'est à partir de là que les points de subdivision sont fixés.
+
+Pour la subdivision d'un arc de cercle\index{Arc}, deux cas sont également à considérer
+selon que l'arc a fait l'objet d'une construction individuelle, conformément aux
+indications de la section \ref{Constructioncercle} ou que l'arc est limité par deux
+points d'un cercle.
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Dans le premier cas, l'arc peut être
+subdivisé comme un segment: soit en sélectionnant l'arc lui-même, soit en cliquant
+successivement sur ses deux extrémités (Fig.~\ref{Operdivarc1}).
+
+\item Dans le second cas, l'arc de cercle ne peut être subdivisé qu'en cliquant
+sur ses extrémités. Il convient alors d'être attentif à l'ordre dans lequel les
+points sont choisis. En effet deux points déterminent deux arcs.
+L'arc subdivisé sera celui allant de la première extrémité choisie vers la
+seconde dans le sens déterminé par l'\hyperlink{chapflib.Cercle}{orientation} du
+cercle\index{Orientation!d'un cercle}. \end{list}
+
+Le cercle de la figure \ref{Operdivarc2} est orienté dans le sens
+trigonométrique. Il a été construit en fixant successivement son centre $o$ et le
+point $p$. Deux points $a$ et $b$ ont ensuite été placés sur le cercle et  les
+deux arcs limités par ces points ont été divisés en quatre parties, l'un en
+cliquant, dans l'ordre, sur $a$ puis $b$, l'autre en cliquant sur $b$ puis
+ $a$.
+
+\strut\hfill\begin{minipage}[b]{0.08\linewidth}
+\includegraphics[width=\linewidth]{DiviserArc1.eps}
+\leg{\label{Operdivarc1}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.12\linewidth}
+\includegraphics[width=\linewidth]{DiviserArc2.eps}
+\leg{\label{Operdivarc2}}
+\end{minipage}\hfill\strut
+
+Les deux cercles de la figure \ref{Operdiv2arcs} sont orientés en sens contraires
+(voir les flèches). Les arcs $\arc{AB}$ et $\arc{A'B'}$ ont été divisés en
+cliquant d'abord sur $A$ ($A'$), puis sur $B$ ($B'$).
+
+\strut\hfill\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{DiviserDeuxcercles.eps}
+\leg{\label{Operdiv2arcs}}
+\end{minipage}\hfill\strut
+
+\item Il est également possible d'appliquer la procédure \texttt{Diviser} en choisissant
+successivement deux points, même si ceux-ci n'appartiennent pas à une même forme géométrique.
+
+\begin{center}
+\includegraphics[width=0.2\linewidth]{Diviserpoints.eps}
+\leg{}
+\end{center}
+
+Cette particularité peut se révéler utile par exemple pour la construction du
+milieu de deux points  sans devoir tracer le segment qui les joint.
+
+\item \texttt{Diviser} n'accepte pas la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
+
+\end{list}
+
+\section{Opérations/Découper}\label{chapoperdecoup}
+
+\hyperdef{chapoper}{Decouper}{\texttt{Découper}}\index{Decouper@Découper} permet
+de partager une forme (polygone ou cercle) en deux parties. La découpe se fait suivant
+un segment ou une ligne brisée déterminée par quelques points,  le premier et le
+dernier devant impérativement appartenir au bord de la figure à découper (voir
+par exemple la figure \ref{DecouperPenta}).
+
+Pour une forme standard, seuls les sommets, le centre et les points de
+subdivision des côtés ou du cercle, obtenus à partir de la commande
+\texttt{Diviser}, peuvent servir de points de découpe. Autrement dit, il n'est
+pas possible de découper où l'on veut. Par contre les formes libres peuvent
+être découpées en utilisant comme points de découpe initial et final des points
+préalablement placés arbitrairement \og sur\fg\ le bord de la forme.
+
+\fbox{\begin{minipage}{0.97\linewidth}
+\begin{minipage}[b]{0.4\linewidth}
+\Prat
+
+\centerline{\includegraphics[width=0.8\linewidth]{DecouperPenta.eps}}
+\leg{\label{DecouperPenta}}
+\end{minipage} \hfill
+\begin{minipage}[b]{0.57\linewidth} Pour découper une forme, sélectionner
+\texttt{Découper},  ensuite cliquer  sur l'objet à découper, puis  sur les
+différents points de découpe en partant d'un point du bord et terminant en un autre point
+du bord.\vspace{\baselineskip}
+\end{minipage}
+\end{minipage}}
+
+ Une originalité de la commande \texttt{Découper}\index{Decouper@Découper} est qu'elle laisse
+subsister à l'écran la forme non découpée. Les deux morceaux de la découpe apparaissent à l'écran
+un peu \og décalés \fg\ par rapport à la forme d'origine, en partie cachée si les formes découpées
+sont opaques\index{Opaque}. L'équivalent est impossible quand on découpe une forme en papier. \AG\
+permet de confronter les morceaux à l'original, et même de reconstituer un clone de ce dernier,
+via la commande \texttt{Fusionner} (voir ci-dessous).
+
+Il est possible d'utiliser comme points de découpe des points préalablement situés à l'intérieur
+de la forme à découper, non liés à cet objet. Après la découpe, les points en
+question sont liés à l'objet découpé: si on applique un mouvement à cet objet,
+ils suivent automatiquement.
+
+Les polygones\index{Polygone} ne sont pas les seules formes qui peuvent être découpées. Un
+disque\index{Disque}\index{Cercle} peut également l'être. On crée ainsi, par exemple, des \og
+quartiers de tarte\fg\index{Quartier!de tarte}. C'est un type de forme géométrique souvent désigné
+sous le nom de \textit{forme hybride}\index{Forme!hybride} car elle comporte simultanément des
+côtés rectilignes et un ou des  côtés curvilignes. Avec la version actuelle d'\AG\, une forme hybride
+ne peut pas être découpée à son tour.
+
+\centerline{\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{Decoupercercle.eps}
+\leg{}
+\end{minipage}}
+
+
+Lorsqu'elle est appliquée à une forme libre, la fonctionnalité \texttt{Découper} possède des
+particularités importantes.
+
+\danger\hfill\fbox{\begin{minipage}{0.87\linewidth}
+\bfseries
+Si une forme libre $F$ a été
+découpée, les deux morceaux $F_1$ et $F_2$ restent liés à $F$.
+
+\begin{list}{\textbullet}{\itemsep=1mm}  \item \textbf{Toute modification apportée à
+l'aide de la procédure \texttt{Modifier}\index{Modifier} à l'une des formes $F$,  $F_1$ ou
+$F_2$ est répercutée sur les deux autres. }  \item La suppression\index{Supprimer} de la
+forme-mère $F$ entraîne la suppression des deux formes filles $F_1$ et $F_2$. \item Par
+contre, la suppression de l'une des formes-filles n'a pas de conséquence pour la mère ou
+l'autre fille. \end{list} \end{minipage}}
+
+
+\begin{minipage}[b]{\linewidth}
+\strut\hfill\includegraphics[width=0.7\linewidth]{decouperpara.eps}\hfill\strut
+
+\leg{}
+\end{minipage}
+
+Le parallélogramme $abcd$ a été découpé suivant le segment $[p,c]$ où $p$ est un point
+mobile sur le côté $[a,d]$. Pour la clarté de la figure, les deux pièces ont été
+reproduites en $a'b'c'p'$ et $p''c''d''$. Lorsque le point $p$ se déplace sur $[a,d]$,
+les deux points $p'$ et $p''$ sont adaptés de façon dynamique. Ainsi, en tout
+instant la juxtaposition éventuelle des deux pièces reproduirait le parallélogramme de
+départ. Toute modification de l'un des sommets $a$, $b$, $c$ et $d$ du parallélogramme
+se répercute automatiquement sur les deux pièces.
+
+ Seules les formes libres jouissent de cette propriété d'adaptation automatique lorsqu'on
+applique l'opération \texttt{Modifier} à  un des sommets soit  de la forme-mère, soit
+d'une des formes filles. Pour que cette adaptation  fonctionne, la forme-mère sert
+d'intermédiaire entre les deux filles. C'est pourquoi on ne peut supprimer la mère tant
+que les filles existent, ou plus précisément, la suppression de la mère entraîne celle
+des filles.
+
+Les pièces d'une découpe sont des formes construites à partir de la forme-mère. Leurs
+sommets ont donc le statut de \textit{point construit}\index{Point!construit}.
+
+  La situation est différente pour les formes standard: ces
+formes sont indéformables, on ne peut donc leur appliquer l'opération \texttt{Modifier},
+ce qui rend inutile l'existence d'un lien entre la mère et les filles. De ce fait, il est
+possible de supprimer une forme standard qui a été découpée sans voir disparaître les
+pièces de la découpe.
+
+
+
+
+\danger\hfill\fbox{\begin{minipage}{0.87\linewidth}\vspace{0.5\baselineskip}
+
+Lorsqu'on construit un point
+\og sur\fg\ le côté d'un polygone, ce point est mobile et peut être amené en
+n'importe quel point de n'importe quel côté du polygone.
+
+  Mais si le point en question est utilisé comme point de découpe, il ne peut plus
+se déplacer que sur le côté auquel il appartient au moment où cette opération est
+effectuée. Le point a été \hyperlink{chapcontext.Limiter}{\textit{limité}}.\vspace{0.5\baselineskip}
+\end{minipage}}
+
+Notons aussi que \textbf{les pièces d'une découpe de forme libre ont la même orientation que la forme-mère.}\index{Orientation}
+
+\begin{center}
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{DecoupeEtOrient.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+
+\textbf{Une astuce}: Lorsqu'on découpe une forme, le logiciel duplique le segment
+par rapport auquel on découpe, chacune des copies de ce segment \og refermant\fg\
+une des deux formes créées par le découpage. Cela a pour conséquence que si on
+applique l'opération \texttt{Découper} à un polygone en choisissant comme points
+de découpe  deux sommets consécutifs, le logiciel crée d'une part un segment et
+d'autre  part une copie de la forme de départ (Fig. \ref{chapoperdecoup1}).
+
+
+
+\strut\hfill
+\begin{minipage}[b]{0.1\linewidth}
+\includegraphics[width=\linewidth]{Decouper_rem1a.eps}
+\leg{\label{chapoperdecoup1}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{Decouper_rem2.eps}
+\leg{\label{chapoper-DecouperTriEqui}}
+\end{minipage}\hfill\strut
+
+
+
+Cette particularité permet de créer artificiellement un  \og segment\fg\ ayant
+même longueur qu'un côté de la forme initiale ou de comparer les longueurs des
+côtés d'une figure en les \og détachant\fg\ de leur figure d'origine. Dans la
+figure \ref{chapoper-DecouperTriEqui} les deux segments parallèles sont des
+répliques d'un côté et d'une diagonale du pentagone régulier.
+
+
+Cette astuce peut présenter des inconvénients.
+\begin{list}{\textbullet}{\itemsep=1mm} \item Les \og segments\fg\ ainsi créés sont en réalité des
+\og bigones\fg. Ils pourraient donc réserver des surprises.
+
+\item Appliquée à une forme concave, l'opération peut créer des segments parasites  comme sur la
+figure suivante:
+
+\begin{center} \begin{minipage}[b]{0.6\linewidth}
+\includegraphics[width=\linewidth]{Decouper_rem3.eps}
+\leg{}
+\end{minipage}
+\end{center}
+ \end{list}
+
+
+
+
+
+
+
+\texttt{Découper} n'accepte pas la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
+
+
+
+\section{Opérations/Fusionner}
+
+L'opération \hyperdef{chapoper}{Fusionner}{\texttt{Fusionner}}\index{Fusionner} est
+\textit{a priori} la réciproque de \texttt{Découper}\index{Decouper@Découper}.
+Effectivement, en fusionnant deux formes obtenues par découpe, après les avoir
+juxtaposées selon le trait de découpe, on retrouve la forme initiale.
+
+\begin{center}
+\begin{minipage}[b]{0.6\linewidth}
+\includegraphics[width=\linewidth]{Fusionner1.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+Mais parfois, il y a des différences que nous expliciterons ci-dessous. De plus on
+peut très bien fusionner deux formes qui n'ont pas été obtenues par découpe. Il
+suffit que les deux formes aient des côtés superposables. Précisons d'abord la procédure de fusion
+en considérant d'abord des formes standard.
+
+
+\fbox{\begin{minipage}{0.97\linewidth}
+\Prat
+
+Pour fusionner deux formes, après les avoir juxtaposées,
+sélectionner \texttt{Fusionner} dans le menu \textit{Opérations}, ensuite cliquer sur la
+première, puis sur la seconde forme.
+
+\setlength{\unitlength}{1cm}
+\begin{picture}(18,3)
+\put(2,0){\makebox(4,2)[lb]{\includegraphics[width=0.1\linewidth]{Fusionner0.eps}}}
+\put(13,0){\makebox(4,2)[lb]{\includegraphics[width=0.1\linewidth]{Fusionner4.eps}}}
+\put(9.5,0){\makebox(4,2)[lb]{\includegraphics[width=0.1\linewidth]{Fusionner3.eps}}}
+\put(6,0){\makebox(4,2)[lb]{\includegraphics[width=0.1\linewidth]{Fusionner2.eps}}}
+\end{picture}
+\leg{}
+Le logiciel ne permet de fusionner que deux
+formes à la fois. Pour fusionner plus de deux formes, on répète l'opération.
+\end{minipage}}
+
+
+
+
+La forme fusionnée prend une couleur intermédiaire entre les couleurs des deux
+formes fusionnées. Les deux formes qui ont servi à la fusion  sont toujours
+présentes mais cachées par la forme issue de la fusion.
+
+\textbf{Remarques}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item Le résultat de la fusion de deux formes standard est une forme standard.
+
+\item L'opération \texttt{Fusionner} réserve parfois des surprises du fait de son
+fonctionnement: elle recherche une (ou plusieurs) paires de côtés (un côté de la
+première forme et un côté de la seconde) qui sont exactement superposés. Ayant trouvé de
+telles paires, elle crée une nouvelle forme en supprimant  les deux côtés de
+chaque paire. Si l'une des formes est intérieure à l'autre, le résultat de l'opération
+ressemble plus à une amputation qu'à une fusion (Fig.\ref{Fus5}).
+
+\strut\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{Fusionner5.eps}
+\leg{\label{Fus5}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{Fusionner6.eps}
+\leg{\label{Fus6}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{Fusionner7.eps}
+\leg{\label{Fus7}}
+\end{minipage}\hfill\strut
+
+
+\item La manipulation de formes concaves fait parfois apparaître des segments \og
+parasites\fg. Dans le cas de la figure \ref{Fus6}, le logiciel a repéré deux paires de
+côtés superposés qu'il pouvait supprimer et ne s'est pas préoccupé d'une troisième paire
+de côtés qui n'étaient que partiellement superposés.
+
+\item La fusion de deux formes peut créer une configuration dans laquelle deux segments
+ayant un sommet commun sont alignés. Ce sommet, n'étant pas supprimé,  devient un sommet
+parasite. Ainsi, le rectangle de la figure \ref{Fus7} possède six sommets!
+\end{list}
+
+\textbf{Considérons à présent le cas de la fusion de deux formes libres.}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+
+\item La procédure de fusion est identique à celle décrite dans le cas des formes standard.
+
+\item Les formes fusionnées étant des formes libres, toute modification de l'une des deux formes partielles
+ou de la forme créée par la fusion se répercute sur les deux autres. Ceci est une propriété introduite avec la version 2.3.9. Elle permet de renforcer encore
+le dynamisme du logiciel. Par exemple, étant donnés deux triangles dont l'un est un
+duplicat  de l'autre (voir la section suivante consacrée à la dupliction), les formes
+ci-dessous sont toutes issues de la fusion de ces deux triangles selon des côtés
+différents. Pour certaines de ces opérations, un des triangles a été retourné.
+
+\begin{center}
+\begin{minipage}[b]{0.6\linewidth}
+                                 \includegraphics[width=\linewidth]{FusionTriangles.eps}
+                                 \leg{\label{chapoper.fusiontris}}
+\end{minipage}
+\end{center}
+
+Clairement, par fusion des deux triangles selon des côtés homologues dans la duplication,
+nous pouvons créer des parallélogrammes et  des cerf-volants. Une activité serait
+d'essayer de construire et de dénombrer les formes ainsi constructibles. Mais l'examen de
+la figure \ref{chapoper.fusiontris} provoque immanquablement une surprise: pourquoi le
+côté utilisé pour la fusion disparaît-il lors de certaines fusions et subsiste-t-il dans
+d'autres?
+
+Nous touchons ici du doigt la différence entre la géométrie dynamique et la géométrie traditionnelle. Nous avons déjà mentionné que la géométrie dynamique est orientée.
+Marquons de flèches les orientations de tous ces polygones.
+
+\begin{center}
+\begin{minipage}[b]{0.6\linewidth}
+                                 \includegraphics[width=\linewidth]{FusionTrianglesOri.eps}
+                                 \leg{\label{chapoper.fusiontris}}
+\end{minipage}
+\end{center}
+
+C'est dans le cas des fusions débouchant sur des cerfs-volants que le côté commun subsiste. Pour réaliser ces fusions, un des triangles a été retourné.
+Les deux triangles ont donc des orientations opposées et les côtés selon lequel s'opère la fusion \index{Orientation}
+ont la même orientation. Dans le cas de la fusion de formes libres, le logiciel tient compte de l'orientation de ces formes. (Il n'en tient pas compte lorsqu'il fusionne deux formes standard.)
+
+Par contre, dans le cas des fusions qui créent des parallélogrammes, les côtés selon lesquels s'opère la fusion n'ont pas la même orientation.
+
+Le point de vue de la géométrie dynamique est un point de vue vectoriel: deux vecteurs opposés ont une somme nulle, les côtés fusionnés se tuent mutuellement.
+Deux vecteurs égaux ne se tuent pas, les côtés fusionnés subsistent.
+
+Tout cela heurte les habitudes des utilisateurs qui n'ont pas
+l'occasion de pratiquer la géométrie orientée.  Mais tout cela
+rejoint le point de vue de l'analyse vectorielle  pour laquelle
+les longueurs de courbe et les aires des domaines se calculent
+par des intégrales \ldots\ orientées. En fait, il faut
+considérer les polygones comme des chemins que l'on parcourt,
+côté par côté. Si un côté est parcouru deux fois dans des sens
+différents, les deux trajets s'annulent. Mais s'il est
+parcouru deux fois dans le même sens, il faut le compter deux
+fois.
+
+Ainsi les parallélogrammes de la figure \ref{chapoper.fusiontris} sont de braves
+parallélogrammes ayant  quatre sommets et quatre côtés. Par contre les cerfs-volants de
+cette figure ont six côtés et six sommets.
+
+Au prix  de ce qui peut apparaître comme des complications, on retrouve alors une formule de base du calcul d'aires: l'aire (orientée) d'un polygone
+obtenu par fusion est la somme des aires (orientées) de ses deux composantes.
+
+\item Les polygones, obtenus par fusion de deux polygones, dans lesquels un segment est parcouru deux fois dans le même sens, ne peuvent faire l'objet d'un
+\hyperlink{chapoper.Decouper}{découpage}.\index{Decouper@Découper}
+ 
+
+\item Le résultat de la fusion d'une forme standard et d'une forme libre est une
+forme standard. Les modifications qui seraient apportées à la forme libre ne se
+répercutent donc pas sur la forme fusionnée.
+\end{list}
+
+\texttt{Fusionner}  n'accepte pas la sélection multiple.
+
+
+\section{Opérations/Dupliquer}
+
+L'opération \hyperdef{chapoper}{Dupliquer}{\texttt{Dupliquer}}\index{Dupliquer} est une
+des spécificités les plus intéressantes d'\AG. Elle permet de créer une copie exacte
+d'une forme géométrique, mais surtout, s'il s'agit d'une forme libre, cette copie reste
+liée à l'originale de sorte que les deux formes sont toujours géométriquement semblables.
+
+
+
+\fbox{\begin{minipage}{0.99\linewidth}
+\begin{minipage}{0.4\linewidth}
+\Prat\\
+
+\includegraphics[width=0.6\linewidth]{Dupliquer1.eps}
+\leg{}
+\end{minipage} \hfill
+\begin{minipage}{0.58\linewidth}\vspace{0.2cm}
+
+Pour dupliquer un objet, choisir  \texttt{Dupliquer} dans le menu \textit{Opérations},
+ensuite cliquer à l'écran sur l'objet à dupliquer et déplacer la souris sans lâcher
+ le bouton de gauche.
+
+Ce déplacement de la souris permet d'amener la copie de la forme sélectionnée à l'endroit
+désiré. Sans déplacement, la forme n'est pas dupliquée.
+\end{minipage}\end{minipage}}
+
+
+Nous devons distinguer la duplication d'une forme géométrique \og générale\fg\ de celle
+d'un \og point sur\fg.
+
+\textbf{Cas d'une forme géométrique générale}
+
+Pour les  formes standard, \texttt{Dupliquer} est équivalent à un
+\hyperlink{chapmedit.Copier}{Copier-Coller}
+réalisé en une seule opération\index{Copier}\index{Coller}.
+
+Pour les formes libres,  le fait de \texttt{Dupliquer} une forme, associe le duplicat à
+la forme initiale de sorte que toute modification apportée à l'une d'elles (à l'aide de
+l'opération \texttt{Modifier}\index{Modifier}) entraîne la même modification à l'autre.
+Les sommets d'une forme dupliquée dépendent de la forme initiale, ils ont donc le statut
+de \textit{point construit}\index{Point!construit}.
+
+Par contre, l'application d'un mouvement (\texttt{Glisser}, \texttt{Tourner},
+\texttt{Retourner})\index{Glisser}\index{Tourner}\index{Retourner} ou d'un
+redimensionnement (\texttt{Zoomer})\index{Zoomer} à l'une est sans incidence sur
+l'autre. Les deux formes restent donc toujours géométriquement semblables, quelles que
+soient leurs positions ou leurs orientations par rapport à l'écran.
+
+En appliquant l'opération \texttt{Dupliquer} de façon répétitive, on peut créer une
+chaîne de formes \og dupliquées\fg. La figure suivante montre trois formes d'une
+telle chaîne.  Elle montre aussi ce qui arrive lorsque l'utilisateur essaie de
+supprimer une des formes de la chaîne: en application du principe énoncé à la
+section \ref{chapedit-suppr}, toutes les formes créées (par duplication dans ce cas)
+après celle qu'il sélectionne seront également supprimées. L'utilisateur en est
+prévenu par le fait qu'après avoir choisi l'opération
+\texttt{Supprimer}\index{Supprimer} et pointé l'une des formes de la chaîne, cette
+forme est redessinée en magenta, ainsi que toutes celles (de la même chaîne) qui
+ont été créées après elle.
+
+\begin{minipage}[b]{\linewidth}
+\centerline{\includegraphics[width=0.5\linewidth]{Dupliquer2.eps}}
+\leg{}
+\end{minipage}
+
+
+\texttt{Dupliquer} accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}
+quand on l'applique à des formes géométriques générales. Signalons aussi qu'il n'est pas
+possible de dupliquer une forme image d'une autre par une
+\hyperlink{chaptsf.Transformations}{transformation
+géométrique}\index{Transformation!géométrique}.
+
+\textbf{Cas d'un \og point sur\fg}\index{Point!sur}
+
+
+
+L'opération \texttt{Dupliquer} permet également de  dupliquer des points \og sur\fg\ en
+en conservant certaines propriétés.
+
+\fbox{\begin{minipage}{0.99\linewidth}
+\begin{minipage}{0.4\linewidth}
+\Prat\\
+
+\centerline{\includegraphics[width=0.8\linewidth]{Dupliquer3.eps}}
+\leg{}
+\end{minipage} \hfill
+\begin{minipage}{0.58\linewidth}\vspace{0.2cm}
+
+Pour dupliquer un point \og sur\fg, choisir   \texttt{Dupliquer} dans le menu
+\textit{Opérations}, ensuite cliquer à l'écran sur le point à dupliquer (ici $p$) et
+déplacer la souris sans lâcher  le bouton de gauche jusqu'à ce que le nouveau point soit
+\og sur\fg\ l'objet visé, ici le segment $[u,v]$. Ceci est confirmé par le fait que ce
+segment est repeint en magenta. On peut alors relâcher le bouton de la souris, le
+logiciel placera le point dupliqué de $p$ de façon qu'il ait même abscisse sur $[u,v]$
+que $p$ sur $[a,b]$. \end{minipage}\end{minipage}}
+
+Considérons un point $p$ placé sur un segment ou une droite. Ce segment ou cette droite
+sont déterminés par deux points $a$ et $b$. L'ordre de ces points est important: il fixe
+un repère\index{Repere@Repère} et une orientation.\index{Orientation!d'un segment}  Le
+premier point $a$ dans notre cas est l'\textit{origine}, le second est le point
+\textit{unité}. Tout point de la droite ou du segment est alors repéré par son
+abscisse\index{Abscisse} relativement au repère $(a,b)$.
+
+Un point placé \og sur\fg\ le bord d'un polygone est repéré de la même manière: le polygone étant
+construit par fixation de ses sommets, d'une part l'ordre de ceux-ci détermine une numérotation
+des côtés (de 0 à $n-1$ si le polygone a $n$ côtés), d'autre part chaque côté est muni du repère
+constitué de ses extrémités. Un point situé sur un côté d'un polygone est donc repéré par deux
+nombres : un nombre naturel (le numéro du côté sur lequel il se trouve) et un décimal compris
+entre 0 et 1: son abscisse  sur le côté.
+
+Sur un cercle, les points sont simplement repérés par la mesure de l'arc qui les
+joint à l'origine du cercle, le tour complet étant considéré de mesure 1.  Cette
+mesure sera ici encore appelée l'abscisse d'un point du cercle.
+
+Sur un arc de cercle, les points sont également repérés par un nombre compris entre
+0 et 1 que nous appellerons également une \textit{abscisse}. L'abscisse d'un point
+$p$ de l'arc $\arc{ab}$ (orienté de $a$ vers $b$) est le rapport des mesures des
+deux arcs: $\frac{\hbox{amplitude}(\arc{ap})}{\hbox{amplitude}(\arc{ab})}$.
+
+Lorsqu'un point \og sur\fg\ est déplacé sur son support, son abscisse est automatiquement
+recalculée.
+
+
+
+Ces explications permettent de comprendre le fonctionnement de la procédure
+\texttt{Dupliquer} lorsqu'on l'applique à un point \og sur\fg.
+
+\danger\fbox{\begin{minipage}{0.87\linewidth}
+
+\begin{list}{\textbullet}{\itemsep=1mm}
+\item En principe, un point \og sur\fg\ un objet ne peut être   dupliqué que sur un  objet de
+même espèce, c'est-à-dire sur un objet ayant le même intervalle de variation des
+abscisses que le premier. Par exemple un point situé sur un triangle ne peut être
+dupliqué que sur un  triangle (éventuellement le même). Et un point situé sur un segment ne peut pas être
+dupliqué sur une droite.
+
+\item La règle précédente admet trois exceptions: un point situé \og sur un
+segment\fg\ peut être dupliqué  \begin{itemize}  \item sur un côté d'un polygone.
+Dans ce cas, le duplicat (situé sur le polygone) est
+\hyperlink{chapcontext.Limiter}{\textit{limité}}, il ne peut pas passer d'un côté
+de ce polygone sur un autre.  \item sur un arc de cercle. \item sur un cercle.
+\end{itemize}   Dans chacun de ces cas l'abscisse d'un point et/ou de son duplicat
+ne peut varier qu'entre 0 et 1 et les deux points ont toujours même abscisse.
+
+\item Si un point $p$ situé sur un objet
+$P$ est dupliqué en un point $q$ situé sur un objet $Q$ de même espèce que $P$ au
+sens ci-dessus, les abscisses des points $p$ et $q$ sont égales.  Par exemple, un
+point d'abscisse $r$  sur le côté n°1 d'un quadrilatère peut être dupliqué sur le
+côté n°2 d'un (autre ou non) quadrilatère et son duplicat aura aussi l'abscisse
+$r$. Si le premier point passe du côté n°1 au côté n°2, le second passera du côté
+n°2 au côté n°3 (et vice-versa). Tout déplacement de l'un sur son support entraîne
+donc un déplacement de l'autre, également sur son support.
+
+\item  Une exception à la règle précédente doit être signalée: supposons que $p$
+soit un point  d'abscisse $r$ situé sur un segment $S$. Nous pouvons dupliquer
+$p$ sur le segment $S$ lui-même. Dans ce cas, le duplicat est le point $p'$
+d'abscisse $1-r$ de $S$, c'est-à-dire le symétrique de $p$ par rapport au milieu
+de $S$. Le point $p'$ \textsc{ne peut pas} être dupliqué à son tour. Cette
+exception n'est pas seulement valable pour  les points situés sur un segment,
+elle l'est aussi pour ceux situés sur un côté de polygone ou sur un arc.
+
+\item Lorsqu'un point $p_1$ est placé \og
+sur\fg\ un cercle $C_1$ et dupliqué en un point $p_2$ sur un second cercle $C_2$,  tout
+déplacement de $p_1$ sur $C_1$ induit un déplacement de même amplitude de $p_2$ sur
+$C_2$. Mais il se pourrait que les deux points $p_1$ et $p_2$ tournent en sens
+contraires l'un de l'autre: si $C_1$ et $C_2$ n'ont pas la même
+orientation\index{Orientation!d'un cercle}, par exemple si $C_2$ a été retourné après
+avoir été construit sans que ce soit le cas de $C_1$.
+\end{list}
+\end{minipage}}
+
+
+
+
+
+Comme pour les formes géométriques, l'opération \texttt{Dupliquer}  peut être appliquée
+de façon répétitive, ce qui crée des chaînes de points dupliqués
+connectés entre eux.
+
+\begin{minipage}[b]{0.70\linewidth}
+Par exemple, en plaçant un point sur le bord d'un carré, et en le dupliquant sur
+les autres côtés, on obtient quatre points qui sont également les sommets d'un
+carré. De plus, en dupliquant un quelconque des sommets de ce nouveau carré sur
+un de ses côtés et en répétant l'opération, on construit une suite de carrés
+emboîtés intimement liés puisqu'il suffit de modifier n'importe quel sommet d'un
+des carrés dupliqués  pour que ceux-ci  soient tous adaptés.\medskip
+\end{minipage}\hfill
+\begin{minipage}[b]{0.25\linewidth}
+\includegraphics[width=\linewidth]{carresemboites.eps}
+\leg{}
+\end{minipage}
+
+
+
+\section{Opérations/Prolonger}
+
+ L'opération
+\hyperdef{chapoper}{Prolonger}{\texttt{Prolonger}}\index{Prolonger} ne nécessite
+pas de grands commentaires. Elle peut être appliquée à un segment ou à un côté de
+polygone. Dans les deux cas, le résultat est une droite.
+
+\fbox{\begin{minipage}{0.97\linewidth}\Prat
+
+Après avoir
+cliqué sur \texttt{Prolonger} dans le menu {\it Opérations}, on clique sur le segment que l'on
+souhaite prolonger.
+
+
+\centerline{\includegraphics[width=0.3\linewidth]{Prolonger.eps}}
+\leg{}
+\end{minipage}}
+
+Tous les points qui auraient été placés \og sur\fg\ le segment deviennent automatiquement des points \og sur\fg\ la droite.
+
+Considérons par exemple un triangle ayant trois angles aigus, dont une hauteur
+a été tracée en tant que segment perpendiculaire au côté opposé. Si on modifie
+le sommet d'où la hauteur est issue, la hauteur disparaît quand le triangle
+devient obtusangle, car le point d'intersection du segment et du côté opposé
+n'existe plus. En prolongeant les côtés du triangle, la hauteur n'est plus
+considérée comme segment perpendiculaire au côté du triangle, mais bien à la
+droite qui prolonge ce côté. Elle ne disparaît donc plus.
+
+\texttt{Prolonger} n'accepte pas la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
+
+
+
+\section{Opérations/Construire le centre}
+
+\hyperdef{chapoper}{Centre}{\texttt{Construire le centre}}\index{Construire!le centre} :
+Cette fonctionnalité permet d'afficher le centre d'une forme. La signification précise
+du mot \textit{Centre}\index{Centre} varie selon la nature de l'objet considéré. Pour
+les polygones, il s'agit du barycentre des sommets. Pour un cercle ou un arc de cercle,
+il s'agit du centre (au sens usuel) du cercle ou de l'arc. Pour les autres formes, il
+s'agit du barycentre des points qui servent à les définir.
+
+
+\fbox{\begin{minipage}{\linewidth}
+\vspace{0.3cm}\Prat
+\vspace{0.3cm}
+
+On clique dans le menu
+\textit{Opérations} et sur la commande \texttt{Construire le centre}. Ensuite,
+il reste à cliquer sur la forme pour que son centre apparaisse.
+\end{minipage}}
+
+Le centre d'une forme tel que construit par cette opération est un des points que le
+logiciel propose comme centre de rotation possible lorsqu'on applique le mouvement
+\texttt{Tourner}.\index{Tourner}
+
+
+\texttt{Construire le centre} accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
+
+
+
+\section{Opérations/Identifier}
+
+L'opération \hyperdef{chapoper}{Identifier}{\texttt{Identifier}}\index{Identifier}
+complète l'opération \hyperlink{chapmodif.Modifier}{\texttt{Modifier}}. Elle permet en
+effet de modifier le statut d'un point:
+\begin{list}{\textbullet}{\itemsep=1mm} \item Un
+point qui était libre\index{Point!libre} peut être placé \og sur\fg\ un objet.
+\item Un point libre peut aussi
+être identifié à un autre point. \end{list}
+
+Il en résulte  une réorganisation des figures rassemblant les différentes formes
+présentes à l'écran.\index{Figure}
+
+\textbf{Placer un point libre sur un objet}
+
+Considérons la situation suivante:
+
+                          \begin{center}
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{Identif1.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+Pour une raison quelconque, nous voulons que le point $p$ vienne se placer \og sur\fg\
+le triangle $abc$.
+
+En utilisant \hyperlink{chapmodif.Modifier}{\texttt{Modifier}}, et grâce au
+magnétisme\index{Magnetisme@Magnétisme}, nous pouvons effectivement amener le point $p$ \og
+au-dessus\fg\ de $[a,b]$.
+
+\begin{center}
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{Identif2.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+
+Mais le point $p$ est toujours un point libre\footnote{Dans la version 2.1.6
+d'\AG, l'identification de deux points était automatique dès que l'opération
+\texttt{Modifier} était utilisée pour superposer l'un à  l'autre. Il est apparu
+ultérieurement que cet automatisme avait autant d'inconvénients que d'avantages et
+qu'il était préférable que l'utilisateur décide lui-même si une identification devait
+avoir lieu.}, il n'est pas encore astreint à rester sur le triangle $abc$ ni sur le
+segment $[a,b]$. C'est donc le moment d'utiliser l'opération \texttt{Identifier}.
+
+Cliquons sur le bouton \textit{Opérations/Identifier} et amenons le curseur au-dessus du point $p$.
+Un message apparaît:       \textit{Placer le point sur le trait}
+
+\begin{center}
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{Identif3.eps}
+\leg{}
+\end{minipage}
+\end{center}
+
+Il reste à enfoncer le bouton gauche de la souris: le point $p$ a été placé \og sur\fg\
+le triangle $abc$, comme on le vérifie aisément en recourant à l'opération
+\texttt{Modifier}.
+
+\textbf{Remarque}
+
+ Dans la version actuelle d'\AG\, un point \og sur\fg\ un premier objet ne peut
+--- via la procédure \texttt{Identifier} --- être placé \og sur\fg\ un deuxième
+objet, ce qui reviendrait à créer un  point d'intersection mais pourrait créer
+des difficultés techniques. Pour la même raison si une forme, par exemple un
+triangle $abc$, a été dupliquée, dans notre exemple en un triangle $a'b'c'$ et
+si un des deux points $a$, $a'$ est un point \og sur \fg\ un troisième objet,
+l'autre ne peut plus être placé sur un objet par cette procédure
+\texttt{Identifier}.
+
+
+
+\textbf{Identifier deux points}
+
+
+ La procédure est semblable à celle qui vient d'être
+décrite.
+
+Supposons que nous voulions identifier les deux points $p$ et $a$, c'est-à-dire faire en
+sorte que les deux triangles aient un sommet commun. Un des deux points doit disparaître.
+
+Après avoir fait en sorte que les deux points
+$a$ et $p$ soient superposés (Fig. \ref{operidentif1}), nous choisissons
+\texttt{Identifier} et amenons le curseur  au-dessus de ces points. Le message qui
+apparaît est cette fois      \textit{Identifier ces deux points ?}  Un clic règle la
+question (Fig.~\ref{operidentif2}).
+ 
+\strut\hfill
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{Identif4.eps}
+\leg{\label{operidentif1}}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.35\linewidth}
+\includegraphics[width=\linewidth]{Identif5.eps}
+\leg{\label{operidentif2}}
+\end{minipage}
+\hfill\strut
+
+
+\textbf{Remarques}
+
+\begin{list}{\textbullet}{\itemsep=1mm}   \item Dans notre cas, les deux points à
+identifier portaient une étiquette\index{Etiquette@Étiquette}. Une seule subsiste après
+l'identification.
+
+\item Identifier un  sommet $a$ d'une forme $F_1$ à un sommet $b$ d'une forme $F_2$ débouche  sur la même
+situation que si la forme construite en second lieu, par exemple $F_2$, l'avait été en choisissant d'en placer
+d'emblée un sommet au point $a$ de $F_1$ (au lieu de créer un nouveau point $b$). En particulier, après
+l'identification, les deux formes $F_1$ et $F_2$ appartiennent à la même figure.
+ 
+
+\item On ne peut identifier plus de deux points en une seule opération. Par
+conséquent, si plus de deux points sont superposés, l'opération
+\texttt{Identifier} ne  s'applique pas. Il reste à l'utilisateur à modifier la
+figure afin d'isoler deux points qu'il désire identifier. Il peut ensuite
+éventuellement identifier le résultat à un troisième point.
+
+\item Lorsqu'on identifie deux points, un des deux au moins doit être un point
+libre\index{Point!libre}. L'autre peut être un point \og sur\fg\index{Point!sur} ou un
+point construit\index{Point!construit} à partir d'une autre forme:
+\hyperlink{chapoper.Centre}{centre de forme}, \hyperlink{chapoper.Diviser}{point de
+division}, \hyperlink{chapoper.Dupliquer}{sommet d'une forme dupliquée} ou
+\hyperlink{chapoper.Decouper}{d'une pièce de découpe}, ou encore
+\hyperlink{chaptsf.Appliquer}{sommet d'une forme image d'une autre par une
+transformation}.
+ 
+ Lorsqu'on identifie un point libre à un de ces points construits, le point résultant
+hérite des propriétés du point construit, ce qui explique qu'on ne puisse identifier
+deux points construits: le nouveau point serait soumis à des contraintes incompatibles.
+Pour la même raison, on  ne peut identifier deux points \og sur\fg, ni un point
+construit avec un point \og sur\fg.
+
+
+  \end{list}
+
+
+\textbf{Exemple}
+
+Considérons le problème suivant (voir \cite{HoncNo}): Étant donné un octogone
+$abcdefgh$, construire quatre points $x$, $y$, $z$ et $t$ vérifiant les
+conditions suivantes:
+
+\begin{list}{\textbullet}{}
+\item $x$ est le barycentre des quatre points $t$, $h$, $a$, $y$;
+\item $y$ est le barycentre des quatre points $x$, $b$, $c$, $z$;
+\item $z$ est le barycentre des quatre points $y$, $d$, $e$, $t$;
+\item $t$ est le barycentre des quatre points $z$, $f$, $g$, $x$.
+\end{list}
+
+
+
+\begin{minipage}[b]{0.65\linewidth}
+Une méthode est la suivante:
+\begin{enumerate}
+\item Placer deux points $y$ et $t$ à l'intérieur de l'octogone. \item Tracer les
+quadrilatères $thay$ et $ydet$. \item Construire les centres $x$ et $z$ de ces deux quadrilatères.
+\item Construire les quadrilatères $xbcz$ et $zfgx$.
+\item Construire les centres $y_1$ et $t_1$ de ces quadrilatères.
+\item Identifier $y_1$ à $y$ et $t_1$ à $t$.
+\end{enumerate}
+\end{minipage}\hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{moyennes.eps}
+\leg{}
+\end{minipage}
+
+\endinput
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \subsection{Le

@@ -1,0 +1,180 @@
+%Options: KBD=ISO8859; STD=VOID; LANG=FRENCH; FMT=latex; HYPHEN=default;
+\documentclass[french,a4paper,12pt,twoside]{book}
+\usepackage[french]{babel}
+\usepackage[T1]{fontenc}
+\usepackage[ansinew]{inputenc}
+\usepackage{multicol,comment}
+\usepackage{graphicx,color}
+\usepackage{calrsfs}
+\usepackage{macrosug}
+\usepackage[hyperindex,colorlinks,linkcolor=blue,filecolor=blue,citecolor=red,pdfpagemode=None]{hyperref}
+\topmargin-1cm
+\textheight 25cm
+\oddsidemargin-0.5cm
+\evensidemargin-0.5cm
+\textwidth17cm
+\parindent0pt
+\parskip2mm
+
+\makeatletter
+\def\logag{\incgr[width=1cm]{logoag.eps}}
+\def\logstop{\incgr[width=0.75cm]{stop.eps}}
+\def\fullscreen{\incgr[width=0.75cm]{HalfArrw.jpg}}
+\def\loggsview{\incgr[width=0.75cm]{gsview.bmp}}
+\def\rep{C\string:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2}
+
+\begin{comment}
+\def\@hyper@launch run:#1\\#2#3{%
+  \leavevmode
+  \special{!aref
+    <u=%
+      /Type /Action
+      /S /Launch
+      /F (#1)
+     \ifHy@newwindow /NewWindow true \fi
+    \ifx\\#3\\\else /Win << /F (#1) /P (#3) >> \fi%
+    >;%
+    a=</Border [\@pdfborder] /C [\@runbordercolor]>%
+  }%
+  \Hy@colorlink{\@filecolor}#2\Hy@endcolorlink
+  \special{!endaref}%
+}
+\end{comment}
+
+\def\BoutonAG#1{\fbox{\vbox to 1.5cm{\hbox to 1cm{\@hyper@launch %
+run:{#1}\\{\logag}{}}\small\texttt{#1}\vss}}}
+
+\def\BoutonStop{\vbox to 0.75cm{\hbox to 0.75cm{\hss\Acrobatmenu{Quit}{\logstop}\hss}\vss}\par}
+
+\def\BoutonFS{\vbox to 0.75cm{\hbox to 0.75cm{\hss\Acrobatmenu{FullScreen}{\fullscreen}\hss}\vss}\par}
+
+\def\BoutonGS#1{\vbox to 0.75cm{\hbox to 0.75cm{\hss\@hyper@launch run:{#1}\\{\loggsview}{}\hss}\vss}\par}
+\makeatother
+
+%% Pour les liens à la fois internes et externes, utiliser
+%\hyperdef{category}{name}{text} et
+% en interne: \hyperlink{category.name}{text}
+% en externe: \hyperref{URL}{category}{name}{text}
+
+\makeindex
+
+\title{{\Huge\sffamily\bfseries Guide utilisateur du logiciel}\\[2cm]
+{\Huge\color{red}\sffamily\bfseries Apprenti Géomètre\\[2cm]
+\color{black}\Large version 2.4.1}}
+
+\author{\normalsize\baselineskip15pt Centre de Recherche sur l'Enseignement des Mathématiques\\}
+\date{\today}
+
+
+\bibliographystyle{plainn}
+
+%\includeonly{chapmac}
+
+\begin{document}
+\frontmatter
+\maketitle\newpage
+\include{chap0}
+\include{avantpropos}
+\tableofcontents
+\mainmatter
+\include{chap1}   %chapintro
+\include{chap2}   %chapfstd
+\include{chap3}   %chapflib
+\include{chap4}   %chapmedit
+\include{chap5}   %chapmouv
+\include{chap6}   %chapmodif
+\include{chap7}   %chapoper
+\include{chap8}   %chaptsf
+\include{chap9}   %chapmac
+\include{chap10}  %chapoutils
+\include{chap11}  %chapcontext
+\include{chap12}  %chappref
+\backmatter
+\begin{thebibliography}{XXX}
+
+%\bibitem{Note} La présente bibliographie mentionne des textes soit
+%consacrés à \AG, soit des textes relatant des activités utilisant \AG.
+
+\bibitem{CREMAG} CREM, \newblock \textsl{\AG. Grandeurs,
+fractions et mesures}. \newblock Centre de Recherche sur l'Enseignement des
+Mathématiques, Nivelles,   (2003).
+
+\bibitem{CREMAG2}
+CREM,
+\newblock \textsl{\AG. Rapport de recherche 2003-2004}.
+\newblock Centre de Recherche sur l'Enseignement des Mathématiques, Nivelles,
+  (2004).
+
+\bibitem{Rouche2} N. Rouche et Ph. Skilbecq, \newblock \textsl{\AG,
+un nouveau logiciel}, \newblock Mathématique et Pédagogie, 149, 68--84, (2004).
+
+
+\bibitem{CREMAG3}
+CREM,
+\newblock \textsl{\AG. Un outil de différenciation des
+  apprentissages en mathématique}.
+\newblock Centre de Recherche sur l'Enseignement des Math\'ematiques, Nivelles,
+  (2005).
+
+\bibitem{Rouche1} N. Rouche et Ph. Skilbecq, \newblock \textsl{\AG;
+pourquoi un nouveau logiciel},
+\newblock Centre de Recherche sur l'Enseignement des Math\'ematiques, Nivelles,
+ (2006).
+
+\bibitem{Rouche1b} N. Rouche et Ph. Skilbecq,
+\newblock \textsl{\AG, un atelier pour travailler les mathématiques},
+\newblock Centre de Recherche sur l'Enseignement des Math\'ematiques, Nivelles,
+  (2006).
+
+\bibitem{CREMAG4}
+CREM,
+\newblock \textsl{Impact du logiciel \AG\
+sur certains apprentissages}.
+\newblock Centre de Recherche sur l'Enseignement des Math\'ematiques, Nivelles,
+(2007).
+
+\bibitem{HoncNo}
+B. Honclaire et G. Noël,
+\newblock \textsl{Barycentres}.
+\newblock Losanges, N°4, 19--25, (2009).
+
+\bibitem{Noel1}
+G. Noël,
+\newblock \textsl{Activités avec \AG.}
+\newblock Losanges, N°5, 35--39, (2009).
+
+\bibitem{Astri}
+B.Honclaire et Y. Noël-Roch
+\newblock \textsl{Astricas}.
+\newblock Losanges, N°7, 52--60, (2010).
+
+\bibitem{Pote1}
+B.Honclaire
+\newblock \textsl{Touche à mon pote\ldots\ AG}.
+\newblock Losanges, N°12, 47--52, N°13, 49--56, N°14, 52--58, N°15, 55--62, (2011).
+
+\bibitem{Guis1} M.-F. Guissard, V. Henry, P. Lambrecht, P. Van Geet et S.
+Vansimpsen \newblock \textsl{Aires et agrandissements, Math \& Manip avec le
+logiciel de géométrie \AG.}
+\newblock Losanges N°18, 15--23, (2012).
+
+\bibitem{Noel2}
+G. Noël,
+\newblock \textsl{Dessiner une conique}.
+\newblock Losanges, N°18, 54--57, (2012).
+
+
+\end{thebibliography}
+
+\input{GuideUtilAG2.ind}
+
+\end{document}
+
+\endinput
+
+
+
+
+
+
+
