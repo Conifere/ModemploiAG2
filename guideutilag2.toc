@@ -6,133 +6,133 @@
 \contentsline {section}{\numberline {2.1}Introduction}{11}{section.2.1}
 \contentsline {section}{\numberline {2.2}Construire une forme standard}{11}{section.2.2}
 \contentsline {section}{\numberline {2.3}Le jeu de base}{12}{section.2.3}
-\contentsline {subsection}{\numberline {2.3.1}La famille du triangle \'equilat\'eral}{12}{subsection.2.3.1}
-\contentsline {subsection}{\numberline {2.3.2}La famille du carr\'e}{13}{subsection.2.3.2}
-\contentsline {subsection}{\numberline {2.3.3}La famille du pentagone}{14}{subsection.2.3.3}
-\contentsline {section}{\numberline {2.4}Les formes standard: quelques options}{15}{section.2.4}
-\contentsline {section}{\numberline {2.5}Cr\'eer de nouvelles familles de formes standard}{17}{section.2.5}
-\contentsline {subsection}{\numberline {2.5.1}Standardiser}{17}{subsection.2.5.1}
-\contentsline {subsection}{\numberline {2.5.2}\'Ecriture d'un fichier d'instructions}{18}{subsection.2.5.2}
-\contentsline {chapter}{\numberline {3}Les formes libres}{21}{chapter.3}
-\contentsline {section}{\numberline {3.1}Introduction}{21}{section.3.1}
-\contentsline {section}{\numberline {3.2}Des formes orient\'ees}{22}{section.3.2}
-\contentsline {section}{\numberline {3.3}Formes Libres}{22}{section.3.3}
-\contentsline {subsection}{\numberline {3.3.1}La famille du point}{23}{subsection.3.3.1}
-\contentsline {subsection}{\numberline {3.3.2}La famille des segments}{23}{subsection.3.3.2}
-\contentsline {subsection}{\numberline {3.3.3}La famille des triangles}{24}{subsection.3.3.3}
-\contentsline {subsection}{\numberline {3.3.4}La famille des quadrilat\`eres}{24}{subsection.3.3.4}
-\contentsline {subsection}{\numberline {3.3.5}La famille des polygones r\'eguliers}{25}{subsection.3.3.5}
-\contentsline {subsection}{\numberline {3.3.6}La famille du cercle}{25}{subsection.3.3.6}
-\contentsline {subsection}{\numberline {3.3.7}La famille des polygones quelconques}{25}{subsection.3.3.7}
-\contentsline {section}{\numberline {3.4}Abandonner une construction}{26}{section.3.4}
-\contentsline {section}{\numberline {3.5}Une remarque}{26}{section.3.5}
-\contentsline {chapter}{\numberline {4}Fichier, Fen\^etres et \'Edition}{27}{chapter.4}
-\contentsline {section}{\numberline {4.1}Introduction}{27}{section.4.1}
-\contentsline {section}{\numberline {4.2}Fichier}{27}{section.4.2}
-\contentsline {subsection}{\numberline {4.2.1}Fichier/Nouveau}{27}{subsection.4.2.1}
-\contentsline {subsection}{\numberline {4.2.2}Fichier/Ouvrir}{27}{subsection.4.2.2}
-\contentsline {subsection}{\numberline {4.2.3}Fichier/Fermer}{28}{subsection.4.2.3}
-\contentsline {subsection}{\numberline {4.2.4}Fichier/Standardiser}{28}{subsection.4.2.4}
-\contentsline {subsection}{\numberline {4.2.5}Fichier/Sauvegarder}{28}{subsection.4.2.5}
-\contentsline {subsection}{\numberline {4.2.6}Fichier/Sauvegarder sous}{28}{subsection.4.2.6}
-\contentsline {subsection}{\numberline {4.2.7}Fichier/Exporter en Postscript}{28}{subsection.4.2.7}
-\contentsline {subsection}{\numberline {4.2.8}Fichier/Exporter en fichier bitmap}{29}{subsection.4.2.8}
-\contentsline {subsection}{\numberline {4.2.9}Fichier/Param\`etres d'impression}{29}{subsection.4.2.9}
-\contentsline {subsection}{\numberline {4.2.10}Fichier/Imprimer}{29}{subsection.4.2.10}
-\contentsline {subsection}{\numberline {4.2.11}Fichier/Quitter}{30}{subsection.4.2.11}
-\contentsline {section}{\numberline {4.3}Fen\^etres}{30}{section.4.3}
-\contentsline {section}{\numberline {4.4}\'Edition}{31}{section.4.4}
-\contentsline {subsection}{\numberline {4.4.1}\'Edition/Annuler et Refaire}{31}{subsection.4.4.1}
-\contentsline {subsection}{\numberline {4.4.2}\'Edition/S\'electionner-D\'es\'electionner et S\'electionner tout}{31}{subsection.4.4.2}
-\contentsline {subsection}{\numberline {4.4.3}\'Edition/Res\'election automatique}{34}{subsection.4.4.3}
-\contentsline {subsection}{\numberline {4.4.4}\'Edition/Lier et D\'elier}{35}{subsection.4.4.4}
-\contentsline {subsection}{\numberline {4.4.5}\'Edition/Copier et Coller}{36}{subsection.4.4.5}
-\contentsline {subsection}{\numberline {4.4.6}\'Edition/Supprimer}{36}{subsection.4.4.6}
-\contentsline {chapter}{\numberline {5}Mouvements}{39}{chapter.5}
-\contentsline {section}{\numberline {5.1}Introduction}{39}{section.5.1}
-\contentsline {section}{\numberline {5.2}Glisser}{39}{section.5.2}
-\contentsline {section}{\numberline {5.3}Tourner}{41}{section.5.3}
-\contentsline {section}{\numberline {5.4}Retourner}{42}{section.5.4}
-\contentsline {section}{\numberline {5.5}Zoomer}{43}{section.5.5}
-\contentsline {chapter}{\numberline {6}Modifier}{45}{chapter.6}
-\contentsline {section}{\numberline {6.1}Introduction}{45}{section.6.1}
-\contentsline {section}{\numberline {6.2}Tirer sur un point}{45}{section.6.2}
-\contentsline {section}{\numberline {6.3}Des figures et des sous-figures}{47}{section.6.3}
-\contentsline {subsection}{\numberline {6.3.1}Formes et figures}{47}{subsection.6.3.1}
-\contentsline {subsection}{\numberline {6.3.2}Des formes et des figures qui sont modifi\'ees par similitude}{47}{subsection.6.3.2}
-\contentsline {subsection}{\numberline {6.3.3}Des formes et des figures qui se modifient par affinit\'e}{49}{subsection.6.3.3}
-\contentsline {subsection}{\numberline {6.3.4}Figures et sous-figures}{50}{subsection.6.3.4}
-\contentsline {subsection}{\numberline {6.3.5}Des formes particuli\`eres}{51}{subsection.6.3.5}
-\contentsline {chapter}{\numberline {7}Op\'erations}{53}{chapter.7}
-\contentsline {section}{\numberline {7.1}Introduction}{53}{section.7.1}
-\contentsline {section}{\numberline {7.2}Op\'erations/Diviser}{53}{section.7.2}
-\contentsline {section}{\numberline {7.3}Op\'erations/D\'ecouper}{55}{section.7.3}
-\contentsline {section}{\numberline {7.4}Op\'erations/Fusionner}{58}{section.7.4}
-\contentsline {section}{\numberline {7.5}Op\'erations/Dupliquer}{60}{section.7.5}
-\contentsline {section}{\numberline {7.6}Op\'erations/Prolonger}{64}{section.7.6}
-\contentsline {section}{\numberline {7.7}Op\'erations/Construire le centre}{64}{section.7.7}
-\contentsline {section}{\numberline {7.8}Op\'erations/Identifier}{64}{section.7.8}
-\contentsline {chapter}{\numberline {8}Transformations}{69}{chapter.8}
-\contentsline {section}{\numberline {8.1}Introduction}{69}{section.8.1}
-\contentsline {section}{\numberline {8.2}D\'efinir une transformation}{69}{section.8.2}
-\contentsline {subsection}{\numberline {8.2.1}D\'efinir/Translation}{69}{subsection.8.2.1}
-\contentsline {subsection}{\numberline {8.2.2}D\'efinir/Rotation}{70}{subsection.8.2.2}
-\contentsline {subsection}{\numberline {8.2.3}D\'efinir/Demi-tour}{70}{subsection.8.2.3}
-\contentsline {subsection}{\numberline {8.2.4}D\'efinir/Quart de tour \`a gauche}{70}{subsection.8.2.4}
-\contentsline {subsection}{\numberline {8.2.5}D\'efinir/Quart de tour \`a droite}{70}{subsection.8.2.5}
-\contentsline {subsection}{\numberline {8.2.6}D\'efinir/D\'eplacement}{71}{subsection.8.2.6}
-\contentsline {subsection}{\numberline {8.2.7}D\'efinir/Sym\'etrie axiale}{71}{subsection.8.2.7}
-\contentsline {subsection}{\numberline {8.2.8}D\'efinir/Homoth\'etie}{72}{subsection.8.2.8}
-\contentsline {subsection}{\numberline {8.2.9}D\'efinir/Similitude}{73}{subsection.8.2.9}
-\contentsline {subsection}{\numberline {8.2.10}D\'efinir/\'Etirement}{75}{subsection.8.2.10}
-\contentsline {subsection}{\numberline {8.2.11}D\'efinir/Cisaillement}{76}{subsection.8.2.11}
-\contentsline {section}{\numberline {8.3}Appliquer}{77}{section.8.3}
-\contentsline {section}{\numberline {8.4}Transformations et mouvements}{79}{section.8.4}
-\contentsline {section}{\numberline {8.5}Point fixe}{82}{section.8.5}
-\contentsline {section}{\numberline {8.6}Montrer-cacher des transformations}{83}{section.8.6}
-\contentsline {chapter}{\numberline {9}Macros}{85}{chapter.9}
-\contentsline {section}{\numberline {9.1}Qu'est-ce qu'une macro?}{85}{section.9.1}
-\contentsline {section}{\numberline {9.2}Cr\'eer une macro}{85}{section.9.2}
-\contentsline {subsection}{\numberline {9.2.1}Les op\'erations disponibles}{86}{subsection.9.2.1}
-\contentsline {subsection}{\numberline {9.2.2}La pratique}{87}{subsection.9.2.2}
-\contentsline {section}{\numberline {9.3}Ex\'ecuter une macro}{88}{section.9.3}
-\contentsline {section}{\numberline {9.4}La sauvegarde des macros}{88}{section.9.4}
-\contentsline {section}{\numberline {9.5}Quelques remarques terminales}{89}{section.9.5}
-\contentsline {chapter}{\numberline {10}Outils}{91}{chapter.10}
-\contentsline {section}{\numberline {10.1}Introduction}{91}{section.10.1}
-\contentsline {section}{\numberline {10.2}Outils/Nommer}{91}{section.10.2}
-\contentsline {subsection}{\numberline {10.2.1}Attribuer une \'etiquette \`a une forme}{91}{subsection.10.2.1}
-\contentsline {subsection}{\numberline {10.2.2}Placer un titre}{92}{subsection.10.2.2}
-\contentsline {subsection}{\numberline {10.2.3}Afficher une mesure}{92}{subsection.10.2.3}
-\contentsline {section}{\numberline {10.3}Outils/Colorier}{94}{section.10.3}
-\contentsline {subsection}{\numberline {10.3.1}Couleur bord et Couleur fond}{94}{subsection.10.3.1}
-\contentsline {subsection}{\numberline {10.3.2}Couleur Famille Standard}{95}{subsection.10.3.2}
-\contentsline {section}{\numberline {10.4}Outils/Transparent-Opaque}{95}{section.10.4}
-\contentsline {section}{\numberline {10.5}Outils/Modifier l'\'epaisseur}{95}{section.10.5}
-\contentsline {section}{\numberline {10.6}Outils/Punaiser-D\'epunaiser}{96}{section.10.6}
-\contentsline {section}{\numberline {10.7}Outils/Montrer-Cacher des formes}{96}{section.10.7}
-\contentsline {section}{\numberline {10.8}Outils/Avant-plan et Outils/Arri\`ere-plan}{97}{section.10.8}
-\contentsline {section}{\numberline {10.9}Outils/Grille}{97}{section.10.9}
-\contentsline {section}{\numberline {10.10}Outils/Lire un historique}{98}{section.10.10}
-\contentsline {chapter}{\numberline {11}Un menu contextuel}{101}{chapter.11}
-\contentsline {section}{\numberline {11.1}Introduction}{101}{section.11.1}
-\contentsline {section}{\numberline {11.2}Les sous-menus possibles}{102}{section.11.2}
-\contentsline {chapter}{\numberline {12}Pr\'ef\'erences, etc.}{107}{chapter.12}
-\contentsline {section}{\numberline {12.1}Introduction}{107}{section.12.1}
-\contentsline {section}{\numberline {12.2}Pr\'ef\'erences}{107}{section.12.2}
-\contentsline {subsection}{\numberline {12.2.1}Formes standard}{107}{subsection.12.2.1}
-\contentsline {subsection}{\numberline {12.2.2}Distance de magn\'etisme}{107}{subsection.12.2.2}
-\contentsline {subsection}{\numberline {12.2.3}Ajustement automatique}{108}{subsection.12.2.3}
-\contentsline {subsection}{\numberline {12.2.4}Trajectoire}{108}{subsection.12.2.4}
-\contentsline {subsection}{\numberline {12.2.5}Formes point\'ees}{108}{subsection.12.2.5}
-\contentsline {subsection}{\numberline {12.2.6}Formes fl\'ech\'ees}{108}{subsection.12.2.6}
-\contentsline {subsection}{\numberline {12.2.7}Formes bifaces}{109}{subsection.12.2.7}
-\contentsline {subsection}{\numberline {12.2.8}Unit\'e de longueur et Unit\'e d'aire}{109}{subsection.12.2.8}
-\contentsline {section}{\numberline {12.3}Notes}{109}{section.12.3}
-\contentsline {section}{\numberline {12.4}Aide}{110}{section.12.4}
-\contentsline {subsection}{\numberline {12.4.1}Afficher l'aide}{110}{subsection.12.4.1}
-\contentsline {subsection}{\numberline {12.4.2}Guide Utilisateur}{110}{subsection.12.4.2}
-\contentsline {subsection}{\numberline {12.4.3}Visiter le site AG}{110}{subsection.12.4.3}
-\contentsline {subsection}{\numberline {12.4.4}\`A propos}{111}{subsection.12.4.4}
-\contentsline {section}{\numberline {12.5}Configuration}{111}{section.12.5}
-\contentsline {chapter}{Index}{115}{chapter*.8}
+\contentsline {subsection}{\numberline {2.3.1}La famille du triangle \'equilat\'eral}{13}{subsection.2.3.1}
+\contentsline {subsection}{\numberline {2.3.2}La famille du carr\'e}{14}{subsection.2.3.2}
+\contentsline {subsection}{\numberline {2.3.3}La famille du pentagone}{15}{subsection.2.3.3}
+\contentsline {section}{\numberline {2.4}Les formes standard: quelques options}{16}{section.2.4}
+\contentsline {section}{\numberline {2.5}Cr\'eer de nouvelles familles de formes standard}{18}{section.2.5}
+\contentsline {subsection}{\numberline {2.5.1}Standardiser}{18}{subsection.2.5.1}
+\contentsline {subsection}{\numberline {2.5.2}\'Ecriture d'un fichier d'instructions}{19}{subsection.2.5.2}
+\contentsline {chapter}{\numberline {3}Les formes libres}{23}{chapter.3}
+\contentsline {section}{\numberline {3.1}Introduction}{23}{section.3.1}
+\contentsline {section}{\numberline {3.2}Des formes orient\'ees}{24}{section.3.2}
+\contentsline {section}{\numberline {3.3}Formes Libres}{24}{section.3.3}
+\contentsline {subsection}{\numberline {3.3.1}La famille du point}{25}{subsection.3.3.1}
+\contentsline {subsection}{\numberline {3.3.2}La famille des segments}{25}{subsection.3.3.2}
+\contentsline {subsection}{\numberline {3.3.3}La famille des triangles}{26}{subsection.3.3.3}
+\contentsline {subsection}{\numberline {3.3.4}La famille des quadrilat\`eres}{26}{subsection.3.3.4}
+\contentsline {subsection}{\numberline {3.3.5}La famille des polygones r\'eguliers}{27}{subsection.3.3.5}
+\contentsline {subsection}{\numberline {3.3.6}La famille du cercle}{27}{subsection.3.3.6}
+\contentsline {subsection}{\numberline {3.3.7}La famille des polygones quelconques}{27}{subsection.3.3.7}
+\contentsline {section}{\numberline {3.4}Abandonner une construction}{28}{section.3.4}
+\contentsline {section}{\numberline {3.5}Une remarque}{28}{section.3.5}
+\contentsline {chapter}{\numberline {4}Fichier, Fen\^etres et \'Edition}{29}{chapter.4}
+\contentsline {section}{\numberline {4.1}Introduction}{29}{section.4.1}
+\contentsline {section}{\numberline {4.2}Fichier}{29}{section.4.2}
+\contentsline {subsection}{\numberline {4.2.1}Fichier/Nouveau}{29}{subsection.4.2.1}
+\contentsline {subsection}{\numberline {4.2.2}Fichier/Ouvrir}{29}{subsection.4.2.2}
+\contentsline {subsection}{\numberline {4.2.3}Fichier/Fermer}{30}{subsection.4.2.3}
+\contentsline {subsection}{\numberline {4.2.4}Fichier/Standardiser}{30}{subsection.4.2.4}
+\contentsline {subsection}{\numberline {4.2.5}Fichier/Sauvegarder}{30}{subsection.4.2.5}
+\contentsline {subsection}{\numberline {4.2.6}Fichier/Sauvegarder sous}{30}{subsection.4.2.6}
+\contentsline {subsection}{\numberline {4.2.7}Fichier/Exporter en Postscript}{30}{subsection.4.2.7}
+\contentsline {subsection}{\numberline {4.2.8}Fichier/Exporter en fichier bitmap}{31}{subsection.4.2.8}
+\contentsline {subsection}{\numberline {4.2.9}Fichier/Param\`etres d'impression}{31}{subsection.4.2.9}
+\contentsline {subsection}{\numberline {4.2.10}Fichier/Imprimer}{31}{subsection.4.2.10}
+\contentsline {subsection}{\numberline {4.2.11}Fichier/Quitter}{32}{subsection.4.2.11}
+\contentsline {section}{\numberline {4.3}Fen\^etres}{32}{section.4.3}
+\contentsline {section}{\numberline {4.4}\'Edition}{33}{section.4.4}
+\contentsline {subsection}{\numberline {4.4.1}\'Edition/Annuler et Refaire}{33}{subsection.4.4.1}
+\contentsline {subsection}{\numberline {4.4.2}\'Edition/S\'electionner-D\'es\'electionner et S\'electionner tout}{33}{subsection.4.4.2}
+\contentsline {subsection}{\numberline {4.4.3}\'Edition/Res\'election automatique}{36}{subsection.4.4.3}
+\contentsline {subsection}{\numberline {4.4.4}\'Edition/Lier et D\'elier}{37}{subsection.4.4.4}
+\contentsline {subsection}{\numberline {4.4.5}\'Edition/Copier et Coller}{38}{subsection.4.4.5}
+\contentsline {subsection}{\numberline {4.4.6}\'Edition/Supprimer}{38}{subsection.4.4.6}
+\contentsline {chapter}{\numberline {5}Mouvements}{41}{chapter.5}
+\contentsline {section}{\numberline {5.1}Introduction}{41}{section.5.1}
+\contentsline {section}{\numberline {5.2}Glisser}{41}{section.5.2}
+\contentsline {section}{\numberline {5.3}Tourner}{43}{section.5.3}
+\contentsline {section}{\numberline {5.4}Retourner}{44}{section.5.4}
+\contentsline {section}{\numberline {5.5}Zoomer}{45}{section.5.5}
+\contentsline {chapter}{\numberline {6}Modifier}{47}{chapter.6}
+\contentsline {section}{\numberline {6.1}Introduction}{47}{section.6.1}
+\contentsline {section}{\numberline {6.2}Tirer sur un point}{47}{section.6.2}
+\contentsline {section}{\numberline {6.3}Des figures et des sous-figures}{49}{section.6.3}
+\contentsline {subsection}{\numberline {6.3.1}Formes et figures}{49}{subsection.6.3.1}
+\contentsline {subsection}{\numberline {6.3.2}Des formes et des figures qui sont modifi\'ees par similitude}{49}{subsection.6.3.2}
+\contentsline {subsection}{\numberline {6.3.3}Des formes et des figures qui se modifient par affinit\'e}{51}{subsection.6.3.3}
+\contentsline {subsection}{\numberline {6.3.4}Figures et sous-figures}{52}{subsection.6.3.4}
+\contentsline {subsection}{\numberline {6.3.5}Des formes particuli\`eres}{53}{subsection.6.3.5}
+\contentsline {chapter}{\numberline {7}Op\'erations}{55}{chapter.7}
+\contentsline {section}{\numberline {7.1}Introduction}{55}{section.7.1}
+\contentsline {section}{\numberline {7.2}Op\'erations/Diviser}{55}{section.7.2}
+\contentsline {section}{\numberline {7.3}Op\'erations/D\'ecouper}{57}{section.7.3}
+\contentsline {section}{\numberline {7.4}Op\'erations/Fusionner}{60}{section.7.4}
+\contentsline {section}{\numberline {7.5}Op\'erations/Dupliquer}{62}{section.7.5}
+\contentsline {section}{\numberline {7.6}Op\'erations/Prolonger}{66}{section.7.6}
+\contentsline {section}{\numberline {7.7}Op\'erations/Construire le centre}{66}{section.7.7}
+\contentsline {section}{\numberline {7.8}Op\'erations/Identifier}{66}{section.7.8}
+\contentsline {chapter}{\numberline {8}Transformations}{71}{chapter.8}
+\contentsline {section}{\numberline {8.1}Introduction}{71}{section.8.1}
+\contentsline {section}{\numberline {8.2}D\'efinir une transformation}{71}{section.8.2}
+\contentsline {subsection}{\numberline {8.2.1}D\'efinir/Translation}{71}{subsection.8.2.1}
+\contentsline {subsection}{\numberline {8.2.2}D\'efinir/Rotation}{72}{subsection.8.2.2}
+\contentsline {subsection}{\numberline {8.2.3}D\'efinir/Demi-tour}{72}{subsection.8.2.3}
+\contentsline {subsection}{\numberline {8.2.4}D\'efinir/Quart de tour \`a gauche}{72}{subsection.8.2.4}
+\contentsline {subsection}{\numberline {8.2.5}D\'efinir/Quart de tour \`a droite}{72}{subsection.8.2.5}
+\contentsline {subsection}{\numberline {8.2.6}D\'efinir/D\'eplacement}{73}{subsection.8.2.6}
+\contentsline {subsection}{\numberline {8.2.7}D\'efinir/Sym\'etrie axiale}{73}{subsection.8.2.7}
+\contentsline {subsection}{\numberline {8.2.8}D\'efinir/Homoth\'etie}{74}{subsection.8.2.8}
+\contentsline {subsection}{\numberline {8.2.9}D\'efinir/Similitude}{75}{subsection.8.2.9}
+\contentsline {subsection}{\numberline {8.2.10}D\'efinir/\'Etirement}{77}{subsection.8.2.10}
+\contentsline {subsection}{\numberline {8.2.11}D\'efinir/Cisaillement}{78}{subsection.8.2.11}
+\contentsline {section}{\numberline {8.3}Appliquer}{79}{section.8.3}
+\contentsline {section}{\numberline {8.4}Transformations et mouvements}{81}{section.8.4}
+\contentsline {section}{\numberline {8.5}Point fixe}{84}{section.8.5}
+\contentsline {section}{\numberline {8.6}Montrer-cacher des transformations}{85}{section.8.6}
+\contentsline {chapter}{\numberline {9}Macros}{87}{chapter.9}
+\contentsline {section}{\numberline {9.1}Qu'est-ce qu'une macro?}{87}{section.9.1}
+\contentsline {section}{\numberline {9.2}Cr\'eer une macro}{87}{section.9.2}
+\contentsline {subsection}{\numberline {9.2.1}Les op\'erations disponibles}{88}{subsection.9.2.1}
+\contentsline {subsection}{\numberline {9.2.2}La pratique}{89}{subsection.9.2.2}
+\contentsline {section}{\numberline {9.3}Ex\'ecuter une macro}{90}{section.9.3}
+\contentsline {section}{\numberline {9.4}La sauvegarde des macros}{90}{section.9.4}
+\contentsline {section}{\numberline {9.5}Quelques remarques terminales}{91}{section.9.5}
+\contentsline {chapter}{\numberline {10}Outils}{93}{chapter.10}
+\contentsline {section}{\numberline {10.1}Introduction}{93}{section.10.1}
+\contentsline {section}{\numberline {10.2}Outils/Nommer}{93}{section.10.2}
+\contentsline {subsection}{\numberline {10.2.1}Attribuer une \'etiquette \`a une forme}{93}{subsection.10.2.1}
+\contentsline {subsection}{\numberline {10.2.2}Placer un titre}{94}{subsection.10.2.2}
+\contentsline {subsection}{\numberline {10.2.3}Afficher une mesure}{94}{subsection.10.2.3}
+\contentsline {section}{\numberline {10.3}Outils/Colorier}{96}{section.10.3}
+\contentsline {subsection}{\numberline {10.3.1}Couleur bord et Couleur fond}{96}{subsection.10.3.1}
+\contentsline {subsection}{\numberline {10.3.2}Couleur Famille Standard}{97}{subsection.10.3.2}
+\contentsline {section}{\numberline {10.4}Outils/Transparent-Opaque}{97}{section.10.4}
+\contentsline {section}{\numberline {10.5}Outils/Modifier l'\'epaisseur}{97}{section.10.5}
+\contentsline {section}{\numberline {10.6}Outils/Punaiser-D\'epunaiser}{98}{section.10.6}
+\contentsline {section}{\numberline {10.7}Outils/Montrer-Cacher des formes}{98}{section.10.7}
+\contentsline {section}{\numberline {10.8}Outils/Avant-plan et Outils/Arri\`ere-plan}{99}{section.10.8}
+\contentsline {section}{\numberline {10.9}Outils/Grille}{99}{section.10.9}
+\contentsline {section}{\numberline {10.10}Outils/Lire un historique}{100}{section.10.10}
+\contentsline {chapter}{\numberline {11}Un menu contextuel}{103}{chapter.11}
+\contentsline {section}{\numberline {11.1}Introduction}{103}{section.11.1}
+\contentsline {section}{\numberline {11.2}Les sous-menus possibles}{104}{section.11.2}
+\contentsline {chapter}{\numberline {12}Pr\'ef\'erences, etc.}{109}{chapter.12}
+\contentsline {section}{\numberline {12.1}Introduction}{109}{section.12.1}
+\contentsline {section}{\numberline {12.2}Pr\'ef\'erences}{109}{section.12.2}
+\contentsline {subsection}{\numberline {12.2.1}Formes standard}{109}{subsection.12.2.1}
+\contentsline {subsection}{\numberline {12.2.2}Distance de magn\'etisme}{109}{subsection.12.2.2}
+\contentsline {subsection}{\numberline {12.2.3}Ajustement automatique}{110}{subsection.12.2.3}
+\contentsline {subsection}{\numberline {12.2.4}Trajectoire}{110}{subsection.12.2.4}
+\contentsline {subsection}{\numberline {12.2.5}Formes point\'ees}{110}{subsection.12.2.5}
+\contentsline {subsection}{\numberline {12.2.6}Formes fl\'ech\'ees}{110}{subsection.12.2.6}
+\contentsline {subsection}{\numberline {12.2.7}Formes bifaces}{111}{subsection.12.2.7}
+\contentsline {subsection}{\numberline {12.2.8}Unit\'e de longueur et Unit\'e d'aire}{111}{subsection.12.2.8}
+\contentsline {section}{\numberline {12.3}Notes}{111}{section.12.3}
+\contentsline {section}{\numberline {12.4}Aide}{112}{section.12.4}
+\contentsline {subsection}{\numberline {12.4.1}Afficher l'aide}{112}{subsection.12.4.1}
+\contentsline {subsection}{\numberline {12.4.2}Guide Utilisateur}{112}{subsection.12.4.2}
+\contentsline {subsection}{\numberline {12.4.3}Visiter le site AG}{112}{subsection.12.4.3}
+\contentsline {subsection}{\numberline {12.4.4}\`A propos}{113}{subsection.12.4.4}
+\contentsline {section}{\numberline {12.5}Configuration}{113}{section.12.5}
+\contentsline {chapter}{Index}{117}{chapter*.3}

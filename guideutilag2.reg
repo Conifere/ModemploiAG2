@@ -161,8 +161,8 @@ REGEDIT4
 "ToolBarMathY"="0"
 "ToolBarFullS"="0"
 "ToolBarFullW"=dword:2f31
-"ToolBarFullX"="653"
-"ToolBarFullY"="73"
+"ToolBarFullX"="0"
+"ToolBarFullY"="0"
 "TabControlsS"="0"
 "TabControlsW"=dword:10000000
 "TabControlsX"="0"
@@ -274,7 +274,7 @@ REGEDIT4
 [HKEY_CURRENT_USER\Software\MicroPress\Visual TeX\Settings\Console]
 "Part"=hex:76,e8,aa,b8,d6,a5,d2,3f
 [HKEY_CURRENT_USER\Software\MicroPress\Visual TeX\Settings\Preview]
-"Part"=hex:b0,69,b2,6c,9a,2c,bb,3f
+"Part"=hex:38,35,56,4e,8d,95,c3,3f
 [HKEY_CURRENT_USER\Software\MicroPress\Visual TeX\Settings\Search]
 "SearchDirection"="F"
 "SearchScope"="G"

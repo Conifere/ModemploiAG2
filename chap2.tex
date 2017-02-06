@@ -16,28 +16,36 @@ Après que l'utilisateur ait sélectionné un de ces menus, une fenêtre s'ouvre, co
 \leg{}
 
 Sur la gauche de l'écran apparaît une \textit{boîte à outils} avec un \textit{pavé de mouvements} et un
-\textit{pavé de formes standard}\footnote{Les illustrations du présent fascicule sont conformes aux écrans
-qui apparaissaient \textsc{avant} la version 2.3.6.}.  Le reste de  l'écran constitue la \textit{fenêtre de
-dessin} où une \textit{figure} sera construite.
-\index{Menu}\index{Outil}\index{Operation@Opération}\index{Mouvement} \index{Forme!standard} Les touches
-\fbox{+}, \fbox{-} et \fbox{=} permettent de modifier la taille des caractères des textes affichés sur les
-différents boutons (mais pas ceux de la barre des menus).
+\textit{pavé de formes standard}. %\footnote{Les illustrations du présent fascicule sont conformes aux écrans
+%qui apparaissaient \textsc{avant} la version 2.3.6.}.
+Le reste de  l'écran constitue la \textit{fenêtre de
+dessin} où une \textit{figure} sera construite.\index{Menu}\index{Outil}\index{Operation@Opération}\index{Mouvement}\index{Forme!standard} Les touches
+\fbox{\strut+}, \fbox{\strut-} et \fbox{\strut=} permettent de modifier la taille des caractères des textes affichés sur les
+différents boutons (mais pas ceux de la barre des menus). Depuis la version 2.5.0, la taille des \textit{étiquettes}
+apposées par l'utilisateur sur une figure sont également modifiées.   Ceci permet de faciliter l'utilisation du logiciel
+par des personnes malvoyantes.\index{Étiquette}
 
 Par défaut, les formes standard sont celles du \textit{jeu de base}\index{Jeu! de base}. D'autres
 jeux de formes standard peuvent être choisis via l'item \textit{Préférences} (voir le paragraphe \ref{autresjeux}).
 
 \section{Construire une forme standard}
 
+\begin{minipage}[b]{2.5cm}
+\includegraphics[width=\linewidth]{Pavstandard2.jpg}
+\leg{}\end{minipage}\hfill
+\begin{minipage}[b]{0.83\linewidth}
 Un jeu de formes standard est constitué d'une ou plusieurs \textit{familles}\index{Famille} de formes.
 Chaque famille est accessible via une icône affichée dans le pavé de formes standard de la boîte à
 outils. Un clic sur une de ces icônes fait apparaître une fenêtre comportant autant de boutons-poussoirs
 qu'il y a de formes dans la famille sélectionnée. Ces boutons permettent de choisir la forme qui sera
-dessinée.
+dessinée.\vspace{\baselineskip}
+\end{minipage}
 
 Le dessin d'une forme standard est complètement déterminé par la fixation d'un point, appelé le \og
 point de référence\fg\ de la forme. Il s'agit généralement (mais pas toujours) du sommet \og
 inférieur-gauche\fg.
-\index{Point!de référence}\bigskip
+\index{Point!de référence}\newpage
+
 
 \danger\hfill \fbox{\begin{minipage}{0.87\linewidth} \label{doubleclic} Lors de la construction
 d'une forme géométrique, il peut arriver que l'utilisateur réalise involontairement un \og
@@ -46,14 +54,9 @@ intervalle de temps très court et en deux points très proches l'un de l'autre, c
 sa construction.\index{Double clic} L'ordinateur est programmé de manière à considérer comme double
 clic deux clics distants de moins d'un dixième de seconde et en des positions distantes de
 moins  de 5 pixels. Dans ce cas, il affiche un message adéquat et annule le deuxième
-clic.\end{minipage}}
+clic.\end{minipage}}\vfill
 
-\newpage
-
-%\includegraphics[width=0.6\linewidth]{MenuA.bmp}\\
-\fbox{\begin{minipage}[b]{1.45cm}
-\includegraphics[width=1.45cm]{Pavstandard2.bmp}
-\leg{}\end{minipage}\begin{minipage}[b][12.5\baselineskip][c]{0.9\linewidth}\small \Prat
+\fbox{\begin{minipage}[c]{0.99\linewidth}\small \Prat
 \begin{list}{\textbullet}{\itemsep=0mm}  \item Sélectionner une des familles du jeu de formes utilisé en
 cliquant sur l'icône symbole de cette famille.   \item Le clic fait apparaître une fenêtre de boutons
 poussoirs, un pour chaque forme de la famille. Quand le curseur de la souris survole un bouton de cette
@@ -62,23 +65,24 @@ bouton survolé. \item Sélectionner une des formes de la famille en cliquant sur 
 correspondant. Le curseur de la souris prend la forme d'une croix.\item Cliquer dans la fenêtre de
 dessin: la forme sélectionnée est dessinée, son point de référence est placé à l'emplacement du clic.
 \item Tout clic supplémentaire dans la fenêtre de dessin fait apparaître un exemplaire supplémentaire
-de la forme sélectionnée. \end{list}\vspace{\baselineskip} \end{minipage}}
+de la forme sélectionnée. \end{list}\vspace{\baselineskip} \end{minipage}}\vfill
 
 
 \danger  \hfill
 \fbox{\begin{minipage}{0.87\linewidth}\small   Si l'utilisateur entreprend de construire une forme standard alors que
 d'autres formes (standard ou non) sont déjà dessinées à l'écran, chaque fois que le curseur de la souris s'approche d'un
 point existant à une distance inférieure à la distance de magnétisme\index{Distance!de magnétisme}, la couleur de  celui-ci
-vire au magenta et le message affiché devient \og ce point ?\fg. \medskip
+vire au magenta et le message affiché devient \og ce point ?\fg. \bigskip\vfill
+
 \begin{minipage}[b]{2cm}
 \includegraphics[width=2cm]{cepoint.bmp}
 \leg{}
 \end{minipage}\begin{minipage}[b]{0.86\linewidth}
 Si le clic est effectué à ce moment, le point
 de référence de la nouvelle forme est identifié au point déjà existant et les deux formes ont  un
-sommet commun.%\vspace{0.5\baselineskip}
+sommet commun.\vspace{\baselineskip}
 \end{minipage}
-\end{minipage}}
+\end{minipage}}\vfill
  
 
 
@@ -103,13 +107,13 @@ géométriques intéressantes.
 \fbox{\begin{minipage}{0.99\linewidth}
 La famille du triangle équilatéral comporte douze éléments:
 
-\begin{minipage}{0.6\linewidth}
+\begin{minipage}{0.55\linewidth}
 \centerline{\includegraphics[width=0.7\linewidth]{Famtriequi.eps}}
 \leg{\label{Famtriequi.eps}}
 \end{minipage}
 \hfill
-\begin{minipage}{0.4\linewidth}
-\centerline{\includegraphics[width=0.75\linewidth]{Famtriequi_menu.bmp}}
+\begin{minipage}{0.45\linewidth}
+\centerline{\includegraphics[width=0.75\linewidth]{Famtriequi_menu.jpg}}
 \leg{\label{Famtriequi_menu.jpg}}
 \end{minipage}
 \end{minipage}}
@@ -164,29 +168,29 @@ grand triangle isocèle\index{Triangle!isocèle} qui permet de paver le dodécagone
 \begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
 {0.75\linewidth}{Rosacepetitlos.eps}\end{center} \end{minipage}\hfill \begin{minipage}{0.68\linewidth} un petit
 losange\index{Losange} déterminé par trois sommets consécutifs du dodécagone;\end{minipage}
-
-\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
-{0.75\linewidth}{Petitcercle_TrA.eps}\end{center} \end{minipage}\hfill
-\begin{minipage}{0.68\linewidth} un petit disque\index{Disque} dans lequel on peut inscrire
-un triangle équilatéral ; \end{minipage}
-
-\begin{minipage}[b]{0.35\linewidth}\begin{center}\includeg{0.45\linewidth}
-{0.75\linewidth}{Grandcercle_TrA.eps}\end{center} \end{minipage}\hfill
-\begin{minipage}{0.6\linewidth} et un grand disque\index{Disque} dans lequel on peut
-inscrire  l'hexagone et le grand triangle isocèle.\end{minipage}
 \end{multicols}
+
+\begin{minipage}[b]{0.2\linewidth}\begin{center}\includegraphics[width=0.3\linewidth]{Petitcercle_TrA.eps}\end{center}
+\end{minipage}\hfill
+\begin{minipage}{0.3\linewidth} un petit disque\index{Disque} dans lequel on peut inscrire
+un triangle équilatéral; \end{minipage}\hfill
+\begin{minipage}[b]{0.2\linewidth}\begin{center}\includegraphics[width=0.6\linewidth]{Grandcercle_TrA.eps}\end{center}
+\end{minipage}\hfill
+\begin{minipage}{0.3\linewidth} un grand disque\index{Disque} dans lequel on peut
+inscrire  l'hexagone et le grand triangle isocèle.\end{minipage}
+
 
 \subsection{La famille du carré}
 
 \fbox{\begin{minipage}{0.99\linewidth}
 La famille du carré comporte neuf éléments:
 
-\begin{minipage}{0.6\linewidth}
-\centerline{\includegraphics[width=0.45\linewidth]{Famcar.eps}}
+\begin{minipage}{0.55\linewidth}
+\centerline{\includegraphics[width=0.5\linewidth]{Famcar.eps}}
 \leg{\label{Famcar.eps}}
 \end{minipage} \hfill
-\begin{minipage}{0.4\linewidth}
-\centerline{\includegraphics[width=0.75\linewidth]{Famcar_menu.bmp}}
+\begin{minipage}{0.45\linewidth}
+\centerline{\includegraphics[width=0.75\linewidth]{Famcar_menu.jpg}}
 \leg{\label{Famcar_menu.jpg}}
 \end{minipage}
 \end{minipage}}
@@ -248,7 +252,7 @@ consécutifs  de l'octogone; \end{minipage}
 {0.75\linewidth}{Cercle_CarA.eps}\end{center} \end{minipage}\hfill
 \begin{minipage}{0.54\linewidth}et, enfin, un disque\index{Disque} dans lequel
 on peut inscrire le carré de référence. \end{minipage}\end{minipage}}
-
+\vfill\eject
 
 
 \subsection{La famille du pentagone}
@@ -259,11 +263,11 @@ La famille du pentagone comporte sept éléments:
 \begin{minipage}{0.5\linewidth}\begin{center}\includeg{0.9\linewidth}
 {0.7\linewidth}{Fampentag.eps}\end{center}\end{minipage} \hfill
 \begin{minipage}{0.5\linewidth}
-\centerline{\includeg{0.8\linewidth}{0.7\linewidth}{Fampentag_menu.bmp}}
+\centerline{\includeg{0.8\linewidth}{0.7\linewidth}{Fampentag_menu.jpg}}
 \vspace{0.3cm}
 \end{minipage}
 \end{minipage}}
-\newpage
+
 
 
 \begin{multicols}{2}
@@ -493,7 +497,7 @@ de mieux comprendre la façon dont le logiciel dessine les formes standard. C'est
 cette section dans le guide utilisateur.
 
 Un fichier d'instructions de définition d'une famille de formes standard  doit avoir
-l'extension \texttt{.std}\index{.std@\texttt{.std}}. Nous allons en décrire la structure et la syntaxe.  Tout
+l'extension \texttt{.std}\index{.std@\texttt{.std}}. Nous en décrivons ci-dessous la structure et la syntaxe.  Tout
 fichier conforme aux règles qui suivent est reconnu par \AG\ et manipulé de la même manière que les autres. En
 particulier, les icônes à insérer dans la boîte à outils seront créées automatiquement.
 
@@ -596,13 +600,13 @@ sens positif) et 1 pour le déplacement:  le deuxième côté aura même longueur que
 À l'issue de ces deux opérations, la tortue est au troisième sommet du triangle.  Plus aucune information n'est nécessaire pour rejoindre le point de départ et le dessin du triangle se termine.
 \end{itemize}
 
-\vfill
+
 
 \begin{center}
-\includegraphics[width=0.8\linewidth]{rosaceastrica.eps}
+\includegraphics[width=0.7\linewidth]{rosaceastrica.eps}
+\leg{: Une rosace \og astrica\fg\ (ASsemblage de TRIangles et de CArrés)}
 \end{center}
 \vfill
-
 \strut
 
 
