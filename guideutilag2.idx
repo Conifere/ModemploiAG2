@@ -1,70 +1,90 @@
-\indexentry{Forme!standard|hyperpage}{11}
-\indexentry{Forme!libre|hyperpage}{11}
-\indexentry{Menu|hyperpage}{11}
-\indexentry{Outil|hyperpage}{11}
-\indexentry{Operation@Op\'eration|hyperpage}{11}
-\indexentry{Mouvement|hyperpage}{11}
-\indexentry{Forme!standard|hyperpage}{11}
-\indexentry{\'Etiquette|hyperpage}{11}
-\indexentry{Jeu! de base|hyperpage}{11}
-\indexentry{Famille|hyperpage}{11}
-\indexentry{Point!de r\'ef\'erence|hyperpage}{11}
-\indexentry{Double clic|hyperpage}{12}
-\indexentry{Distance!de magn\'etisme|hyperpage}{12}
-\indexentry{Jeu!de base|hyperpage}{12}
-\indexentry{Triangle!\'equilat\'eral|hyperpage}{13}
-\indexentry{Losange|hyperpage}{13}
-\indexentry{Trap\`eze!isoc\`ele|hyperpage}{13}
-\indexentry{Hexagone!r\'egulier|hyperpage}{13}
-\indexentry{Triangle!isoc\`ele|hyperpage}{13}
-\indexentry{Triangle!rectangle|hyperpage}{13}
-\indexentry{Trap\`eze!rectangle|hyperpage}{13}
-\indexentry{Dod\'ecagone|hyperpage}{13}
-\indexentry{Triangle!isoc\`ele|hyperpage}{13}
-\indexentry{Losange|hyperpage}{13}
-\indexentry{Disque|hyperpage}{13}
-\indexentry{Disque|hyperpage}{13}
-\indexentry{Carre@Carr\'e|hyperpage}{14}
-\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{14}
-\indexentry{Parall\'elogramme|hyperpage}{14}
-\indexentry{Octogone|hyperpage}{14}
-\indexentry{Triangle!isoc\`ele|hyperpage}{14}
-\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{14}
-\indexentry{Triangle!rectangle|hyperpage}{14}
-\indexentry{Losange|hyperpage}{14}
-\indexentry{Disque|hyperpage}{14}
-\indexentry{Pentagone|hyperpage}{15}
-\indexentry{Triangle!isoc\`ele|hyperpage}{15}
-\indexentry{Decagone@D\'ecagone|hyperpage}{15}
-\indexentry{Triangle!isoc\`ele|hyperpage}{15}
-\indexentry{Triangle!obtusangle|hyperpage}{15}
-\indexentry{Losange|hyperpage}{15}
-\indexentry{Disque|hyperpage}{15}
-\indexentry{Forme!standard|hyperpage}{15}
-\indexentry{Jeu!de formes standard|hyperpage}{15}
-\indexentry{.std@\texttt{.std}|hyperpage}{15}
-\indexentry{Jeu!r\'eduit|hyperpage}{16}
-\indexentry{Domino|hyperpage}{16}
-\indexentry{Trimino|hyperpage}{16}
-\indexentry{Quadrimino|hyperpage}{16}
-\indexentry{Pentamino|hyperpage}{16}
-\indexentry{Polymino|hyperpage}{16}
-\indexentry{Tangram|hyperpage}{16}
-\indexentry{Etoiles@\'Etoiles|hyperpage}{16}
-\indexentry{Cubes|hyperpage}{16}
-\indexentry{Modele@Mod\`ele!1|hyperpage}{16}
-\indexentry{Modele@Mod\`ele!2|hyperpage}{16}
-\indexentry{Decouper@D\'ecouper|hyperpage}{17}
-\indexentry{Retourner|hyperpage}{17}
-\indexentry{Fusionner|hyperpage}{17}
-\indexentry{Reglettes@R\'eglettes|hyperpage}{17}
-\indexentry{Famille!de formes standard|hyperpage}{18}
-\indexentry{Couleur|hyperpage}{18}
-\indexentry{Reglette@R\'eglette|hyperpage}{18}
-\indexentry{.std@\texttt{.std}|hyperpage}{18}
-\indexentry{.std@\texttt{.std}|hyperpage}{19}
-\indexentry{.xml@\texttt{.xml}|hyperpage}{19}
-\indexentry{Point!de r\'ef\'erence|hyperpage}{20}
-\indexentry{Tortue|hyperpage}{20}
-\indexentry{Logo@\texttt{Logo}|hyperpage}{20}
-\indexentry{Triangle!\'equilat\'eral|hyperpage}{20}
+\indexentry{Menu!B|hyperpage}{21}
+\indexentry{Menu!C|hyperpage}{21}
+\indexentry{Forme!libre|hyperpage}{21}
+\indexentry{Droite|hyperpage}{21}
+\indexentry{Demi-droite|hyperpage}{21}
+\indexentry{Secteur|hyperpage}{21}
+\indexentry{Bande|hyperpage}{21}
+\indexentry{Secteur!de disque|hyperpage}{21}
+\indexentry{Point!libre|hyperpage}{21}
+\indexentry{Point!li\'e|hyperpage}{21}
+\indexentry{Point!sur|hyperpage}{21}
+\indexentry{Avant-plan|hyperpage}{21}
+\indexentry{Arri\`ere-plan|hyperpage}{21}
+\indexentry{Point!d'intersection|hyperpage}{21}
+\indexentry{Point!construit|hyperpage}{22}
+\indexentry{Operation@Op\'eration|hyperpage}{22}
+\indexentry{Orientation|hyperpage}{22}
+\indexentry{Forme!orient\'ee|hyperpage}{22}
+\indexentry{Magnetisme@Magn\'etisme|hyperpage}{22}
+\indexentry{Point!sur|hyperpage}{22}
+\indexentry{Intersection|hyperpage}{22}
+\indexentry{Point!d'intersection|hyperpage}{22}
+\indexentry{Point|hyperpage}{23}
+\indexentry{Segment|hyperpage}{23}
+\indexentry{Menu!B|hyperpage}{23}
+\indexentry{Segment!perpendiculaire|hyperpage}{23}
+\indexentry{Segment!parall\`ele|hyperpage}{23}
+\indexentry{Menu!C|hyperpage}{23}
+\indexentry{Droite|hyperpage}{23}
+\indexentry{Droite!perpendiculaire|hyperpage}{23}
+\indexentry{Droite!parall\`ele|hyperpage}{23}
+\indexentry{Secteur|hyperpage}{23}
+\indexentry{Bande|hyperpage}{23}
+\indexentry{Bande|hyperpage}{23}
+\indexentry{Secteur|hyperpage}{23}
+\indexentry{Polygone|hyperpage}{23}
+\indexentry{Demi-droite|hyperpage}{23}
+\indexentry{Orientation!d'un segment|hyperpage}{23}
+\indexentry{Segment!parall\`ele|hyperpage}{23}
+\indexentry{Segment!perpendiculaire|hyperpage}{23}
+\indexentry{Droite!parall\`ele|hyperpage}{23}
+\indexentry{Droite!perpendiculaire|hyperpage}{23}
+\indexentry{Droite|hyperpage}{23}
+\indexentry{Demi-droite|hyperpage}{23}
+\indexentry{Bande|hyperpage}{23}
+\indexentry{Secteur|hyperpage}{23}
+\indexentry{Triangle|hyperpage}{24}
+\indexentry{Triangle!quelconque|hyperpage}{24}
+\indexentry{Triangle!isoc\`ele|hyperpage}{24}
+\indexentry{Triangle!\'equilat\'eral|hyperpage}{24}
+\indexentry{Triangle!rectangle|hyperpage}{24}
+\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{24}
+\indexentry{Quadrilat\`ere!quelconque|hyperpage}{24}
+\indexentry{Trap\`eze|hyperpage}{24}
+\indexentry{Trap\`eze!rectangle|hyperpage}{24}
+\indexentry{Trap\`eze!isoc\`ele|hyperpage}{24}
+\indexentry{Parall\'elogramme|hyperpage}{24}
+\indexentry{Rectangle|hyperpage}{24}
+\indexentry{Losange|hyperpage}{24}
+\indexentry{Carre@Carr\'e|hyperpage}{24}
+\indexentry{Polygone!r\'egulier|hyperpage}{25}
+\indexentry{Triangle!\'equilat\'eral|hyperpage}{25}
+\indexentry{Carre@Carr\'e|hyperpage}{25}
+\indexentry{Pentagone|hyperpage}{25}
+\indexentry{Hexagone|hyperpage}{25}
+\indexentry{Heptagone|hyperpage}{25}
+\indexentry{Octogone|hyperpage}{25}
+\indexentry{Enneagone@Enn\'eagone|hyperpage}{25}
+\indexentry{Decagone@D\'ecagone|hyperpage}{25}
+\indexentry{Hend\'ecagone|hyperpage}{25}
+\indexentry{Dod\'ecagone|hyperpage}{25}
+\indexentry{Cercle|hyperpage}{25}
+\indexentry{Arc|hyperpage}{25}
+\indexentry{Secteur!de disque|hyperpage}{25}
+\indexentry{Orientation!d'un cercle|hyperpage}{25}
+\indexentry{Retournement|hyperpage}{25}
+\indexentry{Orientation!d'un arc de cercle|hyperpage}{25}
+\indexentry{Orientation!d'un secteur de disque|hyperpage}{25}
+\indexentry{Polygone!quelconque|hyperpage}{26}
+\indexentry{Triangle|hyperpage}{26}
+\indexentry{Quadrilat\`ere|hyperpage}{26}
+\indexentry{Pentagone|hyperpage}{26}
+\indexentry{Hexagone|hyperpage}{26}
+\indexentry{Heptagone|hyperpage}{26}
+\indexentry{Octogone|hyperpage}{26}
+\indexentry{Enneagone@Enn\'eagone|hyperpage}{26}
+\indexentry{Decagone@D\'ecagone|hyperpage}{26}
+\indexentry{Hend\'ecagone|hyperpage}{26}
+\indexentry{Dod\'ecagone|hyperpage}{26}
+\indexentry{Annuler|hyperpage}{26}

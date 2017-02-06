@@ -13,7 +13,8 @@ L'utilisateur les construit lui-même  en fixant plusieurs sommets, un à la fois.
 
 Les menus B et C sont très proches. En ce qui concerne les formes géométriques accessibles, le menu C se
 distingue du  menu B par le fait qu'il propose des objets \og illimités\fg: droites\index{Droite},
-demi-droites\index{Demi-droite}, secteurs\index{Secteur} et bandes\index{Bande}.
+demi-droites\index{Demi-droite}, secteurs\index{Secteur} et bandes\index{Bande}. Il propose également un autre type d'objet absent du menu B:
+des secteurs de disque\index{Secteur!de disque}.
 
 Les formes libres sont construites par le positionnement de leurs sommets à l'aide de clics de la souris. Par un clic de
 souris, nous pouvons construire trois  espèces de points (du point de vue informatique, les points n'existent pas tant
@@ -53,8 +54,8 @@ pourra changer de place que si l'une des deux formes qui le déterminent est modi
 
 Aux chapitres \ref{chapoper} et \ref{chaptsf}, nous rencontrerons une quatrième espèce de
 points: des \hyperdef{chapflib}{PointCsted}{points construits}\index{Point!construit}
-à partir d'une forme géométrique préexistante. Il pourrait s'agir par exemple du centre
-d'un polygone. Un tel point dépend entièrement de la forme qui le détermine, sa
+à partir d'une forme géométrique préexistante. Par exemple, le centre
+d'un polygone dépend entièrement de ce polygone, sa
 construction nécessite l'emploi d'une \textit{Opération}\index{Operation@Opération}.
 
 \section{Des formes orientées}
@@ -85,12 +86,12 @@ seul le cadre rouge est dessiné).
 
 \Prat
 
-\begin{minipage}[b]{0.15\linewidth}
-\includegraphics[width=\linewidth]{FormesLibres.jpg}\vspace{\baselineskip}
+\begin{minipage}[c]{0.15\linewidth}
+\includegraphics[width=\linewidth]{FormesLibres.jpg}
 \leg{}
 \end{minipage}
 \hfill
-\begin{minipage}[b]{0.8\linewidth}\parskip 2mm
+\begin{minipage}[c]{0.82\linewidth}\parskip 2mm
 \begin{list}{\textbullet}{\itemsep=1mm\leftmargin=3mm}
 \item La construction  d'une forme est initialisée par
 un premier clic sur le bouton poussoir portant le nom de la forme souhaitée.
@@ -109,7 +110,6 @@ clic de la souris place alors  le point sur l'objet.\index{Point!sur} Le point e
 devenu un \og point sur\fg.
 \end{itemize}
 \end{list}
-\vspace{0.5\baselineskip}
 \end{minipage}
 
 \begin{itemize}
@@ -356,19 +356,26 @@ trigonométrique de parcours.\vspace{1cm} \begin{center}
 fixe le centre, le second fixe un point du cercle.
 \end{minipage}\index{Cercle}
 \end{minipage}\\
-\begin{minipage}[c]{0.15\linewidth} \includegraphics[width =\linewidth]{arc.eps}
-\leg{} \end{minipage} \hfill \begin{minipage}[c]{0.85\linewidth}Pour tracer un
+\begin{minipage}[c]{0.15\linewidth} \includegraphics[width =0.77\linewidth]{arc.eps}
+\leg{} \end{minipage} \hfill \begin{minipage}[c]{0.83\linewidth}Pour tracer un
 \textit{arc de cercle}, trois clics sont nécessaires. Le premier fixe  le centre
 du cercle, le second l'origine de l'arc, le troisième l'extrémité. Ces arcs de
-cercle sont orientés. \end{minipage}\index{Arc}
+cercle sont orientés. \end{minipage}\index{Arc}\\
+
+\begin{minipage}[c]{0.15\linewidth} \includegraphics[width =0.77\linewidth]{SectDisk.eps}
+\leg{} \end{minipage} \hfill \begin{minipage}[c]{0.83\linewidth}Depuis la version 2.5.0, le menu C
+permet également de dessiner un \textit{secteur de disque}. La construction est semblable à celle d'un arc de cercle.
+\end{minipage}\index{Secteur!de disque}
 \end{minipage}}
+
+
 
 Lors de la construction, tout cercle est orienté\index{Orientation!d'un cercle} dans
 le sens trigonométrique. À chaque \textit{retournement}\index{Retournement} qui
 lui est appliqué, l'orientation est inversée.
 
-L'orientation d'un arc de cercle\index{Orientation!d'un arc de cercle} est toujours
-de l'origine de l'arc vers son extrémité.
+L'orientation d'un arc de cercle\index{Orientation!d'un arc de cercle} et celle d'un secteur de disque\index{Orientation!d'un secteur de disque}
+sont toujours de l'origine de l'arc vers son extrémité.
  
 
 \subsection{La famille des polygones quelconques}
