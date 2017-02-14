@@ -39,6 +39,11 @@ dernière sauvegarde, une étoile apparaît à la fin de cette ligne.
 USB, cédérom, disquette\dots) et l'affiche dans une  nouvelle feuille de travail (sauf si la feuille en
 cours est toujours vierge).
 
+Si le logiciel a été correctement installé, il est aussi possible d'ouvrir un fichier en le tirant dans une
+fenêtre d'{\sffamily\bfseries Apprenti Géomètre} déjà ouverte. Et si {\sffamily\bfseries Apprenti Géomètre}
+n'a pas été lancé, un double clic sur un fichier d'extension \texttt{.fag} doit normalement provoquer les ouvertures successives
+d'{\sffamily\bfseries Apprenti Géomètre} et du fichier lui-même.
+
 \subsection{Fichier/Fermer}
 
 \hyperdef{chapmedit}{Fermer}{\texttt{Fermer}}\index{Fichier!Fermer}  clôt  la feuille de travail en
@@ -75,7 +80,9 @@ la structure du texte en mettant les balises en évidence.
  
  En plus des informations relatives aux différents objets géométriques, le fichier
 de sauvegarde  contient également les informations relatives à la configuration de
-l'application ainsi que la langue de travail, au moment de la sauvegarde.
+l'application ainsi que la langue de travail et certaines des préférences de l'utilisateur
+concernant les formes géométriques (formes pointées, fléchées ou encore bifaces).
+
 L'environnement de travail est ainsi restauré lors de la réouverture du fichier.
 
 
@@ -170,7 +177,7 @@ manifeste, le logiciel doit afficher la boîte de dialogue suivante, pour autant 
 connecté sur Internet:\medskip
 
 \centerline{\begin{minipage}[b]{0.7\linewidth}
-\includegraphics[width=\linewidth]{Bug.bmp}
+\includegraphics[width=\linewidth]{Bug.jpg}
 \leg{}
 \end{minipage}}
 
@@ -226,8 +233,6 @@ Si le bouton \texttt{Annuler} est actionné alors qu'une opération de constructio
 c'est cette construction qui est annulée et non la dernière opération à avoir été effectuée
 complètement.
 
-Après avoir actionné \texttt{Annuler}, plus aucune opération n'est active.
-
 % si au  cours de l'opération \texttt{diviser} on annule la dernière
 %man\oe uvre, le logiciel ne tient pas compte de cette \og action \fg\ avortée.
 
@@ -241,15 +246,15 @@ de les refaire en commençant par la dernière à avoir été annulée.
 
 Qu'il s'agisse de \textit{mouvements}\index{Mouvement}, de \textit{modifications}\index{Modifier}, de
 \textit{suppressions} ou de \textit{constructions} de points particuliers, la plupart des opérations
-nécessitent la \textit{sélection}\index{Selectionner@Sélectionner} d'une forme géométrique. Beaucoup
+nécessitent la \textit{sélection}\index{Selectionner@Sélectionner} d'au moins une forme géométrique. Beaucoup
 peuvent s'appliquer à plusieurs formes simultanément. Certaines s'appliquent nécessairement à
-plusieurs formes simultanément. Il en est ainsi des mouvements qui s'appliquent automatiquement à
-toutes les formes ayant des points communs avec la ou les formes sélectionnées.
+plusieurs formes simultanément. Ainsi les mouvements  s'appliquent automatiquement à
+toutes les formes ayant des points communs avec la ou les formes sélectionnées.\newpage
 
 \hyperdef{chapmedit}{Selectionner}{\texttt{Sélectionner}}\index{Selectionner@Sélectionner} apparaît
 \textit{in fine} comme une tâche qui peut être délicate, nécessitant parfois de l'attention. Nous
 distinguerons dans cette section plusieurs procédures pouvant être utilisées en vue d'opérer des
-sélections de formes géométriques.
+sélections.
 
 \fbox{\texttt{Sélectionner \textit{une seule} forme géométrique}}
 
@@ -263,8 +268,7 @@ sélections de formes géométriques.
 Si l'utilisateur veut n'appliquer une opération qu'à une seule forme géométrique, le plus
 simple est \begin{enumerate}    \item d'activer d'abord l'opération en cliquant sur le
 bouton correspondant de la boîte à outils ou d'un des menus déroulants;    \item de
-placer le curseur de la souris au-dessus de la forme à sélectionner; le bord doit
-devenir plus épais et sa couleur doit passer au magenta;
+placer le curseur de la souris au-dessus de la forme à sélectionner; la couleur du bord passer au magenta;
 si la forme était opaque\index{Opaque}, elle doit devenir
 transparente\index{Transparent}; \item après qu'il ait vérifié que la forme magenta est
 bien celle qu'il désirait, l'utilisateur peut alors opérer la sélection d'un simple
@@ -299,16 +303,16 @@ celle-ci au magenta. Car plusieurs formes peuvent être superposées. Voyons les f
 qui montrent la sélection d'une forme en vue de la faire \hyperlink{chapmouv.Glisser}{glisser}.
 
 \strut\hfill
-\begin{minipage}[b]{0.25\linewidth}
+\begin{minipage}[b]{0.22\linewidth}
 \includegraphics[width=\linewidth]{selec3.eps}
 \leg{\label{chapmedit_sel3}}
 \end{minipage}
 \hfill
-\begin{minipage}[b]{0.25\linewidth}
+\begin{minipage}[b]{0.22\linewidth}
 \includegraphics[width=\linewidth]{selec4.eps}
 \leg{\label{chapmedit_sel4}}
 \end{minipage}\hfill
-\begin{minipage}[b]{0.25\linewidth}
+\begin{minipage}[b]{0.22\linewidth}
 \includegraphics[width=\linewidth]{selec5.eps}
 \leg{\label{chapmedit_sel5}}
 \end{minipage}\hfill
@@ -368,11 +372,12 @@ d'espacement} permettent d'effectuer le choix désiré.
 \end{minipage}}
 
 \textbf{Remarques} \begin{enumerate}
+\item Si la souris utilisée comporte une roulette, la pression sur la barre d'espacement peut être remplacée par une rotation d'un cran de la roulette.
 \item L'utilisateur ayant l'habitude d'utiliser d'autres logiciels de géométrie dynamique aura --- dans un premier temps --- tendance à transposer
       à \AG\ les pratiques utilisées avec ces logiciels. En particulier, il pourrait avoir tendance à sélectionner une forme en pointant vers le bord de celle-ci.
       Avec \AG, c'est au contraire l'intérieur de la forme qu'il convient de survoler avec la souris. Le seul cas où il se justifie de pointer vers le bord, ou vers un morceau du bord
-      d'une forme géométrique est celui où l'on veut sélectionner un côté d'un polygone, d'une bande ou d'un secteur ou\ldots le but de la sélection étant par exemple de colorier
-      le côté visé. Dans ce cas,     \texttt{Couleur bord} sélectionne tous les côtés du polygone (ou\ldots) ou un seul côté selon que le curseur de la souris pointe vers l'intérieur du
+      d'une forme géométrique est celui où l'on veut sélectionner un côté d'un polygone, d'une bande ou d'un secteur ou\ldots\ le but de la sélection étant par exemple de colorier
+      le côté visé. Dans ce cas,     \texttt{Couleur bord} sélectionne tous les côtés du polygone (ou\ldots\ ) ou un seul côté selon que le curseur de la souris pointe vers l'intérieur du
       polygone ou vers un de ses côtés (voir le chapitre \ref{chapoutils}).
 \item Si nous insistons sur l'importance de ne pas déplacer la souris
 lors de la procédure de sélection, c'est que tout déplacement de cette souris annule l'effet des pressions sur
@@ -384,9 +389,8 @@ autre, partiellement ou totalement. C'est simplement l'ordre du dessin qui impor
 forme $B$ si $A$ est dessinée \textit{après} $B$. Et l'ordre du dessin est au départ l'ordre de construction,
 de sorte que la forme située au-dessus des autres est celle qui a été construite en dernier  lieu. Les
 opérations \hyperlink{chapoutils.Plans}{\texttt{Avant-plan}} et
-\hyperlink{chapoutils.Plans}{\texttt{Arrière-plan}} permettent de modifier l'ordre initial.  \item
-L'utilisateur qui dispose d'une souris munie d'une roulette peut aussi utiliser celle-ci au  lieu de la barre
-d'espacement pour choisir la forme désirée. \end{enumerate}
+\hyperlink{chapoutils.Plans}{\texttt{Arrière-plan}} permettent de modifier l'ordre initial.
+ \end{enumerate}
 
 \fbox{Sélectionner plusieurs formes géométriques}
 

@@ -1,14 +1,23 @@
-\BOOKMARK [0][-]{chapter.3}{Les formes libres}{}
-\BOOKMARK [1][-]{section.3.1}{Introduction}{chapter.3}
-\BOOKMARK [1][-]{section.3.2}{Des formes orient\351es}{chapter.3}
-\BOOKMARK [1][-]{section.3.3}{Formes Libres}{chapter.3}
-\BOOKMARK [2][-]{subsection.3.3.1}{La famille du point}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.2}{La famille des segments}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.3}{La famille des triangles}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.4}{La famille des quadrilat\350res}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.5}{La famille des polygones r\351guliers}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.6}{La famille du cercle}{section.3.3}
-\BOOKMARK [2][-]{subsection.3.3.7}{La famille des polygones quelconques}{section.3.3}
-\BOOKMARK [1][-]{section.3.4}{Abandonner une construction}{chapter.3}
-\BOOKMARK [1][-]{section.3.5}{Une remarque}{chapter.3}
+\BOOKMARK [0][-]{chapter.4}{Fichier, Fen\352tres et \311dition}{}
+\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}
+\BOOKMARK [1][-]{section.4.2}{Fichier}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.2.1}{Fichier/Nouveau}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.2}{Fichier/Ouvrir}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.3}{Fichier/Fermer}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.4}{Fichier/Standardiser}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.5}{Fichier/Sauvegarder}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.6}{Fichier/Sauvegarder sous}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.7}{Fichier/Exporter en Postscript}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.8}{Fichier/Exporter en fichier bitmap}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.9}{Fichier/Param\350tres d'impression}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.10}{Fichier/Imprimer}{section.4.2}
+\BOOKMARK [2][-]{subsection.4.2.11}{Fichier/Quitter}{section.4.2}
+\BOOKMARK [1][-]{section.4.3}{Fen\352tres}{chapter.4}
+\BOOKMARK [1][-]{section.4.4}{\311dition}{chapter.4}
+\BOOKMARK [2][-]{subsection.4.4.1}{\311dition/Annuler et Refaire}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.2}{\311dition/S\351lectionner-D\351s\351lectionner et S\351lectionner tout}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.3}{\311dition/Res\351lection automatique}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.4}{\311dition/Lier et D\351lier}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.5}{\311dition/Copier et Coller}{section.4.4}
+\BOOKMARK [2][-]{subsection.4.4.6}{\311dition/Supprimer}{section.4.4}
 \BOOKMARK [0][-]{chapter*.2}{Index}{}
