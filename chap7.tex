@@ -126,6 +126,14 @@ cliquant d'abord sur $A$ ($A'$), puis sur $B$ ($B'$).
 \leg{\label{Operdiv2arcs}}
 \end{minipage}\hfill\strut
 
+Une autre difficulté apparaît quand on envisage de réaliser une subdivision en sélectionnant  deux points d'un
+cercle: parfois, ce n'est pas un des arcs
+joignant ces deux points qui est subdivisé, mais la corde de cet arc. Le logiciel choisit de subdiviser la corde
+dès que l'un des deux points choisis     est lui-même un point de subdivision, ou plus généralement un point construit. Même
+si ces points sont visuellement positionnés sur le cercle, ils n'ont en effet pas le statut de \og point du cercle\fg.
+Cette distinction peut sembler très artificielle, mais dès lors qu'une subdivision peut être réalisée par le choix de deux points,
+il faut s'attendre à une difficulté si ces deux points sont à la fois les extrémités d'un arc de cercle et celles d'un segment.
+
 \item Il est également possible d'appliquer la procédure \texttt{Diviser} en choisissant
 successivement deux points, même si ceux-ci n'appartiennent pas à une même forme géométrique.
 
@@ -165,7 +173,7 @@ préalablement placés arbitrairement \og sur\fg\ le bord de la forme.
 \end{minipage} \hfill
 \begin{minipage}[b]{0.57\linewidth} Pour découper une forme, sélectionner
 \texttt{Découper},  ensuite cliquer  sur l'objet à découper, puis  sur les
-différents points de découpe en partant d'un point du bord et terminant en un autre point
+différents points de découpe en partant d'un point du bord et en terminant en un autre point
 du bord.\vspace{\baselineskip}
 \end{minipage}
 \end{minipage}}
@@ -396,8 +404,7 @@ côtés superposés qu'il pouvait supprimer et ne s'est pas préoccupé d'une troisiè
 de côtés qui n'étaient que partiellement superposés.
 
 \item La fusion de deux formes peut créer une configuration dans laquelle deux segments
-ayant un sommet commun sont alignés. Ce sommet, n'étant pas supprimé,  devient un sommet
-parasite. Ainsi, le rectangle de la figure \ref{Fus7} possède six sommets!
+ayant un sommet commun sont alignés. Ce sommet, n'étant pas supprimé,  conserve le statut de sommet. Ainsi, le rectangle de la figure \ref{Fus7} possède six sommets!
 \end{list}
 
 \textbf{Considérons à présent le cas de la fusion de deux formes libres.}
@@ -409,7 +416,7 @@ parasite. Ainsi, le rectangle de la figure \ref{Fus7} possède six sommets!
 \item Les formes fusionnées étant des formes libres, toute modification de l'une des deux formes partielles
 ou de la forme créée par la fusion se répercute sur les deux autres. Ceci est une propriété introduite avec la version 2.3.9. Elle permet de renforcer encore
 le dynamisme du logiciel. Par exemple, étant donnés deux triangles dont l'un est un
-duplicat  de l'autre (voir la section suivante consacrée à la dupliction), les formes
+duplicat  de l'autre (voir la section suivante consacrée à la duplication), les formes
 ci-dessous sont toutes issues de la fusion de ces deux triangles selon des côtés
 différents. Pour certaines de ces opérations, un des triangles a été retourné.
 
@@ -545,7 +552,7 @@ ont été créées après elle.
 quand on l'applique à des formes géométriques générales. Signalons aussi qu'il n'est pas
 possible de dupliquer une forme image d'une autre par une
 \hyperlink{chaptsf.Transformations}{transformation
-géométrique}\index{Transformation!géométrique}.
+géométrique}\index{Transformation!géométrique}.\newpage
 
 \textbf{Cas d'un \og point sur\fg}\index{Point!sur}
 
@@ -660,7 +667,7 @@ les autres côtés, on obtient quatre points qui sont également les sommets d'un
 carré. De plus, en dupliquant un quelconque des sommets de ce nouveau carré sur
 un de ses côtés et en répétant l'opération, on construit une suite de carrés
 emboîtés intimement liés puisqu'il suffit de modifier n'importe quel sommet d'un
-des carrés dupliqués  pour que ceux-ci  soient tous adaptés.\medskip
+des carrés dupliqués  pour que ceux-ci  soient tous adaptés.\vspace{\baselineskip}
 \end{minipage}\hfill
 \begin{minipage}[b]{0.25\linewidth}
 \includegraphics[width=\linewidth]{carresemboites.eps}
@@ -866,7 +873,7 @@ construit avec un point \og sur\fg.
 
   \end{list}
 
-
+\begin{comment}
 \textbf{Exemple}
 
 Considérons le problème suivant (voir \cite{HoncNo}): Étant donné un octogone
@@ -896,6 +903,7 @@ quadrilatères $thay$ et $ydet$. \item Construire les centres $x$ et $z$ de ces d
 \includegraphics[width=\linewidth]{moyennes.eps}
 \leg{}
 \end{minipage}
+\end{comment}
 
 \endinput
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%% \subsection{Le

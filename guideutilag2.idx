@@ -1,49 +1,50 @@
-\indexentry{Fichier!Nouveau|hyperpage}{31}
-\indexentry{Fichier!Ouvrir|hyperpage}{31}
-\indexentry{.fag@\texttt{.fag}|hyperpage}{31}
-\indexentry{Fichier!Fermer|hyperpage}{32}
-\indexentry{Standardiser|hyperpage}{32}
-\indexentry{Fichier!Sauvegarder|hyperpage}{32}
-\indexentry{.fag@\texttt{.fag}|hyperpage}{32}
-\indexentry{Fichier!Sauvegarder sous|hyperpage}{32}
-\indexentry{Fichier!Exporter en Postscript|hyperpage}{33}
-\indexentry{.eps@\texttt{.eps}|hyperpage}{33}
-\indexentry{Fichier!Exporter en fichier bitmap|hyperpage}{33}
-\indexentry{.jpg@\texttt{.jpg}|hyperpage}{33}
-\indexentry{.bmp@\texttt{.bmp}|hyperpage}{33}
-\indexentry{.pict@\texttt{.pict}|hyperpage}{33}
-\indexentry{Fichier!Param\`etres d'impression|hyperpage}{34}
-\indexentry{Fichier!Imprimer|hyperpage}{34}
-\indexentry{Fichier!Quitter|hyperpage}{34}
-\indexentry{Bug|hyperpage}{34}
-\indexentry{Annuler|hyperpage}{35}
-\indexentry{Refaire|hyperpage}{35}
-\indexentry{Mouvement|hyperpage}{35}
-\indexentry{Modifier|hyperpage}{35}
-\indexentry{Selectionner@S\'electionner|hyperpage}{35}
-\indexentry{Selectionner@S\'electionner|hyperpage}{36}
-\indexentry{Opaque|hyperpage}{36}
-\indexentry{Transparent|hyperpage}{36}
-\indexentry{Glisser|hyperpage}{36}
-\indexentry{Mouvement|hyperpage}{36}
-\indexentry{Barre!d'espacement|hyperpage}{37}
-\indexentry{Selectionner@S\'electionner|hyperpage}{38}
-\indexentry{Deselectionner@D\'es\'electionner|hyperpage}{38}
-\indexentry{Selection@S\'election!multiple|hyperpage}{38}
-\indexentry{Selectionner@S\'electionner!tout|hyperpage}{38}
-\indexentry{Menu!B|hyperpage}{38}
-\indexentry{Menu!C|hyperpage}{38}
-\indexentry{Res\'election!automatique|hyperpage}{38}
-\indexentry{Transformation!g\'eom\'etrique|hyperpage}{39}
-\indexentry{Lier|hyperpage}{39}
-\indexentry{Glisser|hyperpage}{39}
-\indexentry{Tourner|hyperpage}{39}
-\indexentry{Retourner|hyperpage}{39}
-\indexentry{Zoomer|hyperpage}{39}
-\indexentry{Dupliquer|hyperpage}{39}
-\indexentry{Copier|hyperpage}{39}
-\indexentry{Transformation!g\'eom\'etrique|hyperpage}{39}
-\indexentry{Delier@D\'elier|hyperpage}{40}
-\indexentry{Copier|hyperpage}{40}
-\indexentry{Coller|hyperpage}{40}
-\indexentry{Supprimer|hyperpage}{40}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{73}
+\indexentry{Demi-tour|hyperpage}{73}
+\indexentry{Quart de tour!\`a gauche|hyperpage}{73}
+\indexentry{Quart de tour!\`a droite|hyperpage}{73}
+\indexentry{Support!d'une transformation|hyperpage}{73}
+\indexentry{Translation|hyperpage}{73}
+\indexentry{Demi-tour|hyperpage}{73}
+\indexentry{Quart de tour|hyperpage}{73}
+\indexentry{Rotation|hyperpage}{73}
+\indexentry{Sym\'etrie!axiale|hyperpage}{73}
+\indexentry{Deplacement@D\'eplacement|hyperpage}{73}
+\indexentry{Etirement@\'Etirement|hyperpage}{73}
+\indexentry{Cisaillement|hyperpage}{73}
+\indexentry{D\'efinir|hyperpage}{73}
+\indexentry{Translation|hyperpage}{73}
+\indexentry{Rotation|hyperpage}{74}
+\indexentry{Demi-tour|hyperpage}{74}
+\indexentry{Quart de tour!\`a gauche|hyperpage}{74}
+\indexentry{Quart de tour!\`a droite|hyperpage}{74}
+\indexentry{Deplacement@D\'eplacement|hyperpage}{75}
+\indexentry{Sym\'etrie!axiale|hyperpage}{75}
+\indexentry{Homoth\'etie|hyperpage}{76}
+\indexentry{Trap\`eze|hyperpage}{76}
+\indexentry{Similitude!directe|hyperpage}{77}
+\indexentry{Etirement@\'Etirement|hyperpage}{79}
+\indexentry{Transformation!affine|hyperpage}{79}
+\indexentry{Affinit\'e|hyperpage}{79}
+\indexentry{Axe!d'un \'etirement|hyperpage}{79}
+\indexentry{Direction!d'un \'etirement|hyperpage}{80}
+\indexentry{Rapport!d'un \'etirement|hyperpage}{80}
+\indexentry{Sym\'etrie!oblique|hyperpage}{80}
+\indexentry{Ellipse|hyperpage}{80}
+\indexentry{Cisaillement|hyperpage}{80}
+\indexentry{Cisaillement|hyperpage}{80}
+\indexentry{Axe!d'un cisaillement|hyperpage}{80}
+\indexentry{Appliquer|hyperpage}{81}
+\indexentry{Forme!construite|hyperpage}{82}
+\indexentry{Mouvement|hyperpage}{83}
+\indexentry{Glisser|hyperpage}{83}
+\indexentry{Tourner|hyperpage}{83}
+\indexentry{Retourner|hyperpage}{83}
+\indexentry{Zoomer|hyperpage}{83}
+\indexentry{Transformation!conjugu\'ee|hyperpage}{84}
+\indexentry{Point!fixe|hyperpage}{86}
+\indexentry{Etirement@\'Etirement|hyperpage}{86}
+\indexentry{Cisaillement|hyperpage}{86}
+\indexentry{D\'eplacement|hyperpage}{86}
+\indexentry{Homoth\'etie|hyperpage}{86}
+\indexentry{Similitude|hyperpage}{86}
+\indexentry{Point!construit|hyperpage}{87}

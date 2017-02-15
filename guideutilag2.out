@@ -1,23 +1,19 @@
-\BOOKMARK [0][-]{chapter.4}{Fichier, Fen\352tres et \311dition}{}
-\BOOKMARK [1][-]{section.4.1}{Introduction}{chapter.4}
-\BOOKMARK [1][-]{section.4.2}{Fichier}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.2.1}{Fichier/Nouveau}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.2}{Fichier/Ouvrir}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.3}{Fichier/Fermer}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.4}{Fichier/Standardiser}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.5}{Fichier/Sauvegarder}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.6}{Fichier/Sauvegarder sous}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.7}{Fichier/Exporter en Postscript}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.8}{Fichier/Exporter en fichier bitmap}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.9}{Fichier/Param\350tres d'impression}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.10}{Fichier/Imprimer}{section.4.2}
-\BOOKMARK [2][-]{subsection.4.2.11}{Fichier/Quitter}{section.4.2}
-\BOOKMARK [1][-]{section.4.3}{Fen\352tres}{chapter.4}
-\BOOKMARK [1][-]{section.4.4}{\311dition}{chapter.4}
-\BOOKMARK [2][-]{subsection.4.4.1}{\311dition/Annuler et Refaire}{section.4.4}
-\BOOKMARK [2][-]{subsection.4.4.2}{\311dition/S\351lectionner-D\351s\351lectionner et S\351lectionner tout}{section.4.4}
-\BOOKMARK [2][-]{subsection.4.4.3}{\311dition/Res\351lection automatique}{section.4.4}
-\BOOKMARK [2][-]{subsection.4.4.4}{\311dition/Lier et D\351lier}{section.4.4}
-\BOOKMARK [2][-]{subsection.4.4.5}{\311dition/Copier et Coller}{section.4.4}
-\BOOKMARK [2][-]{subsection.4.4.6}{\311dition/Supprimer}{section.4.4}
+\BOOKMARK [0][-]{chapter.8}{Transformations}{}
+\BOOKMARK [1][-]{section.8.1}{Introduction}{chapter.8}
+\BOOKMARK [1][-]{section.8.2}{D\351finir une transformation}{chapter.8}
+\BOOKMARK [2][-]{subsection.8.2.1}{D\351finir/Translation}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.2}{D\351finir/Rotation}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.3}{D\351finir/Demi-tour}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.4}{D\351finir/Quart de tour \340 gauche}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.5}{D\351finir/Quart de tour \340 droite}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.6}{D\351finir/D\351placement}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.7}{D\351finir/Sym\351trie axiale}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.8}{D\351finir/Homoth\351tie}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.9}{D\351finir/Similitude}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.10}{D\351finir/\311tirement}{section.8.2}
+\BOOKMARK [2][-]{subsection.8.2.11}{D\351finir/Cisaillement}{section.8.2}
+\BOOKMARK [1][-]{section.8.3}{Appliquer}{chapter.8}
+\BOOKMARK [1][-]{section.8.4}{Transformations et mouvements}{chapter.8}
+\BOOKMARK [1][-]{section.8.5}{Point fixe}{chapter.8}
+\BOOKMARK [1][-]{section.8.6}{Montrer-cacher des transformations}{chapter.8}
 \BOOKMARK [0][-]{chapter*.2}{Index}{}

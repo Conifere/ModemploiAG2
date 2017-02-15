@@ -122,15 +122,16 @@ Cependant le déplacement est un concept général, son usage ne nécessite pas de c
 L'usage d'un déplacement facilite grandement le report d'une longueur sur une droite.
 \end{minipage}}
 
-En fait, la définition d'un déplacement repose sur un résultat élémentaire de géométrie: \textit{Étant donné deux demi-droites $[AX$ et $[DY$, il existe un et un
-seul déplacement qui applique $[AX$ sur $[DY$.} Ce déplacement applique le point $A$ sur le point $D$ mais n'applique $X$ sur $Y$ que si les distances $|AX|$ et $|DY|$
+En fait, la définition d'un déplacement repose sur un résultat élémentaire de géométrie: \textit{Étant donné deux demi-droites $[AX$ et $[BY$, il existe un et un
+seul déplacement qui applique $[AX$ sur $[BY$.} Ce déplacement applique le point $A$ sur le point $B$ mais n'applique $X$ sur $Y$ que si les distances $|AX|$ et $|BY|$
 sont égales.
 
 Pour définir un déplacement, deux méthodes peuvent être utilisées.
 
 \begin{list}{\textbullet}{\itemsep=1mm}
-\item Soit nous sélectionnons un quadrilatère (appartenant aux formes libres) déjà construit, par exemple, le quadrilatère $AXDY$  ci-dessous. Ce quadrilatère sert de support pour le déplacement $\delta$, lequel appliquera $A$ sur $D$
-et la demi-droite $[AX$ sur la demi-droite $[DY$. Il n'est pas indispensable de dessiner ces demi-droites elles-mêmes.
+\item Soit nous sélectionnons un quadrilatère (appartenant aux formes libres) déjà construit, par exemple, le
+quadrilatère $AXBY$  ci-dessous. Ce quadrilatère sert de support pour le déplacement $\delta$, lequel appliquera $A$ sur $D$
+et la demi-droite $[AX$ sur la demi-droite $[BY$. Il n'est pas indispensable de dessiner ces demi-droites elles-mêmes.
 
 \centerline{\begin{minipage}[b]{0.3\linewidth}
 \includegraphics[width=\linewidth]{Depla2.eps}
@@ -180,7 +181,7 @@ aux formes libres) préalablement construit.  Le trapèze sert de support pour
 l'homothétie. Lors de la construction du trapèze, les deux premiers clics ont fixé
 l'une des deux bases.  Les extrémités de cette base sont les points origines de
 l'homothétie. L'image de chacun des points origines est
-l'extrémité de la seconde base à laquelle il est joint par un côté. Les sommets
+l'extrémité de la seconde base dont il est voisin. Les sommets
 d'un trapèze $abcd$ étant, conformément aux usages, énumérés dans l'ordre selon
 lequel on les rencontre en  parcourant le bord, l'homothétie applique $a$ sur $d$
 et $b$ sur $c$. Ceci reste vrai si le trapèze est croisé.
@@ -732,15 +733,17 @@ pas perturbées.
 
 L'usage de cette \hyperdef{chaptsf}{PtFixe}{opération}\index{Point!fixe} est aisé à décrire: il s'agit de
 construire le point fixe d'une transformation\ldots\ dans le cas où il en existe un et un seul.
-\newpage
+
 
 Or \begin{list}{\textbullet}{\itemsep=1mm} \item Les translations n'ont aucun point fixe.
 \item Les rotations (non identiques), y compris les demi-tours et quarts de tour sont
 construites en connaissant leur centre (qui est leur seul point fixe). \item Les
 symétries axiales ont une infinité de points fixes, et ils sont connus dès leur
-construction. \end{list}
+construction.
+\item Il en est de même pour les étirements et les cisaillements.\index{Etirement@Étirement}\index{Cisaillement}
+\end{list}
 
-Il ne reste donc que les homothéties\index{Homothétie} et les similitudes\index{Similitude}, et
+Il ne reste donc que les déplacements\index{Déplacement}, les homothéties\index{Homothétie} et les similitudes\index{Similitude}, et
 pas dans tous les cas puisqu'on peut définir une homothétie et une similitude en incorporant le centre
 à la définition.
 
@@ -782,4 +785,4 @@ Il s'agit de sélectionner la ou les transformations à cacher ou montrer, en
 appliquant éventuellement la technique de la \hyperlink{chapmedit.baresp}{barre
 d'espacement}. Une fois la sélection faite, un clic amène la transformation à être
 repeinte en bleu pâle. En quittant l'opération, la transformation disparaît mais
-reste active.
+reste active. Son support reste visible.

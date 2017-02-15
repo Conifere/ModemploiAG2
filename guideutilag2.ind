@@ -1,91 +1,87 @@
 \begin{theindex}
 
-  \item \texttt{.bmp}, \hyperpage{33}
-  \item \texttt{.eps}, \hyperpage{33}
-  \item \texttt{.fag}, \hyperpage{31, 32}
-  \item \texttt{.jpg}, \hyperpage{33}
-  \item \texttt{.pict}, \hyperpage{33}
+  \item Affinit\'e, \hyperpage{79}
+  \item Appliquer, \hyperpage{81}
+  \item Axe
+    \subitem d'un \'etirement, \hyperpage{79}
+    \subitem d'un cisaillement, \hyperpage{80}
 
   \indexspace
 
-  \item Annuler, \hyperpage{35}
+  \item Cisaillement, \hyperpage{73}, \hyperpage{80}, \hyperpage{86}
 
   \indexspace
 
-  \item Barre
-    \subitem d'espacement, \hyperpage{37}
-  \item Bug, \hyperpage{34}
+  \item D\'efinir, \hyperpage{73}
+  \item D\'eplacement, \hyperpage{86}
+  \item Demi-tour, \hyperpage{73, 74}
+  \item D\'eplacement, \hyperpage{73}, \hyperpage{75}
+  \item Direction
+    \subitem d'un \'etirement, \hyperpage{80}
 
   \indexspace
 
-  \item Coller, \hyperpage{40}
-  \item Copier, \hyperpage{39, 40}
+  \item Ellipse, \hyperpage{80}
+  \item \'Etirement, \hyperpage{73}, \hyperpage{79}, \hyperpage{86}
 
   \indexspace
 
-  \item D\'elier, \hyperpage{40}
-  \item D\'es\'electionner, \hyperpage{38}
-  \item Dupliquer, \hyperpage{39}
+  \item Forme
+    \subitem construite, \hyperpage{82}
 
   \indexspace
 
-  \item Fichier
-    \subitem Exporter en fichier bitmap, \hyperpage{33}
-    \subitem Exporter en Postscript, \hyperpage{33}
-    \subitem Fermer, \hyperpage{32}
-    \subitem Imprimer, \hyperpage{34}
-    \subitem Nouveau, \hyperpage{31}
-    \subitem Ouvrir, \hyperpage{31}
-    \subitem Param\`etres d'impression, \hyperpage{34}
-    \subitem Quitter, \hyperpage{34}
-    \subitem Sauvegarder, \hyperpage{32}
-    \subitem Sauvegarder sous, \hyperpage{32}
+  \item Glisser, \hyperpage{83}
 
   \indexspace
 
-  \item Glisser, \hyperpage{36}, \hyperpage{39}
+  \item Homoth\'etie, \hyperpage{76}, \hyperpage{86}
 
   \indexspace
 
-  \item Lier, \hyperpage{39}
+  \item Mouvement, \hyperpage{83}
 
   \indexspace
 
-  \item Menu
-    \subitem B, \hyperpage{38}
-    \subitem C, \hyperpage{38}
-  \item Modifier, \hyperpage{35}
-  \item Mouvement, \hyperpage{35, 36}
+  \item Point
+    \subitem construit, \hyperpage{87}
+    \subitem fixe, \hyperpage{86}
 
   \indexspace
 
-  \item Opaque, \hyperpage{36}
+  \item Quart de tour, \hyperpage{73}
+    \subitem \`a droite, \hyperpage{73, 74}
+    \subitem \`a gauche, \hyperpage{73, 74}
 
   \indexspace
 
-  \item Refaire, \hyperpage{35}
-  \item Res\'election
-    \subitem automatique, \hyperpage{38}
-  \item Retourner, \hyperpage{39}
+  \item Rapport
+    \subitem d'un \'etirement, \hyperpage{80}
+  \item Retourner, \hyperpage{83}
+  \item Rotation, \hyperpage{73, 74}
 
   \indexspace
 
-  \item S\'election
-    \subitem multiple, \hyperpage{38}
-  \item S\'electionner, \hyperpage{35, 36}, \hyperpage{38}
-    \subitem tout, \hyperpage{38}
-  \item Standardiser, \hyperpage{32}
-  \item Supprimer, \hyperpage{40}
+  \item Similitude, \hyperpage{86}
+    \subitem directe, \hyperpage{77}
+  \item Support
+    \subitem d'une transformation, \hyperpage{73}
+  \item Sym\'etrie
+    \subitem axiale, \hyperpage{73}, \hyperpage{75}
+    \subitem oblique, \hyperpage{80}
 
   \indexspace
 
-  \item Tourner, \hyperpage{39}
+  \item Tourner, \hyperpage{83}
   \item Transformation
-    \subitem g\'eom\'etrique, \hyperpage{39}
-  \item Transparent, \hyperpage{36}
+    \subitem affine, \hyperpage{79}
+    \subitem conjugu\'ee, \hyperpage{84}
+    \subitem g\'eom\'etrique, \hyperpage{73}
+  \item Translation, \hyperpage{73}
+  \item Trap\`eze, \hyperpage{76}
 
   \indexspace
 
-  \item Zoomer, \hyperpage{39}
+  \item Zoomer, \hyperpage{83}
 
 \end{theindex}
