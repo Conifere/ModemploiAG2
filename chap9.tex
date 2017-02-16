@@ -10,8 +10,7 @@ L'utilité des macros est donc de faciliter la tâche de l'utilisateur en le dispe
 fois la même séquence d'instructions. Éventuellement l'utilisateur recevra d'une autre personne un fichier
 contenant des macros qu'il pourra exécuter comme des \og boîtes noires\fg. Dans un cadre scolaire, ceci n'est
 pas à conseiller car la réalisation personnelle d'une macro par un élève contribue à la compréhension du
-domaine étudié. C'est donc une activité d'apprentissage à ne pas négliger, pour autant que la macro en
-question soit effectivement susceptible d'être utilisée à plusieurs reprises.
+domaine étudié. C'est donc une activité d'apprentissage à ne pas négliger.
 
 \AG\ étant un logiciel de géométrie, il est normal que les macros qu'il permet de réaliser soient destinées à
 la construction de formes simples, susceptibles d'être réutilisées dans des constructions plus compliquées.
@@ -28,14 +27,14 @@ objets finaux.
 
 \section{Créer une macro}\index{Creer@Créer!une macro}
 
-Depuis la version 2.0.4, la barre de menus comporte un menu \texttt{Macros}. À l'ouverture d'une session, il
-ne comprend que deux items:
-                                                    \begin{center}
+À l'ouverture d'une session, le menu \texttt{Macros} ne comprend que deux items:
+
+\begin{center}
 \includegraphics[width=0.8\linewidth]{macro1.jpg}
 \leg{}
 \end{center}
 
-L'item \texttt{Charger une macro} suppose que des macros ont déjà été créées et stockées sur l'ordinateur.
+On ne peut utiliser l'item \texttt{Charger une macro}  que si des macros ont déjà été créées et stockées sur l'ordinateur.
 Nous en parlerons plus loin. Cliquez sur l'item \textit{Créer une macro}. Votre écran change radicalement.
 
                                                              \begin{center}
@@ -65,10 +64,10 @@ Dans le menu    \texttt{Opérations} on a supprimé \texttt{Découper} et \texttt{F
 nécessitent une intervention à la souris. \texttt{Dupliquer} est toujours présent mais ne pourra être utilisé
 que pour dupliquer un point mobile sur une forme et non une forme quelconque.
 
-En résumé: vous pouvez insérer dans une macro toutes les opérations de construction d'une forme libre, ainsi
-que les opérations     \texttt{Diviser}, \texttt{Dupliquer un point "sur"},     \texttt{Prolonger},
+En résumé: vous pouvez insérer dans une macro toutes les opérations de construction d'une forme libre, mais
+seulement  les opérations     \texttt{Diviser}, \texttt{Dupliquer un point "sur"},     \texttt{Prolonger},
 \texttt{Construire le centre} ainsi que toutes les opérations impliquant une
-transformation géométrique.                       Vus pouvez aussi utiliser dans une macro une ou plusieurs macros construites antérieurement.
+transformation géométrique. Vous pouvez aussi utiliser dans une macro une ou plusieurs macros construites antérieurement.
 
 \subsection{La pratique}
 
@@ -76,7 +75,7 @@ Le plus important est le fait qu'après avoir cliqué sur \texttt{Macros/Créer une
 n'est pas possible de mélanger à l'écran des formes géométriques relevant d'une situation qu'on étudie et
 d'autres destinées à créer une macro. Quand il décide de créer une macro, l'utilisateur doit se concentrer
 sur ce travail. Il est souhaitable qu'il l'ait bien préparé car il ne disposera plus du bouton
-\texttt{Annuler}. Plus exactement la seule façon d'annuler une erreur de manipulation, c'est d'actionner
+\texttt{Annuler}. Plus exactement, la seule façon d'annuler une erreur de manipulation, c'est d'actionner
 \texttt{Macros/Abandonner la macro} et de recommencer à zéro.
 
 Mais pratiquement, comment crée-t-on la macro? Cette création passe par plusieurs phases.
@@ -154,7 +153,7 @@ Voyons les fonctionnalités associées aux sous-menus.
 \section{La sauvegarde des macros}
 
 La sauvegarde des macros s'opère de deux manières différentes. D'une part, elle est effectuée automatiquement lors de la création d'une nouvelle macro.
-D'autre part, toute macro utilisée lors de la réalisation d'un fichier de formes géométriques ets incorporée à celui-ci lors de la sauvegarde.
+D'autre part, toute macro utilisée lors de la réalisation d'un fichier de formes géométriques est incorporée à celui-ci lors de la sauvegarde.
 Il n'est donc plus nécessaire de charger les macros en question lorsqu'on recharge le fichier de formes.
 
  \section{Quelques remarques terminales}
@@ -172,16 +171,17 @@ Il n'est donc plus nécessaire de charger les macros en question lorsqu'on rechar
  
 \item Les objets initiaux d'une macro déterminent entièrement les objets finaux. Il en résulte que seule la modification des objets initiaux peut entraîner des modifications pour les objets terminaux.
 
-À titre d'exemple, imaginons une macro qui construit un carré à partir de deux sommets voisins de ce carré. Il sera possible de modifier le carré en tirant sur un de ces sommets mais non en tirant sur un des deux autres sommets.
-Le carré ainsi construit par une macro est bien un carré, mais ce n'est pas une forme libre au même titre que celles construites par les méthodes usuelles, à partir du pavé des formes libres.
+À titre d'exemple, imaginons une macro qui construit un carré à partir de deux sommets voisins de ce carré.
+Ces deux sommets seront les objets initiaux. Il ne sera donc pas  possible, contrairement au cas d'une construction \og normale\fg, de modifier le carré en tirant sur
+un autre sommet.
+Le carré  construit par une macro est bien un carré, mais ce n'est pas une forme libre au même titre que celles construites par les méthodes usuelles, à partir du pavé des formes libres.
 
-On voit donc que les objets construits à l'aide de macros sont moins souples que les autres, ils sont modifiés moins facilement. On ne peut pas non plus leur appliquer un mouvement directement: cela serait contradictoire avec leur construction. Par contre les
+Les objets construits à l'aide de macros sont donc moins souples que les autres, ils sont modifiés moins facilement. On ne peut pas non plus leur appliquer un mouvement directement:
+cela serait contradictoire avec leur construction. Par contre les
 mouvements appliqués aux objets initiaux ont des répercussions sur les objets finaux.
 
 Autre exemple: si un point situé \og sur\fg\ un objet est dupliqué sur un autre, tant le point source que le point image peuvent normalement être utilisés pour déplacer simultanément les deux points, chacun sur son support.
 Ce n'est plus le cas si le point source et le point image sont respectivement un objet initial et un objet final d'une construction par macro: seul le point source peut être modifié directement, et il entraîne le point image.
-
-
 
 \end{list}
  

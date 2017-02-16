@@ -1,4 +1,4 @@
-This is VTeX/Win32G, v 8.63-- ETeX mode (preloaded format=latex 2014.11.12)  15 FEB 2017 23:04
+This is VTeX/Win32G, v 8.63-- ETeX mode (preloaded format=latex 2014.11.12)  16 FEB 2017 10:50
 **@latex,default C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutila
 g2.tex
 (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.tex
@@ -332,240 +332,51 @@ LaTeX Info: Redefining \ref on input line 73.
 LaTeX Info: Redefining \pageref on input line 73.
 
 (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.out)
-(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex [72
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap9.tex [88
 
 
 
 
 ]
-{\sffamily Chapitre} 8.
+{\sffamily Chapitre} 9.
 LaTeX Font Info:    Try loading font information for T1+cmss on input line 1.
 (D:/VTeX/L2E/t1cmss.fd
 File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
 )
-File: chap8/Transfos2.bmp Graphic file (type bmp)
-LaTeX Font Info:    Try loading font information for T1+cmtt on input line 33.
+LaTeX Font Info:    Try loading font information for T1+cmtt on input line 23.
  (D:/VTeX/L2E/t1cmtt.fd
 File: t1cmtt.fd 1999/05/25 v2.5h Standard LaTeX font definitions
-) [73]
-Underfull \hbox (badness 10000) detected at line 61
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
+)
+File: chap9/macro1.jpg Graphic file (type jpg)
+File: chap9/macro2.jpg Graphic file (type jpg)
+ [89]
+Underfull \vbox (badness 1394) has occurred while \output is active []
 
-LaTeX Font Info:    Try loading font information for OMS+rsfs on input line 61.
+ [90]
+LaTeX Font Info:    Try loading font information for LVS1+cmr on input line 87.
 
-(D:/VTeX/L2E/rsfs/omsrsfs.fd)
-Overfull \hbox (3.03333pt too wide) in paragraph at lines 61--67
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-[]$[]$ [] 
- []
 
-File: chap8/transla.eps Graphic file (type veps)
-File: chap8/rota.eps Graphic file (type veps)
-File: chap8/point.eps Graphic file (type veps)
-[74<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/transla.eps:003
->>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/rota.eps:004>>>
-<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/point.eps:005>>>]
-Underfull \hbox (badness 10000) detected at line 121
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-LaTeX Font Info:    Try loading font information for LVS1+cmr on input line 132
-.
 (D:/VTeX/L2E/lvs1cmr.fd
 File: lvs1cmr.fd 2000/07/15 v7.0 LaTeX font definitions for LVS1 encoding
 )
 LaTeX Font Info:    Font shape `LVS1/cmr/m/n' in size <12> not available
-(Font)              Font shape `LVS1/cmsy/m/n' tried instead on input line 132.
-
-File: chap8/Depla2.eps Graphic file (type veps)
-File: chap8/symetrie.eps Graphic file (type veps)
- [75<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/Depla2.eps:006
->>>]
-File: chap8/homo.eps Graphic file (type veps)
-
+(Font)              Font shape `LVS1/cmsy/m/n' tried instead on input line 87.
+File: chap9/macro3.jpg Graphic file (type jpg)
+File: chap9/macro5.jpg Graphic file (type jpg)
+File: chap9/macro6.jpg Graphic file (type jpg)
+ [91]
+File: chap9/macro7.jpg Graphic file (type jpg)
+ [92]) [93]
 
 Package frenchb.ldf Warning: Degrees would look better in TS1-encoding: 
 (frenchb.ldf)                add \usepackage{textcomp} to the preamble. 
-(frenchb.ldf)                Degrees used on input line 201.
+(frenchb.ldf)                Degrees used on input line 139.
+
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/GuideUtilAG2.ind [117
 
 
-Underfull \hbox (badness 10000) detected at line 206
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-
-Overfull \hbox (2.34885pt too wide) in paragraph at lines 206--212
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-[]$[]$ [] 
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [76<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/symetrie.eps:0
-07>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/homo.eps:008>
->>]
-File: chap8/homo2.eps Graphic file (type veps)
-File: chap8/homo3.eps Graphic file (type veps)
-File: chap8/simili.eps Graphic file (type veps)
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [77<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/homo2.eps:009>
->><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/homo3.eps:00a>>>
 ]
-Underfull \hbox (badness 10000) detected at line 271
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-
-Overfull \hbox (2.34885pt too wide) in paragraph at lines 271--277
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-[]$[]$ [] 
- []
-
-File: chap8/simili2.eps Graphic file (type veps)
-File: chap8/simili3.eps Graphic file (type veps)
-File: chap8/simili4.eps Graphic file (type veps)
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [78<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili.eps:00b
->>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili2.eps:00c
->>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili3.eps:00d
->>>]
-File: chap8/etir1.eps Graphic file (type veps)
-File: chap8/etir2.eps Graphic file (type veps)
-
-[79<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili4.eps:00e
->>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/etir1.eps:00f>>
-><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/etir2.eps:010>>>]
-
-Underfull \hbox (badness 10000) detected at line 360
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-File: chap8/etir3.eps Graphic file (type veps)
-[80<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/etir3.eps:011>>
->]
-File: chap8/cisail1.eps Graphic file (type veps)
-File: chap8/cisail2.eps Graphic file (type veps)
-
-Underfull \hbox (badness 10000) detected at line 415
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-
-Overfull \hbox (1.96567pt too wide) in paragraph at lines 443--444
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-[][] 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 445
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-File: chap8/bisimili.eps Graphic file (type veps)
-File: chap8/bisimili1.eps Graphic file (type veps)
-File: chap8/bisimili2.eps Graphic file (type veps)
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [81<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/cisail1.eps:01
-2>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/cisail2.eps:01
-3>>>]
-[82<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/bisimili.eps:01
-4>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/bisimili1.eps:
-015>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/bisimili2.ep
-s:016>>>]
-File: chap8/rota2.eps Graphic file (type veps)
-LaTeX Font Info:    Font shape `LVS1/cmr/m/n' in size <10.95> not available
-(Font)              Font shape `LVS1/cmsy/m/n' tried instead on input line 534.
-
-File: chap8/rota3.eps Graphic file (type veps)
-
-Overfull \hbox (29.3747pt too wide) in paragraph at lines 550--552
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
- [][] 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 567
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-File: logoag.eps Graphic file (type veps)
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 578--579
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
- [] 
- []
-
-[83<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/rota2.eps:017>>
-><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/rota3.eps:018>>><
-<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoag.eps:019>>>]
-File: chap8/conjuguee.eps Graphic file (type veps)
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 620--621
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-[][] 
- []
-
-File: chap8/simili11.eps Graphic file (type veps)
-File: chap8/simili12.eps Graphic file (type veps)
-File: logoag.eps Graphic file (type veps)
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 648--648
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
- [] 
- []
-
-[84<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/conjuguee.eps:0
-1a>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili11.eps:
-01b>>><<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/simili12.eps
-:01c>>>]
-File: logoag.eps Graphic file (type veps)
-
-Overfull \hbox (6.79999pt too wide) in paragraph at lines 681--681
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
- [] 
- []
-
-
-Underfull \hbox (badness 10000) detected at line 705
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-|[]
- []
-
-
-Underfull \vbox (badness 10000) has occurred while \output is active []
-
- [85<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoag.eps:019>>><<<
-C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/logoag.eps:019>>>]
-File: chap8/ptfixes.eps Graphic file (type veps)
- [86<<<C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8/ptfixes.eps:01
-d>>>]
-Overfull \hbox (5.62961pt too wide) in paragraph at lines 780--783
-(file=C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/chap8.tex)
-[]\T1/cmr/m/n/12 Cette opé-ra-tion res-semble comme deux gouttes d'eau à l'opé-
-ra-tion [][][]\T1/cmtt/m/n/12 Montrer-Cacher des formes[][]
- []
-
-) [87] (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/GuideUtilAG2.ind
-[117
-
-
-] [118
+[118
 
 ]) [119]
 (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutilag2.aux
@@ -588,84 +399,30 @@ LaTeX Warning: There were multiply-defined labels.
 
  )
 Here is how much of TeX's memory you used: 
-6528 strings out of 6860 
-73832 string characters out of 90030 
-118421 words of memory out of 524285
- 6861 multiletter control sequences out of 10000
- 29727 words of font info for 101 fonts, out of 196592 for 256
+5226 strings out of 6860 
+60512 string characters out of 90030 
+112421 words of memory out of 524285
+ 6796 multiletter control sequences out of 10000
+ 19063 words of font info for 44 fonts, out of 196592 for 256
  22 hyphenation exceptions out of 907
- 27i,8n,37p,450b,454s stack positions out of 512i,80n,1500p,2047b,2048s
+ 27i,8n,37p,476b,446s stack positions out of 512i,80n,1500p,2047b,2048s
 
 ...Processing fonts...
-*** Font 99:Times-BoldItalic (GeX Type1 subset) 
-*** Font 98:Times-BoldItalic (GeX Type1 subset) 
-*** Font 97:Times-BoldItalic (GeX Type1 subset) 
-*** Font 96:Symbol (GeX Type1 subset) 
-*** Font 94:Times-BoldItalic (GeX Type1 subset) 
-*** Font 93:Times-BoldItalic (GeX Type1 subset) 
-*** Font 76:Courier (GeX Type1 subset) 
-*** Font 75:Times-BoldItalic (GeX Type1 subset) 
-*** Font 74:Courier (GeX Type1 subset) 
-*** Font 73:Times-BoldItalic (GeX Type1 subset) 
-*** Font 72:Times-BoldItalic (GeX Type1 subset) 
-*** Font 70:Times-BoldItalic (GeX Type1 subset) 
-*** Font 69:Times-BoldItalic (GeX Type1 subset) 
-*** Font 68:Times-BoldItalic (GeX Type1 subset) 
-*** Font 67:Times-BoldItalic (GeX Type1 subset) 
-*** Font 66:Times-BoldItalic (GeX Type1 subset) 
-*** Font 65:Times-BoldItalic (GeX Type1 subset) 
-*** Font 63:Times-BoldItalic (GeX Type1 subset) 
-*** Font 62:Times-BoldItalic (GeX Type1 subset) 
-*** Font 61:Times-BoldItalic (GeX Type1 subset) 
-*** Font 60:Times-BoldItalic (GeX Type1 subset) 
-*** Font 59:Times-BoldItalic (GeX Type1 subset) 
-*** Font 58:Times-BoldItalic (GeX Type1 subset) 
-*** Font 57:Symbol (GeX Type1 subset) 
-*** Font 55:Times-BoldItalic (GeX Type1 subset) 
 *** Font 27:Helvetica-Bold (GeX Type1 subset) 
-*** Font 25:D:\VTeX\pfb\surm1200.pfb (81843->46747b, 94c)
-*** Font 31:D:\VTeX\pfb\susx2488.pfb (65131->24188b, 19c)
-*** Font 33:D:\VTeX\pfb\susx1728.pfb (65902->26045b, 37c)
-*** Font 34:D:\VTeX\pfb\susi1200.pfb (50478->14956b, 17c)
-*** Font 35:D:\VTeX\pfb\sutt1200.pfb (76396->33462b, 38c)
-*** Font 37:D:\VTeX\pfb\susx1440.pfb (71627->32629b, 43c)
-*** Font 28:D:\VTeX\pfb\susl1200.pfb (73794->32201b, 46c)
-*** Font 53:D:\VTeX\pfb\suti1095.pfb (79758->31900b, 15c)
-*** Font 54:D:\VTeX\pfb\suti1200.pfb (79185->31604b, 35c)
-*** Font 24:D:\VTeX\pfb\mvr12.pfb (28799->5915b, 8c)
-*** Font 40:D:\VTeX\pfb\mvmi12.pfb (30226->11072b, 29c)
-*** Font 43:D:\VTeX\pfb\mvsy10.pfb (25817->5535b, 6c)
-*** Font 56:D:\VTeX\pfb\s050000l.pfb (32193->8513b, 2c)
-*** Font 64:D:\VTeX\pfb\succ1200.pfb (80161->35968b, 18c)
-*** Font 44:D:\VTeX\pfb\mvsy8.pfb (25974->5499b, 5c)
-*** Font 49:D:\VTeX\pfb\rsfs10.pfb (16057->5783b, 4c)
-*** Font 41:D:\VTeX\pfb\mvmi8.pfb (29199->5111b, 3c)
-*** Font 45:D:\VTeX\pfb\mvsy6.pfb (26081->5229b, 2c)
-*** Font 71:D:\VTeX\pfb\subx1200.pfb (81940->38686b, 9c)
-*** Font 52:D:\VTeX\pfb\surm1095.pfb (82756->40516b, 26c)
-*** Font 79:D:\VTeX\pfb\mvmi10.pfb (29196->5438b, 5c)
-*** Font 82:D:\VTeX\pfb\surm0800.pfb (83365->39353b, 3c)
-*** Font 92:D:\VTeX\pfb\sutt1095.pfb (76544->31584b, 10c)
-*** Font 83:D:\VTeX\pfb\surm1000.pfb (82952->41312b, 26c)
-*** Font 89:D:\VTeX\pfb\surm0700.pfb (79833->37951b, 3c)
-*** Font 91:D:\VTeX\pfb\susi1000.pfb (50542->14691b, 13c)
-*** Font 38:D:\VTeX\pfb\mvr8.pfb (28342->5263b, 2c)
-*** Font 95:D:\VTeX\pfb\sutt1000.pfb (76282->31042b, 6c)
-*** Font 101:D:\VTeX\pfb\subx2488.pfb (82656->39282b, 12c)
-+ warning: reference "chapter.10" was not resolved
-+ warning: reference "chapoutils.Montrer" was not resolved
-+ warning: reference "chapmedit.Lier" was not resolved
-+ warning: reference "chapmedit.reselectionauto" was not resolved
-+ warning: reference "chapmedit.SelectionMultiple" was not resolved
-+ warning: reference "chapmedit.baresp" was not resolved
-+ warning: reference "chapflib.Quadrilatere" was not resolved
-+ warning: reference "chapflib.Trapeze" was not resolved
-+ warning: reference "chapflib.Point" was not resolved
-+ warning: reference "chapter.3" was not resolved
-+ warning: reference "chapflib.Cercle" was not resolved
-+ warning: reference "chapflib.Segment" was not resolved
+*** Font 25:D:\VTeX\pfb\surm1200.pfb (81843->46071b, 89c)
+*** Font 31:D:\VTeX\pfb\susx2488.pfb (65131->24346b, 18c)
+*** Font 33:D:\VTeX\pfb\susx1728.pfb (65902->26165b, 33c)
+*** Font 34:D:\VTeX\pfb\susi1200.pfb (50478->14910b, 16c)
+*** Font 35:D:\VTeX\pfb\suti1200.pfb (79185->30579b, 22c)
+*** Font 36:D:\VTeX\pfb\sutt1200.pfb (76396->33479b, 40c)
+*** Font 38:D:\VTeX\pfb\suti1095.pfb (79758->31278b, 11c)
+*** Font 28:D:\VTeX\pfb\susl1200.pfb (73794->32884b, 47c)
+*** Font 40:D:\VTeX\pfb\susx1440.pfb (71627->30674b, 21c)
+*** Font 41:D:\VTeX\pfb\mvsy10.pfb (25817->5214b, 2c)
+*** Font 42:D:\VTeX\pfb\succ1200.pfb (80161->34937b, 5c)
+*** Font 44:D:\VTeX\pfb\subx2488.pfb (82656->39282b, 12c)
 ...Resolving outlines...
-...Processing images...
+...Processing images......
 Output written on C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/guideutil
-ag2.pdf (19 pages, 1236023 bytes).
+ag2.pdf (9 pages, 546891 bytes).
 

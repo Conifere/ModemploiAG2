@@ -1,87 +1,16 @@
 \begin{theindex}
 
-  \item Affinit\'e, \hyperpage{79}
-  \item Appliquer, \hyperpage{81}
-  \item Axe
-    \subitem d'un \'etirement, \hyperpage{79}
-    \subitem d'un cisaillement, \hyperpage{80}
+  \item Cr\'eer
+    \subitem une macro, \hyperpage{89}
 
   \indexspace
 
-  \item Cisaillement, \hyperpage{73}, \hyperpage{80}, \hyperpage{86}
+  \item Macro, \hyperpage{89}
 
   \indexspace
 
-  \item D\'efinir, \hyperpage{73}
-  \item D\'eplacement, \hyperpage{86}
-  \item Demi-tour, \hyperpage{73, 74}
-  \item D\'eplacement, \hyperpage{73}, \hyperpage{75}
-  \item Direction
-    \subitem d'un \'etirement, \hyperpage{80}
-
-  \indexspace
-
-  \item Ellipse, \hyperpage{80}
-  \item \'Etirement, \hyperpage{73}, \hyperpage{79}, \hyperpage{86}
-
-  \indexspace
-
-  \item Forme
-    \subitem construite, \hyperpage{82}
-
-  \indexspace
-
-  \item Glisser, \hyperpage{83}
-
-  \indexspace
-
-  \item Homoth\'etie, \hyperpage{76}, \hyperpage{86}
-
-  \indexspace
-
-  \item Mouvement, \hyperpage{83}
-
-  \indexspace
-
-  \item Point
-    \subitem construit, \hyperpage{87}
-    \subitem fixe, \hyperpage{86}
-
-  \indexspace
-
-  \item Quart de tour, \hyperpage{73}
-    \subitem \`a droite, \hyperpage{73, 74}
-    \subitem \`a gauche, \hyperpage{73, 74}
-
-  \indexspace
-
-  \item Rapport
-    \subitem d'un \'etirement, \hyperpage{80}
-  \item Retourner, \hyperpage{83}
-  \item Rotation, \hyperpage{73, 74}
-
-  \indexspace
-
-  \item Similitude, \hyperpage{86}
-    \subitem directe, \hyperpage{77}
-  \item Support
-    \subitem d'une transformation, \hyperpage{73}
-  \item Sym\'etrie
-    \subitem axiale, \hyperpage{73}, \hyperpage{75}
-    \subitem oblique, \hyperpage{80}
-
-  \indexspace
-
-  \item Tourner, \hyperpage{83}
-  \item Transformation
-    \subitem affine, \hyperpage{79}
-    \subitem conjugu\'ee, \hyperpage{84}
-    \subitem g\'eom\'etrique, \hyperpage{73}
-  \item Translation, \hyperpage{73}
-  \item Trap\`eze, \hyperpage{76}
-
-  \indexspace
-
-  \item Zoomer, \hyperpage{83}
+  \item Objet
+    \subitem final, \hyperpage{89}, \hyperpage{91}
+    \subitem initial, \hyperpage{89}, \hyperpage{91}
 
 \end{theindex}
