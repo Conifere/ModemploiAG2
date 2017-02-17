@@ -1,6 +1,590 @@
+\indexentry{Micro-monde|hyperpage}{1}
+\indexentry{Grandeur|hyperpage}{1}
+\indexentry{Fraction|hyperpage}{1}
+\indexentry{Mesure|hyperpage}{1}
+\indexentry{Arithm\'etique|hyperpage}{1}
+\indexentry{Glisser|hyperpage}{1}
+\indexentry{Tourner|hyperpage}{1}
+\indexentry{Retourner|hyperpage}{1}
+\indexentry{Decouper@D\'ecouper|hyperpage}{1}
+\indexentry{Fusionner|hyperpage}{1}
+\indexentry{Colorier|hyperpage}{1}
+\indexentry{Dupliquer|hyperpage}{1}
+\indexentry{Selectionner@S\'electionner|hyperpage}{1}
+\indexentry{Translation|hyperpage}{1}
+\indexentry{Rotation|hyperpage}{1}
+\indexentry{Sym\'etrie!axiale|hyperpage}{1}
+\indexentry{Homoth\'etie|hyperpage}{1}
+\indexentry{Similitude|hyperpage}{1}
+\indexentry{Affinit\'e|hyperpage}{1}
+\indexentry{Menu|hyperpage}{1}
+\indexentry{Configuration|hyperpage}{1}
+\indexentry{Menu!AB|hyperpage}{1}
+\indexentry{Menu!AC|hyperpage}{1}
+\indexentry{Menu!A|hyperpage}{1}
+\indexentry{Mouvement|hyperpage}{1}
+\indexentry{Glisser|hyperpage}{1}
+\indexentry{Tourner|hyperpage}{1}
+\indexentry{Retourner|hyperpage}{1}
+\indexentry{Menu!B|hyperpage}{1}
+\indexentry{Mouvement|hyperpage}{2}
+\indexentry{Transformation|hyperpage}{2}
+\indexentry{Translation|hyperpage}{2}
+\indexentry{Rotation|hyperpage}{2}
+\indexentry{Sym\'etrie!axiale|hyperpage}{2}
+\indexentry{Menu!C|hyperpage}{2}
+\indexentry{Droite|hyperpage}{2}
+\indexentry{Demi-droite|hyperpage}{2}
+\indexentry{Bande|hyperpage}{2}
+\indexentry{Secteur|hyperpage}{2}
+\indexentry{Homoth\'etie|hyperpage}{2}
+\indexentry{Similitude|hyperpage}{2}
+\indexentry{Affinit\'e|hyperpage}{2}
+\indexentry{Configuration|hyperpage}{2}
+\indexentry{Logiciel!\'evolutif|hyperpage}{2}
+\indexentry{Mod\'eliser|hyperpage}{3}
+\indexentry{Droite|hyperpage}{3}
+\indexentry{Segment|hyperpage}{3}
+\indexentry{Prolonger|hyperpage}{3}
+\indexentry{Forme!standard|hyperpage}{13}
+\indexentry{Forme!libre|hyperpage}{13}
+\indexentry{Menu|hyperpage}{13}
+\indexentry{Outil|hyperpage}{13}
+\indexentry{Operation@Op\'eration|hyperpage}{13}
+\indexentry{Mouvement|hyperpage}{13}
+\indexentry{Forme!standard|hyperpage}{13}
+\indexentry{\'Etiquette|hyperpage}{13}
+\indexentry{Jeu! de base|hyperpage}{13}
+\indexentry{Famille|hyperpage}{13}
+\indexentry{Point!de r\'ef\'erence|hyperpage}{13}
+\indexentry{Double clic|hyperpage}{14}
+\indexentry{Distance!de magn\'etisme|hyperpage}{14}
+\indexentry{Jeu!de base|hyperpage}{14}
+\indexentry{Triangle!\'equilat\'eral|hyperpage}{15}
+\indexentry{Losange|hyperpage}{15}
+\indexentry{Trap\`eze!isoc\`ele|hyperpage}{15}
+\indexentry{Hexagone!r\'egulier|hyperpage}{15}
+\indexentry{Triangle!isoc\`ele|hyperpage}{15}
+\indexentry{Triangle!rectangle|hyperpage}{15}
+\indexentry{Trap\`eze!rectangle|hyperpage}{15}
+\indexentry{Dod\'ecagone|hyperpage}{15}
+\indexentry{Triangle!isoc\`ele|hyperpage}{15}
+\indexentry{Losange|hyperpage}{15}
+\indexentry{Disque|hyperpage}{15}
+\indexentry{Disque|hyperpage}{15}
+\indexentry{Carre@Carr\'e|hyperpage}{16}
+\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{16}
+\indexentry{Parall\'elogramme|hyperpage}{16}
+\indexentry{Octogone|hyperpage}{16}
+\indexentry{Triangle!isoc\`ele|hyperpage}{16}
+\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{16}
+\indexentry{Triangle!rectangle|hyperpage}{16}
+\indexentry{Losange|hyperpage}{16}
+\indexentry{Disque|hyperpage}{16}
+\indexentry{Pentagone|hyperpage}{17}
+\indexentry{Triangle!isoc\`ele|hyperpage}{17}
+\indexentry{Decagone@D\'ecagone|hyperpage}{17}
+\indexentry{Triangle!isoc\`ele|hyperpage}{17}
+\indexentry{Triangle!obtusangle|hyperpage}{17}
+\indexentry{Losange|hyperpage}{17}
+\indexentry{Disque|hyperpage}{17}
+\indexentry{Forme!standard|hyperpage}{17}
+\indexentry{Jeu!de formes standard|hyperpage}{17}
+\indexentry{.std@\texttt{.std}|hyperpage}{17}
+\indexentry{Jeu!r\'eduit|hyperpage}{18}
+\indexentry{Domino|hyperpage}{18}
+\indexentry{Trimino|hyperpage}{18}
+\indexentry{Quadrimino|hyperpage}{18}
+\indexentry{Pentamino|hyperpage}{18}
+\indexentry{Polymino|hyperpage}{18}
+\indexentry{Tangram|hyperpage}{18}
+\indexentry{Etoiles@\'Etoiles|hyperpage}{18}
+\indexentry{Cubes|hyperpage}{18}
+\indexentry{Modele@Mod\`ele!1|hyperpage}{18}
+\indexentry{Modele@Mod\`ele!2|hyperpage}{18}
+\indexentry{Decouper@D\'ecouper|hyperpage}{19}
+\indexentry{Retourner|hyperpage}{19}
+\indexentry{Fusionner|hyperpage}{19}
+\indexentry{Reglettes@R\'eglettes|hyperpage}{19}
+\indexentry{Famille!de formes standard|hyperpage}{20}
+\indexentry{Couleur|hyperpage}{20}
+\indexentry{Reglette@R\'eglette|hyperpage}{20}
+\indexentry{.std@\texttt{.std}|hyperpage}{20}
+\indexentry{.std@\texttt{.std}|hyperpage}{21}
+\indexentry{.xml@\texttt{.xml}|hyperpage}{21}
+\indexentry{Point!de r\'ef\'erence|hyperpage}{22}
+\indexentry{Tortue|hyperpage}{22}
+\indexentry{Logo@\texttt{Logo}|hyperpage}{22}
+\indexentry{Triangle!\'equilat\'eral|hyperpage}{22}
+\indexentry{Menu!B|hyperpage}{23}
+\indexentry{Menu!C|hyperpage}{23}
+\indexentry{Forme!libre|hyperpage}{23}
+\indexentry{Droite|hyperpage}{23}
+\indexentry{Demi-droite|hyperpage}{23}
+\indexentry{Secteur|hyperpage}{23}
+\indexentry{Bande|hyperpage}{23}
+\indexentry{Secteur!de disque|hyperpage}{23}
+\indexentry{Point!libre|hyperpage}{23}
+\indexentry{Point!li\'e|hyperpage}{23}
+\indexentry{Point!sur|hyperpage}{23}
+\indexentry{Avant-plan|hyperpage}{23}
+\indexentry{Arri\`ere-plan|hyperpage}{23}
+\indexentry{Point!d'intersection|hyperpage}{23}
+\indexentry{Point!construit|hyperpage}{24}
+\indexentry{Operation@Op\'eration|hyperpage}{24}
+\indexentry{Orientation|hyperpage}{24}
+\indexentry{Forme!orient\'ee|hyperpage}{24}
+\indexentry{Magnetisme@Magn\'etisme|hyperpage}{24}
+\indexentry{Point!sur|hyperpage}{24}
+\indexentry{Intersection|hyperpage}{24}
+\indexentry{Point!d'intersection|hyperpage}{24}
+\indexentry{Point|hyperpage}{25}
+\indexentry{Segment|hyperpage}{25}
+\indexentry{Menu!B|hyperpage}{25}
+\indexentry{Segment!perpendiculaire|hyperpage}{25}
+\indexentry{Segment!parall\`ele|hyperpage}{25}
+\indexentry{Menu!C|hyperpage}{25}
+\indexentry{Droite|hyperpage}{25}
+\indexentry{Droite!perpendiculaire|hyperpage}{25}
+\indexentry{Droite!parall\`ele|hyperpage}{25}
+\indexentry{Secteur|hyperpage}{25}
+\indexentry{Bande|hyperpage}{25}
+\indexentry{Bande|hyperpage}{25}
+\indexentry{Secteur|hyperpage}{25}
+\indexentry{Polygone|hyperpage}{25}
+\indexentry{Demi-droite|hyperpage}{25}
+\indexentry{Orientation!d'un segment|hyperpage}{25}
+\indexentry{Segment!parall\`ele|hyperpage}{25}
+\indexentry{Segment!perpendiculaire|hyperpage}{25}
+\indexentry{Droite!parall\`ele|hyperpage}{25}
+\indexentry{Droite!perpendiculaire|hyperpage}{25}
+\indexentry{Droite|hyperpage}{25}
+\indexentry{Demi-droite|hyperpage}{25}
+\indexentry{Bande|hyperpage}{25}
+\indexentry{Secteur|hyperpage}{25}
+\indexentry{Triangle|hyperpage}{26}
+\indexentry{Triangle!quelconque|hyperpage}{26}
+\indexentry{Triangle!isoc\`ele|hyperpage}{26}
+\indexentry{Triangle!\'equilat\'eral|hyperpage}{26}
+\indexentry{Triangle!rectangle|hyperpage}{26}
+\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{26}
+\indexentry{Quadrilat\`ere!quelconque|hyperpage}{26}
+\indexentry{Trap\`eze|hyperpage}{26}
+\indexentry{Trap\`eze!rectangle|hyperpage}{26}
+\indexentry{Trap\`eze!isoc\`ele|hyperpage}{26}
+\indexentry{Parall\'elogramme|hyperpage}{26}
+\indexentry{Rectangle|hyperpage}{26}
+\indexentry{Losange|hyperpage}{26}
+\indexentry{Carre@Carr\'e|hyperpage}{26}
+\indexentry{Polygone!quelconque|hyperpage}{27}
+\indexentry{Triangle|hyperpage}{27}
+\indexentry{Quadrilat\`ere|hyperpage}{27}
+\indexentry{Pentagone|hyperpage}{27}
+\indexentry{Hexagone|hyperpage}{27}
+\indexentry{Heptagone|hyperpage}{27}
+\indexentry{Octogone|hyperpage}{27}
+\indexentry{Enneagone@Enn\'eagone|hyperpage}{27}
+\indexentry{Decagone@D\'ecagone|hyperpage}{27}
+\indexentry{Hend\'ecagone|hyperpage}{27}
+\indexentry{Dod\'ecagone|hyperpage}{27}
+\indexentry{Polygone!r\'egulier|hyperpage}{27}
+\indexentry{Triangle!\'equilat\'eral|hyperpage}{27}
+\indexentry{Carre@Carr\'e|hyperpage}{27}
+\indexentry{Pentagone|hyperpage}{27}
+\indexentry{Hexagone|hyperpage}{27}
+\indexentry{Heptagone|hyperpage}{27}
+\indexentry{Octogone|hyperpage}{27}
+\indexentry{Enneagone@Enn\'eagone|hyperpage}{27}
+\indexentry{Decagone@D\'ecagone|hyperpage}{27}
+\indexentry{Hend\'ecagone|hyperpage}{27}
+\indexentry{Dod\'ecagone|hyperpage}{27}
+\indexentry{Cercle|hyperpage}{27}
+\indexentry{Arc|hyperpage}{27}
+\indexentry{Secteur!de disque|hyperpage}{27}
+\indexentry{Orientation!d'un cercle|hyperpage}{28}
+\indexentry{Retournement|hyperpage}{28}
+\indexentry{Orientation!d'un arc de cercle|hyperpage}{28}
+\indexentry{Orientation!d'un secteur de disque|hyperpage}{28}
+\indexentry{Annuler|hyperpage}{28}
+\indexentry{Fichier!Nouveau|hyperpage}{31}
+\indexentry{Fichier!Ouvrir|hyperpage}{31}
+\indexentry{.fag@\texttt{.fag}|hyperpage}{31}
+\indexentry{Fichier!Fermer|hyperpage}{32}
+\indexentry{Standardiser|hyperpage}{32}
+\indexentry{Fichier!Sauvegarder|hyperpage}{32}
+\indexentry{.fag@\texttt{.fag}|hyperpage}{32}
+\indexentry{Fichier!Sauvegarder sous|hyperpage}{32}
+\indexentry{Fichier!Exporter en Postscript|hyperpage}{33}
+\indexentry{.eps@\texttt{.eps}|hyperpage}{33}
+\indexentry{Fichier!Exporter en fichier bitmap|hyperpage}{33}
+\indexentry{.jpg@\texttt{.jpg}|hyperpage}{33}
+\indexentry{.bmp@\texttt{.bmp}|hyperpage}{33}
+\indexentry{.pict@\texttt{.pict}|hyperpage}{33}
+\indexentry{Fichier!Param\`etres d'impression|hyperpage}{34}
+\indexentry{Fichier!Imprimer|hyperpage}{34}
+\indexentry{Fichier!Quitter|hyperpage}{34}
+\indexentry{Bug|hyperpage}{34}
+\indexentry{Annuler|hyperpage}{35}
+\indexentry{Refaire|hyperpage}{35}
+\indexentry{Mouvement|hyperpage}{35}
+\indexentry{Modifier|hyperpage}{35}
+\indexentry{Selectionner@S\'electionner|hyperpage}{35}
+\indexentry{Selectionner@S\'electionner|hyperpage}{36}
+\indexentry{Opaque|hyperpage}{36}
+\indexentry{Transparent|hyperpage}{36}
+\indexentry{Glisser|hyperpage}{36}
+\indexentry{Mouvement|hyperpage}{36}
+\indexentry{Barre!d'espacement|hyperpage}{37}
+\indexentry{Selectionner@S\'electionner|hyperpage}{38}
+\indexentry{Deselectionner@D\'es\'electionner|hyperpage}{38}
+\indexentry{Selection@S\'election!multiple|hyperpage}{38}
+\indexentry{Selectionner@S\'electionner!tout|hyperpage}{38}
+\indexentry{Menu!B|hyperpage}{38}
+\indexentry{Menu!C|hyperpage}{38}
+\indexentry{Res\'election!automatique|hyperpage}{38}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{39}
+\indexentry{Lier|hyperpage}{39}
+\indexentry{Glisser|hyperpage}{39}
+\indexentry{Tourner|hyperpage}{39}
+\indexentry{Retourner|hyperpage}{39}
+\indexentry{Zoomer|hyperpage}{39}
+\indexentry{Dupliquer|hyperpage}{39}
+\indexentry{Copier|hyperpage}{39}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{39}
+\indexentry{Delier@D\'elier|hyperpage}{40}
+\indexentry{Copier|hyperpage}{40}
+\indexentry{Coller|hyperpage}{40}
+\indexentry{Supprimer|hyperpage}{40}
+\indexentry{Mouvement|hyperpage}{43}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{43}
+\indexentry{Glisser|hyperpage}{43}
+\indexentry{Tourner|hyperpage}{43}
+\indexentry{Retourner|hyperpage}{43}
+\indexentry{Isom\'etrie|hyperpage}{43}
+\indexentry{Deplacement@D\'eplacement|hyperpage}{43}
+\indexentry{Retournement|hyperpage}{43}
+\indexentry{Redimensionnement|hyperpage}{43}
+\indexentry{Zoomer|hyperpage}{43}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{43}
+\indexentry{Glisser|hyperpage}{43}
+\indexentry{Glisser|hyperpage}{43}
+\indexentry{Magnetisme@Magn\'etisme|hyperpage}{44}
+\indexentry{Distance!de magn\'etisme|hyperpage}{44}
+\indexentry{Ajustement|hyperpage}{44}
+\indexentry{Ajustement!automatique|hyperpage}{44}
+\indexentry{Zoomer|hyperpage}{45}
+\indexentry{Tourner|hyperpage}{45}
+\indexentry{Droite!parall\`ele|hyperpage}{46}
+\indexentry{Droite!perpendiculaire|hyperpage}{46}
+\indexentry{Segment!parall\`ele|hyperpage}{46}
+\indexentry{Segment!perpendiculaire|hyperpage}{46}
+\indexentry{Retourner|hyperpage}{46}
+\indexentry{Orientation|hyperpage}{46}
+\indexentry{Retourner|hyperpage}{46}
+\indexentry{Trajectoire|hyperpage}{47}
+\indexentry{Zoomer|hyperpage}{47}
+\indexentry{Agrandissement|hyperpage}{47}
+\indexentry{Retr\'ecissement@R\'etr\'ecissement|hyperpage}{47}
+\indexentry{Homoth\'etie|hyperpage}{47}
+\indexentry{Agrandissement|hyperpage}{47}
+\indexentry{Retr\'ecissement@R\'etr\'ecissement|hyperpage}{47}
+\indexentry{Modifier|hyperpage}{49}
+\indexentry{Menu!A|hyperpage}{49}
+\indexentry{Menu!B|hyperpage}{49}
+\indexentry{Menu!C|hyperpage}{49}
+\indexentry{Menu!AB|hyperpage}{49}
+\indexentry{Menu!AC|hyperpage}{49}
+\indexentry{Forme!standard|hyperpage}{49}
+\indexentry{Geometrie@G\'eom\'etrie!dynamique|hyperpage}{49}
+\indexentry{Tirer! sur un point|hyperpage}{49}
+\indexentry{Point!libre|hyperpage}{49}
+\indexentry{Point!li\'e|hyperpage}{49}
+\indexentry{Point!sur|hyperpage}{49}
+\indexentry{Point!d'intersection|hyperpage}{50}
+\indexentry{Invalider|hyperpage}{50}
+\indexentry{Point!invalid\'e|hyperpage}{50}
+\indexentry{Revalider|hyperpage}{50}
+\indexentry{Interrupteur|hyperpage}{50}
+\indexentry{Conditionner|hyperpage}{50}
+\indexentry{Point!construit|hyperpage}{50}
+\indexentry{Forme!g\'eom\'etrique|hyperpage}{51}
+\indexentry{Figure!g\'eom\'etrique|hyperpage}{51}
+\indexentry{Similitude|hyperpage}{51}
+\indexentry{Modification!par similitude|hyperpage}{51}
+\indexentry{Similitude!directe|hyperpage}{51}
+\indexentry{Polygone!r\'egulier|hyperpage}{52}
+\indexentry{Triangle!rectangle isoc\`ele|hyperpage}{52}
+\indexentry{Sous-figure|hyperpage}{53}
+\indexentry{Affinit\'e|hyperpage}{53}
+\indexentry{Modification!par affinit\'e|hyperpage}{53}
+\indexentry{Sous-figure|hyperpage}{54}
+\indexentry{Figure|hyperpage}{54}
+\indexentry{Sous-figure|hyperpage}{54}
+\indexentry{Precedence@Pr\'ec\'edence|hyperpage}{54}
+\indexentry{Triangle!isoc\`ele|hyperpage}{55}
+\indexentry{Triangle!rectangle|hyperpage}{55}
+\indexentry{Rectangle|hyperpage}{55}
+\indexentry{Losange|hyperpage}{55}
+\indexentry{Trap\`eze|hyperpage}{55}
+\indexentry{Arc|hyperpage}{55}
+\indexentry{Segment!parall\`ele|hyperpage}{55}
+\indexentry{Segment!perpendiculaire|hyperpage}{55}
+\indexentry{Droite!parall\`ele|hyperpage}{55}
+\indexentry{Droite!perpendiculaire|hyperpage}{55}
+\indexentry{Polygone!quelconque|hyperpage}{56}
+\indexentry{Diviser|hyperpage}{57}
+\indexentry{Decouper@D\'ecouper|hyperpage}{57}
+\indexentry{Fusionner|hyperpage}{57}
+\indexentry{Dupliquer|hyperpage}{57}
+\indexentry{Construire!le centre|hyperpage}{57}
+\indexentry{Prolonger|hyperpage}{57}
+\indexentry{Identifier|hyperpage}{57}
+\indexentry{Diviser|hyperpage}{57}
+\indexentry{Segment|hyperpage}{57}
+\indexentry{Polygone|hyperpage}{57}
+\indexentry{Arc|hyperpage}{57}
+\indexentry{Point!construit|hyperpage}{57}
+\indexentry{Cercle!standard|hyperpage}{58}
+\indexentry{Arc|hyperpage}{58}
+\indexentry{Orientation!d'un cercle|hyperpage}{58}
+\indexentry{Decouper@D\'ecouper|hyperpage}{59}
+\indexentry{Decouper@D\'ecouper|hyperpage}{59}
+\indexentry{Opaque|hyperpage}{59}
+\indexentry{Polygone|hyperpage}{60}
+\indexentry{Disque|hyperpage}{60}
+\indexentry{Cercle|hyperpage}{60}
+\indexentry{Quartier!de tarte|hyperpage}{60}
+\indexentry{Forme!hybride|hyperpage}{60}
+\indexentry{Modifier|hyperpage}{60}
+\indexentry{Supprimer|hyperpage}{60}
+\indexentry{Point!construit|hyperpage}{61}
+\indexentry{Orientation|hyperpage}{61}
+\indexentry{Fusionner|hyperpage}{62}
+\indexentry{Decouper@D\'ecouper|hyperpage}{62}
+\indexentry{Orientation|hyperpage}{64}
+\indexentry{Decouper@D\'ecouper|hyperpage}{64}
+\indexentry{Dupliquer|hyperpage}{65}
+\indexentry{Copier|hyperpage}{65}
+\indexentry{Coller|hyperpage}{65}
+\indexentry{Modifier|hyperpage}{65}
+\indexentry{Point!construit|hyperpage}{65}
+\indexentry{Glisser|hyperpage}{65}
+\indexentry{Tourner|hyperpage}{65}
+\indexentry{Retourner|hyperpage}{65}
+\indexentry{Zoomer|hyperpage}{65}
+\indexentry{Supprimer|hyperpage}{65}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{65}
+\indexentry{Point!sur|hyperpage}{66}
+\indexentry{Repere@Rep\`ere|hyperpage}{66}
+\indexentry{Orientation!d'un segment|hyperpage}{66}
+\indexentry{Abscisse|hyperpage}{66}
+\indexentry{Orientation!d'un cercle|hyperpage}{67}
+\indexentry{Prolonger|hyperpage}{68}
+\indexentry{Construire!le centre|hyperpage}{68}
+\indexentry{Centre|hyperpage}{68}
+\indexentry{Tourner|hyperpage}{68}
+\indexentry{Identifier|hyperpage}{68}
+\indexentry{Point!libre|hyperpage}{68}
+\indexentry{Figure|hyperpage}{69}
+\indexentry{Magnetisme@Magn\'etisme|hyperpage}{69}
+\indexentry{Etiquette@\'Etiquette|hyperpage}{70}
+\indexentry{Point!libre|hyperpage}{70}
+\indexentry{Point!sur|hyperpage}{70}
+\indexentry{Point!construit|hyperpage}{70}
+\indexentry{Transformation!g\'eom\'etrique|hyperpage}{73}
+\indexentry{Demi-tour|hyperpage}{73}
+\indexentry{Quart de tour!\`a gauche|hyperpage}{73}
+\indexentry{Quart de tour!\`a droite|hyperpage}{73}
+\indexentry{Support!d'une transformation|hyperpage}{73}
+\indexentry{Translation|hyperpage}{73}
+\indexentry{Demi-tour|hyperpage}{73}
+\indexentry{Quart de tour|hyperpage}{73}
+\indexentry{Rotation|hyperpage}{73}
+\indexentry{Sym\'etrie!axiale|hyperpage}{73}
+\indexentry{Deplacement@D\'eplacement|hyperpage}{73}
+\indexentry{Etirement@\'Etirement|hyperpage}{73}
+\indexentry{Cisaillement|hyperpage}{73}
+\indexentry{D\'efinir|hyperpage}{73}
+\indexentry{Translation|hyperpage}{73}
+\indexentry{Rotation|hyperpage}{74}
+\indexentry{Demi-tour|hyperpage}{74}
+\indexentry{Quart de tour!\`a gauche|hyperpage}{74}
+\indexentry{Quart de tour!\`a droite|hyperpage}{74}
+\indexentry{Deplacement@D\'eplacement|hyperpage}{75}
+\indexentry{Sym\'etrie!axiale|hyperpage}{75}
+\indexentry{Homoth\'etie|hyperpage}{76}
+\indexentry{Trap\`eze|hyperpage}{76}
+\indexentry{Similitude!directe|hyperpage}{77}
+\indexentry{Etirement@\'Etirement|hyperpage}{79}
+\indexentry{Transformation!affine|hyperpage}{79}
+\indexentry{Affinit\'e|hyperpage}{79}
+\indexentry{Axe!d'un \'etirement|hyperpage}{79}
+\indexentry{Direction!d'un \'etirement|hyperpage}{80}
+\indexentry{Rapport!d'un \'etirement|hyperpage}{80}
+\indexentry{Sym\'etrie!oblique|hyperpage}{80}
+\indexentry{Ellipse|hyperpage}{80}
+\indexentry{Cisaillement|hyperpage}{80}
+\indexentry{Cisaillement|hyperpage}{80}
+\indexentry{Axe!d'un cisaillement|hyperpage}{80}
+\indexentry{Appliquer|hyperpage}{81}
+\indexentry{Forme!construite|hyperpage}{82}
+\indexentry{Mouvement|hyperpage}{83}
+\indexentry{Glisser|hyperpage}{83}
+\indexentry{Tourner|hyperpage}{83}
+\indexentry{Retourner|hyperpage}{83}
+\indexentry{Zoomer|hyperpage}{83}
+\indexentry{Transformation!conjugu\'ee|hyperpage}{84}
+\indexentry{Point!fixe|hyperpage}{86}
+\indexentry{Etirement@\'Etirement|hyperpage}{86}
+\indexentry{Cisaillement|hyperpage}{86}
+\indexentry{D\'eplacement|hyperpage}{86}
+\indexentry{Homoth\'etie|hyperpage}{86}
+\indexentry{Similitude|hyperpage}{86}
+\indexentry{Point!construit|hyperpage}{87}
 \indexentry{Macro|hyperpage}{89}
 \indexentry{Objet ! initial|hyperpage}{89}
 \indexentry{Objet!final|hyperpage}{89}
 \indexentry{Creer@Cr\'eer!une macro|hyperpage}{89}
 \indexentry{Objet!final|hyperpage}{91}
 \indexentry{Objet!initial|hyperpage}{91}
+\indexentry{Outil|hyperpage}{95}
+\indexentry{Menu!A|hyperpage}{95}
+\indexentry{Colorier|hyperpage}{95}
+\indexentry{Opacit\'e|hyperpage}{95}
+\indexentry{Montrer|hyperpage}{95}
+\indexentry{Cacher|hyperpage}{95}
+\indexentry{Avant-plan|hyperpage}{95}
+\indexentry{Arri\`ere-plan|hyperpage}{95}
+\indexentry{Grille|hyperpage}{95}
+\indexentry{Lire!un historique|hyperpage}{95}
+\indexentry{Nommer|hyperpage}{95}
+\indexentry{Modifier!l'\'epaisseur|hyperpage}{95}
+\indexentry{Punaiser|hyperpage}{95}
+\indexentry{Depunaiser@D\'epunaiser|hyperpage}{95}
+\indexentry{Menu!B|hyperpage}{95}
+\indexentry{Menu!C|hyperpage}{95}
+\indexentry{Menu!AB|hyperpage}{95}
+\indexentry{Menu!AC|hyperpage}{95}
+\indexentry{Menu!contextuel|hyperpage}{95}
+\indexentry{Nommer|hyperpage}{95}
+\indexentry{Etiquette@\'Etiquette|hyperpage}{95}
+\indexentry{Longueur!d'un segment|hyperpage}{95}
+\indexentry{Aire!d'une forme g\'eom\'etrique|hyperpage}{95}
+\indexentry{Mesure!d'un angle|hyperpage}{95}
+\indexentry{Etiquette@\'Etiquette|hyperpage}{95}
+\indexentry{Supprimer|hyperpage}{96}
+\indexentry{Postscript|hyperpage}{96}
+\indexentry{Titre|hyperpage}{96}
+\indexentry{Mesure|hyperpage}{96}
+\indexentry{Longueur!d'un segment|hyperpage}{97}
+\indexentry{Aire!d'un polygone standard|hyperpage}{97}
+\indexentry{Aire!d'un polygone non standard|hyperpage}{97}
+\indexentry{Aire!d'une forme hybride|hyperpage}{97}
+\indexentry{Aire!orient\'ee|hyperpage}{97}
+\indexentry{Th\'eor\`eme!du papillon|hyperpage}{97}
+\indexentry{Amplitude!d'un angle|hyperpage}{97}
+\indexentry{Abscisse|hyperpage}{97}
+\indexentry{Etiquette@\'Etiquette|hyperpage}{98}
+\indexentry{Abscisse!d'un point sur|hyperpage}{98}
+\indexentry{Colorier|hyperpage}{98}
+\indexentry{Couleur!bord|hyperpage}{98}
+\indexentry{Couleur!fond|hyperpage}{98}
+\indexentry{Bord|hyperpage}{99}
+\indexentry{Fond|hyperpage}{99}
+\indexentry{Interieur@Int\'erieur!d'un polygone|hyperpage}{99}
+\indexentry{Colorier|hyperpage}{99}
+\indexentry{Couleur!famille standard|hyperpage}{99}
+\indexentry{Transparent|hyperpage}{99}
+\indexentry{Opaque|hyperpage}{99}
+\indexentry{Semi-transparent|hyperpage}{99}
+\indexentry{Modifier!l'\'epaisseur|hyperpage}{100}
+\indexentry{Mince|hyperpage}{100}
+\indexentry{Epais@\'Epais|hyperpage}{100}
+\indexentry{Punaiser|hyperpage}{100}
+\indexentry{Depunaiser@D\'epunaiser|hyperpage}{100}
+\indexentry{Rigidifier|hyperpage}{100}
+\indexentry{Derigidifier@D\'erigidifier|hyperpage}{100}
+\indexentry{Modifier|hyperpage}{101}
+\indexentry{Glisser|hyperpage}{101}
+\indexentry{Tourner|hyperpage}{101}
+\indexentry{Montrer|hyperpage}{101}
+\indexentry{Cacher|hyperpage}{101}
+\indexentry{Avant-plan|hyperpage}{101}
+\indexentry{Arri\`ere-plan|hyperpage}{101}
+\indexentry{Grille|hyperpage}{102}
+\indexentry{Grille!de carr\'es|hyperpage}{102}
+\indexentry{Grille!de triangles|hyperpage}{102}
+\indexentry{Magnetisme@Magn\'etisme|hyperpage}{102}
+\indexentry{Polygone!quelconque|hyperpage}{102}
+\indexentry{Modifier|hyperpage}{102}
+\indexentry{Geoplan@G\'eoplan|hyperpage}{102}
+\indexentry{Operation@Op\'eration|hyperpage}{102}
+\indexentry{Fichier!historique|hyperpage}{103}
+\indexentry{.xml@\texttt{.xml}|hyperpage}{103}
+\indexentry{.hag@\texttt{.hag}|hyperpage}{103}
+\indexentry{.fag@\texttt{.fag}|hyperpage}{103}
+\indexentry{Lire!un historique|hyperpage}{103}
+\indexentry{Exporter! en Postscript|hyperpage}{104}
+\indexentry{Exporter! en fichier bitmap|hyperpage}{104}
+\indexentry{Imprimer|hyperpage}{104}
+\indexentry{Fermer|hyperpage}{104}
+\indexentry{Menu!contextuel|hyperpage}{105}
+\indexentry{Titre!d'un menu contextuel|hyperpage}{106}
+\indexentry{Couleur!bord|hyperpage}{106}
+\indexentry{Couleur!fond|hyperpage}{106}
+\indexentry{Couleur!fond 'Aire orient\'ee'|hyperpage}{106}
+\indexentry{Opacit\'e|hyperpage}{106}
+\indexentry{Epais@\'Epais|hyperpage}{106}
+\indexentry{Mince|hyperpage}{106}
+\indexentry{Flecher@Fl\'echer|hyperpage}{106}
+\indexentry{Enlever!les fl\`eches|hyperpage}{106}
+\indexentry{Aire!orient\'ee|hyperpage}{107}
+\indexentry{Brancher!trace|hyperpage}{107}
+\indexentry{Debrancher@D\'ebrancher!trace|hyperpage}{107}
+\indexentry{Lieu!g\'eom\'etrique|hyperpage}{107}
+\indexentry{Enveloppe|hyperpage}{107}
+\indexentry{Conditionner|hyperpage}{108}
+\indexentry{Interrupteur|hyperpage}{108}
+\indexentry{Valider|hyperpage}{108}
+\indexentry{Invalider|hyperpage}{108}
+\indexentry{Modifier|hyperpage}{108}
+\indexentry{Limiter|hyperpage}{109}
+\indexentry{Animer|hyperpage}{109}
+\indexentry{Preferences@Pr\'ef\'erences|hyperpage}{111}
+\indexentry{Configuration|hyperpage}{111}
+\indexentry{Preferences@Pr\'ef\'erences|hyperpage}{111}
+\indexentry{Fonfs!d'\'ecran|hyperpage}{111}
+\indexentry{Forme!standard|hyperpage}{111}
+\indexentry{Menu!A|hyperpage}{111}
+\indexentry{Menu!AB|hyperpage}{111}
+\indexentry{Menu!AC|hyperpage}{111}
+\indexentry{Distance!de magn\'etisme|hyperpage}{111}
+\indexentry{Epaisseur@\'Epaisseur des traits|hyperpage}{111}
+\indexentry{Trajectoire|hyperpage}{111}
+\indexentry{Formes!point\'ees|hyperpage}{111}
+\indexentry{Forme!standard|hyperpage}{112}
+\indexentry{Distance!de magn\'etisme|hyperpage}{112}
+\indexentry{Point!sur|hyperpage}{112}
+\indexentry{Zoomer|hyperpage}{112}
+\indexentry{Ajustement|hyperpage}{112}
+\indexentry{Trajectoire|hyperpage}{112}
+\indexentry{Formes!point\'ees|hyperpage}{113}
+\indexentry{Formes!fl\'ech\'ees|hyperpage}{113}
+\indexentry{Orientation|hyperpage}{113}
+\indexentry{Formes!bifaces|hyperpage}{113}
+\indexentry{Notes|hyperpage}{114}
+\indexentry{.rtf@\texttt{.rtf}|hyperpage}{115}
+\indexentry{Aide|hyperpage}{115}
+\indexentry{Afficher!l'aide|hyperpage}{115}
+\indexentry{Visiter!le site AG|hyperpage}{115}
+\indexentry{Configuration|hyperpage}{115}
+\indexentry{Charger!une configuration|hyperpage}{116}
+\indexentry{.men@\texttt{.men}|hyperpage}{116}
+\indexentry{Sauvegarder!la configuration|hyperpage}{116}
+\indexentry{Configuration|hyperpage}{116}
+\indexentry{Mouvement|hyperpage}{116}
+\indexentry{Changer! le mot de passe|hyperpage}{116}
+\indexentry{Changer!de langue|hyperpage}{116}
+\indexentry{Dictionnaire|hyperpage}{116}
+\indexentry{Creer@Cr\'eer un dictionnaire|hyperpage}{116}
+\indexentry{Modifier! un dictionnaire|hyperpage}{116}

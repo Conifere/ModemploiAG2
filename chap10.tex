@@ -2,18 +2,22 @@
 
 \section{Introduction}
 
-\includegraphics[width=0.25\linewidth]{Menu_Outils.bmp} \hfill
-\begin{minipage}[b]{0.74\linewidth}
-
+\begin{minipage}[t]{0.25\linewidth}
+\leavevmode\\
+\includegraphics[width=\linewidth]{MenuOutils.bmp} \hfill
+\end{minipage}       \hfill
+\begin{minipage}[t]{0.7\linewidth}
+\leavevmode\\
 Aucune des opérations proposées dans le menu \hyperdef{chapoutils}{Menu}{\textit{Outils}}\index{Outil} ne
 construit de nouvelles formes géométriques ou  ne modifie de formes existantes (au sens donné au verbe
 \texttt{Modifier} dans ce guide).\medskip
 
 Sept d'entre elles sont susceptibles d'être utilisées  dès le menu~A\index{Menu!A}: \texttt{Colorier}\index{Colorier},
-\texttt{Transparent/Opaque}\index{Transparent}\index{Opaque},
+\texttt{Opacité}\index{Opacité},
 \texttt{Montrer/Cacher}\index{Montrer}\index{Cacher},  \texttt{Avant-plan}\index{Avant-plan},
 \texttt{Arrière-Plan}\index{Arrière-plan}, \texttt{Grille}\index{Grille} et \texttt{Lire un
-historique}\index{Lire!un historique}.\medskip
+historique}\index{Lire!un historique}.
+\end{minipage}
 
 Les trois autres opérations, \texttt{Nommer}\index{Nommer}, \texttt{Modifier
 l'épaisseur}\index{Modifier!l'épaisseur} et
@@ -22,7 +26,7 @@ utiles lorsqu'on manipule des formes libres. Elles apparaissent donc au menu
 B\index{Menu!B} et sont également présentes aux menus C, AC et
 BC.\index{Menu!C}\index{Menu!AB}\index{Menu!AC} D'autres outils sont accessibles via un
 \textit{menu contextuel}\index{Menu!contextuel} que nous
-présenterons au chapitre \ref{chapcontext}.\end{minipage}
+présenterons au chapitre \ref{chapcontext}.
 
 \section{Outils/Nommer}
 
@@ -112,12 +116,18 @@ géométrique. Toutes les autres indications mentionnées plus haut restent valable
 \subsection{Afficher une mesure}\index{Mesure}
 
 Il est possible de demander à l'ordinateur
-d'afficher une \hyperdef{chapoutils}{Mesure}{\texttt{mesure}}:
+d'afficher une \hyperdef{chapoutils}{Mesure}{\texttt{mesure}} en plaçant une étoile, \og *\fg\ comme étiquette.
+Cette mesure selon le cas la longueur d'un segment, l'aire d'un polygone ou d'une forme hybride, l'amplitude d'un angle ou l'abscisse d'un point.
+Passons ces cas en revue.
 
 \begin{list}{\textbullet}{\itemsep=1mm} \item La longueur d'un segment, y compris  d'un
 côté de polygone.\index{Longueur!d'un segment} L'unité de longueur est la longueur du
-côté du carré standard. \item L'aire d'un polygone non standard\index{Aire!d'un polygone} ou d'une forme hybride.\index{Forme!hybride} Il s'agit
-d'une aire orientée\index{Aire!orientée}, dont le signe dépend de l'orientation du
+côté du carré standard.
+
+\item Les polygones standard\index{Aire!d'un polygone standard} n'étant pas orientés, leur aire est toujours positive. L'unité d'aire est celle du carré du \texttt{Jeu de base} de formes standard.
+
+\item L'aire d'un polygone non standard\index{Aire!d'un polygone non standard} ou d'une forme hybride.\index{Aire!d'une forme hybride} Il s'agit
+d'une aire orientée\index{Aire!orientée} car elle dépend de l'orientation du
 polygone. Pour un polygone convexe ou concave non croisé,  l'aire est positive si le
 bord est parcouru dans le sens trigonométrique, négative dans le cas contraire.
 
@@ -156,6 +166,13 @@ des flèches sur les arcs afin de mettre leur orientation en
 \includegraphics[width=\linewidth]{arcs.eps}
 \leg{}
 \end{minipage}\hfill\strut
+
+\item L'abscisse d'un point\index{Abscisse}. Tous les objets tels qu'un segment, une droite, ou un arc de cercle sont déterminés
+par deux points qui constituent un repère, dont l'origine est le premier des deux points construits, et dont l'extrémité est le second.
+Tout point placé sur un de ces objets possède dès lors une abscisse par rapport à ces deux points, qu'il soit mobile (un point \og sur\fg) ou fixe
+(un point de division).   Un point placé sur un côté d'un polygone ou d'une forme hybride possède aussi une abscisse, le repère utilisé étant constitué des deux extrémités du côté.
+Pour déterminer l'abscisse d'un point placé sur un cercle le point de construction du cercle (qui n'est pas le centre) joue les deux rôles d'origine et d'extrémité.
+L'abscisse est alors le rapport de la longueur d'un arc à la circonférence du cercle.
 \end{list}
 
 \fbox{\begin{minipage}[b]{0.99\linewidth}
@@ -181,7 +198,6 @@ segments auxquels ils appartiennent.
 \end{minipage}}
 
 Signalons encore que \begin{enumerate}
-\item Les aires des formes standard\index{Aire!d'une forme standard} ne sont pas considérées comme orientées. Elles sont donc toujours positives.
 \item Par défaut, les mesures d'aires et de longueurs sont théoriquement affichées avec deux décimales.
 \item Toute pression sur la touche \fbox{*} augmente de 1 le nombre (théorique) de décimales et toute pression sur \fbox{\$} le diminue de 1 (sans qu'il puisse
 devenir négatif).
@@ -193,7 +209,6 @@ sont mises à jour lorsqu'on modifie la  figure. \item Ces mesures peuvent être
 cachées par une pression sur la touche \og d\fg\ du clavier. Cette touche sert en fait
 de \og bascule\fg: une seconde pression fait réapparaître les mesures qui avaient été
 cachées.
-
 \end{enumerate}
 
 
@@ -215,7 +230,7 @@ sélectionner la forme dont on veut changer la couleur (du bord ou du fond). \end
 \end{minipage}}
 
 La procédure restant active, on peut continuer à colorier d'autres formes avec la même
-couleur simplement en les sélecdtionnant successivement. Par ailleurs, la procédure
+couleur simplement en les sélectionnant successivement. Par ailleurs, la procédure
 \texttt{Colorier} accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection multiple}.
 Il est donc également possible pour colorier plusieurs formes de sélectionner d'abord
 celles-ci et ensuite la couleur.
@@ -259,12 +274,31 @@ dont on désire changer la couleur. La palette de couleurs apparaît et on y fait 
 
 
 
-\section{Outils/Transparent-Opaque}
+\section{Outils/Opacité}
 
-L'opération \hyperdef{chapoutils}{Transparent}{\texttt{Transparent/Opaque}}\index{Transparent}\index{Opaque} ne
-nécessite pas de grands commentaires. Elle rend transparente une forme qui était opaque (la forme apparaît
-incolore  et ne cache plus les formes situées à  l'arrière-plan, seuls ses bords  restent visibles) et elle
-rend opaque la forme qui était transparente. Note: par défaut, les formes standard sont opaques et les formes
+L'opération
+\hyperdef{chapoutils}{Opacité}{\texttt{Opacité}}\index{Transparent}\index{Opaque}\index{Semi-transparent}
+remplace l'opération \texttt{Transparent/Opaque} depuis la
+version 2.5.0. Trois possibilités sont disponibles:
+une forme géométrique peut être opaque, semi-transparente ou
+transparente.
+
+ La semi-transparence possède une propriété importante: une forme
+semi-transparente située à l'avant-plan d'une autre  forme ne
+cache pas celle-ci: l'intersection des deux formes est peinte en
+une couleur obtenue en mélangeant  celles de ces deux formes.
+L'intersection est ainxi clairement mise en évidence, sans qu'il
+soit nécessaire de la dessiner explicitement. La figure suivante
+est une des premières dessinées par un enfant qui apprend à
+utiliser un compas. Ci-dessous, elle est présentée en les trois
+versions, opaque, semi-transparente et transparente.
+
+\includegraphics[width=0.3\linewidth]{rosaceop.eps}\hfill
+\includegraphics[width=0.3\linewidth]{rosacest.jpg}\hfill
+\includegraphics[width=0.3\linewidth]{rosacetr.eps}
+
+
+Note: par défaut, les formes standard sont opaques et les formes
 libres sont transparentes.
 
 Cette fonctionnalité accepte la \hyperlink{chapmedit.SelectionMultiple}{sélection
@@ -285,9 +319,14 @@ Deux choix sont possibles:
 \end{list}
 
 
-Pour  modifier l'épaisseur d'une forme on fait son choix entre \texttt{Mince} et \texttt{Épais}, puis on
-sélectionne la forme souhaitée. Le choix effectué entre \texttt{Mince} et \texttt{Épais} est appliqué
-automatiquement lors de toute nouvelle construction de forme, et cela jusqu'à ce que ce choix soit modifié.
+Pour  modifier l'épaisseur d'une forme on choisit entre
+\texttt{Mince} et \texttt{Épais}, puis on sélectionne la forme
+souhaitée. Le choix effectué entre \texttt{Mince} et
+\texttt{Épais} est ensuite appliqué automatiquement lors de
+toute nouvelle construction de forme, et cela jusqu'à ce que ce
+choix soit modifié. Un des deux sous-menus est coché, afin de
+rappeler à l'utilisateur quel choix a été effectué en dernier
+lieu.
 
 Voici une figure dessinée d'abord avec des traits minces, ensuite avec des traits épais :
 
@@ -544,7 +583,6 @@ La réalisation d'une figure de géométrie est constituée d'une suite
 d'opérations\index{Operation@Opération} telles que \textit{Construire une forme
 géométrique}, \textit{Déplacer ou Modifier une forme}, \textit{Appliquer une
 transformation}, etc.
-
 Tout au long d'une session de travail, l'ordinateur enregistre les différentes
 opérations mises en \oe uvre. Elles constituent un
 \hyperdef{chapoutils}{Historique}{fichier
@@ -601,20 +639,20 @@ fenêtre s'ouvre, affichant la liste des fichiers historiques enregistrés.
 L'élève (c'est-à-dire l'utilisateur  qui n'a pas introduit de mot de passe au démarrage) n'a accès
 qu'aux fichiers portant son nom. L'utilisateur enseignant a accès à tous les fichiers historiques.
 
-\item Après que l'utilisateur ait choisi un des fichiers historiques,
-une barre de menus s'ouvre:
+\item Après que l'utilisateur ait choisi un des fichiers
+historiques, la plus grande partie du menu usuel disparaît
+mais une barre de menus s'ouvre:
 
 \begin{center}\includegraphics[width=\linewidth]{ReadHisto.jpg}\end{center}
 
 \item Ces boutons permettent de commencer la visualisation par la première ou les dernières opérations, puis
 d'avancer et/ou de reculer dans l'ordre des opérations.
- \end{list} \end{minipage}}
+ \end{list} \end{minipage}}\newpage
 
 
 \textbf{Remarques}
 
 \begin{list}{\textbullet}{\itemsep=1mm}
-
 \item À chaque étape du déroulement de l'historique,  il est possible via le  menu
 \textit{Fichiers}, d'\hyperlink{chapmedit.ExportPS}{exporter l'écran en
 Postscript}\index{Exporter! en Postscript} ou en \hyperlink{chapmedit.ExportBMP}{fichier

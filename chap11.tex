@@ -6,35 +6,43 @@
 accès à un \hyperdef{chapcontext}{MenuContextuel}{\textit{menu
 contextuel}}\index{Menu!contextuel}. Il s'agit d'un menu qui se déroule lorsqu'on
 clique \textsc{du bouton droit} sur une forme affichée à l'écran et dont le contenu
-varie d'une forme à l'autre.\end{minipage}\hfill
+varie d'une forme à l'autre.
+
+Le menu contextuel permet de modifier certaines propriétés de la forme sélectionnée, il ne
+permet aucune construction nouvelle. \end{minipage}\hfill
 \begin{minipage}[b]{0.48\linewidth} \includegraphics[width=\linewidth]{MenuContext.bmp}
 \leg{} \end{minipage}
 
 \begin{minipage}[b]{0.2\linewidth}
-\includegraphics[width=\linewidth]{MenuContext2.bmp}
+\includegraphics[width=\linewidth]{Triangle.bmp}
 \leg{}
 \end{minipage}\hfill
-\begin{minipage}[b]{0.75\linewidth}Le menu contextuel permet de modifier certaines propriétés de la forme sélectionnée, il ne
-permet aucune construction nouvelle. Des opérations n'ayant pas de sens pour la forme
+\begin{minipage}[b]{0.75\linewidth}
+Des opérations n'ayant pas de sens pour la forme
 sélectionnée sont automatiquement exclues du menu contextuel.
 
-La figure  ci-contre montre le menu contextuel associé à un triangle. Celui-ci est
-dessiné en magenta du fait que le curseur de la souris (absent sur la figure) pointe
-vers son intérieur. Ce menu comporte sept sous-menus.
-\end{minipage}
+La figure  ci-contre montre le menu contextuel associé à un
+triangle.  Ce menu comporte onze sous-menus.
 
-\begin{list}{\textbullet}{\itemsep=0mm}
-\item Les deux premiers, \textit{Couleur\_Bord} et \textit{Couleur\_Fond} fonctionnent
-exactement comme les sous-menus de même nom du menu \textit{Outils}, à ceci près qu'ils
-ne peuvent servir à modifier la couleur que d'une forme à la fois.
-\item Le suivant, \textit{Epais} correspond au
-sous-menu \textit{Modifier l'épaisseur} du menu     \textit{Outils}. Le triangle
-sélectionné étant dessiné en traits minces, le sous-menu ne donne pas le choix entre
-\textit{Épais} et \textit{Mince}. La procédure est ainsi simplifiée.  \item Les quatre
-sous-menus suivants \textit{Dépointer}, \textit{Brancher la trace},
-\textit{Flécher} et \textit{Conditionner} n'ont pas leur équivalent dans la barre de
-menus du logiciel.
- \end{list}
+La plupart de ces
+sous-menus fonctionnent exactement comme les
+sous-menus de même nom du menu \textit{Outils}, à ceci près
+qu'ils ne peuvent servir à modifier qu'une forme à
+la fois.
+
+Certains, qui servent à modifier un paramètre n'ayant que deux
+valeurs possible, proposent directement d'effectuer le
+changement. Par exemple, le triangle sélectionné étant dessiné
+en traits minces, le sous-menu propose uniquement le choix
+\textit{Épais}.
+
+D'autres sous-menus n'ont pas leur équivalent dans la barre de
+menus du logiciel. C'est le cas de \textit{Dépointer},
+\textit{Brancher la trace}, \textit{Flécher} et
+\textit{Conditionner}.  \end{minipage}
+
+
+
  
 \fbox{\begin{minipage}[b]{0.99\linewidth}
 \Prat
@@ -55,38 +63,108 @@ l'exécution de l'opération demandée.
 
 \section{Les sous-menus possibles}
 
-\begin{minipage}[b]{0.65\linewidth}
-Les sous-menus possibles sont au nombre de dix.
+\begin{minipage}[b]{0.65\linewidth} Pour un polygone ou, de façon
+plus générale, une forme ayant plusieurs sommets, le nombre de
+sous-menus peut atteindre treize, plus un titre indiquant la
+nture de la forme. La figure çi-contre correspond à un polygone
+orienté.
 
-Nous allons les passer en revue.
+Passons ces éléments en revue, en commençant par le titre.
 
-\begin{description}  \item[\textit{Epais/Mince}]\index{Epais@Épais}\index{Mince}
-Nous avons déjà parlé ci-dessus de ce sous-menu. Si la forme sélectionnée est
-dessinée en traits minces, le menu propose \textit{Épais}, sinon il propose
-\textit{Mince}. \item[\textit{Couleur\_Bord} et \textit{Couleur\_Fond}] Ainsi
-qu'on l'a déjà signalé, ces sous-menus sont des répliques des sous-menus
-correspondants du menu \textit{Outils}.
-\item[\hyperdef{chapcontext}{CouleurAireori}{\textit{Couleur\_Fond `Aire
-orientée'}}] est un des sous-menus liés à l'orientation d'une
-forme.\index{Couleur!bord}\index{Couleur!fond} \index{Couleur!fond 'Aire
-orientée'} Nous en parlerons plus loin.    \end{description}  \end{minipage}
-\hfill \begin{minipage}[b]{0.3\linewidth}
-\includegraphics[width=\linewidth]{Context.jpg}
-\end{minipage}\\[-\baselineskip] \begin{description}
-\item[\hyperdef{chapcontext}{EnleverPoints}{\textit{Pointer/Dépointer}}] a pour
-fonction de supprimer ou de rétablir le dessin des sommets d'une forme. Ce sont
-souvent des raisons esthétiques qui amènent à éviter de dessiner ces sommets. Il
-ne faut pas confondre cette opération avec l'opération
-\hyperlink{chapoutils.Montrer}{\textit{Montrer-Cacher}} du menu \textit{Outils}:
-un point dont le dessin a été supprimé reste actif, il peut être saisi à la
-souris. Ce n'est pas le cas pour un point caché. \item
-[\hyperdef{chapcontext}{Trace}{\textit{Brancher la trace/Débrancher la trace}}]
-Cet outil\index{Brancher!trace}\index{Debrancher@Débrancher!trace} permet de
-visualiser  le lieu géométrique \index{Lieu!géométrique} d'un point mobile (ou de
-tout autre objet, auquel cas on parlerait plutôt d'\og
-enveloppe\fg\index{Enveloppe}) et cela lors d'une animation réalisée  à l'aide de
-l'opération \texttt{Modifier} ou de la fonctionnalité \texttt{Animer} décrite
-ci-dessous.
+\begin{description}
+
+\item [Le titre]\index{Titre!d'un menu contextuel} Le titre est
+constitué du type de la forme (\textit{Cercle, Segment,
+Polygone\ldots)} suivi des étiquettes de ses sommets. Par
+exemple si les sommets d'un quadrilatère ont été nommés $A$,
+$B$, $C$ et $D$, le mot \og Quadrilatère\fg\ est suivi de
+$ABCD$. Pour tout sommet qui n'a pas été muni d'une étiquette,
+il apparaît simplement une étoile.
+\item[\textit{Nommer} ainsi que \textit{Couleur\_Bord} et
+\textit{Couleur\_Fond}] sont des répliques des sous-menus correspondants du
+menu \textit{Outils}.  \end{description}  \end{minipage} \hfill
+\begin{minipage}[b]{0.3\linewidth}
+\includegraphics[width=\linewidth]{PolygContext.bmp}
+\end{minipage}
+
+\begin{description}
+\item[\hyperdef{chapcontext}{CouleurAireori}{\textit{Couleur\_Fond
+`Aire orientée'}}] est un des sous-menus liés à l'orientation
+d'une forme.\index{Couleur!bord}\index{Couleur!fond}
+\index{Couleur!fond 'Aire orientée'} Nous en parlerons après
+\textit{Flécher}.
+\item[\textit{Opacité}]\index{Opacité} Ce menu est orné d'une
+flèche indiquant que des sous-menus sont présents. Il s'agit
+bien entendu des sous-menus \textit{Opaque},
+\textit{Semi-transparent} et \textit{Transparent}. Le tout
+fonctionne de la même façon que les sous-menus correspondants du
+menu principal. \item [\textit{Avant-plan} et
+\textit{Arrière-plan}] font passer la forme sélectionnée
+respectivement à l'avant-plan ou à l'arrière-plan.
+\item[\textit{Epais/Mince}]\index{Epais@Épais}\index{Mince} Nous
+avons déjà parlé ci-dessus de ce sous-menu. Si la forme
+sélectionnée est dessinée en traits minces, le menu propose
+\textit{Épais}, sinon il propose \textit{Mince}. À la différence
+du sous-menu \textit{Outils/Modifier l'épaisseur} du menu
+principal, l'usage du menu contextuel pour modifier l'épaisseur
+d'une forme n'influence que cette forme et ne modifie donc pas
+l'épaisseur des traits d'éventuelles constructions ultérieures.
+\item[\hyperdef{chapcontext}{Punaiser}{\textit{Punaiser/Dépunaiser}}]
+fonctionnent de la même mannière que le sous-menu correspondant
+du menu principal.
+
+\item[\hyperdef{chapcontext}{EnleverPoints}{\textit{Pointer/Dépointer}}]
+a pour fonction de supprimer ou de rétablir le dessin des sommets
+d'une forme. Ce sont souvent des raisons esthétiques qui amènent
+à éviter de dessiner ces sommets. Il ne faut pas confondre cette
+opération avec l'opération
+\hyperlink{chapoutils.Montrer}{\textit{Montrer-Cacher}} du menu
+\textit{Outils}: un point dont le dessin a été supprimé reste
+actif, il peut être saisi à la souris. Ce n'est pas le cas pour
+un point caché.
+\item[\hyperdef{chapcontext}{Flecher}{\textit{Flécher/Enlever les
+flèches}}]\index{Flecher@Flécher}\index{Enlever!les flèches}
+
+À plusieurs reprises, nous avons signalé que les formes géométriques étaient
+\textit{orientées}. Le sous-menu \textit{Flécher} permet de faire apparaître cette
+orientation en apposant une flèche sur la forme sélectionnée. Si une forme est fléchée,
+le sous-menu \textit{Flécher} est remplacé dans le menu contextuel par un sous-menu
+\textit{Enlever les flèches}.
+
+\begin{minipage}[b]{0.48\linewidth} Le polygone et le cercle situés à gauche d'un axe de symétrie
+(en vert) ont été construits en premier. Leurs symétriques ont été construits ensuite. Les flèches
+montrent bien les orientations. \vspace{2cm}\end{minipage} \hfill
+\begin{minipage}[b]{0.4\linewidth}
+\includegraphics[width=\linewidth]{fleches.eps} \leg{} \end{minipage}
+
+\item [\hyperdef{chapcontext}{CouleurOri}{\textit{Couleur Fond  `Aire orientée'}}] Nous
+avons mentionné qu'\AG\ fournit à l'utilisateur l'aire orientée\index{Aire!orientée}
+d'une forme géométrique. Clairement, l'aire d'un polygone non croisé orienté
+positivement (négativement) est elle-même positive (négative). Mais le signe de l'aire
+d'un polygone croisé peut être difficile à déterminer. Aussi avons-nous réservé deux
+couleurs particulières pour distinguer les polygones selon le signe de leur aire.
+
+Ces couleurs sont accessibles via le sous menu   \textit{Couleur Fond `Aire orientée'}.
+Lorsqu'on sélectionne une forme, ce sous-menu n'est affiché que si la forme est fléchée.
+Quand il est activé, la forme en question est peinte de la façon indiquée ci-dessous:
+
+\begin{minipage}[b]{\linewidth}
+                 \includegraphics[width=\linewidth]{aireori.eps}
+                 \leg{}
+\end{minipage}
+
+À gauche un quadrilatère d'aire positive, à droite un quadrilatère d'aire négative.
+
+
+\item [\hyperdef{chapcontext}{Trace}{\textit{Brancher la
+trace/Débrancher la trace}}] Cet
+outil\index{Brancher!trace}\index{Debrancher@Débrancher!trace}
+permet de visualiser  le lieu géométrique
+\index{Lieu!géométrique} d'un point mobile (ou de tout autre
+objet, auquel cas on parlerait plutôt d'\og
+enveloppe\fg\index{Enveloppe}) et cela lors d'une animation
+réalisée  à l'aide de l'opération \texttt{Modifier} ou de la
+fonctionnalité \texttt{Animer} décrite ci-dessous.
 
 Voici un exemple élémentaire:
 
@@ -112,28 +190,27 @@ barycentre $g$ du triangle lorsque $a$ parcourt $D$.}\medskip
 
 Et voici le résultat:
 
-\centerline{\begin{minipage}[b]{0.45\linewidth}
-\includegraphics[width=\linewidth]{Trace2bis.bmp}
-\leg{}
-\end{minipage}}
-
-Le tracé du lieu n'a pas pour le logiciel le statut d'un objet; ce n'est qu'un trait sur l'écran et il est
-effacé dès le premier rafraîchissement de celui-ci. Il n'est donc pas possible de le sauvegarder, mais la
-procédure \textit{Fichier/Exporter en fichier bitmap} permet de réaliser une copie d'écran.
+\begin{minipage}[b]{0.45\linewidth}
+\includegraphics[width=\linewidth]{Trace2bis.bmp} \leg{}
+\end{minipage}\hfill \begin{minipage}[b]{0.5\linewidth} Le tracé
+du lieu n'a pas pour le logiciel le statut d'un objet; ce n'est
+qu'un trait sur l'écran et il est effacé dès le premier
+rafraîchissement de celui-ci. Il n'est donc pas possible de le
+sauvegarder, mais la procédure \textit{Fichier/Exporter en
+fichier bitmap} permet de réaliser une copie d'écran.
+\vspace{\baselineskip} \end{minipage}
 
 \textbf{Remarques}
-
 \begin{list}{\textbullet}{\itemsep=1mm}
-\item Puisqu'on peut \texttt{Brancher la trace}, on peut ausi la
+\item Puisqu'on peut \texttt{Brancher la trace}, on peut aussi la
 débrancher. La procédure est identique et le logiciel sait pour quels objets  la trace a été branchée.
 Il fait des propositions en conséquence.
-
 \item En utilisant le menu contextuel plusieurs fois, il est possible de brancher la
 trace pour plusieurs objets en même temps.
-
 \item Elle peut aussi être branchée pour d'autres objets que des points.
 \end{list}
 
+\begin{comment}
 \textbf{Exemple}
 
 Étudions la situation suivante:
@@ -143,19 +220,20 @@ cercle. Un autre point $a$ est fixé dans le plan, à l'intérieur ou à l'extérieur
 mais pas sur ce cercle. On demande de construire le cercle passant par $a$ et tangent à
 $C$ en $p$, puis de faire varier $p$ sur $C$.}
 
-\begin{minipage}[b]{0.6\linewidth}
+\begin{minipage}[b]{0.7\linewidth}
 Construire le cercle demandé n'est pas très difficile: son centre $b$ est à l'intersection
-de la droite $op$ et de la médiatrice du segment $[a,p]$. \vspace{2cm}
+de la droite $op$ et de la médiatrice du segment $[a,p]$. %\vspace{2cm}
+
+Déplaçons alors le point mobile $p$ sur le cercle $C$ en demandant la trace du point $b$,
+puis de la médiatrice du segment $[a,p]$. Nous obtenons les figures suivantes (insérées
+dans le présent document en passant par la fonctionnalité
+\texttt{Exporter en bitmap} d'\AG).
 \end{minipage}\hfill
 \begin{minipage}[b]{0.2\linewidth}
 \includegraphics[width=\linewidth]{ellipse0.eps}
 \leg{}
 \end{minipage}\hfill\strut
 
-Déplaçons alors le point mobile $p$ sur le cercle $C$ en demandant la trace du point $b$,
-puis de la médiatrice du segment $[a,p]$. Nous obtenons les figures suivantes (insérées
-dans le présent document en passant par la fonctionnalité
-\texttt{Exporter en bitmap} d'\AG).
  
 \strut\hfill
 \begin{minipage}[b]{0.4\linewidth}
@@ -171,39 +249,7 @@ dans le présent document en passant par la fonctionnalité
 
 Déplacez ensuite  le point $a$ en dehors du cercle $C$ et recommencez ces figures.
 Concluez.
-
-\item[\hyperdef{chapcontext}{Flecher}{\textit{Flécher/Enlever les
-flèches}}]\index{Flecher@Flécher}\index{Enlever!les flèches}
-
-À plusieurs reprises, nous avons signalé que les formes géométriques étaient
-\textit{orientées}. Le sous-menu \textit{Flécher} permet de faire apparaître cette
-orientation en apposant une flèche sur la forme sélectionnée. Si une forme est fléchée,
-le sous-menu \textit{Flécher} est remplacé dans le menu contextuel par un sous-menu
-\textit{Enlever les flèches}.
-
-\begin{minipage}[b]{0.48\linewidth} Le polygone et le cercle situés à gauche d'un axe de symétrie
-(en vert) ont été construits en premier. Leurs symétriques ont été construits ensuite. Les flèches
-montrent bien les orientations. \vspace{2cm}\end{minipage} \hfill
-\begin{minipage}[b]{0.5\linewidth}
-\includegraphics[width=\linewidth]{fleches.eps} \leg{} \end{minipage}
-
-\item [\hyperdef{chapcontext}{CouleurOri}{\textit{Couleur Fond  `Aire orientée'}}] Nous
-avons mentionné qu'\AG\ fournit à l'utilisateur l'aire orientée\index{Aire!orientée}
-d'une forme géométrique. Clairement, l'aire d'un polygone non croisé orienté
-positivement (négativement) est elle-même positive (négative). Mais le signe de l'aire
-d'un polygone croisé peut être difficile à déterminer. Aussi avons-nous réservé deux
-couleurs particulières pour distinguer les polygones selon le signe de leur aire.
-
-Ces couleurs sont accessibles via le sous menu   \textit{Couleur Fond `Aire orientée'}.
-Lorsqu'on sélectionne une forme, ce sous-menu n'est affiché que si la forme est fléchée.
-Quand il est activé, la forme en question est peinte de la façon indiquée ci-dessous:
-
-\begin{minipage}[b]{\linewidth}
-                 \includegraphics[width=\linewidth]{aireori.eps}
-                 \leg{}
-\end{minipage}
-
-À gauche un quadrilatère d'aire positive, à droite un quadrilatère d'aire négative.
+\end{comment}
 
 \item[\hyperdef{chapcontext}{Conditionner}{\textit{Conditionner}}]\index{Conditionner}
 
@@ -242,11 +288,23 @@ formes conditionnées par ces trois points. En cachant les segments $Q$, $R$ et $
 segment qui leur est perpendiculaire, on masque le dispositif, mais il reste fonctionnel.
 \vspace{0.5cm} \end{minipage}\hfill \begin{minipage}[b]{0.28\linewidth} \begin{center}
 \includegraphics[width=0.6\linewidth]{Interrupteurs.eps}  \leg{} \end{center}  \end{minipage}
+\end{description}
 
-\item[\hyperdef{chapcontext}{Animer}{\textit{Animer}}]\index{Animer} Le sous-menu
-\textit{Animer} n'apparaît dans le menu contextuel  que si le pointeur de la
-souris désigne un point \og sur\fg\ un segment, un arc ou un cercle. L'opération
-\texttt{Animer} a pour effet de provoquer le déplacement automatique du point
+Terminons par deux items qui ne font partie que du menu
+contextuel des points \og sur\fg.
+
+ \begin{description}
+\item[\hyperdef{chapcontext}{Limiter}{\textit{Limiter au côté}}]\index{Limiter}
+
+Ce sous-menu n'apparaît que dans le menu contextuel d'un point \og sur\fg\ un
+polygone. En activant cette fonctionnalité, le point en question ne peut plus
+parcourir le bord complet du polygone, mais uniquement le côté sur lequel il se
+trouve au moment du clic.
+\item[\hyperdef{chapcontext}{Animer}{\textit{Animer}}]\index{Animer}
+Le sous-menu \textit{Animer} n'apparaît dans le menu contextuel
+que si le pointeur de la souris désigne un point \og sur\fg\ un
+segment, un arc ou un cercle. L'opération \texttt{Animer} a pour
+effet de provoquer le déplacement automatique du point
 sélectionné sur son support.
 
 De plus, ce déplacement est répétitif: quand le point arrive à l'extrémité du segment, il
@@ -266,11 +324,5 @@ elle le fait de façon répétitive, ce qui peut être particulièrement intéressant
 lors d'une \textit{présentation}. On trouvera dans \cite{Noel2} des tracés de
 coniques réalisés à l'aide de cette fonctionnalité.
 
-\item[\hyperdef{chapcontext}{Limiter}{\textit{Limiter au côté}}]\index{Limiter}
-
-Ce sous-menu n'apparaît que dans le menu contextuel d'un point \og sur\fg\ un
-polygone. En activant cette fonctionnalité, le point en question ne peut plus
-parcourir le bord complet du polygone, mais uniquement le côté sur lequel il se
-trouve au moment du clic.
 
 \end{description}

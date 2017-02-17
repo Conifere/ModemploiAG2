@@ -1,16 +1,429 @@
 \begin{theindex}
 
+  \item \texttt{.bmp}, \hyperpage{33}
+  \item \texttt{.eps}, \hyperpage{33}
+  \item \texttt{.fag}, \hyperpage{31, 32}, \hyperpage{103}
+  \item \texttt{.hag}, \hyperpage{103}
+  \item \texttt{.jpg}, \hyperpage{33}
+  \item \texttt{.men}, \hyperpage{116}
+  \item \texttt{.pict}, \hyperpage{33}
+  \item \texttt{.rtf}, \hyperpage{115}
+  \item \texttt{.std}, \hyperpage{17}, \hyperpage{20, 21}
+  \item \texttt{.xml}, \hyperpage{21}, \hyperpage{103}
+  \item \'Etiquette, \hyperpage{13}
+
+  \indexspace
+
+  \item Abscisse, \hyperpage{66}, \hyperpage{97}
+    \subitem d'un point sur, \hyperpage{98}
+  \item Afficher
+    \subitem l'aide, \hyperpage{115}
+  \item Affinit\'e, \hyperpage{1, 2}, \hyperpage{53}, \hyperpage{79}
+  \item Agrandissement, \hyperpage{47}
+  \item Aide, \hyperpage{115}
+  \item Aire
+    \subitem d'un polygone non standard, \hyperpage{97}
+    \subitem d'un polygone standard, \hyperpage{97}
+    \subitem d'une forme g\'eom\'etrique, \hyperpage{95}
+    \subitem d'une forme hybride, \hyperpage{97}
+    \subitem orient\'ee, \hyperpage{97}, \hyperpage{107}
+  \item Ajustement, \hyperpage{44}, \hyperpage{112}
+    \subitem automatique, \hyperpage{44}
+  \item Amplitude
+    \subitem d'un angle, \hyperpage{97}
+  \item Animer, \hyperpage{109}
+  \item Annuler, \hyperpage{28}, \hyperpage{35}
+  \item Appliquer, \hyperpage{81}
+  \item Arc, \hyperpage{27}, \hyperpage{55}, \hyperpage{57, 58}
+  \item Arithm\'etique, \hyperpage{1}
+  \item Arri\`ere-plan, \hyperpage{23}, \hyperpage{95}, \hyperpage{101}
+  \item Avant-plan, \hyperpage{23}, \hyperpage{95}, \hyperpage{101}
+  \item Axe
+    \subitem d'un \'etirement, \hyperpage{79}
+    \subitem d'un cisaillement, \hyperpage{80}
+
+  \indexspace
+
+  \item Bande, \hyperpage{2}, \hyperpage{23}, \hyperpage{25}
+  \item Barre
+    \subitem d'espacement, \hyperpage{37}
+  \item Bord, \hyperpage{99}
+  \item Brancher
+    \subitem trace, \hyperpage{107}
+  \item Bug, \hyperpage{34}
+
+  \indexspace
+
+  \item Cacher, \hyperpage{95}, \hyperpage{101}
+  \item Carr\'e, \hyperpage{16}, \hyperpage{26, 27}
+  \item Centre, \hyperpage{68}
+  \item Cercle, \hyperpage{27}, \hyperpage{60}
+    \subitem standard, \hyperpage{58}
+  \item Changer
+    \subitem de langue, \hyperpage{116}
+    \subitem le mot de passe, \hyperpage{116}
+  \item Charger
+    \subitem une configuration, \hyperpage{116}
+  \item Cisaillement, \hyperpage{73}, \hyperpage{80}, \hyperpage{86}
+  \item Coller, \hyperpage{40}, \hyperpage{65}
+  \item Colorier, \hyperpage{1}, \hyperpage{95}, \hyperpage{98, 99}
+  \item Conditionner, \hyperpage{50}, \hyperpage{108}
+  \item Configuration, \hyperpage{1, 2}, \hyperpage{111}, 
+		\hyperpage{115, 116}
+  \item Construire
+    \subitem le centre, \hyperpage{57}, \hyperpage{68}
+  \item Copier, \hyperpage{39, 40}, \hyperpage{65}
+  \item Couleur, \hyperpage{20}
+    \subitem bord, \hyperpage{98}, \hyperpage{106}
+    \subitem famille standard, \hyperpage{99}
+    \subitem fond, \hyperpage{98}, \hyperpage{106}
+    \subitem fond 'Aire orient\'ee', \hyperpage{106}
   \item Cr\'eer
     \subitem une macro, \hyperpage{89}
+  \item Cr\'eer un dictionnaire, \hyperpage{116}
+  \item Cubes, \hyperpage{18}
+
+  \indexspace
+
+  \item D\'efinir, \hyperpage{73}
+  \item D\'eplacement, \hyperpage{86}
+  \item D\'ebrancher
+    \subitem trace, \hyperpage{107}
+  \item D\'ecagone, \hyperpage{17}, \hyperpage{27}
+  \item D\'ecouper, \hyperpage{1}, \hyperpage{19}, \hyperpage{57}, 
+		\hyperpage{59}, \hyperpage{62}, \hyperpage{64}
+  \item D\'elier, \hyperpage{40}
+  \item Demi-droite, \hyperpage{2}, \hyperpage{23}, \hyperpage{25}
+  \item Demi-tour, \hyperpage{73, 74}
+  \item D\'eplacement, \hyperpage{43}, \hyperpage{73}, \hyperpage{75}
+  \item D\'epunaiser, \hyperpage{95}, \hyperpage{100}
+  \item D\'erigidifier, \hyperpage{100}
+  \item D\'es\'electionner, \hyperpage{38}
+  \item Dictionnaire, \hyperpage{116}
+  \item Direction
+    \subitem d'un \'etirement, \hyperpage{80}
+  \item Disque, \hyperpage{15--17}, \hyperpage{60}
+  \item Distance
+    \subitem de magn\'etisme, \hyperpage{14}, \hyperpage{44}, 
+		\hyperpage{111, 112}
+  \item Diviser, \hyperpage{57}
+  \item Dod\'ecagone, \hyperpage{15}, \hyperpage{27}
+  \item Domino, \hyperpage{18}
+  \item Double clic, \hyperpage{14}
+  \item Droite, \hyperpage{2, 3}, \hyperpage{23}, \hyperpage{25}
+    \subitem parall\`ele, \hyperpage{25}, \hyperpage{46}, 
+		\hyperpage{55}
+    \subitem perpendiculaire, \hyperpage{25}, \hyperpage{46}, 
+		\hyperpage{55}
+  \item Dupliquer, \hyperpage{1}, \hyperpage{39}, \hyperpage{57}, 
+		\hyperpage{65}
+
+  \indexspace
+
+  \item Ellipse, \hyperpage{80}
+  \item Enlever
+    \subitem les fl\`eches, \hyperpage{106}
+  \item Enn\'eagone, \hyperpage{27}
+  \item Enveloppe, \hyperpage{107}
+  \item \'Epais, \hyperpage{100}, \hyperpage{106}
+  \item \'Epaisseur des traits, \hyperpage{111}
+  \item \'Etiquette, \hyperpage{70}, \hyperpage{95}, \hyperpage{98}
+  \item \'Etirement, \hyperpage{73}, \hyperpage{79}, \hyperpage{86}
+  \item \'Etoiles, \hyperpage{18}
+  \item Exporter
+    \subitem en fichier bitmap, \hyperpage{104}
+    \subitem en Postscript, \hyperpage{104}
+
+  \indexspace
+
+  \item Famille, \hyperpage{13}
+    \subitem de formes standard, \hyperpage{20}
+  \item Fermer, \hyperpage{104}
+  \item Fichier
+    \subitem Exporter en fichier bitmap, \hyperpage{33}
+    \subitem Exporter en Postscript, \hyperpage{33}
+    \subitem Fermer, \hyperpage{32}
+    \subitem historique, \hyperpage{103}
+    \subitem Imprimer, \hyperpage{34}
+    \subitem Nouveau, \hyperpage{31}
+    \subitem Ouvrir, \hyperpage{31}
+    \subitem Param\`etres d'impression, \hyperpage{34}
+    \subitem Quitter, \hyperpage{34}
+    \subitem Sauvegarder, \hyperpage{32}
+    \subitem Sauvegarder sous, \hyperpage{32}
+  \item Figure, \hyperpage{54}, \hyperpage{69}
+    \subitem g\'eom\'etrique, \hyperpage{51}
+  \item Fl\'echer, \hyperpage{106}
+  \item Fond, \hyperpage{99}
+  \item Fonfs
+    \subitem d'\'ecran, \hyperpage{111}
+  \item Forme
+    \subitem construite, \hyperpage{82}
+    \subitem g\'eom\'etrique, \hyperpage{51}
+    \subitem hybride, \hyperpage{60}
+    \subitem libre, \hyperpage{13}, \hyperpage{23}
+    \subitem orient\'ee, \hyperpage{24}
+    \subitem standard, \hyperpage{13}, \hyperpage{17}, \hyperpage{49}, 
+		\hyperpage{111, 112}
+  \item Formes
+    \subitem bifaces, \hyperpage{113}
+    \subitem fl\'ech\'ees, \hyperpage{113}
+    \subitem point\'ees, \hyperpage{111}, \hyperpage{113}
+  \item Fraction, \hyperpage{1}
+  \item Fusionner, \hyperpage{1}, \hyperpage{19}, \hyperpage{57}, 
+		\hyperpage{62}
+
+  \indexspace
+
+  \item G\'eom\'etrie
+    \subitem dynamique, \hyperpage{49}
+  \item G\'eoplan, \hyperpage{102}
+  \item Glisser, \hyperpage{1}, \hyperpage{36}, \hyperpage{39}, 
+		\hyperpage{43}, \hyperpage{65}, \hyperpage{83}, 
+		\hyperpage{101}
+  \item Grandeur, \hyperpage{1}
+  \item Grille, \hyperpage{95}, \hyperpage{102}
+    \subitem de carr\'es, \hyperpage{102}
+    \subitem de triangles, \hyperpage{102}
+
+  \indexspace
+
+  \item Hend\'ecagone, \hyperpage{27}
+  \item Heptagone, \hyperpage{27}
+  \item Hexagone, \hyperpage{27}
+    \subitem r\'egulier, \hyperpage{15}
+  \item Homoth\'etie, \hyperpage{1, 2}, \hyperpage{47}, \hyperpage{76}, 
+		\hyperpage{86}
+
+  \indexspace
+
+  \item Identifier, \hyperpage{57}, \hyperpage{68}
+  \item Imprimer, \hyperpage{104}
+  \item Int\'erieur
+    \subitem d'un polygone, \hyperpage{99}
+  \item Interrupteur, \hyperpage{50}, \hyperpage{108}
+  \item Intersection, \hyperpage{24}
+  \item Invalider, \hyperpage{50}, \hyperpage{108}
+  \item Isom\'etrie, \hyperpage{43}
+
+  \indexspace
+
+  \item Jeu
+    \subitem de base, \hyperpage{13, 14}
+    \subitem de formes standard, \hyperpage{17}
+    \subitem r\'eduit, \hyperpage{18}
+
+  \indexspace
+
+  \item Lier, \hyperpage{39}
+  \item Lieu
+    \subitem g\'eom\'etrique, \hyperpage{107}
+  \item Limiter, \hyperpage{109}
+  \item Lire
+    \subitem un historique, \hyperpage{95}, \hyperpage{103}
+  \item Logiciel
+    \subitem \'evolutif, \hyperpage{2}
+  \item \texttt{Logo}, \hyperpage{22}
+  \item Longueur
+    \subitem d'un segment, \hyperpage{95}, \hyperpage{97}
+  \item Losange, \hyperpage{15--17}, \hyperpage{26}, \hyperpage{55}
 
   \indexspace
 
   \item Macro, \hyperpage{89}
+  \item Magn\'etisme, \hyperpage{24}, \hyperpage{44}, \hyperpage{69}, 
+		\hyperpage{102}
+  \item Menu, \hyperpage{1}, \hyperpage{13}
+    \subitem A, \hyperpage{1}, \hyperpage{49}, \hyperpage{95}, 
+		\hyperpage{111}
+    \subitem AB, \hyperpage{1}, \hyperpage{49}, \hyperpage{95}, 
+		\hyperpage{111}
+    \subitem AC, \hyperpage{1}, \hyperpage{49}, \hyperpage{95}, 
+		\hyperpage{111}
+    \subitem B, \hyperpage{1}, \hyperpage{23}, \hyperpage{25}, 
+		\hyperpage{38}, \hyperpage{49}, \hyperpage{95}
+    \subitem C, \hyperpage{2}, \hyperpage{23}, \hyperpage{25}, 
+		\hyperpage{38}, \hyperpage{49}, \hyperpage{95}
+    \subitem contextuel, \hyperpage{95}, \hyperpage{105}
+  \item Mesure, \hyperpage{1}, \hyperpage{96}
+    \subitem d'un angle, \hyperpage{95}
+  \item Micro-monde, \hyperpage{1}
+  \item Mince, \hyperpage{100}, \hyperpage{106}
+  \item Mod\'eliser, \hyperpage{3}
+  \item Mod\`ele
+    \subitem 1, \hyperpage{18}
+    \subitem 2, \hyperpage{18}
+  \item Modification
+    \subitem par affinit\'e, \hyperpage{53}
+    \subitem par similitude, \hyperpage{51}
+  \item Modifier, \hyperpage{35}, \hyperpage{49}, \hyperpage{60}, 
+		\hyperpage{65}, \hyperpage{101, 102}, \hyperpage{108}
+    \subitem l'\'epaisseur, \hyperpage{95}, \hyperpage{100}
+    \subitem un dictionnaire, \hyperpage{116}
+  \item Montrer, \hyperpage{95}, \hyperpage{101}
+  \item Mouvement, \hyperpage{1, 2}, \hyperpage{13}, \hyperpage{35, 36}, 
+		\hyperpage{43}, \hyperpage{83}, \hyperpage{116}
+
+  \indexspace
+
+  \item Nommer, \hyperpage{95}
+  \item Notes, \hyperpage{114}
 
   \indexspace
 
   \item Objet
     \subitem final, \hyperpage{89}, \hyperpage{91}
     \subitem initial, \hyperpage{89}, \hyperpage{91}
+  \item Octogone, \hyperpage{16}, \hyperpage{27}
+  \item Opacit\'e, \hyperpage{95}, \hyperpage{106}
+  \item Opaque, \hyperpage{36}, \hyperpage{59}, \hyperpage{99}
+  \item Op\'eration, \hyperpage{13}, \hyperpage{24}, \hyperpage{102}
+  \item Orientation, \hyperpage{24}, \hyperpage{46}, \hyperpage{61}, 
+		\hyperpage{64}, \hyperpage{113}
+    \subitem d'un arc de cercle, \hyperpage{28}
+    \subitem d'un cercle, \hyperpage{28}, \hyperpage{58}, 
+		\hyperpage{67}
+    \subitem d'un secteur de disque, \hyperpage{28}
+    \subitem d'un segment, \hyperpage{25}, \hyperpage{66}
+  \item Outil, \hyperpage{13}, \hyperpage{95}
+
+  \indexspace
+
+  \item Parall\'elogramme, \hyperpage{16}, \hyperpage{26}
+  \item Pentagone, \hyperpage{17}, \hyperpage{27}
+  \item Pentamino, \hyperpage{18}
+  \item Point, \hyperpage{25}
+    \subitem construit, \hyperpage{24}, \hyperpage{50}, \hyperpage{57}, 
+		\hyperpage{61}, \hyperpage{65}, \hyperpage{70}, 
+		\hyperpage{87}
+    \subitem d'intersection, \hyperpage{23, 24}, \hyperpage{50}
+    \subitem de r\'ef\'erence, \hyperpage{13}, \hyperpage{22}
+    \subitem fixe, \hyperpage{86}
+    \subitem invalid\'e, \hyperpage{50}
+    \subitem li\'e, \hyperpage{23}, \hyperpage{49}
+    \subitem libre, \hyperpage{23}, \hyperpage{49}, \hyperpage{68}, 
+		\hyperpage{70}
+    \subitem sur, \hyperpage{23, 24}, \hyperpage{49}, \hyperpage{66}, 
+		\hyperpage{70}, \hyperpage{112}
+  \item Polygone, \hyperpage{25}, \hyperpage{57}, \hyperpage{60}
+    \subitem quelconque, \hyperpage{27}, \hyperpage{56}, 
+		\hyperpage{102}
+    \subitem r\'egulier, \hyperpage{27}, \hyperpage{52}
+  \item Polymino, \hyperpage{18}
+  \item Postscript, \hyperpage{96}
+  \item Pr\'ec\'edence, \hyperpage{54}
+  \item Pr\'ef\'erences, \hyperpage{111}
+  \item Prolonger, \hyperpage{3}, \hyperpage{57}, \hyperpage{68}
+  \item Punaiser, \hyperpage{95}, \hyperpage{100}
+
+  \indexspace
+
+  \item Quadrilat\`ere, \hyperpage{27}
+    \subitem quelconque, \hyperpage{26}
+  \item Quadrimino, \hyperpage{18}
+  \item Quart de tour, \hyperpage{73}
+    \subitem \`a droite, \hyperpage{73, 74}
+    \subitem \`a gauche, \hyperpage{73, 74}
+  \item Quartier
+    \subitem de tarte, \hyperpage{60}
+
+  \indexspace
+
+  \item Rapport
+    \subitem d'un \'etirement, \hyperpage{80}
+  \item Rectangle, \hyperpage{26}, \hyperpage{55}
+  \item Redimensionnement, \hyperpage{43}
+  \item Refaire, \hyperpage{35}
+  \item R\'eglette, \hyperpage{20}
+  \item R\'eglettes, \hyperpage{19}
+  \item Rep\`ere, \hyperpage{66}
+  \item Res\'election
+    \subitem automatique, \hyperpage{38}
+  \item Retournement, \hyperpage{28}, \hyperpage{43}
+  \item Retourner, \hyperpage{1}, \hyperpage{19}, \hyperpage{39}, 
+		\hyperpage{43}, \hyperpage{46}, \hyperpage{65}, 
+		\hyperpage{83}
+  \item R\'etr\'ecissement, \hyperpage{47}
+  \item Revalider, \hyperpage{50}
+  \item Rigidifier, \hyperpage{100}
+  \item Rotation, \hyperpage{1, 2}, \hyperpage{73, 74}
+
+  \indexspace
+
+  \item Sauvegarder
+    \subitem la configuration, \hyperpage{116}
+  \item Secteur, \hyperpage{2}, \hyperpage{23}, \hyperpage{25}
+    \subitem de disque, \hyperpage{23}, \hyperpage{27}
+  \item Segment, \hyperpage{3}, \hyperpage{25}, \hyperpage{57}
+    \subitem parall\`ele, \hyperpage{25}, \hyperpage{46}, 
+		\hyperpage{55}
+    \subitem perpendiculaire, \hyperpage{25}, \hyperpage{46}, 
+		\hyperpage{55}
+  \item S\'election
+    \subitem multiple, \hyperpage{38}
+  \item S\'electionner, \hyperpage{1}, \hyperpage{35, 36}, 
+		\hyperpage{38}
+    \subitem tout, \hyperpage{38}
+  \item Semi-transparent, \hyperpage{99}
+  \item Similitude, \hyperpage{1, 2}, \hyperpage{51}, \hyperpage{86}
+    \subitem directe, \hyperpage{51}, \hyperpage{77}
+  \item Sous-figure, \hyperpage{53, 54}
+  \item Standardiser, \hyperpage{32}
+  \item Support
+    \subitem d'une transformation, \hyperpage{73}
+  \item Supprimer, \hyperpage{40}, \hyperpage{60}, \hyperpage{65}, 
+		\hyperpage{96}
+  \item Sym\'etrie
+    \subitem axiale, \hyperpage{1, 2}, \hyperpage{73}, \hyperpage{75}
+    \subitem oblique, \hyperpage{80}
+
+  \indexspace
+
+  \item Tangram, \hyperpage{18}
+  \item Th\'eor\`eme
+    \subitem du papillon, \hyperpage{97}
+  \item Tirer
+    \subitem sur un point, \hyperpage{49}
+  \item Titre, \hyperpage{96}
+    \subitem d'un menu contextuel, \hyperpage{106}
+  \item Tortue, \hyperpage{22}
+  \item Tourner, \hyperpage{1}, \hyperpage{39}, \hyperpage{43}, 
+		\hyperpage{45}, \hyperpage{65}, \hyperpage{68}, 
+		\hyperpage{83}, \hyperpage{101}
+  \item Trajectoire, \hyperpage{47}, \hyperpage{111, 112}
+  \item Transformation, \hyperpage{2}
+    \subitem affine, \hyperpage{79}
+    \subitem conjugu\'ee, \hyperpage{84}
+    \subitem g\'eom\'etrique, \hyperpage{39}, \hyperpage{43}, 
+		\hyperpage{65}, \hyperpage{73}
+  \item Translation, \hyperpage{1, 2}, \hyperpage{73}
+  \item Transparent, \hyperpage{36}, \hyperpage{99}
+  \item Trap\`eze, \hyperpage{26}, \hyperpage{55}, \hyperpage{76}
+    \subitem isoc\`ele, \hyperpage{15}, \hyperpage{26}
+    \subitem rectangle, \hyperpage{15}, \hyperpage{26}
+  \item Triangle, \hyperpage{26, 27}
+    \subitem \'equilat\'eral, \hyperpage{15}, \hyperpage{22}, 
+		\hyperpage{26, 27}
+    \subitem isoc\`ele, \hyperpage{15--17}, \hyperpage{26}, 
+		\hyperpage{55}
+    \subitem obtusangle, \hyperpage{17}
+    \subitem quelconque, \hyperpage{26}
+    \subitem rectangle, \hyperpage{15, 16}, \hyperpage{26}, 
+		\hyperpage{55}
+    \subitem rectangle isoc\`ele, \hyperpage{16}, \hyperpage{26}, 
+		\hyperpage{52}
+  \item Trimino, \hyperpage{18}
+
+  \indexspace
+
+  \item Valider, \hyperpage{108}
+  \item Visiter
+    \subitem le site AG, \hyperpage{115}
+
+  \indexspace
+
+  \item Zoomer, \hyperpage{39}, \hyperpage{43}, \hyperpage{45}, 
+		\hyperpage{47}, \hyperpage{65}, \hyperpage{83}, 
+		\hyperpage{112}
 
 \end{theindex}
