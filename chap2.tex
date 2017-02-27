@@ -425,10 +425,14 @@ d'instructions adéquat. Explicitons ces deux méthodes.
 
 \subsection{Standardiser}\label{chapfstd.stdiser}
 
-Imaginons la situation suivante.                  À partir d'un des menus B, C, AB ou AC, un enseignant a
-construit un carré: c'est  une forme libre (voir le chapitre \ref{chapflib}) qu'il peut agrandir à volonté.
-Il veut, en joignant des milieux de côtés, découper deux \og coins\fg\ de ce carré pour réaliser une activité
-de puzzle.
+Imaginons la situation suivante.                  À partir d'un
+des menus B, C, AB ou AC, un enseignant a construit un carré:
+c'est  une forme libre (voir le chapitre \ref{chapflib}) qu'il
+peut agrandir à volonté. En joignant les milieux de deux côtés,
+ il découpe (voir \hyperlink{chapoper}{Decouper})
+ deux \og coins\fg\ de ce carré en vue de réaliser une
+activité de puzzle: réassembler les trois pièces en un triangle
+rectangle isocèle.
 
 \strut\hfill
 \begin{minipage}[b]{0.2\linewidth}
@@ -442,28 +446,16 @@ de puzzle.
 \end{minipage}\hfill
 \hfill\strut
 
-En effet, ces deux coins et le pentagone \og résiduel\fg\ peuvent être assemblés soit en un carré (le carré
-initial), soit en un grand triangle rectangle isocèle (figures \ref{puzzcarre} et \ref{puzztrirectiso}). Il y
-a intérêt à ce que les pièces d'un tel puzzle soient indéformables --- donc des pièces standard --- afin que
-l'élève ne risque pas de les déformer, fût-ce involontairement.
-
-Pour réaliser la découpe, notre enseignant va bien entendu  utiliser l'opération
-\hyperlink{chapoper.Decouper}{\texttt{Découper}} décrite au chapitre \ref{chapoper}. Mais comme cette
-opération ne supprime pas les formes qu'elle découpe, il  se retrouve devant  trop de formes géométriques:
-les trois pièces qui l'intéressent, le carré d'origine et une ou plusieurs pièces intermédiaires (selon la
-façon dont il a procédé). Comme on ne peut supprimer une forme libre  qui a été découpée sans supprimer en
-même temps les \og morceaux\fg\ découpés\footnote{Voir le paragraphe \ref{chapoperdecoup} à ce sujet.}, il ne
-peut supprimer les formes qui ne l'intéressent pas ou plus. Mais il peut les
-\hyperlink{chapoutils.Montrer}{cacher} ce qui désencombre l'écran.
-
-Il lui reste donc le pentagone et les deux triangles rectangles isocèles. C'est ici que la fonctionnalité
-\texttt{Standardiser} va intervenir: on commence par \hyperlink{chapmedit.Selectmul}{sélectionner}
-simultanément les trois formes. On actionne ensuite l'item de menu \textit{Fichiers.Standardiser}, ce qui
-fait apparaître une fenêtre:
-\begin{center}
+ Il y a intérêt à ce que les pièces d'un tel puzzle soient
+indéformables --- donc des pièces standard --- afin que l'élève
+ne risque pas de les déformer, fût-ce involontairement. C'est
+ici que la fonctionnalité \texttt{Standardiser} va intervenir:
+on commence par \hyperlink{chapmedit.Selectmul}{sélectionner}
+simultanément les trois formes. On actionne ensuite l'item de
+menu \textit{Fichiers.Standardiser}, ce qui fait apparaître une
+fenêtre: \begin{center}
 \includegraphics[width=0.4\linewidth]{Std.jpg}
-\leg{\label{Stdjpg}}
-\end{center}
+\leg{\label{Stdjpg}} \end{center}
 
 Cette figure montre clairement que les formes sélectionnées vont constituer une famille\index{Famille!de
 formes standard}. L'utilisateur indique le nom et la couleur\index{Couleur} qu'il donne à cette famille. En
@@ -483,11 +475,25 @@ Après la fermeture de la fenêtre précédente, le logiciel en ouvre une autre:
 \leg{\label{Std2jpg}}
 \end{center}
 
-Il s'agit cette fois de sauvegarder la famille de formes standard qui vient d'être constituée, soit dans un
-nouveau fichier (d'extension \texttt{.std})\index{.std@\texttt{.std}} soit dans un fichier déjà existant où il reste encore de la
-place, un fichier pouvant contenir jusqu'à quatre familles. Dans les deux cas, une troisième fenêtre
-s'ouvrira ensuite afin de choisir le nom du fichier de sauvegarde. Après quoi la nouvelle famille de formes
-standard sera disponible selon la procédure indiquée à la section \ref{autresjeux}.
+Il s'agit cette fois de sauvegarder la famille de formes standard
+qui vient d'être constituée, soit dans un nouveau fichier
+(d'extension \texttt{.std})\index{.std@\texttt{.std}} soit dans
+un fichier déjà existant où il reste encore de la place, un
+fichier pouvant contenir jusqu'à quatre familles. Dans les deux
+cas, une troisième fenêtre s'ouvrira ensuite afin de choisir le
+nom du fichier de sauvegarde. Après quoi la nouvelle famille de
+formes standard sera disponible selon la procédure indiquée à la
+section \ref{autresjeux}. Si l'utilisateur a attribué une
+étiquette à une  forme ayant ainsi été \og standardisée\fg, c'est ce nom qui apparaîtra sur le
+bouton de la fenêtre de construction
+de la famille de formes standards.
+
+\textbf{Remarque:} Après que des formes libres aient été
+utilisées pour définir des formes standard, via l'opération qui
+vient d'être décrite, ces formes libres restent affichées à
+l'écran. De plus elle continuent d'être des formes libres. Pour
+avoir accès aux formes standard destinées à les remplacer, il
+convient de charger le nouveau fichier de formes standard, via le menu \textit{Préférences}.
 
 \subsection{Écriture d'un fichier d'instructions}
 

@@ -2,13 +2,67 @@
 
 \chapter*{Les modifications apportées à \AG}
 
+
+\section*{Version 2.5.0}\label{chapnouv5_0}                  Mis
+à part une nouveauté importante du point de vue technique, la
+version 2.5.0 ne comporte que peu d'innovations d'ordre
+fonctionnel. Commençons donc par le changement technique, lequel
+devrait réjouir presque tous ceux qui disposent d'un ordinateur
+travaillant en 64 bits: {\sffamily\bfseries Apprenti Géomètre}
+existe désormais en deux versions, une version \og 32 bits\fg\
+et une version \og 64 bits\fg. Pourquoi \og \textit{presque}
+tous ceux\fg? Parce que, malheureusement, le compilateur que
+nous utilisons, s'il nous fournit des versions 32 bits et 64
+bits pour les ordinateurs fonctionnant sous \textit{Windows} ou
+\textit{Linux}, ne nous fournit que la seule version 32 bits
+pour les ordinateurs \textit{Macintosh}. Espérons que la version
+64 bits soit réalisable bientôt!
+
+En ce qui concerne le logiciel lui-même, beaucoup de changements
+ont permis d'améliorer son fonctionnement sans nécessiter un
+nouvel apprentissage pour l'utilisateur. Il en est deux qui
+nécessitent plus de commentaires.
+
+Le premier concerne l'introduction parmi les formes libres d'un
+nouveau type d'objet géométrique: les secteurs de disque. Ils
+sont accessibles à partir de l'un des menus C et AC. Les
+secteurs de disque se manipulent essentiellement comme les arcs,
+mais comme leur bord est une courbe fermée, il est possible d'en
+colorier l'intérieur, ce qui n'est pas possible avec un arc. Les
+secteurs de disque font partie de la famille du cercle (voir au
+chapitre 3).
+
+Une autre innovation --- plus importante --- est la possibilité
+de rendre désormais la couleur de fond  d'une forme géométrique
+semi-transparente. Si deux formes sont  coloriées en mode
+semi-transparent, leur intersection éventuelle est coloriée en
+une troisième couleur sans qu'il soit nécessaire de construitre
+géométriquement la dite intersection. Par exemple, si deux
+bandes coloriées en semi-transparence se croisent, leur
+intersection est clairement visible sans qu'il soit nécessaire
+d'en construire le parallélogramme. De plus les modifications
+induites par le déplacement d'une bande par rapport à l'autre
+sont immédiatement visibles.
+
+Vous trouverez au chapitre 10 des figures permettant d'apprécier
+les différences entre les modes \textit{Opaque,
+Semi-transparent} et \textit{Transparent}.
+ 
 \section*{Version 2.4.1}\label{chapnouv4_1}
 
-La  plupart des modifications introduites dans cette version 2.4.1 sont des corrections d'erreurs ou de dysfonctionnements du logiciel apparaissant lors de l'exécution de figures
-relativement compliquées. Toutefois, une modification plus importante devrait être appréciée par les utilisateurs dans des classes de l'enseignement primaire:
-les formes standard ne sont désormais plus mises sur le même pied que les formes libres pour ce qui concerne l'orientation.
-Concrètement cela signifie surtout que l'aire d'une telle forme ne change plus de signe quand on la retourne et que mla fusion de deux formes standard est plus simple que celle de deux formes libres.
-Précisons qu'il reste possible de flécher les côtés d'une forme standard de façon à en montrer le sens de parcours.
+La  plupart des modifications introduites dans cette version
+2.4.1 sont des corrections d'erreurs ou de dysfonctionnements du
+logiciel apparaissant lors de l'exécution de figures relativement
+compliquées. Toutefois, une modification plus importante devrait
+être appréciée par les  utilisateurs dans des classes de
+l'enseignement primaire: les formes standard ne sont désormais
+plus mises sur le même pied que les formes libres pour ce qui
+concerne l'orientation. Concrètement cela signifie surtout que
+l'aire d'une telle forme ne change plus de signe quand on la
+retourne et que la fusion de deux formes standard est plus
+simple que celle de deux formes libres. Précisons qu'il reste
+possible de flécher les côtés d'une forme standard de façon à en
+montrer le sens de parcours.
 
 \section*{Version 2.4.0}\label{chapnouv4_0}
 
