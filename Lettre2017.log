@@ -1,0 +1,229 @@
+This is VTeX/Win32G, v 8.63-- ETeX mode (preloaded format=latex 2014.11.12)  27 MAR 2017 18:19
+**@LATEX,DEFAULT C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/Lettre2017
+.tex
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/Lettre2017.tex
+Verifying format fonts.......................
+LaTeX2e <2003/12/01>
+(D:/VTeX/Src/hyphen.cfg
+File: hyphen.cfg 2001/11/02 v7.5 VTeX hyphenation interface
+\l@english=\language1
+\l@french=\language2
+
+Hyphenation patterns for USenglish =american english =british french =patois =f
+rancais loaded.) (D:/VTeX/Src/preload.ali
+\aliasfont psyro=psyr slanted 167
+\aliasfont eurmo10=eurm10 slanted 167
+\aliasfont eurbo10=eurb10 slanted 167
+\aliasfont ptmro8r=ptmr8r slanted 167
+\aliasfont ptmbo8r=ptmb8r slanted 167
+\aliasfont pbkdo8r=pbkd8r slanted 167
+\aliasfont pbklo8r=pbkl8r slanted 167
+\aliasfont pncro8r=pncr8r slanted 167
+\aliasfont pncbo8r=pncb8r slanted 167
+\aliasfont pplro8r=pplr8r slanted 167
+\aliasfont pplbo8r=pplb8r slanted 167
+\aliasfont bchro8r=bchr8r slanted 167
+\aliasfont bchbo8r=bchb8r slanted 167
+\aliasfont putro8r=putr8r slanted 167
+\aliasfont putbo8r=putb8r slanted 167
+\aliasfont baro10mv=barm10mv slanted 287
+\aliasfont babo10mv=barb10mv slanted 287
+\aliasfont baui10mv=bari10mv slanted -287
+\aliasfont babu10mv=barb10mv slanted -287
+\aliasfont baro10ot=barm10ot slanted 287
+\aliasfont babo10ot=barb10ot slanted 287
+\aliasfont baui10ot=bari10ot slanted -287
+\aliasfont babu10ot=barb10ot slanted -287
+\aliasfont baro10t1=barm10t1 slanted 287
+\aliasfont babo10t1=barb10t1 slanted 287
+\aliasfont baui10t1=bari10t1 slanted -287
+\aliasfont babu10t1=barb10t1 slanted -287
+\aliasfont tmro10mv=tmrm10mv slanted 167
+\aliasfont tmui10mv=tmri10mv slanted -277
+\aliasfont tmbo10mv=tmrb10mv slanted 167
+\aliasfont tmub10mv=tmbi10mv slanted -277
+\aliasfont tmro10ot=tmrm10ot slanted 167
+\aliasfont tmui10ot=tmri10ot slanted -277
+\aliasfont tmbo10ot=tmrb10ot slanted 167
+\aliasfont tmub10ot=tmbi10ot slanted -277
+\aliasfont tmro10t1=tmrm10t1 slanted 167
+\aliasfont tmui10t1=tmri10t1 slanted -277
+\aliasfont tmbo10t1=tmrb10t1 slanted 167
+\aliasfont tmub10t1=tmbi10t1 slanted -277
+\aliasfont paro10mv=parm10mv slanted 158
+\aliasfont pabo10mv=parb10mv slanted 158
+\aliasfont paui10mv=pari10mv slanted -158
+\aliasfont pabu10mv=parb10mv slanted -158
+\aliasfont paro10ot=parm10ot slanted 158
+\aliasfont pabo10ot=parb10ot slanted 158
+\aliasfont paui10ot=pari10ot slanted -158
+\aliasfont pabu10ot=parb10ot slanted -158
+\aliasfont paro10t1=parm10t1 slanted 158
+\aliasfont pabo10t1=parb10t1 slanted 158
+\aliasfont paui10t1=pari10t1 slanted -158
+\aliasfont pabu10t1=parb10t1 slanted -158
+\aliasfont facro6a=facr6a slanted 167
+\aliasfont facbo6a=facb6a slanted 167
+\aliasfont faqro6a=faqr6a slanted 167
+\aliasfont faqbo6a=faqb6a slanted 167
+\aliasfont farro6a=farr6a slanted 167
+\aliasfont farbo6a=farb6a slanted 167
+\aliasfont fcobo6a=fcob6a slanted 167
+\aliasfont fcoro6a=fcor6a slanted 167
+\aliasfont fharo6a=fhar6a slanted 167
+\aliasfont fhabo6a=fhab6a slanted 167
+\aliasfont flzro6a=flzr6a slanted 167
+\aliasfont fmaro6a=fmar6a slanted 167
+\aliasfont fmabo6a=fmab6a slanted 167
+\aliasfont ftxro6a=ftxr6a slanted 167
+\aliasfont ftxbo6a=ftxb6a slanted 167
+\aliasfont ftmro6a=ftmr6a slanted 167)
+\aliasfont ftmbo6a=ftmb6a slanted 167 (D:/VTeX/L2E/article.cls
+Document Class: article 2004/02/16 v1.4f Standard LaTeX document class
+(D:/VTeX/L2E/size12.clo
+File: size12.clo 2004/02/16 v1.4f Standard LaTeX file (size option)
+)
+\c@part=\count79
+\c@section=\count80
+\c@subsection=\count81
+\c@subsubsection=\count82
+\c@paragraph=\count83
+\c@subparagraph=\count84
+\c@figure=\count85
+\c@table=\count86
+\abovecaptionskip=\skip41
+\belowcaptionskip=\skip42
+\bibindent=\dimen102
+) (D:/VTeX/L2E/fontenc.sty
+Package: fontenc 2004/02/22 v1.99f Standard LaTeX package
+ (D:/VTeX/L2E/t1enc.def
+File: t1enc.def 2004/02/22 v1.99f Standard LaTeX file
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 43.
+))
+(D:/VTeX/L2E/inputenc.sty
+Package: inputenc 2004/02/05 v1.0d Input encoding file
+ (D:/VTeX/L2E/ansinew.def
+File: ansinew.def 2004/02/05 v1.0d Input encoding file
+)) (D:/VTeX/L2E/babel.sty
+Package: babel 2005/05/21 v3.8g The Babel package
+
+(D:/VTeX/L2E/babel.def
+File: babel.def 2005/05/21 v3.8g Babel common definitions
+ (D:/VTeX/L2E/switch.def
+File: switch.def 2005/05/21 v3.8g Babel language switching mechanism
+)
+\babel@savecnt=\count87
+\U@D=\dimen103
+) (D:/VTeX/L2E/frenchb.ldf
+Language: french 2005/02/06 v1.6g French support from the babel system
+Package babel Info: Making : an active character on input line 219.
+Package babel Info: Making ; an active character on input line 220.
+Package babel Info: Making ! an active character on input line 221.
+Package babel Info: Making ? an active character on input line 222.
+LaTeX Font Info:    Redeclaring font encoding T1 on input line 299.
+\parindentFFN=\dimen104
+\std@mcc=\count88
+\dec@mcc=\count89
+
+*************************************
+* Local config file frenchb.cfg used
+*
+(D:/VTeX/L2E/frenchb.cfg))) (D:/VTeX/Src/color.sty
+Package: color 1999/02/16 v1.0i Standard LaTeX Color (DPC)
+ (D:/VTeX/Src/color.cfg)
+Package color Info: Driver file: vtex.def on input line 125.
+
+(D:/VTeX/Src/vtex.def
+File: vtex.def 2003/06/16 v8.22 graphics/color for VTeX
+\vtexdef@pdfpagecnt=\count90
+\vtexdef@pdfBBoxl=\dimen105
+\vtexdef@pdfBBoxb=\dimen106
+\vtexdef@pdfBBoxr=\dimen107
+\vtexdef@pdfBBoxt=\dimen108
+\vtexdef@tempbox=\box26
+\vtexdef@ca=\count91
+\vtexdef@da=\dimen109
+\vtexdef@tempc=\count92
+\vtexdef@T=\dimen110
+\PS@Console=\toks16
+ (D:/VTeX/Src/keyval.sty
+Package: keyval 1999/03/16 v1.13 key=value parser (DPC)
+\KV@toks@=\toks17
+))) (D:/VTeX/Src/graphics.sty
+Package: graphics 1999/02/16 v1.0l Standard LaTeX Graphics (DPC,SPQR)
+
+(D:/VTeX/Src/trig.sty
+Package: trig 1999/03/16 v1.09 sin cos tan (DPC)
+) (D:/VTeX/Src/graphics.cfg)
+Package graphics Info: Driver file: vtex.def on input line 94.
+) (D:/VTeX/Src/graphicx.sty
+Package: graphicx 1999/02/16 v1.0f Enhanced LaTeX Graphics (DPC,SPQR)
+\Gin@req@height=\dimen111
+\Gin@req@width=\dimen112
+)
+(D:/VTeX/L2E/MarvoSym.sty
+
+LaTeX Warning: You have requested package `MarvoSym',
+               but the package provides `marvosym'.
+
+Package: marvosym 2000/05/01 v2.0 Martin Vogel's Symbols font definitions
+) (C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/Lettre2017.aux)
+LaTeX Font Info:    Checking defaults for OML/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for T1/lmr/m/n on input line 17.
+LaTeX Font Info:    Try loading font information for T1+lmr on input line 17.
+
+(D:/VTeX/L2E/lm/t1lmr.fd
+File: t1lmr.fd 2003/07/22 v1.1 Font defs for Latin Modern
+)
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LV1/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMS/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LVM1/cmm/m/it on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LVS1/cmsy/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for LVX1/cmex/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 17.
+LaTeX Font Info:    ... okay on input line 17.
+LaTeX Info: Redefining \dots on input line 17.
+LaTeX Font Info:    Try loading font information for T1+cmss on input line 18.
+ (D:/VTeX/L2E/t1cmss.fd
+File: t1cmss.fd 1999/05/25 v2.5h Standard LaTeX font definitions
+)
+
+LaTeX Warning: No \author given.
+
+[1
+Initializing GeX...
+Loading vtex.pro profile.
+GeX initialization completed.
+
+]
+(C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/Lettre2017.aux) )
+Here is how much of TeX's memory you used: 
+3177 strings out of 6860 
+30837 string characters out of 90036 
+76279 words of memory out of 524285
+ 5151 multiletter control sequences out of 10000
+ 13051 words of font info for 37 fonts, out of 196592 for 256
+ 22 hyphenation exceptions out of 907
+ 25i,6n,24p,350b,218s stack positions out of 512i,80n,1500p,2047b,2048s
+
+...Processing fonts...
+*** Font 26:D:\VTeX\pfb\surm2074.pfb (82031->39870b, 14c)
+*** Font 28:D:\VTeX\pfb\susx2074.pfb (65451->23741b, 13c)
+*** Font 29:D:\VTeX\pfb\surm1440.pfb (81967->39386b, 9c)
+*** Font 25:D:\VTeX\pfb\surm1200.pfb (81843->42855b, 51c)
+*** Font 36:D:\VTeX\pfb\susx1200.pfb (71616->29291b, 13c)
+...Processing images
+Output written on C:/Users/Utilisateur/Dropbox/Textes_AG/ModemploiAG2/Lettre201
+7.pdf (1 page, 185941 bytes).
+
